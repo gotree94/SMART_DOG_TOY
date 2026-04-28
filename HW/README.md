@@ -8,7 +8,7 @@
 
 ## 전체 블럭도
 
-<img src="Schematic-Portable-Bluetooth-Amplifier-with-AC6965A-LTK5128D-and-TP4056.png">
+<img src="Schematic.png">
 
 ---
 
