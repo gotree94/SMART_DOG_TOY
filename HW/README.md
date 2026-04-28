@@ -9,7 +9,7 @@
 <img src="SMART_DOG_TOY_001.jpg" width="50%"><br>
 
 ## AF25E003456-65E4? : https://github.com/Jieli-Tech
-<img src="SMART_DOG_TOY_002.jpg" width="50%"> <img src="SMART_DOG_TOY_011.jpg" width="50%"><br>
+<img src="SMART_DOG_TOY_002.jpg" width="35%"> <img src="SMART_DOG_TOY_011.jpg" width="35%"><br>
 
 ## ???
 <img src="SMART_DOG_TOY_003.jpg" width="35%"> <img src="SMART_DOG_TOY_010.jpg" width="35%"><br>
