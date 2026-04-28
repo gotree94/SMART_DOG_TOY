@@ -1,7 +1,11 @@
 # SMART_DOG_TOY H/W
 
-<img src="SMART_DOG_TOY_012.jpg" width="20%"> <img src="SMART_DOG_TOY_013.jpg" width="70%"><br>
+## 전체 블럭도
 
+## Main B/D 및 USB-C 타입 충전 커넥터 보드
+<img src="SMART_DOG_TOY_013.jpg" width="70%"> <img src="SMART_DOG_TOY_012.jpg" width="20%"> <br>
+
+## Main B/D 및 USB-C 타입 충전 커넥터 보드
 <img src="SMART_DOG_TOY_001.jpg" width="50%"><br>
 <img src="SMART_DOG_TOY_002.jpg" width="50%"><br>
 <img src="SMART_DOG_TOY_003.jpg" width="50%"><br>
