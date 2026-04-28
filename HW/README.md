@@ -8,6 +8,8 @@
 
 ## 전체 블럭도
 
+<img src="Schematic.jpg" width="20%">
+
 ---
 
 ## Main B/D 및 USB-C 타입 충전 커넥터 보드
@@ -22,6 +24,8 @@
 
 ## AF25E003456-65E4? : https://github.com/Jieli-Tech
 <img src="SMART_DOG_TOY_002.jpg" width="35%"> <img src="SMART_DOG_TOY_011.jpg" width="35%"><br>
+
+<img src = "001.png">
 
 ## 1. 칩셋 정체 및 개요
 
