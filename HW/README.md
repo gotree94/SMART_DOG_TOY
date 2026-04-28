@@ -23,7 +23,7 @@
 ## AF25E003456-65E4? : https://github.com/Jieli-Tech
 <img src="SMART_DOG_TOY_002.jpg" width="35%"> <img src="SMART_DOG_TOY_011.jpg" width="35%"><br>
 
-<img src = "001.png" width = "50%">
+<img src = "001.png">
 
 ## 1. 칩셋 정체 및 개요
 
