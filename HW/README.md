@@ -8,7 +8,7 @@
 
 ## 전체 블럭도
 
-<img src="Schematic.jpg" width="20%">
+<img src="Schematic.jpg">
 
 ---
 
