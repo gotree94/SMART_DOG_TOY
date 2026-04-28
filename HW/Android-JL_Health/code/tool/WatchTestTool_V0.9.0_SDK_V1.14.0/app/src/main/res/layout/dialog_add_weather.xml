@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="15dp"
+    app:cardMaxElevation="0dp"
+    app:cardElevation="0dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/tv_add_weather_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_weather"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/tv_temperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/temperature"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_15sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_add_weather_title" />
+
+        <TextView
+            android:id="@+id/tv_temperature_unit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:text="℃"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_15sp"
+            app:layout_constraintTop_toTopOf="@+id/tv_temperature"
+            app:layout_constraintEnd_toStartOf="@+id/view_mid_line"/>
+
+        <EditText
+            android:id="@+id/et_temperature_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="-8dp"
+            android:maxLength="4"
+            android:gravity="center"
+            android:inputType="number"
+            android:textColor="@color/blue_558CFF"
+            android:textSize="@dimen/text_14sp"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_temperature"
+            app:layout_constraintStart_toEndOf="@+id/tv_temperature"
+            app:layout_constraintEnd_toStartOf="@+id/tv_temperature_unit"
+            tools:text="21"
+            android:importantForAutofill="no"
+            tools:ignore="LabelFor" />
+
+        <TextView
+            android:id="@+id/tv_humidity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_15sp"
+            android:layout_marginStart="8dp"
+            android:text="@string/humidity"
+            app:layout_constraintTop_toTopOf="@+id/tv_temperature"
+            app:layout_constraintStart_toEndOf="@+id/view_mid_line"/>
+
+        <TextView
+            android:id="@+id/tv_humidity_unit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="%"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_15sp"
+            app:layout_constraintTop_toTopOf="@+id/tv_humidity"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <EditText
+            android:id="@+id/et_humidity_value"
+            android:inputType="number"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="-8dp"
+            android:gravity="center"
+            android:maxLength="3"
+            android:textColor="@color/blue_558CFF"
+            android:textSize="@dimen/text_14sp"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_humidity"
+            app:layout_constraintStart_toEndOf="@+id/tv_humidity"
+            app:layout_constraintEnd_toStartOf="@+id/tv_humidity_unit"
+            android:importantForAutofill="no"
+            tools:ignore="LabelFor"
+            tools:text="64"/>
+
+        <TextView
+            android:id="@+id/tv_wind_direction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_15sp"
+            android:text="@string/wind_direction"
+            app:layout_constraintTop_toBottomOf="@+id/tv_temperature"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <Spinner
+            android:id="@+id/sp_wind_direction"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-8dp"
+            android:spinnerMode="dropdown"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_wind_direction"
+            app:layout_constraintStart_toEndOf="@+id/tv_wind_direction"
+            app:layout_constraintEnd_toStartOf="@+id/view_mid_line"/>
+
+        <TextView
+            android:id="@+id/tv_wind_power"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_15sp"
+            android:text="@string/wind_power"
+            app:layout_constraintTop_toTopOf="@+id/tv_wind_direction"
+            app:layout_constraintStart_toEndOf="@+id/view_mid_line"/>
+
+        <EditText
+            android:id="@+id/et_wind_power"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:inputType="number"
+            android:gravity="center"
+            android:maxLength="2"
+            android:textColor="@color/blue_558CFF"
+            android:textSize="@dimen/text_14sp"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_wind_power"
+            app:layout_constraintStart_toEndOf="@+id/tv_wind_power"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:importantForAutofill="no"
+            tools:ignore="LabelFor"
+            tools:text="6"/>
+
+        <TextView
+            android:id="@+id/tv_weather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_15sp"
+            android:text="@string/weather_situation"
+            app:layout_constraintTop_toBottomOf="@+id/tv_wind_direction"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <Spinner
+            android:id="@+id/sp_weather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="-8dp"
+            android:spinnerMode="dropdown"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_weather"
+            app:layout_constraintStart_toEndOf="@+id/tv_weather"/>
+
+        <TextView
+            android:id="@+id/tv_province"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_15sp"
+            android:text="@string/province"
+            app:layout_constraintTop_toBottomOf="@+id/tv_weather"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <EditText
+            android:id="@+id/et_province"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="-8dp"
+            android:gravity="center"
+            android:maxLength="16"
+            android:inputType="text"
+            android:textSize="@dimen/text_14sp"
+            android:textColor="@color/blue_558CFF"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_province"
+            app:layout_constraintStart_toEndOf="@+id/tv_province"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:importantForAutofill="no"
+            tools:ignore="LabelFor"
+            tools:text="广东省"/>
+
+        <TextView
+            android:id="@+id/tv_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_15sp"
+            android:text="@string/city"
+            app:layout_constraintTop_toBottomOf="@+id/tv_province"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <EditText
+            android:id="@+id/et_city"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="-8dp"
+            android:inputType="text"
+            android:gravity="center"
+            android:maxLength="16"
+            android:textSize="@dimen/text_14sp"
+            android:textColor="@color/blue_558CFF"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_city"
+            app:layout_constraintStart_toEndOf="@+id/tv_city"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:importantForAutofill="no"
+            tools:ignore="LabelFor"
+            tools:text="珠海市"/>
+
+        <TextView
+            android:id="@+id/tv_update_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_15sp"
+            android:text="@string/update_time"
+            app:layout_constraintTop_toBottomOf="@+id/tv_city"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <EditText
+            android:id="@+id/et_update_time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="-8dp"
+            android:inputType="text"
+            android:gravity="center"
+            android:maxLength="10"
+            android:textSize="@dimen/text_14sp"
+            android:textColor="@color/blue_558CFF"
+            android:hint="@string/hint_time_format"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_update_time"
+            app:layout_constraintStart_toEndOf="@+id/tv_update_time"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:ignore="Autofill" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="12dp"
+            android:text="@string/cancel"
+            android:textSize="@dimen/text_15sp"
+            app:layout_constraintTop_toBottomOf="@id/tv_update_time"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/view_mid_line"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_confirm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/confirm"
+            android:textSize="@dimen/text_15sp"
+            app:layout_constraintTop_toBottomOf="@id/tv_update_time"
+            app:layout_constraintStart_toEndOf="@+id/view_mid_line"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/view_mid_line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.5" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:background="@color/red_D25454">
+
+    <LinearLayout
+        android:id="@+id/ll_head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/iv_app_logo"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:scaleType="fitCenter"
+            tools:src="@mipmap/ic_logo" />
+
+        <TextView
+            android:id="@+id/tv_notification_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:gravity="center"
+            android:textColor="@color/black_242424"
+            android:textSize="@dimen/text_14sp"
+            tools:text="健康数据" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tv_health_step"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:textColor="@color/black_242424"
+            android:textSize="@dimen/text_18sp"
+            android:textStyle="bold"
+            tools:text="2358" />
+
+        <TextView
+            android:id="@+id/tv_health_step_unit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:textSize="@dimen/text_14sp"
+            android:textColor="@color/gray_transparent_9C272626"
+            tools:text="@string/step" />
+        <TextView
+            android:id="@+id/tv_health_kcal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:textColor="@color/black_242424"
+            android:textSize="@dimen/text_18sp"
+            android:textStyle="bold"
+            tools:text="2358" />
+
+        <TextView
+            android:id="@+id/tv_health_kcal_unit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:textColor="@color/gray_transparent_9C272626"
+            android:textSize="@dimen/text_14sp"
+            tools:text="@string/kcal" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exercise_cmds">
+        <item>读取运动信息</item>
+        <item>开始运动(室外)</item>
+        <item>开始运动(室内)</item>
+        <item>App结束运动</item>
+        <item>暂停运动</item>
+        <item>继续运动</item>
+        <item>获取实时数据</item>
+        <item>实时数据时间间隔设置(500ms)</item>
+        <item>实时数据时间间隔设置(1000ms)</item>
+        <item>实时数据时间间隔设置(1500ms)</item>
+        <item>实时数据时间间隔设置(2000ms)</item>
+        <item>实时数据时间间隔设置(2500ms)</item>
+        <item>实时数据时间间隔设置(3000ms)</item>
+        <item>实时数据时间间隔设置(3500ms)</item>
+        <item>实时数据时间间隔设置(4000ms)</item>
+    </string-array>
+
+</resources>

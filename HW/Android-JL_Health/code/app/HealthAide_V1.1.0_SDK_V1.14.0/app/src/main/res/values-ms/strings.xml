@@ -1,0 +1,985 @@
+<resources>
+    <string name="app_name">WearLink</string>
+
+    <!--HomeActivity-->
+    <string name="tab_health">Sihat</string>
+    <string name="tab_sports">Gerakan</string>
+    <string name="tab_device">Peralatan</string>
+    <string name="tab_settings">Tetapkan</string>
+    <string name="tab_mine">Saya</string>
+
+    <string name="search_phone">Carian peranti dalam telefon bimbit&#8230;</string>
+    <string name="close_play">matikan bunyi</string>
+
+    <!--Load More View-->
+    <string name="status_loading">Memuatkan&#8230;</string>
+    <string name="status_load_complete">Klik untuk memuatkan lagi</string>
+    <string name="status_load_end">Tiada lagi data</string>
+    <string name="status_load_failed">Gagal memuatkan, klik saya untuk mencuba lagi</string>
+
+    <!--action-->
+    <string name="scan_qr_code">Imbas kod QR</string>
+    <string name="add_device">Tambah Peranti</string>
+    <string name="sports_settings">Tetapan Gerakan</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Halo, antaramuka kosong</string>
+    <string name="calendar_type_day">hari</string>
+    <string name="calendar_type_week">minggu</string>
+    <string name="calendar_type_year">tahun</string>
+    <string name="blood_oxygen_saturation">Ketepuan oksigen darah</string>
+    <string name="movement_record">Rekod sukan</string>
+    <string name="empty_record">Tiada rekod</string>
+    <string name="heart_rate">kadar jantung</string>
+    <string name="sleep">Tidur</string>
+    <string name="today_empty_data">Tiada data hari ini</string>
+    <string name="weight">berat</string>
+    <string name="pressure">Tekanan</string>
+    <string name="kilogram">Kg</string>
+    <string name="calendar_type_month">bulan</string>
+    <string name="distance_km">Jarak (km)</string>
+    <string name="distance_mile">Jarak (batu)</string>
+    <string name="climbing_stairs_m">Climbing (m)</string>
+    <string name="climbing_stairs_foot">Climbing (kaki)</string>
+    <string name="calories_kcal">Panas (kcal)</string>
+    <string name="step">langkah</string>
+    <string name="step_number">Langkah</string>
+    <string name="medium_high_strength">Kekuatan tinggi tengah</string>
+    <string name="min">minit</string>
+    <string name="average_step">Langkah Purata</string>
+    <string name="all_step">Jumlah Langkah</string>
+    <string name="all_mile">Jumlah jarak</string>
+    <string name="all_consumption">Total konsum</string>
+    <string name="kilocalorie">Kilocalorie</string>
+    <string name="kilometre">km</string>
+    <string name="weight_setting">Tetapan Berat</string>
+    <string name="weight_target">Sasaran berat</string>
+    <string name="date">tarikh</string>
+    <string name="time">masa</string>
+    <string name="weekly_average">Purata minggu</string>
+    <string name="daily_average">rata-rata per hari</string>
+    <string name="month_average">Purata bulan</string>
+    <string name="year_average">Purata tahunan</string>
+    <string name="range_of_variation">perubahan</string>
+    <string name="weight_start_data">mula：%.1f </string>
+    <string name="weight_target_data">sasaran：%.1f </string>>
+    <string name="kg">kg</string>
+    <string name="sober">sedar</string>
+    <string name="rapid_eye_movement">Gerakan mata yang cepat</string>
+    <string name="light_sleep">Tidur rendah</string>
+    <string name="deep_sleep">Tidur dalam</string>
+    <!--Health- Pressure-->
+    <string name="uptilted">Di sisi tinggi</string>
+    <string name="medium">sekunder</string>
+    <string name="normal">normal</string>
+    <!--Login-->
+    <string name="login">Daftar masuk</string>
+    <string name="hint_input_phone_number_or_email">Sila masukkan nombor telefon bimbit/alamat emel anda</string>
+    <string name="hint_input_phone_number">Sila masukkan nombor bimbit anda</string>
+    <string name="hint_input_password">Sila masukkan kata laluan</string>
+    <string name="login_by_sms">Daftar masuk dengan kod pengesahan</string>
+    <string name="forgot_password">Lupakan kata laluan？</string>
+    <string name="register_tips">Tiada akaun? Daftar Sekarang</string>
+    <string name="phone_or_email_tips_empty">Nombor telefon/alamat emel bimbit tidak boleh kosong</string>
+    <string name="phone_or_email_tips_format_err">Format nombor/e-mel bimbit tidak betul</string>
+    <string name="phone_tips_empty">Nombor bimbit tidak boleh kosong</string>
+    <string name="phone_tips_format_err">Format nombor bimbit tidak betul</string>
+    <string name="email_address_tips_empty">Alamat mel tidak boleh kosong</string>
+    <string name="email_address_tips_format_err">Format alamat mel tidak betul</string>
+    <string name="password_tips_empty">Katalaluan tidak boleh kosong</string>
+    <string name="password_tips_format_err">Panjang kata laluan sepatutnya 6–12 bit</string>
+    <string name="register_succeed">log masuk berjaya</string>
+    <string name="login_by_account">Log masuk dengan kata laluan akaun</string>
+    <!--帐号与安全-->
+    <string name="search">Cari</string>
+    <string name="account_security">Akaun dan keselamatan</string>
+    <string name="modify_phone_number">Ubah nombor bimbit</string>
+    <string name="modify_email_address">Ubah alamat emel</string>
+    <string name="change_password">Ubah Katalaluan</string>
+    <string name="change">Ganti</string>
+    <string name="bind_new_phone_number">Ikat nombor telefon baru</string>
+    <string name="bind_new_email_address">Ikat alamat e-mel baru</string>
+    <string name="modify_binded_phone_number">Ubah nombor telefon bimbit terikat?</string>
+    <string name="current_binded_phone_number">Nombor telefon bimbit yang kini terikat adalah</string>
+    <string name="modify_binded_email_address">Ganti alamat emel terikat?</string>
+    <string name="current_binded_email_address">Alamat e-mel yang kini terikat adalah</string>
+    <string name="authentication">Pengesahihan</string>
+    <string name="authentication_tip">Untuk mengesahkan bahawa ia adalah operasi anda, sila mengesahkan identiti anda.</string>
+    <string name="sms_verification_code">Kod pengesahan SMS</string>
+    <string name="bind_new_phone_number_success">Nombor telefon baru telah diikat dengan berjaya!</string>
+    <string name="bind_new_email_address_success">Mengikat alamat mel baru dengan berjaya!</string>
+    <string name="modified_success">Pengubahsuaian berjaya</string>
+    <string name="old_password">Katalaluan lama</string>
+    <string name="input_old_password">Masukkan kata laluan lama</string>
+    <string name="new_password">Katalaluan Baru</string>
+    <string name="password_input_tip">Sila tetapkan kata laluan baru bagi 6-12 huruf dan nombor</string>
+    <string name="inout_new_password">Masukkan kata laluan baru</string>
+    <string name="inout_new_password_again">Masukkan kata laluan baru lagi</string>
+    <string name="password_is_inconsistent">Katalaluan tidak konsisten, sila masukkan semula</string>
+    <string name="phone_number_is_empty">Nombor bimbit tidak boleh kosong</string>
+    <string name="sms_verification_code_error">Ralat kod pengesahan SMS</string>
+    <string name="current_phone_registered">Telefon bimbit semasa telah didaftarkan</string>
+    <string name="current_phone_no_register">Akaun semasa tidak terdaftar</string>
+    <string name="account_password_error">Ralat kata laluan akaun</string>
+    <string name="new_password_no_be_empty">Katalaluan baru tidak boleh kosong</string>
+    <string name="old_password_error">Ralat kata laluan lama</string>
+    <!--Register-->
+    <string name="register">Daftar</string>
+    <string name="input_verification_code">Masukkan kod pengesahan</string>
+    <string name="send_sms_code">Hantar kod pengesahan</string>
+    <string name="resend_sms_code">Tanya Semula（%1$s）</string>
+    <string name="input_identifying_code">Masukkan kod pengesahan</string>
+    <string name="send_identifying_code">Hantar kod pengesahan</string>
+    <string name="resend_identifying_code">Tanya Semula（%1$s）</string>
+    <string name="input_password_tips">Sila tetapkan 6–Katalaluan alfanumerik 12 digit</string>
+    <string name="sms_code_tips_empty">Kod pengesahan tidak boleh kosong</string>
+    <string name="sms_code_tips_format_err">Format kod pengesahan tidak betul</string>
+    <string name="identifying_code_tips_empty">Kod pengesahan tidak boleh kosong</string>
+    <string name="identifying_code_tips_format_err">Format kod pengesahan tidak betul</string>
+    <string name="hint_input_email">Sila masukkan alamat emel</string>
+
+    <!--User Message-->
+    <string name="input_user_msg">Perbaiki maklumat peribadi</string>
+    <string name="nickname">nama gelaran</string>
+    <string name="sex">Gender</string>
+    <string name="date_of_birth">Tarikh lahir</string>
+    <string name="stature">Tinggi</string>
+    <string name="sport_target">Sasaran bergerak</string>
+    <string name="next_step">langkah berikutnya</string>
+    <string name="skip_progress">Laksanakan</string>
+
+    <string name="please_input">Sila masukkan</string>
+    <string name="please_choose">Sila pilih</string>
+    <string name="heart_rate_range">Julat kadar jantung</string>
+    <string name="times_per_minute">Kali/minit</string>
+    <string name="resting_heart_rate">Kadar jantung berehat</string>
+    <string name="resting_heart_rate_avg">Kadar jantung berehat rata</string>
+    <string name="static_heart_rate_too_high">Kadar jantung statik tinggi</string>
+    <string name="low_resting_heart_rate">Kadar jantung statik terlalu rendah</string>
+
+    <!--Sex Dialog-->
+    <string name="man">Lelaki</string>
+    <string name="woman">Perempuan</string>
+    <string name="hour">jam</string>
+    <string name="minute">minit</string>
+    <string name="score">cabang</string>
+
+
+    <!--Permission-->
+    <string name="open_gpg_tip">Aplikasi memerlukan fungsi GPS, sila hidupkan perkhidmatan lokasi untuk teruskan</string>
+    <string name="permissions_tips_01">Untuk menggunakan perisian secara biasa, sila</string>
+    <string name="permission_contacts">Benarkan membaca dan menulis kenalan</string>
+    <string name="permission_mic">Benarkan mikrofon</string>
+    <string name="permission_read_phone_state">Benarkan membaca maklumat telefon</string>
+    <string name="permission_location">Benarkan mendapatkan maklumat lokasi</string>
+    <string name="permission_storage">Benarkan baca dan tulis fail</string>
+    <string name="permission_bluetooth">Benarkan Bluetooth</string>
+    <string name="permission_phone_settings">Benarkan mengubah tetapan telefon menggunakan</string>
+    <string name="permissions_tips_02">Sila pergi ke tetapan sistem untuk memberikan aplikasi</string>
+    <string name="permission">Jurisdiksi</string>
+    <string name="permission_sport">Tetapan Keizinan Isport</string>
+    <string name="permission_sport_tips">Sebab tetapan penyimpanan kuasa dan keterangan proses latar belakang, Android mungkin mematikan %1$s yang merekam sukan atau menyebabkan data rekod sukan hilang.
+        Jika anda menghadapi masalah berkaitan, anda boleh rujuk kepada kaedah berikut untuk menetapkan.</string>
+    <string name="permission_sport_suspension_title">Papar tetapan (tetingkap mengapung) pada lapisan atas aplikasi lain</string>
+    <string name="permission_sport_suspension_describe">Untuk memastikan anda tidak akan dibunuh oleh sistem bimbit semasa pergerakan,
+        yang akan menyebabkan kehilangan data pergerakan, sila berikan keizinan tetingkap melewati %1$s</string>
+    <string name="permission_sport_suspension_operate">Buka kebenaran tetingkap mengapung</string>
+    <string name="permission_sport_battery_optimized_title">Optimisasi bateri</string>
+    <string name="permission_sport_battery_optimized_describe">Dalam mod penyimpanan kuasa, operasi %1$s mungkin masih diharamkan. Apabila mula bergerak, cuba untuk menyimpan kuasa dalam keadaan relatif cukup, dan matikan mod penyimpanan kuasa.
+        Masukan tetapan berkaitan secara umum berada dalam bar status atau tetapan berkaitan dengan bateri.</string>
+    <string name="permission_sport_battery_optimized_operate_1">Optimisasi bateri dibenarkan, klik Tutup</string>
+    <string name="permission_sport_battery_optimized_operate_2">Optimisasi bateri dimatikan</string>
+    <string name="permission_sport_background_title">Tetapan perlindungan latar belakang</string>
+    <string name="permission_sport_background_describe">Menambah %1$s ke senarai perlindungan latar belakang boleh membantu %1$s
+        berjalan secara terus-menerus dalam latar belakang ke suatu kadar. \n Kaedah menetapkan:</string>
+    <string name="permission_sport_background_operate">Hidupkan tetapan sistem perlindungan latar belakang</string>
+    <string name="permission_sport_powersave_title">Mod penyimpanan kuasa</string>
+    <string name="permission_sport_powersave_describe">Sebab tetapan penyimpanan kuasa sistem, aplikasi akan dibekukan. Untuk memastikan kegiatan latar belakang seperti merekam data sukan tidak akan terpengaruh,
+        sila tambah %1$s ke senarai putih optimasi bateri. \n Kaedah menetapkan:</string>
+    <string name="permission_sport_powersave_oprate">Hidupkan tetapan sistem anti tidur</string>
+    <string name="lock_screen_display">Kunci paparan skrin</string>
+    <string name="locak_screen_display_hint">Kaedah menetapkan: maklumat aplikasi ->pengurusan kebenaran ->kunci paparan skrin</string>
+    <string name="instructions_for_use">Arahan Penggunaan</string>
+    <string name="permissions_camera">Kebenaran Kamera</string>
+    <string name="permissions_bluetooth">Kebenaran Bluetooth</string>
+    <string name="permissions_location">Kebenaran Lokasi</string>
+    <string name="permissions_storage">Kebenaran Penyimpanan</string>
+    <string name="permissions_read_contact">Baca kebenaran maklumat hubungan</string>
+    <string name="permissions_camera_explain">Digunakan untuk mengimbas, menetapkan avatar, menetapkan latar belakang muka jam tersuai dan fungsi lain.</string>
+    <string name="permissions_bluetooth_explain">Digunakan untuk mencari dan menyambungkan peranti Bluetooth, berkomunikasi dengan peranti Bluetooth dan fungsi lain.</string>
+    <string name="permissions_location_explain">Digunakan untuk fungsi Bluetooth, maklumat cuaca, kedudukan peta, trajektori gerakan dan fungsi lain.</string>
+    <string name="permissions_storage_explain">Digunakan untuk membaca fail muzik, menetapkan avatar, membaca galeri dan fungsi lain.</string>
+    <string name="permissions_read_contact_explain">Digunakan untuk menyegerakkan maklumat hubungan ke peranti.</string>
+    <string name="rejust_permissions_tips">Jika anda enggan mendayakannya, anda tidak akan dapat menggunakan fungsi di atas.</string>
+
+
+    <!-- reset password-->
+    <string name="password">Katalaluan</string>
+    <string name="finish">Selesai</string>
+    <string name="sms_check">Semak</string>
+    <string name="hint_text_password_again_input">Sila sahkan kata laluan lagi</string>
+
+    <!--Add Device-->
+    <string name="connect">sambung</string>
+    <string name="status_disconnect">Tidak tersambung</string>
+    <string name="status_connected">Tersambung</string>
+    <string name="status_connecting">Menyambung</string>
+    <string name="add">Tambah ke</string>
+    <string name="no_device_tips">Peranti kosong</string>
+    <string name="user_denies_permissions">Sila berikan keizinan \"%1$s\" yang berkaitan dalam sistem</string>
+    <string name="start_scan_failed">Gagal memulakan peranti imbas, sila cuba lagi kemudian</string>
+    <string name="bluetooth_is_close">Bluetooth dimatikan, sila nyalakan Bluetooth dan cuba lagi</string>
+
+    <!--Watch Control-->
+    <string name="restore_watch_system_success">Pemulihan sistem berjaya</string>
+    <string name="restore_watch_system_failure">Gagal memulihkan sistem, sebab: %1$s</string>
+    <string name="battery_format">Kuasa %1$d%%</string>
+    <string name="local_watch">Pemilihan setempat</string>
+    <string name="watch_market_all">Keseluruhan</string>
+    <string name="using_watch">Menggunakan</string>
+    <string name="use_watch">Guna</string>
+    <string name="update_watch">Untuk kemaskini</string>
+    <string name="download_watch">Muat turun</string>
+    <string name="buy_watch">Beli</string>
+
+    <string name="health_record">Sihat</string>
+    <string name="music_manager">Pengurusan muzik</string>
+    <string name="device_music">Muzik Peranti</string>
+    <string name="alarm">Jam penggera</string>
+    <string name="contacts">Kenalan atas</string>
+    <string name="card_bag">Beg kad</string>
+    <string name="firmware_upgrade">Kemaskini versi peranti</string>
+    <string name="science_sleep">Pengesanan Tidur</string>
+    <string name="turned_on">Buka</string>
+    <string name="turned_off">Tutup</string>
+    <string name="sedentary_reminder">Pengingatan duduk panjang</string>
+    <string name="sedentary_reminder_tip">Peringatan untuk duduk selama lebih dari satu jam</string>
+    <string name="continuous_measurement_heart_rate">Keukuran terus-menerus kadar jantung</string>
+    <string name="heart_rate_range_early_warning">Latihan peringatan kadar jantung</string>
+    <string name="pressure_auto_testing">Pengesanan tekanan automatik</string>
+
+    <string name="retrieve_password">Dapatkan kata laluan</string>
+    <string name="reset_password">Reset kata laluan</string>
+    <string name="call_phone_error_tips">Status telefon sedang berlangsung, sila operasikan kemudian</string>
+
+
+    <!-- Mine -->
+    <string name="mine_my_data">Data saya</string>
+    <string name="mine_sport_weekly">Minggu Isport</string>
+    <string name="mine_setting">Tetapkan</string>
+    <string name="mine_help">Bantuan</string>
+    <string name="mine_about">kira-kira</string>
+
+    <string name="user_info">Maklumat peribadi</string>
+    <string name="user_info_avatar">Portret kepala</string>
+    <string name="health_state">Kesihatan</string>
+    <string name="activity_statistics">Statistik aktiviti</string>
+    <string name="target">Sasaran</string>
+    <string name="format_birthday_year_month">%1$dtahun%2$dbulan</string>
+    <string name="format_height">%1$dunit synonyms for matching user input</string>
+    <string name="format_step_number_target">%1$dlangkah</string>
+    <string name="hint_input_nickname">Sila masukkan gelaran anda</string>
+    <string name="save">Penyimpanan</string>
+    <string name="tip_nickname_null">Nama panggilan tidak boleh kosong</string>
+    <string name="sure">Tentukan</string>
+    <string name="distance">Jumlah jarak</string>
+    <string name="climb">Naik</string>
+    <string name="heat">kuantiti panas</string>
+    <string name="distance_m">Nasi</string>
+    <string name="kcal">Kilocalorie</string>
+    <string name="relax">Relax</string>
+    <string name="alert">Pemberitahuan mesej</string>
+    <string name="sensor_setting">Tetapan Sensor</string>
+    <string name="open">Buka</string>
+    <string name="weather_push">Tekanan cuaca</string>
+    <string name="clean_cache">Kosongkan cache</string>
+    <string name="tip_clean_cache">Sama ada hendak membersihkan data cache pengguna</string>
+    <string name="bright_screen">Angkat pergelangan tangan untuk menyalakan skrin</string>
+    <string name="tip_bright_screen">Angkat pergelangan tangan anda dan putar skrin kepada diri anda untuk menyalakan skrin</string>
+    <string name="bright_screen_hint">Skrin tidak menyala apabila pergelangan tangan ditangkap dalam mod tiada gangguan</string>
+    <string name="bluetooth_disconnect_tip">Pengingatan pemutusan Bluetooth</string>
+    <string name="target_consume">Konsum kira- kira %1$d kcal</string>
+    <string name="target_step">Langkah Sasaran</string>
+    <string name="target_weight">Berat sasaran</string>
+    <string name="multilingual">Berbahasa</string>
+    <string name="simplified_chinese">Cina Sederhana</string>
+    <string name="follow_system">Sistem ikutan</string>
+    <string name="english">Inggeris</string>
+    <string name="japanese">Jepun</string>
+    <string name="korean">Korea</string>
+    <string name="french">Perancis</string>
+    <string name="german">Jerman</string>
+    <string name="italian">Itali</string>
+    <string name="portuguese">Portugis</string>
+    <string name="spanish">Sepanyol</string>
+    <string name="swedish">Swedish</string>
+    <string name="polish">Polish</string>
+    <string name="russian">Rusia</string>
+    <string name="turkish">Turki</string>
+    <string name="hebrew">Hebrew</string>
+    <string name="thai">Thai</string>
+    <string name="arabic">Arab</string>
+    <string name="vietnamese">Vietnamese</string>
+    <string name="indonesian">Indonesia</string>
+    <string name="malay">Malay</string>
+    <string name="persian">Persia</string>
+    <string name="set_language">Tetapkan bahasa</string>
+    <string name="unit_settings">Tetapan Unit</string>
+    <string name="unit_metric">Metrik</string>>
+    <string name="unit_imperial">Imperial</string>
+    <string name="format_weight">%1$dkg</string>
+    <string name="no_nickname">Nama panggilan tidak ditetapkan</string>
+    <string name="user_agreement">Perjanjian Pengguna</string>
+    <string name="privacy_policy">Polisi Privasi</string>
+    <string name="current_app_version">versi semasa:%1$s</string>
+    <string name="agree_and_use">setuju</string>
+    <string name="not_agree_and_exit">menolak</string>
+    <string name="privacy_policy_name">"Dasar Privasi"</string>
+    <string name="user_service_name">"Perjanjian Perkhidmatan Pengguna"</string>
+    <string name="declaration">%1$s spernyataan</string>
+    <string name="user_declaration">
+        "%1$s" ialah perisian yang digunakan untuk merekod dan menganalisis data kesihatan sukan pengguna, menyediakan panduan kesihatan sukan profesional dan perkhidmatan pengurusan peranti boleh pakai pintar kepada pengguna. Bagi mencapai tujuan di atas,
+         Apabila kami menyediakan perkhidmatan kepada anda, kami mungkin perlu mengumpul maklumat anda yang berkaitan dan menggunakan kebenaran berikut: menggunakan kamera, menggunakan maklumat lokasi, menggunakan kebenaran Bluetooth,
+         Baca kalendar anda, baca kenalan anda, akses web. Kami perlu menyegerakkan kadar denyutan jantung, tidur, oksigen darah, rekod senaman dan data senaman anda yang lain ke awan.
+         Kami mementingkan perlindungan privasi dan perlindungan maklumat peribadi anda. Sebelum anda menggunakan APP "%2$s", sila baca #### dan semua syarat **** dengan teliti, dan mula menggunakan kami selepas anda bersetuju dan menerima semua terma perkhidmatan.
+    </string>
+    <string name="agree_policy_tips">Saya telah membaca dan bersetuju untuk #### dan ****</string>
+    <string name="check_policy_status_tips">Sila baca dan bersetuju menerima Syarat Perkhidmatan dan Dasar Privasi</string>
+
+    <string name="add_music">Tambah muzik</string>
+    <string name="download_music">Segerakkan muzik untuk menonton %1$d/%2$d</string>
+    <string name="transfer_info">Memindahkan(%1$d/%2$d)</string>
+
+    <string name="message_notify">Notice</string>
+    <string name="sync_wechat">WeChat</string>
+    <string name="sync_qq">QQ</string>
+    <string name="sync_sms">mesej pendek</string>
+    <string name="sync_other">Lain</string>
+
+    <!--Watch Market-->
+    <string name="watch_market">Mall panggilan</string>
+    <string name="manager">Pengurusan</string>
+    <string name="delete_watch_tip">Tidak kurang dari 2 panggilan</string>
+    <string name="last_page">Saya ada garis bawah</string>
+    <string name="delete_watch_err">Gagal memadam dial [%1$s] kerana %2$s</string>
+    <string name="create_watch_err">Gagal memuat turun panggilan [%1$s] kerana %2$s</string>
+    <string name="update_watch_err">Gagal kemaskini dial [%1$s] kerana %2$s</string>
+    <string name="transfer_file_warning">Semasa pemindahan fail, sila simpan Bluetooth dan rangkaian terbuka. nDo not turn off the device and lock the screen phone</string>
+    <string name="device_is_disconnected">peranti tidak disambung</string>
+    <string name="server_none_device_support_version">Tiada versi disokong oleh peranti</string>
+
+    <!--Dial Detail-->
+    <string name="watch_dial">jam dial</string>
+    <string name="my_dials">Telefon saya</string>
+    <string name="free_dial">Pemilihan bebas</string>
+    <string name="pay_dial">Pemilihan bayar</string>
+    <string name="dial_desc">【Perkenalan untuk dial】</string>
+    <string name="download_dial">Memuat turun</string>
+    <string name="update_dial">Kemaskini</string>
+    <string name="purchase_record">Rekod pembelian</string>
+    <string name="handle_dial_tips">Fail sedang dipindahkan. Sila jangan keluar antaramuka semasa</string>
+
+    <!--Payment-->
+    <string name="product_name">Nama perdagangan</string>
+    <string name="product_price">Jumlah komoditi</string>
+    <string name="pay_way">Kaedah pembayaran</string>
+    <string name="pay_way_tips">Sila pilih kaedah pembayaran</string>
+    <string name="ali_pay">Bayaran Alipay</string>
+    <string name="weixin_pay">Pembayaran WeChat</string>
+    <string name="whether_payment_finish">Sama ada pembayaran telah selesai?</string>
+    <string name="unfinished">Hang in the air</string>
+    <string name="finished">Selesai</string>
+
+    <string name="payment_success">Pembayaran berjaya</string>
+    <string name="payment_failed">Pembayaran belum selesai, sila bayar lagi</string>
+    <string name="payment_processing">Pemprosesan pembayaran, sila tunggu</string>
+    <string name="payment_error">Pembayaran gagal</string>
+    <string name="payment_duplex">Permintaan diulang, sila tunggu sebentar dan cuba lagi</string>
+    <string name="payment_user_cancel">Pengguna membatalkan pembayaran</string>
+    <string name="payment_network">Pembayaran gagal. Ada masalah dengan rangkaian</string>
+    <string name="payment_unknown">ralat tidak diketahui</string>
+    <string name="use_dial">Untuk digunakan</string>
+
+    <string name="no_purchase_record">Tiada rekod pembelian</string>
+
+    <!--Upgrade-->
+    <string name="upgrade">Penataran</string>
+    <string name="current_dev_version">Versi semasa</string>
+    <string name="latest_version">Adakah versi terbaru</string>
+    <string name="check_update">Semak kemaskini</string>
+    <string name="dev_ota">Kemaskini firmware</string>
+    <string name="upgrade_warning">Semasa proses penataran, sila simpan Bluetooth dan rangkaian \nterbuka nDo not turn off the device and lock the screen phone</string>
+    <string name="ota_result_success">Penatasan selesai</string>
+    <string name="ota_result_failed">Penatasan gagal</string>
+    <string name="ota_result_cancel">Penatasan dibatalkan</string>
+    <string name="new_ota_version">Versi baru%1$s</string>
+    <string name="ota_state_ready">Bersedia untuk Naik Naik</string>
+    <string name="ota_state_check_file">Pengesahan tatar</string>
+    <string name="ota_state_updating">Menatar</string>
+    <string name="ota_state_finish">Akhir penataran</string>
+    <string name="update_resource_tips">Memindahkan sumber panggilan（%1$d/%2$d）</string>
+    <string name="resource_unfinished_tips">Jika penataran sumber tidak selesai, peranti tidak tersedia. Anda ingin terus menataran sumber？</string>
+    <string name="firmware_mandatory_upgrade">Penataran peranti belum selesai. Anda perlu teruskan penataran untuk menggunakannya secara biasa</string>
+    <string name="network_module_ota_upgrade_tips">Peningkatan modul 4G belum selesai. Adakah anda mahu meneruskan peningkatan?</string>
+    <string name="upgrade_warning_tips">Amaran Lanjutan</string>
+    <string name="exit_and_disconnect">Forced return</string>
+    <string name="continue_upgrade">Lanjutkan penataran</string>
+    <!--ota err-->
+    <string name="ota_err_no_space">Ruang penataran tidak mencukupi. Sila hapuskan fail dial sebelum teruskan</string>
+    <string name="ota_err_device_not_connect">Peranti penataran tidak disambung. Sila pastikan peranti disambung secara biasa</string>
+    <string name="ota_err_low_power">Paras bateri peranti mestilah melebihi %1$s untuk menaik taraf</string>
+    <string name="ota_err_file_info">Ralat maklumat fail naik taraf</string>
+    <string name="ota_err_file_same_version">Versi fail naik taraf adalah sama dengan versi peranti</string>
+    <string name="ota_err_tws_not_connect">Peranti tidak dipasangkan dan disambungkan</string>
+    <string name="ota_err_not_in_charging_bin">Alat dengar tiada dalam petak pengecasan</string>
+    <string name="ota_err_data_crc_check">Ralat pengesahan data naik taraf</string>
+    <string name="ota_err_failed">Peningkatan gagal</string>
+    <string name="ota_err_key_mismatch">Ketidakpadanan kunci</string>
+    <string name="ota_err_uboot_mismatch">UBoot tidak sepadan</string>
+    <string name="ota_err_data_len">Ralat panjang berlaku semasa naik taraf</string>
+    <string name="ota_err_flash_io">Ralat baca dan tulis kilat berlaku</string>
+    <string name="ota_err_cmd_timeout">Tamat masa perintah</string>
+    <string name="ota_err_data_offset">Ralat membaca data mengimbangi</string>
+    <string name="ota_err_reconnect_device_timeout">Sambungan kembali ke peranti tamat masa</string>
+    <string name="ota_err_waiting_for_cmd_timeout">Menunggu arahan tamat masa</string>
+    <string name="ota_err_send_data_timeout">Hantar arahan tamat masa</string>
+    <string name="ota_err_update_data">Gagal membaca data peningkatan</string>
+    <string name="ota_err_not_found_file">Naik taraf fail tidak ditemui</string>
+    <string name="ota_err_bad_status">Peranti mengembalikan status gagal</string>
+    <string name="ota_err_bad_result">Peranti mengembalikan hasil yang gagal</string>
+    <string name="ota_err_unknown">Ralat naik taraf tidak diketahui</string>
+
+    <!--闹钟-->
+    <string name="named">nama</string>
+    <string name="alarm_open_success">Buka jam penggera berjaya</string>
+    <string name="alarm_open_failure">Gagal membuka jam penggera</string>
+    <string name="alarm_close_success">Matikan jam penggera</string>
+    <string name="alarm_close_failure">Gagal menutup jam penggera</string>
+    <string name="operate_alarm_failure">Gagal operasikan jam penggera</string>
+    <string name="alarm_list_read_failed">Gagal membaca senarai penggera</string>
+    <string name="delete">Padam</string>
+    <string name="alarm_set_num_is_full">Bilangan jam penggera penuh</string>
+    <string name="alarm_delete_failure">Padam jam penggera gagal</string>
+    <string name="alarm_delete_success">Jam penggera dipadam dengan berjaya</string>
+
+    <string name="alarm_stop_success">Jam penggera dihentikan dengan berjaya</string>
+    <string name="alarm_stop_failed">Hentikan jam penggera gagal</string>
+    <string name="alarm_delete">Padam jam penggera</string>
+    <string name="sync_time">Penyegerakan masa peranti</string>
+    <string name="sync_time_success">Masa penyegerakan berjaya</string>
+    <string name="sync_time_failed">Masa penyegerakan gagal</string>
+
+
+    <string name="save_alarm_failed_no_modify">Jam penggera belum diubah suai</string>
+    <string name="save_alarm_failed">Gagal menyimpan jam penggera</string>
+    <string name="save_alarm_success">Jam penggera berjaya disimpan</string>
+    <string name="choose_repeat_mode_tip">Sila pilih mod</string>
+    <string name="alarm_name_can_not_be_empty">Nama penggera tidak boleh kosong</string>
+    <string name="alarm_name_length_too_long">Nama penggera terlalu panjang</string>
+    <string name="alarm_name_format_error">Format input salah bagi nama penggera</string>
+    <string name="default_alarm_name">jam penggera</string>
+    <string name="default_alarm_custom">Suai</string>
+    <string name="alarm_edit_title">Sunting jam penggera</string>
+    <string name="alarm_create_title">Penggera baru</string>
+    <string name="alarm_repeat_on_workday">Dari Senin hingga Jumaat</string>
+    <string name="alarm_repeat_every_day">Setiap hari</string>
+    <string name="alarm_repeat_single">Waktu tunggal</string>
+    <string name="alarm_repeat_week">Minggu</string>
+    <string name="alarm_repeat_mon">Isnin</string>
+    <string name="alarm_repeat_tue">Selasa</string>
+    <string name="alarm_repeat_wed">Rabu</string>
+    <string name="alarm_repeat_thu">Khamis</string>
+    <string name="alarm_repeat_fri">Jumaat</string>
+    <string name="alarm_repeat_sat">Sabtu</string>
+    <string name="alarm_repeat_sun">Minggu</string>
+    <string name="alarm_repeat_simple_mon">Satu</string>
+    <string name="alarm_repeat_simple_tue">Dua</string>
+    <string name="alarm_repeat_simple_wed">Tiga</string>
+    <string name="alarm_repeat_simple_thu">Empat</string>
+    <string name="alarm_repeat_simple_fri">Lima</string>
+    <string name="alarm_repeat_simple_sat">Enam</string>
+    <string name="alarm_repeat_simple_sun">Hari</string>
+
+    <!--AlarmSettings-->
+    <string name="alarm_settings">Pengurus Penggera</string>
+    <string name="bell">Ton berbunyi</string>
+    <string name="repeat">ulang</string>
+    <string name="light">cahaya</string>
+    <string name="alarm_state">keadaan</string>
+    <string name="delete_alarm_tip">Anda ingin menghapuskan jam penggera ini</string>
+    <string name="stop_alarm">Hentikan.</string>
+    <string name="alarm_running">Jam penggera berdering</string>
+    <string name="unnamed">Tidak Nama</string>
+    <string name="hint_input_alarm">Sila masukkan nama jam penggera</string>
+
+    <string name="alarm_bell_1">Ton cincin 0</string>
+    <string name="alarm_bell_2">Ton cincin 2</string>
+    <string name="alarm_bell_3">Ton cincin 3</string>
+    <string name="alarm_bell_4">Ringtone 4</string>
+    <string name="alarm_bell_5">Ton cincin 5</string>
+    <string name="alarm_default_bell">default</string>
+    <string name="alarm_count_tip">Selepas jam penggera ditetapkan dan disegerakkan kepada jam, jam akan bergetar untuk mengingatkan anda. Anda boleh tetapkan hingga 5 jam penggera.</string>
+    <string name="alarm_bell_list_read_failed">Gagal mendapatkan senarai nada cincin lalai</string>
+
+    <string name="alarm_bell_time">Waktu jam penggera</string>
+    <string name="min_format">%1$dminit</string>
+    <string name="alarm_bell_interval">Sela pembukaan</string>
+    <string name="bell_repeat_count_title">Bilangan cincin berulang</string>
+    <string name="bell_interal_time_title">Sela ulang (minit)</string>
+    <string name="interval_format">%1$dminit,%2$dsaat</string>
+    <string name="count_format">saat</string>
+
+
+    <!-- file -->
+    <string name="msg_read_file_err_reading">Peranti sibuk, sila cuba lagi kemudian!</string>
+    <string name="msg_read_file_err_offline">Peranti tidak online!</string>
+    <string name="msg_read_file_err_beyond_max_depth">Aras boleh dibaca melebihi！</string>
+    <string name="empty_folder">Folder Kosong</string>
+    <string name="get_music_info_failed">Gagal mendapatkan maklumat muzik</string>
+
+    <!-- 联系人-->
+    <string name="tip_not_contact">Tiada kenalan kegemaran</string>
+    <string name="tip_add_contact">Tetapkan kenalan kegemaran anda untuk menonton anda untuk membuat panggilan dengan cepat,
+        dan kenalan yang anda tetapkan akan secara automatik disegerakkan ke peranti.</string>
+    <string name="tip_max_contacts_can_add">Anda boleh tambah ke kenalan kegemaran %1$d ke jam anda.
+        Kenalan kegemaran yang anda tetapkan akan secara automatik disegerakkan ke peranti anda.</string>
+    <string name="sort">isih</string>
+    <string name="hint_search_contact">Cari kenalan</string>
+    <string name="unchose">Tidak dipilih</string>
+    <string name="format_contact_chose_count">Pilih%1$dindividu</string>
+    <string name="tip_max_contact_err">Pilih paling banyak%1$dKenalan</string>
+    <string name="tip_update_contact_failed">Kemaskini kenalan gagal</string>
+    <string name="tip_sync_contact_failed">Penyegerakan Kenalan gagal</string>
+    <string name="tip_cancel_get_contact">Batalkan mendapatkan kenalan</string>
+    <string name="tip_cancel_update_contact">Batalkan kemaskini kenalan</string>
+
+    <!-- 音乐管理 -->
+    <string name="tip_transfer_finish">Pemindahan selesai</string>
+    <string name="tip_transfer_canceled">Pemindahan dibatalkan</string>
+    <string name="tip_transfer_error">Interupsi penghantaran disebabkan kegagalan penghantaran</string>
+    <string name="tip_mobile_not_has_contacts">Buku alamat telefon bimbit semasa kosong</string>
+    <string name="ask_delete_contact">Hapuskan kenalan yang dipilih</string>
+    <string name="tip_logout">Anda perlu log keluar dari akaun</string>
+    <string name="tip_downloading_music">(Sila simpan sambungan Bluetooth antara telefon anda dan jam anda semasa penghantaran fail muzik)</string>
+    <string name="tip_download_finished">%1$dPenghantaran muzik berjaya</string>
+    <string name="tip_please_chose_contact">Sila pilih kenalan</string>
+    <string name="tip_check_net">Rangkaian tidak disambung, sila semak tetapan rangkaian.</string>
+    <string name="sport_other">lain</string>
+    <string name="sport_outdoor_running">Jalan luar</string>
+    <string name="sport_indoor_running">Running Dalam</string>
+    <string name="exercise_time">Durasi latihan</string>
+    <string name="total_time">Jumlah tempoh</string>
+    <string name="pace">Langkah</string>
+    <string name="average_pace">Kelajuan purata</string>
+    <string name="consumption_of_kilocalories">Konsum (kcal)</string>
+    <string name="whether_delete">anda ingin memadam：%1$s</string>
+
+    <!--二维码扫描-->
+    <string name="scan_qr_code_title">Imbas kod QR</string>
+    <string name="select_from_gallery">Pilih dari galeri</string>
+    <string name="pair_device">Peranti pasang secara manual</string>
+    <string name="scan_qr_tips">Letakkan kod QR dalam kotak</string>
+    <string name="scan_env_dark_tips">Anda berada dalam persekitaran gelap, ia disarankan untuk menyalakan lampu</string>
+    <string name="scan_env_light_tips">Anda berada dalam persekitaran normal, ia disarankan untuk mematikan lampu senter</string>
+    <string name="not_found_qr">Kod QR tidak ditemui</string>
+
+    <string name="device_searching">Mencari peranti tersedia&#8230;</string>
+    <string name="no_found_device_tips">Peranti tidak dijumpai? Ditambah oleh ####</string>
+    <string name="no_found_device_tips_2">Tiada peranti ditemui, sila pastikan peranti diaktifkan dan dekat dengan telefon bimbit</string>
+    <string name="retry">cuba semula</string>
+    <string name="no_binding">Tidak mengikat sementara</string>
+    <string name="not_found_target">Peranti sasaran tidak ditemui? ####</string>
+    <string name="rescan_device">Cari lagi</string>
+
+    <string name="connect_device">Menyambung peranti</string>
+    <string name="dev_connecting">Berpasangan&#8230;</string>
+    <string name="dev_connecting_desc">Sila sahkan pasangan pada peranti&#8230;</string>
+    <string name="dev_connect_success">Perpasangan berjaya</string>
+    <string name="dev_connect_success_desc">Peranti telah dipasang, sila mengalaminya sekarang</string>
+    <string name="dev_connect_fail">Pemasangan peranti gagal</string>
+    <string name="dev_connect_fail_desc">Sila imbas kod lagi untuk sambung atau tambah peranti secara manual</string>
+    <string name="cur_dev_msg">Peranti pasangan semasa: %1$s</string>
+    <string name="gps">GPS</string>
+    <string name="km">km</string>
+    <string name="step_freq_info_title">Frekuensi langkah (langkah/minit)</string>
+    <string name="average_step_freq">Frekuensi langkah purata</string>
+    <string name="max_step_freq">Frekuensi langkah maksimum</string>
+    <string name="per_pace_of_km">Kelajuan per kilometer</string>
+    <string name="average_pace_of_per_km">Kelajuan purata (/km)</string>
+    <string name="max_pace_of_per_km">Kelajuan paling cepat (/km)</string>
+    <string name="app_running">Jalankan</string>
+
+    <string name="watch_edit">Edit</string>
+    <string name="current_watch">Pemilihan semasa</string>
+    <string name="choose_photo">Tambah foto</string>
+    <string name="watch_restore">Kembalikan Default</string>
+    <string name="take_photo">Foto</string>
+    <string name="get_photo_from_album">Pilih dari album bimbit</string>
+    <string name="select">Pemilihan</string>
+    <string name="set_custom_bg_success">Tetapkan latar belakang suai berjaya</string>
+
+    <!--Message-->
+    <string name="enable_notification_listener_service_tips">Untuk menggunakan fungsi penyegerakan maklumat,
+        pengguna perlu setuju untuk mendapatkan maklumat bar pemberitahuan. Anda mahu benarkannya sekarang？</string>
+    <string name="bt_disconnect_tips">Sila sambung peranti dahulu</string>
+    <string name="not_found_history">Tiada peranti ditemui disambung</string>
+
+    <!--fatfs error-->
+    <string name="not_enough_space">Ruang tidak cukup untuk menonton, tidak dapat menambah lebih fail</string>
+    <string name="empty_date">-Hari Bulan</string>
+
+
+    <!-- unit -->
+    <string name="unit">Syarikat</string>
+    <string name="unit_cm">cm</string>
+    <string name="unit_m">nasi</string>
+    <string name="unit_km">km</string>
+
+    <string name="unit_in">inci</string>
+    <string name="unit_ft">kaki</string>
+    <string name="unit_mile">Miles</string>
+
+    <string name="unit_kg">kg</string>
+    <string name="unit_lb">Paun</string>
+    <string name="unit_running">langkah</string>
+    <string name="no_sdcard_device">Tiada peranti disisipkan</string>
+    <string name="select_all">Pilih Semua</string>
+    <string name="cancel_select_all">Tiada</string>
+    <string name="logout">Log keluar</string>
+    <string name="local_music">Muzik setempat</string>
+    <string name="music">muzik</string>
+
+    <!--HistoryRecordFragment-->
+    <string name="reconnect_history">Sambung Semula</string>
+    <string name="remove_history">Hapuskan Peranti</string>
+    <string name="history_connect_ok">Sambungan peranti berjaya</string>
+    <string name="history_connect_failed">Sambungan peranti gagal</string>
+    <string name="remove_history_success">Sejarah dipadam berjaya</string>
+    <string name="remove_history_failed">Gagal memadam sejarah</string>
+    <string name="history_is_gone">Sejarah telah dipadam</string>
+
+
+    <!--  健康设置 -->
+    <string name="tip_pressure_auto_tip">Apabila "pengesan tekanan automatik" diaktifkan, peranti akan menghakimi keadaan aktif anda dengan bijak. Jika ia dianggap statik, ia akan mengesan variabiliti kadar jantung anda dan mengira tekanan. Semasa latihan, pengesan tekanan automatik tidak dilakukan.
+        Untuk memastikan pengesan yang betul, sila pakai peranti dengan betul.</string>
+    <string name="pressure_auto_relax">Relax</string>
+    <string name="pressure_auto_normal">normal</string>
+    <string name="pressure_auto_medium">sekunder</string>
+    <string name="pressure_auto_high">Di sisi tinggi, disarankan untuk mengawal tekanan secara rasional</string>
+    <string name="heart_measure_way">Kaedah pengukuran kadar jantung</string>
+    <string name="smart">kecerdasan</string>
+    <string name="tip_heart_smart_measure">Laras frekuensi pengukuran secara dinamik mengikut keadaan latihan,
+        dan memantau detak jantung anda secara bijak selama 24 jam, yang membantu menyimpan kuasa</string>
+    <string name="tip_heart_real_measure">Monitor kadar jantung and a 24 jam dalam masa sebenar. Data kadar jantung lebih terperinci dan segar pada cara yang lebih tepat,
+        yang mempunyai kesan besar pada penggunaan kuasa</string>
+    <string name="real">masa sebenar</string>
+    <string name="heart_rate_limit">Had atas kadar jantung</string>
+    <string name="heart_rate_limit_warn">Amaran kadar jantung atas</string>
+    <string name="tip_heart_rate_limit_warn">Ingatkan bila kadar jantung lebih tinggi dari %1$d kali/minit</string>
+
+    <string name="more">lebih</string>
+    <!--Nfc-->
+    <string name="nfc_card_bag">beg kad</string>
+    <string name="door_key">kunci pintu</string>
+    <string name="add_door_key">Tambah kunci pintu</string>
+    <string name="detail">Perincian</string>
+    <string name="door_key_simulation">Simulasi kad pintu</string>
+    <string name="edit">Edit</string>
+    <string name="door_key_name">Nama kunci pintu</string>
+    <string name="modify_key_name">Ubah nama kunci</string>
+    <string name="delete_card_fail">Gagal memadam kad</string>
+    <string name="save_failed">Simpan gagal</string>
+    <string name="card_is_existed">Kad ini sudah wujud, sila jangan tambahnya lagi</string>
+    <string name="no_storage_device">Tiada peranti storan</string>
+    <string name="nfc_card_over_limit">Kad NFC telah mencapai had atas</string>
+    <string name="tips">Tip</string>
+    <string name="analog_nfc_key_card">Kad akses fizik simulasi</string>
+    <string name="analog_key_card_to_device">Simulasikan kad akses yang wujud ke peranti yang boleh dipakai</string>
+    <string name="add_time">Tambah Masa</string>
+    <string name="edit_card">Edit Kad</string>
+    <string name="set_default_card">Tetapkan sebagai Kad Default</string>
+    <string name="delte_current_card">Hapuskan kad ini</string>
+    <string name="home">home</string>
+    <string name="company">Syarikat</string>
+    <string name="prepare_read_card">Bersedia untuk membaca kad</string>
+    <string name="card_close_phone">Sila lampirkan kad ke telefon untuk pengesan</string>
+    <string name="card_support_range">Lihat julat sokongan kad pintu</string>
+    <string name="start_check">Mula pengesan</string>
+    <string name="set_commonly_use_card_to_default">Tetapkan kad kawalan akses umum sebagai kad lalai, dan langsung tukar kad bila skrin dimatikan</string>
+    <string name="keep_device_connect_phone">Sila simpan peranti yang boleh dipakai disambung ke telefon bimbit melalui Bluetooth,
+        dan jangan operasikan proses simulasi peranti yang boleh dipakai, yang mengambil kira-kira satu minit</string>
+    <string name="add_failed">Tambah gagal</string>
+    <string name="failed_reason">Alasan gagal</string>
+    <string name="system_exception">Abnormaliti sistem</string>
+    <string name="detailed_analysis">Analisis terperinci</string>
+    <string name="get_data_error">Kecualian dalam mendapatkan data atau melaksanakan arahan</string>
+    <string name="handling_suggestions">Menjalankan cadangan</string>
+    <string name="try_again">Sila cuba lagi.</string>
+    <string name="got_it">Dapat</string>
+    <string name="detecting">Mengesan…</string>
+    <string name="detecting_no_move_card">Sila jangan alih kad semasa pengesan</string>
+    <string name="detect_success">Pengesanan berjaya</string>
+    <string name="read_card_failed">Pembacaan kad gagal</string>
+    <string name="card_move_fast">Kad bergerak terlalu cepat, sila cuba lagi</string>
+    <string name="read_card_failed_encryption">Kad ini disulitkan dan tidak menyokong simulasi. \nCuba cara lain</string>
+    <string name="analog_card_number">Nombor kad analog</string>
+    <string name="step_sensor">Sensor Langkah</string>
+    <string name="keep_data_record">Simpan rekod data</string>
+    <string name="heart_rate_sensor">Sensor kadar jantung</string>
+    <string name="blood_oxygen_sensor">Blood oxygen sensor</string>
+    <string name="altitude_pressure_sensor">Altitude air pressure sensor</string>
+    <string name="fall_detection">Fall detection</string>
+    <string name="heart_rate_space_mode">Division of heart rate interval</string>
+    <string name="percent_of_max_heart_rate">kadar jantung maksimum</string>
+    <string name="percentage_of_reserve_heart_rate">Peratus cadangan kadar jantung</string>
+
+    <!--Health Service-->
+    <string name="service_none_device">Sila sambung peranti anda untuk mengalami kegembiraan sukan乐</string>
+    <string name="service_health_data">Data Kesehatan</string>
+
+    <string name="close">tutup</string>
+    <string name="all_day">Buka sepanjang hari</string>
+    <string name="time_open">Masa pada</string>
+    <string name="start_time">Masa membuka</string>
+    <string name="end_time">Masa akhir</string>
+    <string name="status_text">Keadaan terbuka</string>
+    <string name="fall_response_way">Mod balas jatuh</string>
+    <string name="response_mode_bright">Skrin cerah</string>
+    <string name="response_mode_shake">Shock</string>
+    <string name="response_mode_call">Panggilan telefon</string>
+    <string name="emergency_contact">kenalan kecemasan</string>
+    <string name="tip_emergency_contact">Panggil kenalan kecemasan secara automatik bila jatuh</string>
+    <string name="no_setting">Tidak ditetapkan</string>
+    <string name="title_open_sedentary_reminder">Benarkan penggera duduk panjang</string>
+    <string name="tip_sedentary_reminder">Jika anda duduk lebih dari satu jam, peranti akan bergetar untuk mengingatkan anda</string>
+    <string name="free_lunch_break">Tiada gangguan semasa rehat makan tengahari</string>
+    <string name="tip_free_lunch_break">12: Jangan mengingatkan saya dari 00:00 hingga 14:00</string>
+    <string name="modification">ubahsuai</string>
+    <string name="mobile">nombor telefon-bimbit</string>
+    <string name="save_contact">Simpan Kenalan</string>
+    <string name="hint_emergency_contact">Sila isi nombor telefon hubungan kecemasan</string>
+    <string name="title_emergency_contact">Tetapan kenalan kecemasan</string>
+    <string name="next_day">Hari berikutnya</string>
+    <string name="start_sports_failed">Gagal memulakan pergerakan</string>
+    <string name="start" translatable="false">Mula</string>
+
+    <!--    实时运动强度状-->
+    <string name="save_sports_status_0">Nonmotile</string>
+    <string name="save_sports_status_1">pemanasan</string>
+    <string name="save_sports_status_2">Burning fat</string>
+    <string name="save_sports_status_3">Ketahanan Aerobik</string>
+    <string name="save_sports_status_4">Ketahanan anaerob</string>
+    <string name="save_sports_status_5">had</string>
+
+    <!--    储备心率模式-->
+    <string name="real_sports_status_0">Nonmotile</string>
+    <string name="real_sports_status_1">Asas Aerobik</string>
+    <string name="real_sports_status_2">Kemajuan Aerobik</string>
+    <string name="real_sports_status_3">Had asid laktik</string>
+    <string name="real_sports_status_4">Asas anaerob</string>
+    <string name="real_sports_status_5">Anaerobi Lanjutan</string>
+
+    <string name="step_number_and_unit" >Langkah</string>
+    <string name="heart_rate_and_unit">Kadar jantung (kali/minit)</string>
+    <string name="average_heart_rate_and_unit">Kadar jantung rata-rata (kali/minit)</string>
+    <!--Health Sleep-->
+    <string name="sleep_analysis_avg_type1">Purata masa tidur normal pada malam hari%1$sjam%2$scabang</string>
+    <string name="sleep_analysis_avg_type2">Nisbah tidur dalam rata-rata%1$s%%</string>
+    <string name="sleep_analysis_avg_type3">Nisbah rata-rata tidur rendah%1$s%%</string>
+    <string name="sleep_analysis_avg_type4">Nisbah pergerakan mata cepat rata-rata%1$s%%</string>
+    <string name="sleep_analysis_avg_type5">Purata keseluruhan tidur dalam%1$scabang</string>
+    <string name="sleep_analysis_avg_type6">Purata masa bangun%1$ssaat</string>
+    <string name="sleep_analysis_type1">Waktu tidur biasa pada malam hari%1$sjam%2$scabang</string>
+    <string name="sleep_analysis_type2">Nisbah tidur dalam%1$s%%</string>
+    <string name="sleep_analysis_type3">Nisbah tidur rendah%1$s%%</string>
+    <string name="sleep_analysis_type4">Nisbah pergerakan mata yang cepat%1$s%%</string>
+    <string name="sleep_analysis_type5">Teruskan tidur dalam%1$scabang</string>
+    <string name="sleep_analysis_type6">Waktu bangun%1$ssaat</string>
+    <string name="time_duration_type1">%1$sjam%2$scabang</string>
+    <string name="time_duration_type2">%1$scabang</string>
+    <string name="sleep_score">Skor tidur</string>
+    <string name="sober_full">Sedar</string>
+    <string name="rapid_eye_movement_full">Gerakan mata yang cepat</string>
+    <string name="light_sleep_full">Tidur ringan</string>
+    <string name="deep_sleep_full">Tidur dalam</string>
+    <string name="sleep_score_avg">Skor tidur rata-rata</string>
+    <string name="sober_avg">Kecerahan purata</string>
+    <string name="rapid_eye_movement_avg">Pergerakan mata cepat rata-rata</string>
+    <string name="light_sleep_avg">Kerendahan purata</string>
+    <string name="deep_sleep_avg">Kedalaman purata</string>
+    <string name="sleep_ratio">Nisbah</string>
+    <string name="references">nilai rujukan: </string>
+    <string name="sleep_nap">Sleep sporadik</string>
+    <string name="sleep_avg_nap">Purata tidur sporadik</string>
+    <string name="sleep_total">Total tidur</string>
+    <string name="status_low">Rendah</string>
+    <string name="status_high">Di sisi tinggi</string>
+    <string name="status_normal">Normal</string>
+    <string name="status_over_weight">Lebar berat</string>
+    <string name="status_over_obese">Kelabuan</string>
+    <string name="tip_waiting">Sila tunggu...</string>
+    <string name="empty_sports_record">Tiada rekod pergerakan</string>
+    <string name="reach_target_days">Sport mencapai piawai%dhari</string>
+    <string name="weekly_step">Langkah setiap minggu</string>
+    <string name="weekly_distance">Satu minggu</string>
+    <string name="weekly_kcal">Konsum panas</string>
+    <string name="day">hari</string>
+    <string name="long_press_to_stop">Tekan panjang untuk berakhir</string>
+    <string name="no_data">Tiada data</string>
+    <string name="sports_stop">akhir</string>
+    <string name="sports_resume">teruskan</string>
+    <string name="max_heart_rate">Kadar jantung maksimum</string>
+    <string name="average_heart_rate">Kadar jantung rata</string>
+    <string name="today_step">Langkah hari ini</string>
+    <string name="low_spo2">oksigen darah rendah</string>
+    <string name="spo2_range">Maksimum Minimum</string>
+    <string name="min_value">Minimum</string>
+    <string name="max_value">Maksimum</string>
+    <string name="last_time">Terbaru </string>
+    <string name="outdoor">Luar</string>
+    <string name="indoor">dalam</string>
+    <string name="http_tip_400">Permintaan tidak sah</string>
+    <string name="http_tip_401">Tidak dibenarkan</string>
+    <string name="http_tip_403">Tiada Akses</string>
+    <string name="http_tip_404">tidak dapat cari fail</string>
+    <string name="http_tip_405">Sumber dilarang</string>
+    <string name="http_tip_500">Kecualian pelayan</string>
+    <string name="http_tip_501">Pintu Teruk</string>
+    <string name="http_tip_504">masa tamat gateway</string>
+    <string name="http_tip_unknow">ralat tidak diketahui</string>
+    <string name="percent">%</string>
+
+    <string name="permission_system_set">Pergi ke Tetapan>Pengurusan Aplikasi>Pembantu Kesehatan>Keizinan</string>
+    <string name="permission_describe_camera">Ciri-ciri ini memerlukan kamera anda. Sila %1$s benarkan keizinan kamera untuk menggunakan fungsi ini secara biasa</string>
+    <string name="permission_describe_contacts">Ciri-ciri ini memerlukan buku alamat anda. Sila %1$s buka kebenaran buku alamat untuk menggunakan fungsi ini secara biasa</string>
+    <string name="permission_describe_location">Fungsi ini memerlukan maklumat lokasi anda. Sila %1$s buka kebenaran maklumat lokasi untuk menggunakan fungsi ini secara biasa</string>
+    <string name="permission_describe_external_storage">Ciri-ciri ini memerlukan ingatan telefon anda. Sila %1$s benarkan kebenaran baca/tulis fail untuk menggunakan fungsi ini secara biasa</string>
+    <string name="allow">benarkan</string>
+    <string name="open_gps_service_tip">Pemindaian Bluetooth dan sambungan pasangan perlu mendapatkan maklumat lokasi, sama ada untuk benarkan perkhidmatan lokasi</string>
+    <string name="go_setting">Untuk ditetapkan</string>
+    <string name="no_movement">Tiada gerakan</string>
+    <string name="open_gps_permission">Keizinan Lokasi</string>
+    <string name="open_gps_services">Hidupkan perkhidmatan lokasi bimbit</string>
+    <string name="permission_describe_gps_permission_sport">Apabila menggunakan fungsi trek gerak dan peta berkaitan,
+        sila benarkan "Maklumat Lokasi Peranti" untuk mengelakkan kesan penggunaan.</string>
+    <string name="permission_describe_gps_service_sport">Untuk menggunakan fungsi berkaitan dengan trek gerak dan peta,
+        anda perlu menyalakan perkhidmatan telefon bimbit "lokasi" untuk mengelakkan kesan penggunaan.</string>
+    <string name="cancel_account_tip">Tidak mahu terus menggunakan?</string>
+    <string name="cancel_account">Pembatalan akaun</string>
+    <string name="delete_account_influence">Akaun tidak dapat dipulihkan selepas pembatalan. Teruskan？</string>
+    <string name="synchronizing_data">Menyegerakkan data…</string>
+    <string name="running_too_short">Jika jarak pergerakan terlalu pendek, sandar rekod tidak akan disimpan</string>
+    <string name="slider_to_unlock">Slaid untuk dibuka</string>
+    <string name="please_click_finish_btn">Sila tekan butang akhir untuk mengakhiri pergerakan</string>
+    <string name="tip_finished_exercise">Sama ada hendak tamatkan aktiviti ini</string>
+    <string name="keep_moving">Teruskan bergerak</string>
+    <string name="terminate_sport">Gerakan Akhir</string>
+    <string name="running_set">Jalankan Tetapan</string>
+    <string name="copyright">Hakcipta©2021-2024 Hak cipta Zhuhai Jieli Technology Co., Ltd</string>
+    <string name="email_register">Pendaftaran Emel</string>
+    <string name="phone_register">Pendaftaran telefon bimbit</string>
+    <string name="search_password_by_email">Guna e-mel untuk mendapatkan kata laluan</string>
+    <string name="search_password_by_mobile">Guna nombor telefon anda untuk mendapatkan kata laluan anda</string>
+    <string name="device_not_support">Peranti tidak disokong</string>
+    <string name="execution_succeeded">Pelaksanaan berjaya</string>
+    <string name="cancel">Batal</string>
+    <string name="double_tap_to_exit">Klik lagi untuk keluar aplikasi</string>
+    <string name="account_deleted_successfully">Akaun telah dipadam dengan berjaya</string>
+    <string name="network_error_tip">Nampaknya ada sesuatu yang salah dengan rangkaian. Sila periksa rangkaian</string>
+    <string name="missing_server_information">Maklumat pelayan hilang</string>
+    <string name="inconsistent_motion_state">Keadaan gerakan tidak konsisten</string>
+    <string name="failed_to_get_weather">Gagal mendapatkan cuaca</string>
+    <string name="no_weather_data">Tiada data cuaca</string>
+    <string name="ai_no_speak">Nampaknya awak belum mula bercakap lagi.</string>
+    <string name="ai_no_skill">Saya belum belajar keterampilan ini lagi</string>
+    <string name="ai_operation_failed">operasi gagal</string>
+    <string name="ai_operation_completed">Kami telah menyelesaikan operasi untuk anda</string>
+    <string name="ai_network_wrong">Terdapat masalah dengan rangkaian:;</string>
+    <string name="ai_error_code">Kod ralat:</string>
+    <string name="ai_is_delete">Adakah anda pasti untuk memadamnya?</string>
+    <string name="ai_is_delete_all">Semua kandungan perbualan ini akan dipadam dan tidak dapat dibatalkan. Anda ingin memadamkannya?</string>
+    <string name="ai_cloud_serve">Comment</string>
+    <string name="multi_select">Pilihan Berbilang</string>
+    <string name="none_session_record">Masa ini tiada rekod perbualan</string>
+    <string name="sms_login">Logmasuk kod pengesahan</string>
+    <string name="use_account_password_login">Log masuk dengan kata laluan akaun</string>
+    <string name="detach">buang</string>
+    <string name="validate">sahkan</string>
+    <string name="set_password">Tetapkan kata laluan</string>
+    <string name="hint_input_bind_phone_number">Sila masukkan nombor telefon bimbit terikat</string>
+    <string name="ai_no_response">Maaf, saya mungkin tak faham soalan awak. Sila berikan keterangan terperinci kandungan yang and a ingin tahu, dan saya akan melakukan yang terbaik untuk membantu anda.</string>
+    <string name="wait_ai_response_tip">Saya belum menerima balasan AI lagi, dan operasi ini tidak disokong</string>
+    <string name="style_selection">Pilihan Gaya</string>
+    <string name="ai_dial_style_1">Gaya lukisan tinta</string>
+    <string name="ai_dial_style_2">Gaya landscape realistik</string>
+    <string name="ai_dial_style_3">Gaya kartun 3D</string>
+    <string name="ai_dial_style_4">Gaya Cyberpunk</string>
+    <string name="ai_dial_style_5">Gaya Origami</string>
+    <string name="ai_dial_style_6">Gaya Ink Warna Air</string>
+    <string name="ai_dial">Pemilihan AI</string>
+    <string name="custom_dial">Dial suai</string>
+    <string name="re_crop">Potong lagi</string>
+    <string name="transfer_ing">Memindahkan</string>
+    <string name="copy">salinan</string>
+
+    <!--About-->
+    <string name="icp_info">Maklumat pemfailan ICP</string>
+
+    <!--Feedback-->
+    <string name="feedback">Maklum Balas</string>
+    <string name="feedback_type">Jenis Maklum Balas</string>
+    <string name="problem_feedback">Soalan maklum balas</string>
+    <string name="hint_enter_feedback">Sila masukkan soalan terperinci anda dan kami akan menyelesaikannya untuk anda secepat mungkin</string>
+    <string name="hint_enter_phone">Sila masukkan nombor telefon bimbit anda untuk mudah dihubungi</string>
+    <string name="commit">Menyerahkan</string>
+    <string name="phone_format_tips">Sila masukkan nombor telefon yang betul</string>
+    <string name="phone_empty_tips">Sila masukkan nombor telefon</string>
+    <string name="feedback_empty_tips">Sila masukkan kandungan maklum balas</string>
+    <string name="network_exception_tips">Rangkaian nampaknya tidak berfungsi, sila cuba sebentar lagi.</string>
+    <string name="feedback_success">Terima kasih atas maklum balas anda</string>
+
+    <!--ImageVerifyDialog-->
+    <string name="image_captcha">CAPTCHA imej</string>
+    <string name="can_not_see_it">Tidak jelas? Cuba satu lagi.</string>
+    <string name="input_captcha_tips">Sila masukkan captcha yang betul.</string>
+    <string name="load_code_failed_tips">Ada masalah semasa memuat kod pengesahan imej, sila cuba lagi selepas ini</string>
+    <string name="fail_recognize_format">Gagal mengenali format.</string>
+
+    <!--TestConfigurationFragment-->
+    <string name="test_configuration">Konfigurasi ujian</string>
+    <string name="save_configuration">Simpan</string>
+    <string name="enable_log_function">Aktifkan fungsi log?</string>
+    <string name="use_device_auth">Adakah pengesahan peranti didayakan?</string>
+    <string name="support_local_ota">Adakah OTA tempatan dihidupkan?</string>
+    <string name="local_ota_desc">Arahan ujian OTA tempatan:\n1. Nama fail kemaskini ditetapkan kepada 【update.zip】 atau 【update.ufw】.\n2. Lokasi fail kemaskini: Di dalam folder \'root telefon/Android/data/%1$s/files/upgrade/\'.</string>
+    <string name="test_custom_cmd">Uji arahan suai</string>
+    <string name="click_again_to_test_configuration">Tekan sekali lagi untuk masuk ke antara muka konfigurasi ujian.</string>
+    <string name="save_configuration_success">Konfigurasi berjaya disimpan, aplikasi akan ditutup tidak lama lagi.</string>
+
+    <!--LogFileFragment-->
+    <string name="log_file">Cetak log</string>
+    <string name="clear_log_file">Bersihkan</string>
+    <string name="remove_file">Padam</string>
+    <string name="file_not_found">Fail tidak wujud</string>
+    <string name="open_file_failed_by_other_app">Tiada program boleh buka fail</string>
+    <string name="open_file_exception">Ralat buka fail</string>
+    <string name="download_file_permission_tips">Fungsi muat turun perlukan kebenaran baca/tulis storan telefon.</string>
+    <string name="download_file_permission_denied_tips">Fungsi muat turun perlukan akses baca/tulis. Sila ke laman pengurusan kebenaran sistem untuk autorisasi.</string>
+    <string name="download_file_successful">Fail berjaya dimuat turun</string>
+    <string name="download_file_exception">Ralat muat turun fail</string>
+    <string name="share_log_file">Kongsi log cetakan</string>
+    <string name="share_file_exception">Ralat kongsi fail</string>
+
+    <!--CustomCmdTestFragment-->
+    <string name="input_custom_data">Masukkan data suai sendiri</string>
+    <string name="log_content">Kandungan log</string>
+    <string name="hint_input_hex_data">Sila masukkan data heksa</string>
+    <string name="send_custom_cmd">Hantar arahan suai sendiri</string>
+
+    <!--Operation-->
+    <string name="operation_failed">%1$s gagal</string>
+    <string name="error_code">Kod ralat</string>
+    <string name="op_delete_file">Padam fail</string>
+    <string name="op_delete_folder">Padam semua fail</string>
+
+</resources>

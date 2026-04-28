@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingTop="17dp"
+    android:paddingBottom="20dp">
+
+    <ImageView
+
+        android:id="@+id/iv_mine_item_left"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:src="@mipmap/ic_launcher_round" />
+
+
+    <TextView
+        style="@style/textMedium"
+        android:id="@+id/tv_mine_item_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingStart="14dp"
+        android:textColor="@color/text_important_color"
+        android:textSize="18sp"
+        android:text="爱运动的胖子" />
+
+
+    <ImageView
+        android:id="@+id/iv_mine_item_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_next_gray" />
+</LinearLayout>

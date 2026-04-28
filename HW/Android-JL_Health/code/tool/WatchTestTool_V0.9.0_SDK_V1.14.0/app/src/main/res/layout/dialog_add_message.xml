@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="0dp"
+    app:cardMaxElevation="0dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/tv_add_message_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_18sp"
+            android:text="@string/add_test_message"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_15sp"
+            android:text="@string/application_name"
+            app:layout_constraintTop_toBottomOf="@+id/tv_add_message_title"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <Spinner
+            android:id="@+id/sp_app_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="-8dp"
+            android:spinnerMode="dropdown"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_app_name"
+            app:layout_constraintStart_toEndOf="@+id/tv_app_name"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <TextView
+            android:id="@+id/tv_message_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_15sp"
+            android:text="@string/message_title"
+            app:layout_constraintTop_toBottomOf="@+id/tv_app_name"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <EditText
+            android:id="@+id/et_message_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="-8dp"
+            android:inputType="text"
+            android:maxLength="32"
+            android:textColor="@color/blue_558CFF"
+            android:textSize="@dimen/text_14sp"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_message_title"
+            app:layout_constraintStart_toEndOf="@+id/tv_message_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:ignore="Autofill,LabelFor"
+            tools:text="测试信息"/>
+
+        <TextView
+            android:id="@+id/tv_message_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_15sp"
+            android:text="@string/update_time"
+            app:layout_constraintTop_toBottomOf="@+id/tv_message_title"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <EditText
+            android:id="@+id/et_message_time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="-8dp"
+            android:inputType="text"
+            android:textColor="@color/blue_558CFF"
+            android:textSize="@dimen/text_14sp"
+            android:hint="@string/hint_time_format"
+            android:maxLength="19"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_message_time"
+            app:layout_constraintStart_toEndOf="@+id/tv_message_time"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:ignore="Autofill,LabelFor" />
+
+        <TextView
+            android:id="@+id/tv_message_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_15sp"
+            android:text="@string/message_content"
+            app:layout_constraintTop_toBottomOf="@+id/tv_message_time"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <EditText
+            android:id="@+id/et_message_content"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:padding="6dp"
+            android:gravity="start|top"
+            android:enabled="true"
+            android:inputType="textMultiLine"
+            android:minLines="3"
+            android:scrollbars="vertical"
+            android:textColor="@color/blue_558CFF"
+            android:textSize="@dimen/text_14sp"
+            android:background="@android:drawable/edit_text"
+            android:maxLength="430"
+            app:layout_constraintTop_toBottomOf="@+id/tv_message_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:ignore="Autofill,LabelFor"
+            tools:text="测试内容 测试内容 测试内容 测试内容"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="12dp"
+            android:text="@string/cancel"
+            android:textSize="@dimen/text_15sp"
+            app:layout_constraintTop_toBottomOf="@+id/et_message_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/view_mid_line"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_confirm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/confirm"
+            android:textSize="@dimen/text_15sp"
+            app:layout_constraintTop_toBottomOf="@+id/et_message_content"
+            app:layout_constraintStart_toEndOf="@+id/view_mid_line"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/view_mid_line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.5"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

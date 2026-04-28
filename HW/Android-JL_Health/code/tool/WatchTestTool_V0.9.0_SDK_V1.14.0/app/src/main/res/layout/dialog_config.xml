@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_card_white_15_shape"
+    android:padding="16dp">
+
+
+    <ScrollView
+        android:id="@+id/sv_config_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/btn_config_sure"
+        app:layout_constraintTop_toBottomOf="@+id/view_config_line">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cl_config_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp">
+
+            <EditText
+                android:id="@+id/et_ble_mtu"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="20dp"
+                android:inputType="number"
+                android:paddingStart="6dp"
+                android:paddingEnd="6dp"
+                android:textColor="@color/blue_398BFF"
+                android:textSize="@dimen/text_13sp"
+                android:maxLength="3"
+                app:layout_constraintBottom_toBottomOf="@+id/tv_adjust_ble_mtu"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/tv_adjust_ble_mtu"
+                app:layout_constraintTop_toBottomOf="@+id/tv_spp_connect_way_tips"
+                tools:ignore="Autofill,LabelFor"
+                tools:text="20" />
+
+            <TextView
+                android:id="@+id/tv_log_file_path"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_14sp"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="Log文件存储位置: Android/data/com.jieli.ota/files/logcat/" />
+
+            <TextView
+                android:id="@+id/tv_spp_connect_way_tips"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/connect_way_tips"
+                android:textSize="@dimen/text_12sp"
+                app:layout_constraintStart_toStartOf="@+id/switch_spp_connect_way"
+                app:layout_constraintTop_toBottomOf="@+id/switch_spp_connect_way" />
+
+            <TextView
+                android:id="@+id/tv_adjust_ble_mtu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="@string/adjust_ble_mtu"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_12sp"
+                app:layout_constraintStart_toStartOf="@+id/tv_spp_connect_way_tips"
+                app:layout_constraintTop_toBottomOf="@+id/tv_spp_connect_way_tips" />
+
+            <androidx.constraintlayout.widget.Group
+                android:id="@+id/group_adjust_ble_mtu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:constraint_referenced_ids="tv_adjust_ble_mtu, et_ble_mtu"
+                tools:visibility="visible" />
+
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/switch_spp_connect_way"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/whether_use_spp_way"
+                android:textSize="@dimen/text_14sp"
+                app:layout_constraintTop_toBottomOf="@+id/tv_log_file_path" />
+
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/switch_filter_device"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/whether_filter_device"
+                android:textSize="@dimen/text_14sp"
+                app:layout_constraintTop_toBottomOf="@+id/tv_adjust_ble_mtu" />
+
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/switch_use_device_auth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/whether_device_auth"
+                android:textSize="@dimen/text_14sp"
+                app:layout_constraintTop_toBottomOf="@+id/switch_filter_device" />
+
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/switch_ban_auto_test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/whether_ban_auto_test"
+                android:textSize="@dimen/text_14sp"
+                app:layout_constraintTop_toBottomOf="@+id/switch_use_device_auth" />
+
+
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/switch_test_file_transfer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/whether_test_file_transfer"
+                android:textSize="@dimen/text_14sp"
+                app:layout_constraintTop_toBottomOf="@+id/switch_ban_auto_test" />
+
+
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/switch_test_file_browse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/whether_test_file_browse"
+                android:textSize="@dimen/text_14sp"
+                app:layout_constraintTop_toBottomOf="@+id/switch_test_file_transfer" />
+
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/switch_test_small_file_transfer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/whether_small_file_transfer"
+                android:textSize="@dimen/text_14sp"
+                app:layout_constraintTop_toBottomOf="@+id/switch_test_file_browse" />
+
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/switch_test_watch_op"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/whether_test_watch_op"
+                android:textSize="@dimen/text_14sp"
+                app:layout_constraintTop_toBottomOf="@+id/switch_test_small_file_transfer" />
+
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/switch_test_ota"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/whether_test_ota"
+                android:textSize="@dimen/text_14sp"
+                app:layout_constraintTop_toBottomOf="@+id/switch_test_watch_op" />
+
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/switch_test_message_sync"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/whether_test_message_sync"
+                android:textSize="@dimen/text_14sp"
+                app:layout_constraintTop_toBottomOf="@+id/switch_test_ota" />
+
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/switch_use_other_encode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/whether_use_other_encode"
+                android:textSize="@dimen/text_14sp"
+                app:layout_constraintTop_toBottomOf="@+id/switch_test_message_sync" />
+
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/switch_test_record"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/whether_test_record"
+                android:textSize="@dimen/text_14sp"
+                app:layout_constraintTop_toBottomOf="@+id/switch_use_other_encode" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/tv_config_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_config"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view_config_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/gray_E8E8E8"
+        app:layout_constraintTop_toBottomOf="@+id/tv_config_title" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_config_sure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="@string/sure"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/gl_config_middle" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_config_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="@string/cancel"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/gl_config_middle"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_config_middle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

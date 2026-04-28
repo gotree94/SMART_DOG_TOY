@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="6dp"
+    android:paddingBottom="6dp">
+
+    <ImageView
+        android:id="@+id/iv_item_watch_img"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintDimensionRatio="w,1:1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription"
+        tools:src="@drawable/ic_watch_6" />
+
+    <ImageView
+        android:id="@+id/iv_item_watch_delete"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/ic_dial_delete_gray"
+        android:visibility="invisible"
+        app:layout_constraintStart_toEndOf="@+id/iv_item_watch_img"
+        app:layout_constraintTop_toTopOf="@+id/iv_item_watch_img"
+        tools:ignore="ContentDescription"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tv_item_watch_bg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_watch_bg"
+        android:gravity="center"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_item_watch_img"
+        app:layout_constraintEnd_toEndOf="@+id/iv_item_watch_img"
+        app:layout_constraintStart_toStartOf="@+id/iv_item_watch_img"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tv_item_watch_edit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text="@string/watch_edit"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_13sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_item_watch_bg"
+        app:layout_constraintEnd_toEndOf="@+id/tv_item_watch_bg"
+        app:layout_constraintStart_toStartOf="@+id/tv_item_watch_bg"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tv_item_watch_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:textColor="@color/black_242424"
+        android:textSize="@dimen/text_14sp"
+        app:layout_constraintEnd_toEndOf="@+id/iv_item_watch_img"
+        app:layout_constraintStart_toStartOf="@+id/iv_item_watch_img"
+        app:layout_constraintTop_toBottomOf="@+id/iv_item_watch_img"
+        tools:text="机械之芯" />
+
+    <TextView
+        android:id="@+id/tv_item_watch_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="7dp"
+        android:background="@drawable/bg_watch_white_2_gray_selector"
+        android:gravity="center"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:textColor="@color/btn_blue_2_gray_selector"
+        android:textSize="@dimen/text_13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/iv_item_watch_img"
+        app:layout_constraintStart_toStartOf="@+id/iv_item_watch_img"
+        app:layout_constraintTop_toBottomOf="@+id/tv_item_watch_name"
+        tools:text="@string/use_watch" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

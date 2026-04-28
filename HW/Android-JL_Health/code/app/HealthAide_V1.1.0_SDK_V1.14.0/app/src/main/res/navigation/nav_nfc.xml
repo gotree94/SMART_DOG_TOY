@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_nfc"
+    app:startDestination="@id/NFCCardBagFragment">
+
+    <fragment
+        android:id="@+id/NFCCardBagFragment"
+        android:name="com.jieli.healthaide.ui.device.nfc.fragment.NFCCardBagFragment"
+        android:label="NFCCardBagFragment"
+        tools:layout="@layout/fragment_n_f_c_card_bag" >
+        <action
+            android:id="@+id/action_NFCCardBagFragment_to_NFCCardDetailFragment"
+            app:destination="@id/NFCCardDetailFragment" />
+        <action
+            android:id="@+id/action_NFCCardBagFragment_to_NFCSimulationFragment"
+            app:destination="@id/NFCSimulationFragment"
+            app:popUpTo="@id/NFCCardBagFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/NFCCardDetailFragment"
+        android:name="com.jieli.healthaide.ui.device.nfc.fragment.NFCCardDetailFragment"
+        android:label="NFCCardDetailFragment"
+        tools:layout="@layout/fragment_n_f_c_card_detail" >
+        <action
+            android:id="@+id/action_NFCCardDetailFragment_to_NFCCardSettingFragment"
+            app:destination="@id/NFCCardSettingFragment" />
+        <argument android:name="NfcCardId" />
+    </fragment>
+    <fragment
+        android:id="@+id/NFCCardSettingFragment"
+        android:name="com.jieli.healthaide.ui.device.nfc.fragment.NFCCardSettingFragment"
+        android:label="NFCCardSettingFragment"
+        tools:layout="@layout/fragment_n_f_c_card_setting" />
+    <fragment
+        android:id="@+id/NFCSimulationFragment"
+        android:name="com.jieli.healthaide.ui.device.nfc.fragment.NFCSimulationFragment"
+        android:label="NFCSimulationFragment"
+        tools:layout="@layout/fragment_n_f_c_simulation" >
+        <action
+            android:id="@+id/action_NFCSimulationFragment_to_NFCCardSettingFragment"
+            app:destination="@id/NFCCardSettingFragment"
+            app:popUpTo="@id/NFCCardBagFragment" />
+    </fragment>
+</navigation>

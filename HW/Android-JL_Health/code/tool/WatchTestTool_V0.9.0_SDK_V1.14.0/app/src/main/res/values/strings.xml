@@ -1,0 +1,249 @@
+<resources>
+    <string name="app_name">WatchTestTool</string>
+    <string name="tips">Tips</string>
+    <string name="sure">Sure</string>
+    <string name="cancel">Cancel</string>
+    <string name="to_setting">Setting</string>
+
+    <!--Permission-->
+    <string name="open_gpg_tip">Application requires GPS function, please open the location service to continue.</string>
+    <string name="permissions_tips_01">In order to use the software normally, please </string>
+    <string name="permission_contacts">Allow read and write contacts</string>
+    <string name="permission_mic">Allow microphone</string>
+    <string name="permission_read_phone_state">Allow to read mobile phone information</string>
+    <string name="permission_location">Allow location information</string>
+    <string name="permission_storage">Allow files to read and write</string>
+    <string name="permission_bluetooth">Allow Bluetooth</string>
+    <string name="permission_phone_settings">Allow to modify phone settings</string>
+    <string name="permissions_tips_02">Please go to system settings grant app</string>
+    <string name="permission">permission</string>
+    <string name="user_denies_permissions">Please grant the application [%1$s] permissions on the system</string>
+    <string name="select_file_permission_desc">The select file function requires the user to allow reading of mobile phone storage files.</string>
+
+    <!--Add Device-->
+    <string name="add_device">Add Device</string>
+
+    <!--device status-->
+    <string name="current_bt_status">Current Status:</string>
+    <string name="bt_status_disconnected">Disconnected</string>
+    <string name="bt_status_connected">Connected</string>
+    <string name="bt_status_connecting">Connecting</string>
+    <string name="device_is_disconnected">Device is disconnected.</string>
+
+    <!--Main Activity-->
+    <string name="test_function">Test Function</string>
+    <string name="device_name">Device Name:</string>
+    <string name="device_addr">Device Address:</string>
+    <string name="device_status">Device Status:</string>
+    <string name="alarm_running">The alarm clock is ringing</string>
+    <string name="restore_system_success">Restore system successful</string>
+    <string name="restore_system_failure">Restore system failed. Reason:</string>
+
+    <!--Function list-->
+    <string name="func_file_transfer">File Transfer(Choose File)</string>
+    <string name="func_file_browse">File Browse</string>
+    <string name="func_watch_browse">Watch Browse</string>
+    <string name="func_music_transfer">Music Transfer</string>
+    <string name="func_insert_watch">Insert Watch</string>
+    <string name="func_insert_watch_bg">Insert Watch Background</string>
+    <string name="func_contacts">Sync Contacts</string>
+    <string name="func_formatting">Formatting</string>
+    <string name="func_fast_formatting">Fast Formatting</string>
+    <string name="func_random_test">Random Test</string>
+    <string name="func_cmd_test">Command Test</string>
+    <string name="func_sensor_data">Record Sensor Data</string>
+    <string name="func_small_file_transfer">Small file transfer</string>
+    <string name="func_upgrade">Upgrade</string>
+    <string name="func_factory_reset">Factory Reset</string>
+    <string name="func_weather_sync">Weather Sync Test</string>
+    <string name="func_message_sync">Information Sync Test</string>
+    <string name="func_record_test">Record Test</string>
+    <string name="func_network_update">Network Module Upgrade Test</string>
+    <string name="unsupport_func_tips">Function not currently supported</string>
+
+    <string name="choose_device">Choose storage device</string>
+    <string name="choose_count">Choose count</string>
+    <string name="choose_file">Choose file</string>
+    <string name="create_test_task_failed">Failed to create test task.</string>
+
+    <!-- file -->
+    <string name="msg_read_file_err_reading">The equipment is busy, please try again later!</string>
+    <string name="msg_read_file_err_offline">The device is not online!</string>
+    <string name="msg_read_file_err_beyond_max_depth">Beyond the readability level！</string>
+    <string name="get_music_info_failed">Failed to get music information</string>
+    <string name="empty_folder">Empty folder</string>
+    <string name="delete_file_success">Delete successful</string>
+    <string name="delete_file_failure">Delete failed</string>
+
+
+    <!--ota-->
+    <string name="file_selector">File Selector</string>
+    <string name="ota_upgrade_not_started">Upgrade not started</string>
+    <string name="ota_complete">Upgrade is complete</string>
+    <string name="ota_upgrading">Upgrading</string>
+    <string name="ota_upgrade_failed">Upgrade failed: %s</string>
+    <string name="ota_upgrade_cancel">Upgrade cancelled</string>
+    <string name="ota_check_file">Check File</string>
+    <string name="ota_checking_upgrade_file">Checking the upgrade file</string>
+    <string name="ota_upgrade">Firmware Upgrade</string>
+    <string name="update_resource_tips">Transferring watch resource(%1$d/%2$d)</string>
+    <string name="choose_ota_file">Please select a valid upgrade file</string>
+    <string name="ota_upgrading_tips">Please do not exit the interface while upgrading</string>
+    <string name="ota_test_file_tips">Please place the upgrade files in the folder [%1$s].</string>
+    <string name="none_file_tips">Put the upgrade file [xxx.ufw or xxx.zip] in the storage of the mobile phone.\n\nPlease put it in /Android/data/com.jieli.watchtesttool/files/upgrade/</string>
+
+    <string name="resource_unfinished_tips">The resource upgrade is not completed and the device will be unavailable.\nDo you want to continue to upgrade the resource?</string>
+    <string name="firmware_mandatory_upgrade">The device upgrade has not been completed. It needs to continue to upgrade before it can be used normally</string>
+    <string name="network_module_ota_upgrade_tips">The 4G module upgrade is not completed. Do you want to continue the upgrade?</string>
+    <string name="ota_prepare">Upgrade preparation</string>
+    <string name="delete_file">Delete</string>
+    <string name="invalid_file">Invalid File</string>
+
+    <!--Config-->
+    <string name="app_config">Application Configuration</string>
+    <string name="log_save_path">Log file storage location</string>
+    <string name="adjust_ble_mtu">Adjust BLE MTU</string>
+    <string name="whether_use_spp_way">Whether to use spp way</string>
+    <string name="whether_filter_device">Whether to filter device</string>
+    <string name="whether_device_auth">Whether to enable device auth</string>
+    <string name="whether_ban_auto_test">Whether to ban auto tests</string>
+    <string name="whether_test_file_transfer">Whether to test the file transfer function</string>
+    <string name="whether_test_file_browse">Whether to test the file browse function</string>
+    <string name="whether_small_file_transfer">Whether to test the small file transfer function</string>
+    <string name="whether_test_watch_op">Whether to test the dial operation function</string>
+    <string name="whether_test_ota">Whether to test the OTA function</string>
+    <string name="connect_way_tips">If BLE is not selected, it indicates that BLE us used.Select, SPP is used.</string>
+    <string name="whether_test_message_sync">Whether to test the information synchronization function</string>
+    <string name="whether_use_other_encode">Are you using another encoding format (unicode)?</string>
+    <string name="whether_set_out_file_path">Do you want to set the output file path?</string>
+    <string name="whether_test_record">Whether to test the record function</string>
+
+    <string name="change_configuration_success_tips">Successfully modified the configuration, restarting the application takes effect</string>
+    <string name="configuration_not_change">The application configuration has not been modified</string>
+
+    <!--Weather-->
+    <string name="weather_sunny">Sunny</string>
+    <string name="weather_partly_cloudy">Partly Cloudy</string>
+    <string name="weather_clear_to_overcast">Clear To Overcast</string>
+    <string name="weather_cloudy">Cloudy</string>
+    <string name="weather_overcast">Overcast</string>
+    <string name="weather_breeze">Breeze</string>
+    <string name="weather_calm">Calm</string>
+    <string name="weather_high_wind">High Wind</string>
+    <string name="weather_hurricane">Hurricane</string>
+    <string name="weather_windstorm">Windstorm</string>
+    <string name="weather_haze">Haze</string>
+    <string name="weather_shower">Shower</string>
+    <string name="weather_thundershower">Thundershower</string>
+    <string name="weather_thundershower_and_hail">Thundershower And Hail</string>
+    <string name="weather_light_rain">Light Rain</string>
+    <string name="weather_moderate_rain">Moderate Rain</string>
+    <string name="weather_heavy_rain">Heavy Rain</string>
+    <string name="weather_intense_fall">Intense Fall</string>
+    <string name="weather_rainstorm">Rainstorm</string>
+    <string name="weather_heavy_downpour">Heavy Downpour</string>
+    <string name="weather_heavy_rainfall">Heavy Rainfall</string>
+    <string name="weather_strong_thundershower">Strong Thundershower</string>
+    <string name="weather_extreme_rainfall">Extreme Rainfall</string>
+    <string name="weather_sleet">Sleet</string>
+    <string name="weather_snow">Snow</string>
+    <string name="weather_snow_shower">Snow Shower</string>
+    <string name="weather_light_snow">Light Snow</string>
+    <string name="weather_moderate_snow">Moderate Snow</string>
+    <string name="weather_heavy_snow">Heavy Snow</string>
+    <string name="weather_snowstorm">Snowstorm</string>
+    <string name="weather_floating_dust">Floating Dust</string>
+    <string name="weather_raise_dust">Raise Dust</string>
+    <string name="weather_sandstorm">Sandstorm</string>
+    <string name="weather_strong_sandstorm">Strong Sandstorm</string>
+    <string name="weather_tornado">Tornado</string>
+    <string name="weather_smog">Smog</string>
+    <string name="weather_hot">Hot</string>
+    <string name="weather_cold">Cold</string>
+
+    <string name="calm">Calm</string>
+    <string name="east_wind">East Wind</string>
+    <string name="south_wind">South Wind</string>
+    <string name="west_wind">West Wind</string>
+    <string name="north_wind">North Wind</string>
+    <string name="southeast_wind">Southeast Wind</string>
+    <string name="northeast_wind">Northeast Wind</string>
+    <string name="northwest_wind">Northwest Wind</string>
+    <string name="southwest_wind">Southwest Wind</string>
+    <string name="baffling_wind">Baffling Wind</string>
+
+    <string name="temperature">Temperature</string>
+    <string name="humidity">Humidity</string>
+    <string name="wind_direction">Wind Direction</string>
+    <string name="wind_power">Strength</string>
+    <string name="wind_power_level">Level</string>
+    <string name="add_weather">Adding weather information</string>
+    <string name="weather_situation">Weather</string>
+    <string name="province">Province</string>
+    <string name="city">City</string>
+    <string name="update_time">Update Time</string>
+    <string name="hint_time_format">Please enter the format</string>
+    <string name="test_count">Test Count</string>
+    <string name="auto_test">Auto Test</string>
+    <string name="input_value_err">The input value is incorrect, the value range:</string>
+    <string name="input_correct_format">Please enter the correct time format</string>
+    <string name="input_data_err">Please enter the content</string>
+    <string name="repeat_info">Repeat test information</string>
+
+    <!--Message-->
+    <string name="app_default">Unknown</string>
+    <string name="app_sms">Sms</string>
+    <string name="app_wx">Wechat</string>
+    <string name="app_qq">QQ</string>
+    <string name="app_ding_ding">DingTalk</string>
+
+    <string name="app_package_name">Package Name</string>
+    <string name="message_title">Title</string>
+    <string name="message_content">Content</string>
+    <string name="application_name">Application Name</string>
+    <string name="add_test_message">Add Notification Information</string>
+
+    <string name="test_way_only_push">Only Push</string>
+    <string name="test_way_push_and_remove">Push And Remove</string>
+
+    <!--Record-->
+    <string name="start_record">Start Record</string>
+    <string name="stop_record">Stop Record</string>
+    <string name="voice_type">Voice Type</string>
+    <string name="sample_rate">Sample Rate</string>
+    <string name="vad_way">VAD Way</string>
+    <string name="vad_sdk">SDK VAD</string>
+    <string name="vad_device">Device VAD</string>
+    <string name="record_start">Recording start</string>
+    <string name="record_data_callback">Callback voice data</string>
+    <string name="record_finish">Recording finish</string>
+    <string name="record_success">Recording complete</string>
+    <string name="record_cancel">Recording cancel</string>
+    <string name="finish_code">Code</string>
+    <string name="finish_desc">Message</string>
+    <string name="decode_data_size">Decoded data length</string>
+    <string name="start_decode">Encoding begins</string>
+    <string name="stop_decode">Encoding end</string>
+    <string name="decode_exception">Encoding exception</string>
+    <string name="save_audio_file_success">Successfully created audio file</string>
+    <string name="save_file_path">Save File Path</string>
+
+    <!--File Browse-->
+    <string name="whether_delete_file">Do you want to delete the file</string>
+    <string name="whether_read_file">Do you want to read the file</string>
+    <string name="read_file_by_name">Reading file by file name</string>
+    <string name="read_file_by_cluster">Reading file by cluster</string>
+    <string name="read_file_by_sport_file_id">Reading file by file id</string>
+    <string name="folder_none_file">There are no transferable files in the folder</string>
+
+    <!--Input-->
+    <string name="input_output_dir_path">Enter the specified output directory path</string>
+    <string name="hint_output_dir">input format:music\wav</string>
+    <string name="input_content">Input content</string>
+    <string name="input_over_limit">The limit has been reached.</string>
+    <string name="left_input_count">Remaining inputtable length: </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

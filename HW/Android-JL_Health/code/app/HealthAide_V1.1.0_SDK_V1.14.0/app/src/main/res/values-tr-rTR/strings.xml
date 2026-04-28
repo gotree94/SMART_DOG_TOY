@@ -1,0 +1,977 @@
+<resources>
+    <string name="app_name">WearLink</string>
+
+    <!--HomeActivity-->
+    <string name="tab_health">Sağlıklı</string>
+    <string name="tab_sports">Hareket</string>
+    <string name="tab_device">Ekipman</string>
+    <string name="tab_settings">Ayarlar</string>
+    <string name="tab_mine">Benimki</string>
+
+    <string name="search_phone">Cihaz telefonda&#8230;</string>
+    <string name="close_play">Sesi kapat</string>
+
+    <!--Load More View-->
+    <string name="status_loading">Yükleniyor&#8230;</string>
+    <string name="status_load_complete">Daha fazlasını yüklemek için tıklayın</string>
+    <string name="status_load_end">Daha fazla veri yok</string>
+    <string name="status_load_failed">Yüklenemedi, tekrar denemek için beni tıklayın</string>
+
+    <!--action-->
+    <string name="scan_qr_code">QR kodunu tara</string>
+    <string name="add_device">Aygıt Ekle</string>
+    <string name="sports_settings">Hareket Ayarları</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Merhaba, boş arayüz</string>
+    <string name="calendar_type_day">Gün</string>
+    <string name="calendar_type_week">Chow</string>
+    <string name="calendar_type_year">Yıl</string>
+    <string name="blood_oxygen_saturation">Kan oksijen doygunluğu</string>
+    <string name="movement_record">Hareket kayıtları</string>
+    <string name="empty_record">Kayıt yok</string>
+    <string name="heart_rate">Kalp atışı</string>
+    <string name="sleep">Uyku</string>
+    <string name="today_empty_data">Bugün için veri yok</string>
+    <string name="weight">Ağırlık</string>
+    <string name="pressure">Basınç</string>
+    <string name="kilogram">Kg</string>
+    <string name="calendar_type_month">Ay</string>
+    <string name="distance_km">Mesafe (km)</string>
+    <string name="distance_mile">Mesafe (mil)</string>
+    <string name="climbing_stairs_m">Tırmanma (metre)</string>
+    <string name="climbing_stairs_foot">Tırmanma (ft)</string>
+    <string name="calories_kcal">Isı (kcal)</string>
+    <string name="step">Adım</string>
+    <string name="step_number">Adım sayısı</string>
+    <string name="medium_high_strength">Orta ve yüksek yoğunlukta</string>
+    <string name="min">Dakikalar</string>
+    <string name="average_step">Orta adımlar</string>
+    <string name="all_step">Toplam adımlar</string>
+    <string name="all_mile">Toplam kilometre</string>
+    <string name="all_consumption">Toplam tüketim</string>
+    <string name="kilocalorie">Kilokart.</string>
+    <string name="kilometre">Kilometre</string>
+    <string name="weight_setting">Kilo ayarları</string>
+    <string name="weight_target">Kilo hedefi</string>
+    <string name="date">Tarih</string>
+    <string name="time">Zaman</string>
+    <string name="weekly_average">Zhou Jun.</string>
+    <string name="daily_average">Günlük ortalama</string>
+    <string name="month_average">Aylık ortalama</string>
+    <string name="year_average">Yıllık ortalama</string>
+    <string name="range_of_variation">Değişiklik</string>
+    <string name="weight_start_data">Başlangıç：%.1f </string>
+    <string name="weight_target_data">Hedef：%.1f </string>>
+    <string name="kg">kg</string>
+    <string name="sober">Uyanık</string>
+    <string name="rapid_eye_movement">Hızlı göz hareketi</string>
+    <string name="light_sleep">Sığ uyku</string>
+    <string name="deep_sleep">Derin uyku</string>
+    <!--Health- Pressure-->
+    <string name="uptilted">Yüksek</string>
+    <string name="medium">Orta</string>
+    <string name="normal">Normal</string>
+    <!--Login-->
+    <string name="login">Giriş Yap</string>
+    <string name="hint_input_phone_number_or_email">Lütfen cep telefonu numarasını/posta kutusunu girin</string>
+    <string name="hint_input_phone_number">Lütfen cep telefonu numaranızı girin</string>
+    <string name="hint_input_password">Lütfen şifreyi girin</string>
+    <string name="login_by_sms">Doğrulama kodu ile giriş yapın</string>
+    <string name="forgot_password">Şifreyi unutmak mı?</string>
+    <string name="register_tips">Hesap numarası yok mu? Hemen Kayıt Ol</string>
+    <string name="phone_or_email_tips_empty">Cep telefonu numarası/posta kutusu boş olamaz</string>
+    <string name="phone_or_email_tips_format_err">Cep telefonu numarası/posta kutusu biçimi yanlış</string>
+    <string name="phone_tips_empty">Cep telefonu numarası boş olamaz</string>
+    <string name="phone_tips_format_err">Cep telefonu numarası biçimi yanlış</string>
+    <string name="email_address_tips_empty">E-posta adresi boş olamaz</string>
+    <string name="email_address_tips_format_err">E-posta adresi biçimi yanlış</string>
+    <string name="password_tips_empty">Şifre boş olamaz</string>
+    <string name="password_tips_format_err">Şifre uzunluğu 6 – 12 bit olmalıdır</string>
+    <string name="register_succeed">Başarılı Kayıt</string>
+    <string name="login_by_account">Hesap şifresi ile giriş yapın</string>
+    <!--帐号与安全-->
+    <string name="search">Arama</string>
+    <string name="account_security">Hesap numarası ve güvenlik</string>
+    <string name="modify_phone_number">Cep telefonu numarasını değiştir</string>
+    <string name="modify_email_address">Posta kutusu adresini değiştir</string>
+    <string name="change_password">Şifreyi Değiştir</string>
+    <string name="change">Değiştirme</string>
+    <string name="bind_new_phone_number">Yeni telefon numarasını bağla</string>
+    <string name="bind_new_email_address">Yeni posta kutusu adresini bağla</string>
+    <string name="modify_binded_phone_number">Bağlı cep telefonu numarasını değiştirmek mi?</string>
+    <string name="current_binded_phone_number">Şu anda bağlı olan cep telefonu numarası</string>
+    <string name="modify_binded_email_address">Bağlı e-posta adresini değiştirmek mi?</string>
+    <string name="current_binded_email_address">Şu anda bağlı olan e-posta adresi</string>
+    <string name="authentication">Kimlik doğrulama</string>
+    <string name="authentication_tip">Kendi işleminizi onaylamak için lütfen kimlik doğrulaması yapın.</string>
+    <string name="sms_verification_code">SMS doğrulama kodu</string>
+    <string name="bind_new_phone_number_success">Yeni telefon numarası başarılı bir şekilde bağlandı!</string>
+    <string name="bind_new_email_address_success">Yeni e-posta adresi başarılı bir şekilde bağlandı!</string>
+    <string name="modified_success">Başarılı Değiştirme</string>
+    <string name="old_password">Eski şifre</string>
+    <string name="input_old_password">Eski şifreyi girin</string>
+    <string name="new_password">Yeni Şifre</string>
+    <string name="password_input_tip">Lütfen 6-12 haneli harf ve sayı kombinasyonu için yeni bir şifre belirleyin</string>
+    <string name="inout_new_password">Yeni bir şifre girin</string>
+    <string name="inout_new_password_again">Yeni şifreyi tekrar girin</string>
+    <string name="password_is_inconsistent">Parola tutarsız, lütfen tekrar girin</string>
+    <string name="phone_number_is_empty">Cep telefonu numarası boş olamaz</string>
+    <string name="sms_verification_code_error">SMS doğrulama kodu hatası</string>
+    <string name="current_phone_registered">Geçerli telefon kayıtlı</string>
+    <string name="current_phone_no_register">Geçerli hesap kayıtlı değil</string>
+    <string name="account_password_error">Hesap şifresi hatası</string>
+    <string name="new_password_no_be_empty">Yeni parola boş olamaz</string>
+    <string name="old_password_error">Eski şifre hatası</string>
+    <!--Register-->
+    <string name="register">Kayıt ol</string>
+    <string name="input_verification_code">Doğrulama kodunu girin</string>
+    <string name="send_sms_code">Doğrulama kodu gönder</string>
+    <string name="resend_sms_code">Yeniden Al（%1$s）</string>
+    <string name="input_identifying_code">Doğrulama kodunu girin</string>
+    <string name="send_identifying_code">Doğrulama kodu gönder</string>
+    <string name="resend_identifying_code">Yeniden Al（%1$s）</string>
+    <string name="input_password_tips">Lütfen 6 – 12 haneli harf ve sayı kombinasyonunun şifresini ayarlayın</string>
+    <string name="sms_code_tips_empty">Doğrulama kodu boş olamaz</string>
+    <string name="sms_code_tips_format_err">Doğrulama kodu biçimi yanlış</string>
+    <string name="identifying_code_tips_empty">Doğrulama kodu boş olamaz</string>
+    <string name="identifying_code_tips_format_err">Doğrulama kodu biçimi yanlış</string>
+    <string name="hint_input_email">Lütfen e-posta adresini girin</string>
+
+    <!--User Message-->
+    <string name="input_user_msg">Kişisel bilgileri mükemmelleştirmek</string>
+    <string name="nickname">Takma ad</string>
+    <string name="sex">Cinsiyet</string>
+    <string name="date_of_birth">Doğum tarihi</string>
+    <string name="stature">Yükseklik</string>
+    <string name="sport_target">Hareket hedefi</string>
+    <string name="next_step">Sonraki adım</string>
+    <string name="skip_progress">Atla</string>
+
+    <string name="please_input">Lütfen girin</string>
+    <string name="please_choose">Lütfen seç</string>
+    <string name="heart_rate_range">Kalp atış hızı</string>
+    <string name="times_per_minute">Dakikalar/dakika</string>
+    <string name="resting_heart_rate">Dinlenme kalp atış hızı</string>
+    <string name="resting_heart_rate_avg">Ortalama dinlenme kalp hızı</string>
+    <string name="static_heart_rate_too_high">Statik kalp atış hızı çok yüksek</string>
+    <string name="low_resting_heart_rate">Statik kalp hızı çok düşük</string>
+
+    <!--Sex Dialog-->
+    <string name="man">Erkek</string>
+    <string name="woman">Kadın</string>
+    <string name="hour">Saatler</string>
+    <string name="minute">Dakikalar</string>
+    <string name="score">Puan</string>
+
+
+    <!--Permission-->
+    <string name="open_gpg_tip">Uygulama GPS fonksiyonuna ihtiyaç duyar, devam etmek için konumlandırma hizmetini açın</string>
+    <string name="permissions_tips_01">Yazılımı düzgün kullanmak için lütfen</string>
+    <string name="permission_contacts">Kişileri okumaya ve yazmaya izin ver</string>
+    <string name="permission_mic">Mikrofona izin ver</string>
+    <string name="permission_read_phone_state">Cep telefonu bilgilerinin okunmasına izin ver</string>
+    <string name="permission_location">Konumlandırma bilgilerinin alınmasına izin ver</string>
+    <string name="permission_storage">Dosyaların okunmasına ve yazılmasına izin ver</string>
+    <string name="permission_bluetooth">Bluetooth kullanımına izin ver</string>
+    <string name="permission_phone_settings">Cep telefonu ayarlarını değiştirmeye izin ver</string>
+    <string name="permissions_tips_02">Lütfen Sistem Ayarları Verme Uygulamasına Git</string>
+    <string name="permission">İzinler</string>
+    <string name="permission_sport"> Hareket İzin Ayarları </string>
+    <string name ="permission_sport_tips"> Android, güç tasarrufu ayarları ve arka plan işlemi kısıtlamaları nedeniyle hareketi kaydeden %1$s \'yi kapatabilir veya hareket kaydı verilerinin bir kısmının eksik olmasına neden olabilir.
+    İlgili bir sorunla karşılaşırsanız, aşağıdaki yöntem ayarlarına başvurabilirsiniz. </string>
+    <string name="permission_sport_suspension_title">Diğer uygulamalarda üst ekran (süspansiyon penceresi) ayarları</string>
+    <string name="permission_sport_suspension_describe">Hareket sırasında cep telefonu sistemi tarafından yanlışlıkla öldürülmemenizi
+        ve hareket verilerinin kaybolmasına neden olmamanızı sağlamak için lütfen%1$s asılı pencere izni verin</string>
+    <string name ="permission_sport_suspension_operate"> Süspansiyon penceresi açma izni </string>
+    <string name ="permission_sport_battery_optimized_title"> pil optimizasyonu </string>
+    <string name="permission_sport_battery_optimized_describe">Güç tasarrufu modunda,%1$s\'nin çalışması hala sınırlı olabilir. Harekete başladığınızda, gücü nispeten yeterli bir durumda tutmaya çalışmalı ve güç tasarrufu modunu kapatmalısınız. İlgili ayarların girişi genellikle durum çubuğunda veya pil ile ilgili ayarlarda bulunur.</string>
+    <string name="permission_sport_battery_optimized_operate_1">Pil optimizasyonu açıldı, kapatmak için tıklayın</string>
+    <string name="permission_sport_battery_optimized_operate_2">Pil optimizasyonu kapalı</string>
+    <string name="permission_sport_background_title">Arka plan koruma ayarları</string>
+    <string name="permission_sport_background_describe">%1$s\'yi arka plan koruma listesine eklemek,%1$s\'nin arka planda sürekli çalışmasına bir ölçüde yardımcı olabilir.\nnAyarlama yöntemi:</string>
+    <string name="permission_sport_background_operate">Arka plan koruma sistemi ayarlarını aç</string>
+    <string name="permission_sport_powersave_title">güç tasarrufu modu</string>
+    <string name="permission_sport_powersave_describe">Sistemin güç tasarrufu ayarları nedeniyle uygulamanın donmasına izin verir. Hareket verilerinin kaydedilmesi gibi arka plan faaliyetlerinin etkilenmemesini sağlamak için, pil optimizasyonu beyaz listesine%1$s ekleyin.\nnAyarlama yöntemi:</string>
+    <string name="permission_sport_powersave_oprate">Uyku önleyici sistem ayarlarını aç</string>
+    <string name="lock_screen_display">Kilit ekranı</string>
+    <string name="locak_screen_display_hint">Ayarlama Yöntemi: Uygulama Bilgileri -> İzin Yönetimi -> Kilit Ekranı Gösterimi</string>
+    <string name="instructions_for_use">Kullanım için talimatlar</string>
+    <string name="permissions_camera">Kamera Izinleri</string>
+    <string name="permissions_bluetooth">Bluetooth Izinleri</string>
+    <string name="permissions_location">Konum Izinleri</string>
+    <string name="permissions_storage">Depolama izinleri</string>
+    <string name="permissions_read_contact">İletişim bilgilerini okuma izni</string>
+    <string name="permissions_camera_explain">Avatarı taramak, ayarlamak, özel saat yüzü arka planını ayarlamak ve diğer işlevler için kullanılır.</string>
+    <string name="permissions_bluetooth_explain">Bluetooth cihazlarını aramak ve bağlamak, Bluetooth cihazlarıyla iletişim kurmak ve diğer işlevler için kullanılır.</string>
+    <string name="permissions_location_explain">Bluetooth işlevi, hava durumu bilgileri, harita konumlandırma, hareket yörüngesi ve diğer işlevler için kullanılır.</string>
+    <string name="permissions_storage_explain">Müzik dosyalarını okumak, avatarları ayarlamak, galerileri okumak ve diğer işlevler için kullanılır.</string>
+    <string name="permissions_read_contact_explain">Kişi bilgilerini cihazla senkronize etmek için kullanılır.</string>
+    <string name="rejust_permissions_tips">Etkinleştirmeyi reddederseniz yukarıdaki işlevleri kullanamazsınız.</string>
+
+
+    <!-- reset password-->
+    <string name="password">Şifre</string>
+    <string name="finish">Bitirme</string>
+    <string name="sms_check">Doğrulama</string>
+    <string name="hint_text_password_again_input">Lütfen şifreyi tekrar onaylayın</string>
+
+    <!--Add Device-->
+    <string name="connect">Bağlantı</string>
+    <string name="status_disconnect">Bağlantısız</string>
+    <string name="status_connected">Bağlandı</string>
+    <string name="status_connecting">Bağlantıda</string>
+    <string name="add">Ekle</string>
+    <string name="no_device_tips">Aygıt boş</string>
+    <string name="user_denies_permissions">Lütfen sistemde \"%1$s\" ile ilgili izinler verin</string>
+    <string name="start_scan_failed">Tarama aygıtı başlatılamadı, lütfen daha sonra tekrar deneyin</string>
+    <string name="bluetooth_is_close">Bluetooth kapalı, lütfen Bluetooth\'u açın ve tekrar deneyin</string>
+
+    <!--Watch Control-->
+    <string name="restore_watch_system_success">Sistem başarısını geri yükle</string>
+    <string name="restore_watch_system_failure">Kurtarma sistemi başarısız oldu, nedeni:%1$s</string>
+    <string name="battery_format">Güç %1$d%%</string>
+    <string name="local_watch">Yerel kadran</string>
+    <string name="watch_market_all">Tümü</string>
+    <string name="using_watch">kullanılıyor</string>
+    <string name="use_watch">kullan</string>
+    <string name="update_watch">Güncelleme</string>
+    <string name="download_watch">Download</string>
+    <string name="buy_watch">Satın Al</string>
+
+    <string name="health_record">Sağlık</string>
+    <string name="music_manager">müzik yönetimi </string>
+    <string name="device_music">Aygıt müziği</string>
+    <string name="alarm">Alarm</string>
+    <string name="contacts">Sık kullanılan kişiler</string>
+    <string name="card_bag">kart çantası</string>
+    <string name="firmware_upgrade">Aygıt Sürümü Güncellemesi</string>
+    <string name="science_sleep">Uyku Tespiti</string>
+    <string name="turned_on">açıldı</string>
+    <string name="turned_off">kapatıldı</string>
+    <string name="sedentary_reminder">Hareketsiz Hatırlatma</string>
+    <string name="sedentary_reminder_tip">Bir saatten fazla oturma hatırlatıcısı</string>
+    <string name="continuous_measurement_heart_rate">Kalp atış hızının sürekli ölçümü</string>
+    <string name="heart_rate_range_early_warning">Egzersiz kalp atış hızı hatırlatıcısı</string>
+    <string name="pressure_auto_testing">Basınç otomatik algılama</string>
+
+    <string name="retrieve_password">Şifreyi Geri Al</string>
+    <string name="reset_password">Şifreyi sıfırla</string>
+    <string name="call_phone_error_tips">Telefon durumunda, lütfen daha sonra tekrar çalıştırın</string>
+
+
+    <!-- Mine -->
+    <string name="mine_my_data">verilerim</string>
+    <string name="mine_sport_weekly">Sport Weekly</string>
+    <string name="mine_setting">Ayarlandır</string>
+    <string name="mine_help">Yardım</string>
+    <string name="mine_about">Hakkında</string>
+
+    <string name="user_info">Kişisel Bilgiler</string>
+    <string name="user_info_avatar">Avatar</string>
+    <string name="health_state">Sağlık durumu</string>
+    <string name="activity_statistics">Active Statistics</string>
+    <string name="target">Hedef</string>
+    <string name="format_birthday_year_month">%1$dyıl%2$dAy</string>
+    <string name="format_height">%1$dcm</string>
+    <string name="format_step_number_target">%1$dstep</string>
+    <string name="hint_input_nickname">Lütfen lağabınızı girin</string>
+    <string name="save">Kaydet</string>
+    <string name="tip_nickname_null">Takma ad boş olamaz</string>
+    <string name="sure">Belirle</string>
+    <string name="distance">Toplam kilometre</string>
+    <string name="climb">Tırmanma</string>
+    <string name="heat">Isı</string>
+    <string name="distance_m">m</string>
+    <string name="kcal">kcal</string>
+    <string name="relax">Relax</string>
+    <string name="alert">Mesaj bildirimi</string>
+    <string name="sensor_setting">Sensör Ayarları</string>
+    <string name="open">Açıldı</string>
+    <string name="weather_push">hava durumu itme</string>
+    <string name="clean_cache">Cache temizle</string>
+    <string name="tip_clean_cache"> Kullanıcı önbelleği verilerini temizlemek istiyor musunuz</string>
+    <string name="bright_screen">Bileğini kaldır ve ekranı aç</string>
+    <string name="tip_bright_screen">Bileğinizi kaldırın ve ekranı kendinize çevirin ve ekranı aydınlatın</string>
+    <string name="bright_screen_hint">Rahatsız etmeden bilek kaldırma ekranı</string>
+    <string name="bluetooth_disconnect_tip">Bluetooth Kesme Hatırlatma</string>
+    <string name="target_consume">Tüketim yaklaşık%1$d kcal</string>
+    <string name="target_step">Hedef adım sayısı</string>
+    <string name="target_weight">Hedef Kilo</string>
+    <string name="multilingual">Multilingual</string>
+    <string name="simplified_chinese">Basitleştirilmiş Çince</string>
+    <string name="follow_system">takip sistemi</string>
+    <string name="english">İngilizce</string>
+    <string name="japanese">Japon</string>
+    <string name="korean">Kore</string>
+    <string name="french">Fransızca</string>
+    <string name="german">Alman</string>
+    <string name="italian">İtalyan</string>
+    <string name="portuguese">Portekizce</string>
+    <string name="spanish">İspanyolca</string>
+    <string name="swedish">İsveççe</string>
+    <string name="polish">Polonya</string>
+    <string name="russian">Rus</string>
+    <string name="turkish">Türk</string>
+    <string name="hebrew">İbraniye</string>
+    <string name="thai">Tayland</string>
+    <string name="arabic">Arapça</string>
+    <string name="vietnamese">Vietnamca</string>
+    <string name="indonesian">Indonezi</string>
+    <string name="malay">Malay</string>
+    <string name="persian">Pers</string>
+    <string name="set_language">Dili Ayarla</string>
+    <string name="unit_settings">Birim Ayarları</string>
+    <string name="unit_metric">Metrik</string>>
+    <string name="unit_imperial">ingilizce</string>
+    <string name="format_weight">>%1$d kg</string>
+    <string name="no_nickname">Lağap ayarlanmadı</string>
+    <string name="user_agreement">kullanıcı protokolü</string>
+    <string name="privacy_policy">Gizlilik Politikası</string>
+    <string name="current_app_version">Güncel Sürüm::%1$s</string>
+    <string name="agree_and_use">rıza</string>
+    <string name="not_agree_and_exit">reddetme</string>
+    <string name="privacy_policy_name">"Gizlilik Politikası"</string>
+    <string name="user_service_name">"Kullanıcı Hizmetleri Sözleşmesi"</string>
+    <string name="declaration">%1$s bildirim</string>
+    <string name="user_declaration">
+        "%1$s", kullanıcıların spor sağlığı verilerini kaydetmek ve analiz etmek, kullanıcılara profesyonel spor sağlığı rehberliği ve akıllı giyilebilir cihaz yönetimi hizmetleri sağlamak için kullanılan bir yazılımdır. Yukarıdaki amacı gerçekleştirmek için;
+         Size hizmet sağladığımızda, ilgili bilgilerinizi toplamamız ve şu izinleri kullanmamız gerekebilir: kamera kullan, konum bilgilerini kullan, Bluetooth iznini kullan,
+         Takviminizi okuyun, kişilerinizi okuyun, web\'e erişin. Kalp atış hızınızı, uykunuzu, kan oksijeninizi, egzersiz kayıtlarınızı ve diğer egzersiz verilerinizi buluta senkronize etmemiz gerekiyor.
+         Gizliliğinizin korunmasına ve kişisel bilgilerin korunmasına büyük önem veriyoruz. "%2$s" UYGULAMASINI kullanmadan önce lütfen #### ve ****\'nin tüm şartlarını dikkatlice okuyun ve kabul ettikten sonra bizi kullanmaya başlayın ve hizmetin tüm şartlarını kabul edin.
+    </string>
+    <string name="agree_policy_tips">#### ve ****\'yi okudum ve kabul ettim</string>
+    <string name="check_policy_status_tips">Lütfen Hizmet Koşullarını ve Gizlilik Politikasını okuyup kabul edin</string>
+
+    <string name="add_music">Müzik Ekle</string>
+    <string name="download_music">İzlemek için müzik eşitleyin %1$d/%2$d</string>
+    <string name="transfer_info">Taşınıyor(%1$d/%2$d)</string>
+
+    <string name="message_notify">Bildirim</string>
+    <string name="sync_wechat">WeChat</string>
+    <string name="sync_qq">QQ</string>
+    <string name="sync_sms">SMS</string>
+    <string name="sync_other">Diğer</string>
+
+    <!--Watch Market-->
+    <string name="watch_market">Dial Mall</string>
+    <string name="manager">Yönetim</string>
+    <string name="delete_watch_tip">Kadran 2\'den az olamaz</string>
+    <string name="last_page">Benim bir alt çizgim var</string>
+    <string name="delete_watch_err">Kadranı silme işlemi başarısız oldu[%1$s], nedeni%2$s</string>
+    <string name="create_watch_err">Dial [%1$s] indirilemedi, nedeni%2$s</string>
+    <string name="update_watch_err">Kadran güncellemesi başarısız oldu [%1$s], çünkü%2$s</string>
+    <string name="transfer_file_warning">Dosya aktarımı sırasında Bluetooth ve ağı açık tutun \nCihazı ve kilit ekranlı telefonu kapatmayın</string>
+    <string name="device_is_disconnected">Aygıt bağlı değil</string>
+    <string name="server_none_device_support_version">Aygıt desteği olmayan sürüm</string>
+
+    <!--Dial Detail-->
+    <string name="watch_dial">Tablo</string>
+    <string name="my_dials">Plakam</string>
+    <string name="free_dial">Ücretsiz Tablo</string>
+    <string name="pay_dial">Ücretli tablo</string>
+    <string name="dial_desc">【Kadran profili】</string>
+    <string name="download_dial">Orta</string>
+    <string name="update_dial">Güncelleme Orta</string>
+    <string name="purchase_record">Satın alma kaydı</string>
+    <string name="handle_dial_tips">Dosya aktarılıyor. Lütfen şu anda arayüzden çıkma</string>
+
+    <!--Payment-->
+    <string name="product_name">Ürün Adı</string>
+    <string name="product_price">mal miktarı</string>
+    <string name="pay_way">Ödeme Yöntemi</string>
+    <string name="pay_way_tips">Lütfen ödeme yöntemini seçin</string>
+    <string name="ali_pay">Alipay Payment</string>
+    <string name="weixin_pay">WeChat Payment</string>
+    <string name="whether_payment_finish">Ödeme tamamlandı mı?</string>
+    <string name="unfinished">Bitmemiş</string>
+    <string name="finished">Bitti</string>
+
+    <string name="payment_success">Ödeme Başarısı</string>
+    <string name="payment_failed">Ödeme tamamlanmadı, lütfen yeniden ödeme yapın</string>
+    <string name="payment_processing">Ödeme işleminde lütfen bekleyin</string>
+    <string name="payment_error">Ödeme başarısız oldu</string>
+    <string name="payment_duplex">isteği tekrarlayın, lütfen denemeden önce bir süre bekleyin</string>
+    <string name="payment_user_cancel">Kullanıcı ödemeyi iptal etti</string>
+    <string name="payment_network">Ödeme başarısız oldu, ağda bir sorun çıktı</string>
+    <string name="payment_unknown">Bilinmeyen hata</string>
+    <string name="use_dial">git kullan</string>
+
+    <string name="no_purchase_record">Satın alma kaydı yok</string>
+
+    <!--Upgrade-->
+    <string name="upgrade">Yükseltme</string>
+    <string name="current_dev_version">Güncel sürüm</string>
+    <string name="latest_version">Zaten son sürüm</string>
+    <string name="check_update">Güncellemeler için kontrol et</string>
+    <string name="dev_ota">Firmware Güncelleme</string>
+    <string name="upgrade_warning">Yükseltme işlemi sırasında Bluetooth ve ağı açık tutun \nCihazı ve kilit ekranlı telefonu kapatmayın</string>
+    <string name="ota_result_success">Yükseltme tamamlandı</string>
+    <string name="ota_result_failed">Yükseltme başarısız oldu</string>
+    <string name="ota_result_cancel">Yükseltme iptal edildi</string>
+    <string name="new_ota_version">Yeni sürüm%1$s</string>
+    <string name="ota_state_ready">Yükseltmeye haz</string>
+    <string name="ota_state_check_file">Yükseltme Doğrulama</string>
+    <string name="ota_state_updating">Yükseltiliyor</string>
+    <string name="ota_state_finish">Yükseltmenin sonu</string>
+    <string name="update_resource_tips">Kadran kaynakları aktarılıyor（%1$d/%2$d）</string>
+    <string name="resource_unfinished_tips">Kaynak yükseltmesi tamamlanmadı, bu da cihazın kullanılamaz hale gelmesine neden olacak.
+        Kaynakları yükseltmeye devam etmek ister misiniz?</string>
+    <string name="firmware_mandatory_upgrade">Aygıt yükseltmesi tamamlanmadı ve normal kullanım için yükseltmeye devam etmek gerekiyor</string>
+    <string name="network_module_ota_upgrade_tips">4G modül yükseltmesi tamamlanmadı. Yükseltmeye devam etmek istiyor musunuz?</string>
+    <string name="upgrade_warning_tips">Yükseltme uyarısı</string>
+    <string name="exit_and_disconnect">Zorunlu Çıkış</string>
+    <string name="continue_upgrade">Yükseltmeye devam et</string>
+    <!--ota err-->
+    <string name="ota_err_no_space">Yetersiz yükseltme alanı, lütfen devam etmeden önce saat yüzü dosyasını silin</string>
+    <string name="ota_err_device_not_connect">Yetersiz yükseltme alanı, lütfen kadran dosyasını silin ve devam edin</string>
+    <string name="ota_err_low_power">Yükseltmek için cihazın pil seviyesi %1$s\'un üzerinde olmalıdır</string>
+    <string name="ota_err_file_info">Yükseltme dosyası bilgisi hatası</string>
+    <string name="ota_err_file_same_version">Yükseltme dosyası sürümü, cihaz sürümüyle aynıdır</string>
+    <string name="ota_err_tws_not_connect">Cihaz eşlenmemiş ve bağlı değil</string>
+    <string name="ota_err_not_in_charging_bin">Kulaklık şarj bölmesinde değil</string>
+    <string name="ota_err_data_crc_check">Yükseltme verileri doğrulama hatası</string>
+    <string name="ota_err_failed">Yükseltme başarısız oldu</string>
+    <string name="ota_err_key_mismatch">Anahtar uyuşmazlığı</string>
+    <string name="ota_err_uboot_mismatch">UBoot uyumsuzluğu</string>
+    <string name="ota_err_data_len">Yükseltme sırasında uzunluk hatası oluştu</string>
+    <string name="ota_err_flash_io">Flaş okuma ve yazma hataları oluşuyor</string>
+    <string name="ota_err_cmd_timeout">Komut zaman aşımı</string>
+    <string name="ota_err_data_offset">Veri ofseti okunurken hata oluştu</string>
+    <string name="ota_err_reconnect_device_timeout">Cihaza geri bağlantı zaman aşımına uğradı</string>
+    <string name="ota_err_waiting_for_cmd_timeout">Komut bekleme zaman aşımına uğradı</string>
+    <string name="ota_err_send_data_timeout">Gönderme komutu zaman aşımına uğradı</string>
+    <string name="ota_err_update_data">Yükseltme verileri okunamadı</string>
+    <string name="ota_err_not_found_file">Yükseltme dosyası bulunamadı</string>
+    <string name="ota_err_bad_status">Cihaz başarısız durumu döndürdü</string>
+    <string name="ota_err_bad_result">Cihaz başarısız bir sonuç döndürdü</string>
+    <string name="ota_err_unknown">bilinmeyen yükseltme hatası</string>
+
+    <!--闹钟-->
+    <string name="named">isim</string>
+    <string name="alarm_open_success">Alarmı Açma Başarısı</string>
+    <string name="alarm_open_failure">Alarmı açma başarısız oldu</string>
+    <string name="alarm_close_success">Alarmı Kapat Başarılı</string>
+    <string name="alarm_close_failure">Alarmı kapatma başarısız oldu</string>
+    <string name="operate_alarm_failure">Alarmı çalıştırma başarısız oldu</string>
+    <string name="alarm_list_read_failed">Alarm listesi okuma başarısız oldu</string>
+    <string name="delete">Sil</string>
+    <string name="alarm_set_num_is_full">Çalar saat sayısı doldu</string>
+    <string name="alarm_delete_failure">Alarm silme başarısız oldu</string>
+    <string name="alarm_delete_success">Alarm Silme Başarılı</string>
+
+    <string name="alarm_stop_success">Alarm başarılı durdu</string>
+    <string name="alarm_stop_failed">Alarm durma başarısız</string>
+    <string name="alarm_delete">Çalar saati sil</string>
+    <string name="sync_time">Aygıt zaman senkronizasyonu</string>
+    <string name="sync_time_success">Senkronizasyon zamanı başarılı</string>
+    <string name="sync_time_failed">Senkronizasyon zamanı başarısız oldu</string>
+
+
+    <string name="save_alarm_failed_no_modify">Alarm saati değiştirilmedi</string>
+    <string name="save_alarm_failed">Alarm kaydedilemed</string>
+    <string name="save_alarm_success">Alarm başarılı bir şekilde kaydedildi</string>
+    <string name="choose_repeat_mode_tip">Lütfen modu seçin</string>
+    <string name="alarm_name_can_not_be_empty">Alarm adı boş olamaz</string>
+    <string name="alarm_name_length_too_long">Alarm adı çok uzun</string>
+    <string name="alarm_name_format_error">Alarm adı girdi biçimi hatası</string>
+    <string name="default_alarm_name">Alarm</string>
+    <string name="default_alarm_custom">Özel</string>
+    <string name="alarm_edit_title">Alarm saati düzenleme</string>
+    <string name="alarm_create_title">Yeni alarm</string>
+    <string name="alarm_repeat_on_workday">Pazartesi-Cuma</string>
+    <string name="alarm_repeat_every_day">Her gün</string>
+    <string name="alarm_repeat_single">Tekil </string>
+    <string name="alarm_repeat_week">Haftalık</string>
+    <string name="alarm_repeat_mon">Pazartesi</string>
+    <string name="alarm_repeat_tue">Salı</string>
+    <string name="alarm_repeat_wed">Çarşamba</string>
+    <string name="alarm_repeat_thu">Perşembe</string>
+    <string name="alarm_repeat_fri">Cuma</string>
+    <string name="alarm_repeat_sat">Cumartesi</string>
+    <string name="alarm_repeat_sun">Pazar</string>
+    <string name="alarm_repeat_simple_mon">Bir</string>
+    <string name="alarm_repeat_simple_tue">Salı</string>
+    <string name="alarm_repeat_simple_wed">Üç</string>
+    <string name="alarm_repeat_simple_thu">Dört</string>
+    <string name="alarm_repeat_simple_fri">Beş</string>
+    <string name="alarm_repeat_simple_sat">Altı</string>
+    <string name="alarm_repeat_simple_sun">Gün</string>
+
+    <!--AlarmSettings-->
+    <string name="alarm_settings">Çalar Saat Yönetimi</string>
+    <string name="bell">Zil</string>
+    <string name="repeat">tekrar</string>
+    <string name="light">Light</string>
+    <string name="alarm_state">Durum</string>
+    <string name="delete_alarm_tip">Çalar saati silmek ister misin</string>
+    <string name="stop_alarm">stop</string>
+    <string name="alarm_running">Alarm saati çalıyor</string>
+    <string name="unnamed">Unnamed</string>
+    <string name="hint_input_alarm">Lütfen alarm adını girin</string>
+
+    <string name="alarm_bell_1">Zil 0</string>
+    <string name="alarm_bell_2"> Zil sesi 2</string>
+    <string name="alarm_bell_3">Zil sesleri 3</string>
+    <string name="alarm_bell_4">Zil sesi 4</string>
+    <string name="alarm_bell_5">Zil sesleri 5</string>
+    <string name="alarm_default_bell">Öntanımlı</string>
+    <string name="alarm_count_tip">Çalar saati ayarlayın ve saate senkronize ettikten sonra saat size hatırlatmak için titreşecektir. En fazla 5 alarm saati ayarlayabilirsiniz.</string>
+    <string name="alarm_bell_list_read_failed">Varsayılan zil sesi listesi alınamadı</string>
+
+    <string name="alarm_bell_time">Alarm saati uzunluğu</string>
+    <string name="min_format">%1$d dakika</string>
+    <string name="alarm_bell_interval">tekrar çalma aralığı</string>
+    <string name="bell_repeat_count_title">Çınlama sayısını tekrarla</string>
+    <string name="bell_interal_time_title">Tekrarlama aralığı (dakika）</string>
+    <string name="interval_format">%1$d dakika,%2$d kez</string>
+    <string name="count_format">ikincil</string>
+
+
+    <!-- file -->
+    <string name="msg_read_file_err_reading">Aygıt meşgul, lütfen daha sonra tekrar deneyin!</string>
+    <string name="msg_read_file_err_offline">Cihaz çevrimiçi değil!</string>
+    <string name="msg_read_file_err_beyond_max_depth">Okunabilir seviyenin ötesinde!</string>
+    <string name="empty_folder">boş klasör</string>
+    <string name="get_music_info_failed">Müzik bilgisi alınamadı</string>
+
+    <!-- 联系人-->
+    <string name="tip_not_contact">ortak kişi yok</string>
+    <string name="tip_add_contact">Çağrıların hızlı başlatılması için saatiniz için ortak kişiler ayarlayın ve ayarlanan kişiler otomatik olarak cihaza senkronize edilecektir.</string>
+    <string name="tip_max_contacts_can_add">Saatinize %1$d bitine kadar ortak kişi ekleyebilirsiniz. Ayarladığınız ortak kişiler otomatik olarak aygıta senkronize edilecektir.</string>
+    <string name="sort">Sıralama</string>
+    <string name="hint_search_contact">Kişileri arayın</string>
+    <string name="unchose">Seçilmemiş</string>
+    <string name="format_contact_chose_count">%1$d kişi seçildi</string>
+    <string name="tip_max_contact_err">En fazla%1$d kişi seç</string>
+    <string name="tip_update_contact_failed">Kişi güncellemesi başarısız oldu</string>
+    <string name="tip_sync_contact_failed">Kişi senkronizasyonu başarısız oldu</string>
+    <string name="tip_cancel_get_contact">Kişi almayı iptal et</string>
+    <string name="tip_cancel_update_contact">Kişi güncellemesini iptal et</string>
+
+    <!-- 音乐管理 -->
+    <string name="tip_transfer_finish">aktarım tamamlandı</string>
+    <string name="tip_transfer_canceled">aktarım iptal edildi</string>
+    <string name="tip_transfer_error">aktarım başarısız oldu ve aktarım kesildi</string>
+    <string name="tip_mobile_not_has_contacts">Mevcut mobil telefon adresi boş</string>
+    <string name="ask_delete_contact">Seçili kişilerin silinip silinmeyeceği</string>
+    <string name="tip_logout">Hesaptan çıkıp giriş yapmanız gerekip gerekmediği</string>
+    <string name="tip_downloading_music">(Lütfen müzik dosyası aktarımında telefonunuzun saate Bluetooth bağlantısını koruyun)</string>
+    <string name="tip_download_finished">%1$d İlk müzik aktarımı başarılı oldu</string>
+    <string name="tip_please_chose_contact">Lütfen bir kişi seçmeyi seçin </string>
+    <string name="tip_check_net">Ağ bağlı değil, lütfen ağ ayarlarını kontrol edin.</string>
+    <string name="sport_other">Diğer</string>
+    <string name="sport_outdoor_running">outdoor running</string>
+    <string name="sport_indoor_running">Kapalı Koşu</string>
+    <string name="exercise_time">Hareket süresi</string>
+    <string name="total_time">toplam uzunluk</string>
+    <string name="pace">Hız</string>
+    <string name="average_pace">Ortalama hız</string>
+    <string name="consumption_of_kilocalories">Tüketim (kcal)</string>
+    <string name="whether_delete">silmek istiyor musunuz:%1$s</string>
+
+    <!--二维码扫描-->
+    <string name="scan_qr_code_title">QR kodu tarama</string>
+    <string name="select_from_gallery">Galeriden</string>
+    <string name="pair_device">Manuel eşleştirme aygıtı</string>
+    <string name="scan_qr_tips">QR kodu kutuya koyun</string>
+    <string name="scan_env_dark_tips">Karanlık bir ortamdasınız, feneri açmanız önerilir</string>
+    <string name="scan_env_light_tips">Normal bir ortamdasınız, feneri kapatmanız önerilir</string>
+    <string name="not_found_qr">QR kod bulunamadı</string>
+
+    <string name="device_searching">Kullanılabilir aygıtlar aranıyor&#8230;</string>
+    <string name="no_found_device_tips">Cihaz bulunamadı? Tarafından eklendi ####</string>
+    <string name="no_found_device_tips_2">Cihaz bulunamadı, cihazın elektrikli olduğundan ve telefona yakın olduğundan emin olun</string>
+    <string name="retry">yeniden dene</string>
+    <string name="no_binding">Şimdilik bağlama yok</string>
+    <string name="not_found_target">Hedef cihaz bulunamadı? ####</string>
+    <string name="rescan_device">Tekrar aramak</string>
+
+    <string name="connect_device">Cihazı bağla</string>
+    <string name="dev_connecting">Ödeme&#8230;</string>
+    <string name="dev_connecting_desc">Lütfen cihazda eşleştirme onayı&#8230;</string>
+    <string name="dev_connect_success">Eşleştirme başarılı</string>
+    <string name="dev_connect_success_desc">Cihaz eşleştirildi, lütfen hemen deneyimleyin</string>
+    <string name="dev_connect_fail">Aygıt eşleştirmesi başarısız oldu</string>
+    <string name="dev_connect_fail_desc">Lütfen kodu yeniden tarayın ve bağlayın veya cihazı manuel olarak ekleyin</string>
+    <string name="cur_dev_msg">Geçerli eşleştirme aygıtı:%1$s</string>
+    <string name="gps">GPS</string>
+    <string name="km">km</string>
+    <string name="step_freq_info_title">Adım frekansı (adım/dakika)</string>
+    <string name="average_step_freq">Ortalama adım frekansı</string>
+    <string name="max_step_freq">Maksimum adım frekansı</string>
+    <string name="per_pace_of_km">km başına hız</string>
+    <string name="average_pace_of_per_km">Ortalama hız (/km)</string>
+    <string name="max_pace_of_per_km">En hızlı hız (/km)</string>
+    <string name="app_running">Çalışıyor</string>
+
+    <string name="watch_edit">düzenle</string>
+    <string name="current_watch">Geçerli tablo</string>
+    <string name="choose_photo">Fotoğraf Ekle</string>
+    <string name="watch_restore">Öntanımlı</string>
+    <string name="take_photo">Fotoğraf</string>
+    <string name="get_photo_from_album">Cep telefonu albümünden</string>
+    <string name="select">Seçim</string>
+    <string name="set_custom_bg_success">Özel Arkaplan Başarısını Ayarla</string>
+
+    <!--Message-->
+    <string name="enable_notification_listener_service_tips">Bilgi senkronizasyon fonksiyonunu kullanmak, kullanıcının bildirim çubuğu bilgilerini almayı kabul etmesini gerektirir？</string>
+    <string name="bt_disconnect_tips">Lütfen önce cihazı bağlayın</string>
+    <string name="not_found_history">Bağlanacak cihaz bulunamadı</string>
+
+    <!--fatfs error-->
+    <string name="not_enough_space">Saat alanı yetersiz, artık dosya eklenemiyor</string>
+    <string name="empty_date">-Ay-Gün</string>
+
+
+    <!-- unit -->
+    <string name="unit">birim</string>
+    <string name="unit_cm">cm</string>
+    <string name="unit_m">m</string>
+    <string name="unit_km">km</string>
+
+    <string name="unit_in">inç</string>
+    <string name="unit_ft">ft</string>
+    <string name="unit_mile">mil</string>
+
+    <string name="unit_kg">kg</string>
+    <string name="unit_lb">pound</string>
+    <string name="unit_running">step</string>
+    <string name="no_sdcard_device">Aygıt eklenmedi</string>
+    <string name="select_all">All selected</string>
+    <string name="cancel_select_all">Hiçbirini seçme</string>
+    <string name="logout">Girişten Çıkış</string>
+    <string name="local_music">Yerli müzik</string>
+    <string name="music">Müzik</string>
+
+    <!--HistoryRecordFragment-->
+    <string name="reconnect_history">Yeniden Bağlan</string>
+    <string name="remove_history">Cihazı sil</string>
+    <string name="history_connect_ok">Aygıt Bağlantısı Başarılı</string>
+    <string name="history_connect_failed">Aygıt bağlantısı başarısız oldu</string>
+    <string name="remove_history_success">Geçmişi silme başarısı</string>
+    <string name="remove_history_failed">Geçmişi silme başarısız oldu</string>
+    <string name="history_is_gone">Geçmiş silindi</string>
+
+
+    <!--  健康设置 -->
+    <string name="tip_pressure_auto_tip">"Basınç Otomatik Algılama"açıldığında, cihaz aktif durumunuzu akıllıca değerlendirecektir. Statik olarak değerlendirilirse, kalp atış hızı değişkenliği tespit edilecek ve basınç hesaplanacaktır.
+        Hareket sırasında otomatik basınç tespiti yapılmaz. Tespitin doğru olduğundan emin olmak için lütfen cihazı doğru takın.</string>
+    <string name="pressure_auto_relax">Relax</string>
+    <string name="pressure_auto_normal">normal</string>
+    <string name="pressure_auto_medium">Orta</string>
+    <string name="pressure_auto_high">yüksek, basıncın makul bir şekilde kontrol edilmesi önerilir</string>
+    <string name="heart_measure_way">Kalp atış hızı ölçüm yöntemi</string>
+    <string name="smart">akıllı</string>
+    <string name="tip_heart_smart_measure">Ölçüm frekansını hareket durumuna göre dinamik olarak ayarlayın ve kalp atış hızınızı 24 saat boyunca akıllı bir şekilde izleyin,
+        bu da elektrik tasarrufu sağlamaya yardımcı olur</string>
+    <string name="tip_heart_real_measure">> 24 saat gerçek zamanlı olarak kalp atış hızınızı izleyin, kalp atış hızı verileri daha detaylı,
+        fırçalama daha zamanında, güç tüketimi üzerinde etkiler</string>
+    <string name="real">real time</string>
+    <string name="heart_rate_limit">Kalp atış hızı</string>
+    <string name="heart_rate_limit_warn">Kalp atış hızı üst sınırı uyarısı</string>
+    <string name="tip_heart_rate_limit_warn">Kalp atış hızı%1$d/dakikadan daha yüksek olduğunda hatırlatma</string>
+
+    <string name="more">more</string>
+    <!--Nfc-->
+    <string name="nfc_card_bag">Kart çantası</string>
+    <string name="door_key">Kapı anahtarı</string>
+    <string name="add_door_key">Kapı anahtarı ekle</string>
+    <string name="detail">Detaylar</string>
+    <string name="door_key_simulation">Kapı kartı simülasyonu</string>
+    <string name="edit">düzenle</string>
+    <string name="door_key_name">Kapı anahtarı adı</string>
+    <string name="modify_key_name">Anahtar ismini değiştirin</string>
+    <string name="delete_card_fail">kart silinemedi</string>
+    <string name="save_failed">Kaydetme başarısız oldu</string>
+    <string name="card_is_existed">Bu kart zaten var, tekrar eklemeyin</string>
+    <string name="no_storage_device">Depolama aygıtı yok</string>
+    <string name="nfc_card_over_limit">NFC kart üst sınıra ulaştı</string>
+    <string name="tips">İpucu</string>
+    <string name="analog_nfc_key_card">analog varlık erişim kartı </string>
+    <string name="analog_key_card_to_device">Giyilebilir cihazlara mevcut erişim kartlarını simüle edin</string>
+    <string name="add_time">Ekleme zamanı</string>
+    <string name="edit_card">Kartı Düzenle</string>
+    <string name="set_default_card">varsayılan kart olarak ayarla</string>
+    <string name="delte_current_card">Bu kartı sil</string>
+    <string name="home">Home</string>
+    <string name="company">şirket</string>
+    <string name="prepare_read_card">Kart okumaya hazır</string>
+    <string name="card_close_phone">Lütfen algılama için kartı telefonunuza yapıştırın</string>
+    <string name="card_support_range"> Kapı kartı destek aralığını görüntüle</string>
+    <string name="start_check">algılamaya başla</string>
+    <string name="set_commonly_use_card_to_default"> Sık kullanılan erişim kartını varsayılan kart olarak ayarla, ekran kapatıldığında kartı doğrudan kaydırabilirsiniz</string>
+    <string name="keep_device_connect_phone">Lütfen giyilebilir cihazı telefonunuza Bluetooth ile bağlayın, giyilebilir cihazı çalıştırmayın Simülasyon işlemi yaklaşık bir dakika sürer</string>
+    <string name="add_failed">Ekleme başarısız oldu</string>
+    <string name="failed_reason">başarısızlık nedeni</string>
+    <string name="system_exception">Sistem Anomali</string>
+    <string name="detailed_analysis">Detaylı Analiz</string>
+    <string name="get_data_error">Veri almak veya talimat istisnalarını yürütmek</string>
+    <string name="handling_suggestions">İşlem önerileri</string>
+    <string name="try_again">Lütfen tekrar deneyin.</string>
+    <string name="got_it">Biliyorum</string>
+    <string name="detecting">algılanıyor…</string>
+    <string name="detecting_no_move_card">Lütfen algılama sırasında kartı hareket ettirmeyin</string>
+    <string name="detect_success">Başarılı algılama</string>
+    <string name="read_card_failed">Kart okuma başarısız oldu</string>
+    <string name="card_move_fast">Kart çok hızlı hareket ediyor, lütfen tekrar deneyin</string>
+    <string name="read_card_failed_encryption">Bu kart şifreleme kartıdır ve simülasyon şimdilik desteklenmez. \nBaşka bir şekilde dene</string>
+    <string name="analog_card_number">analog kart numaras</string>
+    <string name="step_sensor">Adım sayacı sensörü</string>
+    <string name="keep_data_record">Veri Kayıt Depolama</string>
+    <string name="heart_rate_sensor">Kalp atış hızı sensörü</string>
+    <string name="blood_oxygen_sensor">Kan oksijen sensörü</string>
+    <string name="altitude_pressure_sensor">Yükseklik basınç sensörü</string>
+    <string name="fall_detection">Düşme tespiti</string>
+    <string name="heart_rate_space_mode">Kalp atış aralığı bölme şekli</string>
+    <string name="percent_of_max_heart_rate">maksimum kalp atış hızı yüzdesi</string>
+    <string name="percentage_of_reserve_heart_rate">Rezerv kalp atış hızı yüzdesi</string>
+
+    <!--Health Service-->
+    <string name="service_none_device">Lütfen cihazı bağlayın ve sporun mutluluğunu yaşayın</string>
+    <string name="service_health_data">Sağlık verileri</string>
+
+    <string name="close">Kapat</string>
+    <string name="all_day">Tüm gün açık</string>
+    <string name="time_open">Zamanlı açılış</string>
+    <string name="start_time">Açılış zamanı</string>
+    <string name="end_time">Bitiş zamanı</string>
+    <string name="status_text">Açılış durumu</string>
+    <string name="fall_response_way">Düşme tepki şekli</string>
+    <string name="response_mode_bright">Parlak ekran</string>
+    <string name="response_mode_shake">Titreşim</string>
+    <string name="response_mode_call">Telefon çağrısı</string>
+    <string name="emergency_contact">Acil Kişiler</string>
+    <string name="tip_emergency_contact">Düştüğünde otomatik olarak acil durum kişisini arayın</string>
+    <string name="no_setting">Ayarlanmamış</string>
+    <string name="title_open_sedentary_reminder">Hareketsiz hatırlatıcıyı aç</string>
+    <string name="tip_sedentary_reminder">Bir saatten fazla oturduktan sonra cihaz titreşimi hatırlatır</string>
+    <string name="free_lunch_break">Öğle yemeği molası rahatsız edici değil</string>
+    <string name="tip_free_lunch_break">12: 00 - 14: 00 arası hatırlatma bana</string>
+    <string name="modification">Değiştirme</string>
+    <string name="mobile">Cep telefonu numarası</string>
+    <string name="save_contact">Kişileri Kaydet</string>
+    <string name="hint_emergency_contact">Lütfen acil temas telefonu numarasını doldurun.</string>
+    <string name="title_emergency_contact">Acil İletişim Ayarları</string>
+    <string name="next_day">ertesi gün</string>
+    <string name="start_sports_failed">Spora başlama başarısızlığı</string>
+    <string name="start" translatable="false">Başlat</string>
+
+    <!--    实时运动强度状-->
+    <string name="save_sports_status_0">Hareketsiz</string>
+    <string name="save_sports_status_1">Isınma</string>
+    <string name="save_sports_status_2">Yağ yakma</string>
+    <string name="save_sports_status_3">Aerobik dayanıklılık</string>
+    <string name="save_sports_status_4">Anaerobik dayanıklılık</string>
+    <string name="save_sports_status_5">Limit</string>
+
+    <!--    储备心率模式-->
+    <string name="real_sports_status_0">Hareketsiz</string>
+    <string name="real_sports_status_1">Aerobik baz</string>
+    <string name="real_sports_status_2">Aerobik ilerleme</string>
+    <string name="real_sports_status_3">Laktik asit eşiği</string>
+    <string name="real_sports_status_4">Anaerobik baz</string>
+    <string name="real_sports_status_5">Anaerobik ilerleme</string>
+
+    <string name="step_number_and_unit"  >Adım sayısı (step)</string>
+    <string name="heart_rate_and_unit">Kalp atışı (kez/dakika)</string>
+    <string name="average_heart_rate_and_unit">Ortalama kalp hızı (kez/dakika)</string>
+    <!--Health Sleep-->
+    <string name="sleep_analysis_avg_type1">Ortalama gece normal uyku süresi%1$s saat%2$s bölünmüş</string>
+    <string name="sleep_analysis_avg_type2">Ortalama derin uyku oranı%1$s%%</string>
+    <string name="sleep_analysis_avg_type3">Ortalama sığ uyku oranı%1$s%%</string>
+    <string name="sleep_analysis_avg_type4">ortalama hızlı göz hareketi oranı%1$s%%</string>
+    <string name="sleep_analysis_avg_type5">Ortalama derin uyku sürekliliği%1$s分</string>
+    <string name="sleep_analysis_avg_type6">Ortalama uyanıklık sayısı%1$s次</string>
+    <string name="sleep_analysis_type1">Gece normal uyku süresi%1$s小时%2$s分</string>
+    <string name="sleep_analysis_type2">derin uyku oranı%1$s%%</string>
+    <string name="sleep_analysis_type3">Sığ uyku oranı%1$s%%</string>
+    <string name="sleep_analysis_type4">REM%1$s%%</string>
+    <string name="sleep_analysis_type5">derin uyku sürekliliği%1$s分</string>
+    <string name="sleep_analysis_type6">Uyanık sayısı%1$s次</string>
+    <string name="time_duration_type1">%1$ssaat%2$sbölünmüş </string>
+    <string name="time_duration_type2">%1$ssplit</string>
+    <string name="sleep_score">Uyku puanı</string>
+    <string name="sober_full">ayık</string>
+    <string name="rapid_eye_movement_full">REM</string>
+    <string name="light_sleep_full">sığ uyku</string>
+    <string name="deep_sleep_full">Derin uyku</string>
+    <string name="sleep_score_avg">Ortalama uyku puanı</string>
+    <string name="sober_avg">Ortalama ayık</string>
+    <string name="rapid_eye_movement_avg">Ortalama REM</string>
+    <string name="light_sleep_avg">Ortalama sığ</string>
+    <string name="deep_sleep_avg">Ortalama Derinlik</string>
+    <string name="sleep_ratio">Özellik</string>
+    <string name="references">Referans değeri: </string>
+    <string name="sleep_nap">Sporadik uyku</string>
+    <string name="sleep_avg_nap">Ortalama sporadik uyku</string>
+    <string name="sleep_total">Toplam uyku</string>
+    <string name="status_low">düşük</string>
+    <string name="status_high">yüksek</string>
+    <string name="status_normal">normal</string>
+    <string name="status_over_weight">overweight</string>
+    <string name="status_over_obese">Obezite</string>
+    <string name="tip_waiting">Lütfen daha sonra...</string>
+    <string name="empty_sports_record">Hareket kaydı yok</string>
+    <string name="reach_target_days">> Hareket uyumu%d gün</string>
+    <string name="weekly_step">Haftalık adım sayısı</string>
+    <string name="weekly_distance">Haftalık mil</string>
+    <string name="weekly_kcal">Isı tüketimi</string>
+    <string name="day">gün</string>
+    <string name="long_press_to_stop">uzun basın sonu</string>
+    <string name="no_data">Veri yok</string>
+    <string name="sports_stop">Bitti</string>
+    <string name="sports_resume">Devam</string>
+    <string name="max_heart_rate">maksimum kalp atış hızı</string>
+    <string name="average_heart_rate">ortalama kalp atış hızı</string>
+    <string name="today_step">Bugünün Adımları</string>
+    <string name="low_spo2">düşük kan oksijen</string>
+    <string name="spo2_range">en düşük değer - en yüksek değer</string>
+    <string name="min_value">en düşük değer</string>
+    <string name="max_value">en yüksek değer</string>
+    <string name="last_time">Son </string>
+    <string name="outdoor">outdoor</string>
+    <string name="indoor">iç mekan</string>
+    <string name="http_tip_400">İstek geçersiz</string>
+    <string name="http_tip_401">Yetkisiz</string>
+    <string name="http_tip_403">erişim yasak</string>
+    <string name="http_tip_404">Dosya bulunamadı</string>
+    <string name="http_tip_405">Kaynak yasaklandı</string>
+    <string name="http_tip_500">Sunucu istisnası</string>
+    <string name="http_tip_501">Hata Geçidi</string>
+    <string name="http_tip_504">Gateway overtime</string>
+    <string name="http_tip_unknow">Bilinmeyen hata</string>
+    <string name="percent">%</string>
+
+    <string name="permission_system_set">"Uygulama Yönetimi">"Sağlık Asistanı">"İzinler"</string>
+    <string name="permission_describe_camera">Bu özellik kameranızı kullanmayı gerektirir. Lütfen%1$s bu özelliği normal kullanmak için kamera izinlerini açın</string>
+    <string name="permission_describe_contacts">Bu özelliğin adres defterine ihtiyacı var. Lütfen %1$s bu fonksiyonu normalde kullanmak için adres defteri iznini açın</string>
+    <string name="permission_describe_location">Bu özelliğin yerin bilgilerine ihtiyacı var. Lütfen %1$s bu fonksiyonu normalde kullanmak için yer bilgileri iznini açın</string>
+    <string name="permission_describe_external_storage">Bu özelliğin telefonunun hafızasına ihtiyacı var. Lütfen %1$s bu fonksiyonu normalde kullanmak için dosya okuma/yazma iznini etkinleştir</string>
+    <string name="allow">İzin verin</string>
+    <string name="open_gps_service_tip">Bluetooth taraması ve çift bağlantısı yeri bilgilerini alması gerekiyor, yeri hizmeti etkinleştirmesi gerekiyor.</string>
+    <string name="go_setting">Ayarlamak için</string>
+    <string name="no_movement">Hiçbir hareket yok</string>
+    <string name="open_gps_permission">Konum İzini Aç</string>
+    <string name="open_gps_services">Cep yeri hizmeti aç</string>
+    <string name="permission_describe_gps_permission_sport">hareket izleri ve haritası ile ilgili fonksiyonları kullanmak için, lütfen kullanımına etkilenmek için "aygıt yeri bilgileri" izni verin.</string>
+    <string name="permission_describe_gps_service_sport">Haritayla ilgili fonksiyonları kullanmak için kullanımına etkilenmek için mobil telefonu "yer" hizmeti açmanız gerekiyor.</string>
+    <string name="cancel_account_tip">Kullanmaya devam etmek istemiyor musun?</string>
+    <string name="cancel_account">Hesap iptal edilmesi</string>
+    <string name="delete_account_influence">Hesabı iptal ettikten sonra geri yüklenemez. Devam et？</string>
+    <string name="synchronizing_data">Verileri eşzamanlanıyor…</string>
+    <string name="running_too_short">Eğer hareket mesafesi çok kısa olursa, kayıt yedekleri kaydedilmeyecek</string>
+    <string name="slider_to_unlock">Kilitlenmek için sürükle</string>
+    <string name="please_click_finish_btn">Lütfen hareketi bitirmek için son düğmesini basın</string>
+    <string name="tip_finished_exercise">Bu etkinliği bitirmek</string>
+    <string name="keep_moving">Devam et</string>
+    <string name="terminate_sport">Hareketi bitir</string>
+    <string name="running_set">Çalıştırma Ayarları</string>
+    <string name="copyright">Copyright©2021-2024 ZhuHai JieLi Teknoloji Co., Ltd</string>
+    <string name="email_register">E-posta Kayıtları</string>
+    <string name="phone_register">Cep telefonu kayıtları</string>
+    <string name="search_password_by_email">Parola alınmak için e-posta kullanın</string>
+    <string name="search_password_by_mobile">Parolayı almak için telefon numaranızı kullanın</string>
+    <string name="device_not_support">Aygıt desteklenmey</string>
+    <string name="execution_succeeded">İşletim başarılı oldu</string>
+    <string name="cancel">İptal etmek</string>
+    <string name="double_tap_to_exit">Uygulamayı çıkarmak için tekrar tıklayın</string>
+    <string name="account_deleted_successfully">Hesap başarıyla sildi</string>
+    <string name="network_error_tip">Ağda bir sorun var gibi görünüyor. Lütfen ağı kontrol edin.</string>
+    <string name="missing_server_information">Sunucu bilgisi eksik</string>
+    <string name="inconsistent_motion_state">Durumsuz hareket durumu</string>
+    <string name="failed_to_get_weather">Hava alınamadı</string>
+    <string name="no_weather_data">Hava verisi yok</string>
+    <string name="ai_no_speak">Görünüşe göre henüz konuşmaya başlamadın.</string>
+    <string name="ai_no_skill">Bu yeteneği henüz öğrenmedim.</string>
+    <string name="ai_operation_failed">işlem başarısız oldu</string>
+    <string name="ai_operation_completed">Senin için operasyonu tamamladık.</string>
+    <string name="ai_network_wrong">Ağda bir sorun var:</string>
+    <string name="ai_error_code">Hata kodu:</string>
+    <string name="ai_is_delete">Silecek misin?</string>
+    <string name="ai_is_delete_all">Bu konuşmanın bütün içerikleri silinecek ve geri çeviremez. Silmek ister misiniz?</string>
+    <string name="ai_cloud_serve">AI Bulud Hizmetleri</string>
+    <string name="multi_select">Çoklu Seçim</string>
+    <string name="none_session_record">Şu anda konuşma kayıtları yok.</string>
+    <string name="sms_login">Kontrol kodu giriş</string>
+    <string name="use_account_password_login">Hesap parolasıyla gir</string>
+    <string name="detach">Çıkar</string>
+    <string name="validate">değerlendirme</string>
+    <string name="set_password">Parola ayarlayın</string>
+    <string name="hint_input_bind_phone_number">Lütfen bağlı cep telefonu numarasını girin</string>
+    <string name="ai_no_response">Üzgünüm, sorunuzu anlamıyorum. Lütfen bilmek istediğiniz içeriğin detaylı bir tasvir verin ve size yardım etmek için elimden geleni yapacağım.</string>
+    <string name="wait_ai_response_tip">Henüz bir AI cevabı almadım ve bu operasyon şu anda desteklenmiyor.</string>
+    <string name="style_selection">Stil seçimi</string>
+    <string name="ai_dial_style_1">Tüm resim stili</string>
+    <string name="ai_dial_style_2">Gerçekçi görüntü stili</string>
+    <string name="ai_dial_style_3">Üç boyutlu karton stili</string>
+    <string name="ai_dial_style_4">Cyberpunk stili</string>
+    <string name="ai_dial_style_5">Origami stiliName</string>
+    <string name="ai_dial_style_6">Su Renkli Tüm Stili</string>
+    <string name="ai_dial">AI arama</string>
+    <string name="custom_dial">Özel arama</string>
+    <string name="re_crop">Tekrar kesin</string>
+    <string name="transfer_ing">Taşınıyor</string>
+    <string name="copy">kopyala</string>
+
+    <!--About-->
+    <string name="icp_info">ICP dosyalama bilgileri</string>
+
+    <!--Feedback-->
+    <string name="feedback">Geri Bildirim</string>
+    <string name="feedback_type">Geri bildirim türü</string>
+    <string name="problem_feedback">Geri bildirim sorusu</string>
+    <string name="hint_enter_feedback">Lütfen detaylı sorunuzu girin, sizin için en kısa sürede çözelim</string>
+    <string name="hint_enter_phone">Kolay iletişim için lütfen cep telefonu numaranızı girin</string>
+    <string name="commit">Göndermek</string>
+    <string name="phone_format_tips">Lütfen doğru telefon numarasını girin</string>
+    <string name="phone_empty_tips">Lütfen telefon numarasını girin</string>
+    <string name="feedback_empty_tips">Lütfen geri bildirim içeriğini girin</string>
+    <string name="network_exception_tips">Ağ kapalı görünüyor, lütfen daha sonra tekrar deneyin.</string>
+    <string name="feedback_success">Geri bildiriminiz için teşekkürler</string>
+
+    <!--ImageVerifyDialog-->
+    <string name="image_captcha">Resimli Captcha</string>
+    <string name="can_not_see_it">Göremiyor musunuz? Başka birini deneyin.</string>
+    <string name="input_captcha_tips">Lütfen doğru capchatı girin.</string>
+    <string name="load_code_failed_tips">Resim doğrulama kodunu yüklerken sorun oluştu, lütfen daha sonra tekrar deneyin.</string>
+    <string name="fail_recognize_format">format ı tanımamadı.</string>
+
+    <!--TestConfigurationFragment-->
+    <string name="test_configuration">Test Yapılandırması</string>
+    <string name="save_configuration">Kaydet</string>
+    <string name="enable_log_function">Günlük işlevini etkinleştirmek istiyor musunuz?</string>
+    <string name="use_device_auth">Cihaz kimlik doğrulaması etkinleştirilsin mi?</string>
+    <string name="support_local_ota">Yerel OTA açılsın mı?</string>
+    <string name="local_ota_desc">Yerel OTA Test Talimatları:\n1. Güncelleme dosyası adı sabit olarak 【update.zip】 veya 【update.ufw】 olmalıdır.\n2. Güncelleme dosyası konumu: \'Telefon kök dizini/Android/data/%1$s/files/upgrade/\' klasörü.</string>
+    <string name="test_custom_cmd">Özel Komut Testi</string>
+    <string name="click_again_to_test_configuration">Test yapılandırmasına girmek için tekrar basın.</string>
+    <string name="save_configuration_success">Yapılandırma başarıyla kaydedildi, uygulama kapatılıyor.</string>
+
+    <!--LogFileFragment-->
+    <string name="log_file">Günlükleri Yazdır</string>
+    <string name="clear_log_file">Temizle</string>
+    <string name="remove_file">Sil</string>
+    <string name="file_not_found">Dosya mevcut değil</string>
+    <string name="open_file_failed_by_other_app">Dosyayı açmak için uygun program yok</string>
+    <string name="open_file_exception">Dosya açma hatası</string>
+    <string name="download_file_permission_tips">Dosya indirme işlevi, kullanıcının telefon belleğine okuma/yazma izni vermesini gerektirir.</string>
+    <string name="download_file_permission_denied_tips">Dosya indirme işlevi okuma/yazma gerektirir. Lütfen sistemin izin yönetimi sayfasına giderek yetki verin.。</string>
+    <string name="download_file_successful">Dosya indirme başarılı</string>
+    <string name="download_file_exception">Dosya indirme hatası</string>
+    <string name="share_log_file">Yazdırma Günlüklerini Paylaş</string>
+    <string name="share_file_exception">Dosya paylaşma hatası</string>
+
+    <!--CustomCmdTestFragment-->
+    <string name="input_custom_data">Özel veri girin</string>
+    <string name="log_content">Günlük içeriği</string>
+    <string name="hint_input_hex_data">Lütfen onaltılık veri girin</string>
+    <string name="send_custom_cmd">Özel komut gönderin</string>
+
+    <!--Operation-->
+    <string name="operation_failed">%1$s başarısız oldu</string>
+    <string name="error_code">Hata kodu</string>
+    <string name="op_delete_file">Dosyayı silin</string>
+    <string name="op_delete_folder">Tüm dosyaları silin</string>
+
+</resources>

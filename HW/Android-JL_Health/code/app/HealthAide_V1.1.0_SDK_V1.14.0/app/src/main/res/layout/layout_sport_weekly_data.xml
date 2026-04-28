@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_sports_weekly_data_shape"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:layout_margin="32dp"
+
+    tools:background="#f00">
+
+
+    <TextView
+        android:id="@+id/tv_step_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        app:layout_constraintWidth_percent="0.3333"
+        android:text="@string/weekly_step"
+        android:textColor="@color/text_secondary_color"
+        android:textSize="@dimen/text_13sp"
+        app:layout_constraintEnd_toStartOf="@id/tv_distance_title"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tv_step"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="22178"
+        android:textColor="@color/text_important_color"
+        android:textSize="@dimen/text_20sp"
+        app:layout_constraintEnd_toStartOf="@id/tv_step_unit"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="@id/tv_step_title"
+        app:layout_constraintTop_toBottomOf="@id/tv_step_title" />
+
+    <TextView
+        android:id="@+id/tv_step_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/step"
+        android:textColor="@color/text_important_color"
+        android:textSize="@dimen/text_12sp"
+        app:layout_constraintBottom_toBottomOf="@id/tv_step"
+        app:layout_constraintEnd_toEndOf="@id/tv_step_title"
+        app:layout_constraintStart_toEndOf="@id/tv_step" />
+
+    <TextView
+        android:id="@+id/tv_step_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_sports_weekly_selector"
+        android:gravity="center"
+        android:text="1465步"
+        android:textColor="@color/text_secondary_disable_color"
+        android:textSize="@dimen/text_12sp"
+        app:layout_constraintEnd_toEndOf="@id/tv_step_title"
+        app:layout_constraintStart_toStartOf="@id/tv_step_title"
+        app:layout_constraintTop_toBottomOf="@id/tv_step" />
+
+
+    <TextView
+        app:layout_constraintWidth_percent="0.3333"
+        android:id="@+id/tv_distance_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:text="@string/weekly_distance"
+        android:textColor="@color/text_secondary_color"
+        android:textSize="@dimen/text_13sp"
+        app:layout_constraintEnd_toStartOf="@id/tv_hot_title"
+        app:layout_constraintStart_toEndOf="@id/tv_step_title"
+        app:layout_constraintTop_toTopOf="@id/tv_step_title" />
+
+
+    <TextView
+        android:id="@+id/tv_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="14456.42"
+        android:textColor="@color/text_important_color"
+        android:textSize="@dimen/text_20sp"
+        app:layout_constraintEnd_toStartOf="@id/tv_distance_unit"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="@id/tv_distance_title"
+        app:layout_constraintTop_toBottomOf="@id/tv_distance_title" />
+
+    <TextView
+        android:id="@+id/tv_distance_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/km"
+        android:textColor="@color/text_important_color"
+        android:textSize="@dimen/text_12sp"
+        app:layout_constraintBottom_toBottomOf="@id/tv_distance"
+        app:layout_constraintEnd_toEndOf="@id/tv_distance_title"
+        app:layout_constraintStart_toEndOf="@id/tv_distance" />
+
+
+    <TextView
+        android:id="@+id/tv_distance_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_sports_weekly_selector"
+        android:gravity="center"
+        android:text="0.56公里"
+        android:textColor="@color/text_secondary_color"
+        android:textSize="@dimen/text_12sp"
+        app:layout_constraintEnd_toEndOf="@id/tv_distance_title"
+        app:layout_constraintStart_toStartOf="@id/tv_distance_title"
+        app:layout_constraintTop_toBottomOf="@id/tv_distance" />
+
+
+    <TextView
+        app:layout_constraintWidth_percent="0.3333"
+        android:id="@+id/tv_hot_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/weekly_kcal"
+        android:textColor="@color/text_secondary_color"
+        android:textSize="@dimen/text_13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/tv_distance_title"
+        app:layout_constraintTop_toTopOf="@id/tv_distance_title" />
+
+
+    <TextView
+        android:id="@+id/tv_hot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="123326"
+        android:textColor="@color/text_important_color"
+        android:textSize="@dimen/text_20sp"
+        app:autoSizeMinTextSize="20sp"
+        app:autoSizeMaxTextSize="16sp"
+        app:layout_constraintEnd_toStartOf="@id/tv_hot_unit"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="@id/tv_hot_title"
+        app:layout_constraintTop_toBottomOf="@id/tv_hot_title" />
+
+    <TextView
+        android:id="@+id/tv_hot_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/kcal"
+        android:textColor="@color/text_important_color"
+        android:textSize="@dimen/text_12sp"
+        app:layout_constraintBottom_toBottomOf="@id/tv_hot"
+
+        app:layout_constraintEnd_toEndOf="@id/tv_hot_title"
+        app:layout_constraintStart_toEndOf="@id/tv_hot" />
+
+
+    <TextView
+        android:id="@+id/tv_hot_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_sports_weekly_selector"
+        android:gravity="center"
+        android:text="20千卡"
+        android:textColor="@color/text_secondary_disable_color"
+        android:textSize="@dimen/text_12sp"
+        app:layout_constraintEnd_toEndOf="@id/tv_hot_title"
+        app:layout_constraintStart_toStartOf="@id/tv_hot_title"
+        app:layout_constraintTop_toBottomOf="@id/tv_hot" />
+
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="41dp"
+        android:background="@color/line_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/tv_step_title"
+         app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="41dp"
+        android:background="@color/line_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/tv_distance_title"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

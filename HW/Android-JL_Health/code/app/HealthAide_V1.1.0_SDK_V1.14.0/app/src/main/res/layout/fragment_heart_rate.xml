@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:background="@drawable/bg_heart_rate_fragment">
+
+    <include
+        android:id="@+id/layout_health_prev_and_next"
+        layout="@layout/layout_health_detail_prev_and_next"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_time_describe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="11：00"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout_health_prev_and_next" />
+
+    <TextView
+        android:id="@+id/tv_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="6dp"
+        android:text="72"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toStartOf="@id/tv_unit"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_time_describe" />
+
+    <TextView
+        android:id="@+id/tv_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="次/分钟"
+        android:textColor="@color/white_light_b3"
+        android:textSize="14sp"
+        app:layout_constraintBaseline_toBaselineOf="@id/tv_data"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_data"
+        tools:layout_editor_absoluteY="264dp" />
+
+    <View
+        android:id="@+id/rate_220"
+        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="19dp"
+        app:layout_constraintBottom_toTopOf="@id/rate_200" />
+
+    <View
+        android:id="@+id/rate_200"
+        style="@style/HeartRateDottedLineStyle"
+        android:layout_width="match_parent"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/shape_dotted_line"
+        app:layout_constraintTop_toBottomOf="@id/tv_data" />
+
+    <TextView
+        android:id="@+id/tv_rate_200"
+        style="@style/HeartRateDottedTextViewStyle"
+        android:layout_marginStart="4dp"
+        android:text="200"
+        app:layout_constraintBottom_toBottomOf="@+id/rate_200"
+        app:layout_constraintStart_toEndOf="@+id/rate_200"
+        app:layout_constraintTop_toTopOf="@+id/rate_200" />
+
+    <View
+        android:id="@+id/rate_160"
+        style="@style/HeartRateDottedLineStyle"
+        android:layout_width="match_parent"
+        android:background="@drawable/shape_dotted_line"
+        app:layout_constraintTop_toBottomOf="@id/rate_200" />
+
+    <TextView
+        android:id="@+id/tv_rate_160"
+        style="@style/HeartRateDottedTextViewStyle"
+        android:text="160"
+        app:layout_constraintBottom_toBottomOf="@+id/rate_160"
+        app:layout_constraintEnd_toEndOf="@id/tv_rate_200"
+        app:layout_constraintTop_toTopOf="@+id/rate_160" />
+
+    <View
+        android:id="@+id/rate_120"
+        style="@style/HeartRateDottedLineStyle"
+        android:layout_width="match_parent"
+        android:background="@drawable/shape_dotted_line"
+        app:layout_constraintTop_toBottomOf="@id/rate_160" />
+
+    <TextView
+        android:id="@+id/tv_rate_120"
+        style="@style/HeartRateDottedTextViewStyle"
+        android:text="120"
+        app:layout_constraintBottom_toBottomOf="@+id/rate_120"
+        app:layout_constraintEnd_toEndOf="@id/tv_rate_200"
+        app:layout_constraintTop_toTopOf="@+id/rate_120" />
+
+    <View
+        android:id="@+id/rate_80"
+        style="@style/HeartRateDottedLineStyle"
+        android:layout_width="match_parent"
+        android:background="@drawable/shape_dotted_line"
+        app:layout_constraintTop_toBottomOf="@id/rate_120" />
+
+    <TextView
+        android:id="@+id/tv_rate_80"
+        style="@style/HeartRateDottedTextViewStyle"
+        android:text="80"
+        app:layout_constraintBottom_toBottomOf="@+id/rate_80"
+        app:layout_constraintEnd_toEndOf="@id/tv_rate_200"
+        app:layout_constraintTop_toTopOf="@+id/rate_80" />
+
+    <View
+        android:id="@+id/rate_40"
+        style="@style/HeartRateDottedLineStyle"
+        android:layout_width="match_parent"
+        android:background="@drawable/shape_dotted_line"
+        app:layout_constraintTop_toBottomOf="@id/rate_80" />
+
+    <View
+        android:id="@+id/rate_0"
+        style="@style/HeartRateDottedLineStyle"
+        android:layout_width="match_parent"
+        app:layout_constraintTop_toBottomOf="@id/rate_40" />
+
+    <TextView
+        android:id="@+id/tv_rate_40"
+        style="@style/HeartRateDottedTextViewStyle"
+        android:text="40"
+        app:layout_constraintBottom_toBottomOf="@+id/rate_40"
+        app:layout_constraintEnd_toEndOf="@id/tv_rate_200"
+        app:layout_constraintTop_toTopOf="@+id/rate_40" />
+
+    <com.jieli.healthaide.ui.widget.LineChartView
+        android:id="@+id/lineChartView"
+        android:layout_width="0dp"
+        android:layout_height="220dp"
+        app:layout_constraintBottom_toBottomOf="@+id/rate_0"
+        app:layout_constraintEnd_toEndOf="@+id/rate_120"
+        app:layout_constraintStart_toStartOf="@+id/rate_120"
+        app:layout_constraintTop_toTopOf="@+id/rate_220"
+        app:lcv_line_color="@color/white" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

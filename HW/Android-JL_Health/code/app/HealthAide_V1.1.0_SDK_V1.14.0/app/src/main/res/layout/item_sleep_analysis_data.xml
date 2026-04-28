@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:paddingTop="14dp"
+    android:paddingBottom="14dp"
+    android:layout_height="74dp">
+
+
+    <TextView
+        android:id="@+id/tv_sleep_analysis_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#242424"
+        app:layout_constraintBottom_toTopOf="@id/tv_sleep_analysis_reference_title"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="夜间正常睡眠时间 6 小时 39 分" />
+
+    <TextView
+        android:id="@+id/tv_sleep_analysis_reference_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#4b4b4b"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_sleep_analysis_title"
+        tools:text="参考值：" />
+
+
+    <TextView
+        android:id="@+id/tv_sleep_analysis_reference"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#4b4b4b"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@id/tv_sleep_analysis_reference_title"
+        app:layout_constraintStart_toEndOf="@id/tv_sleep_analysis_reference_title"
+        app:layout_constraintTop_toTopOf="@id/tv_sleep_analysis_reference_title"
+        tools:text="6-10 小时" />
+
+    <TextView
+        android:id="@+id/tv_sleep_analysis_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#77CE40"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center_vertical"
+        tools:text="正常" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

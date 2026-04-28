@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_analysis_shape_unsel"
+    android:paddingBottom="15dp">
+
+    <TextView
+        android:id="@+id/tv_all_step_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="81475"
+        android:textColor="@color/black_242424"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toStartOf="@id/tv_all_step_unit"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="@+id/tv_all_step_describe"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_all_step_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="@string/step"
+        android:textColor="@color/gray_9E9E9E"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@id/tv_all_step_value"
+        app:layout_constraintEnd_toEndOf="@+id/tv_all_step_describe"
+        app:layout_constraintStart_toEndOf="@+id/tv_all_step_value" />
+
+    <TextView
+        android:id="@+id/tv_all_step_describe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="4dp"
+        android:maxWidth="120dp"
+        android:text="@string/all_step"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_all_step_value" />
+
+    <TextView
+        android:id="@+id/tv_average_step_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="5dp"
+        android:text="81475"
+        android:textColor="@color/black_242424"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_average_step_unit"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="@+id/tv_average_step_describe"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_average_step_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/step"
+        android:textColor="@color/gray_9E9E9E"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@id/tv_average_step_value"
+        app:layout_constraintEnd_toEndOf="@+id/tv_average_step_describe"
+        app:layout_constraintStart_toEndOf="@id/tv_average_step_value" />
+
+    <TextView
+        android:id="@+id/tv_average_step_describe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="43dp"
+        android:maxWidth="120dp"
+        android:text="@string/average_step"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_average_step_value" />
+</androidx.constraintlayout.widget.ConstraintLayout>

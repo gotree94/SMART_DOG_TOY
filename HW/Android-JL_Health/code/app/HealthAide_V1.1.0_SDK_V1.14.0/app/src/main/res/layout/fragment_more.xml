@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/content_color"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+
+    <include
+        android:id="@+id/view_topbar"
+        layout="@layout/view_topbar" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@color/line_color" />
+
+
+    <TextView
+        android:id="@+id/tv_alert"
+        style="@style/textRegular"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:drawableEnd="@drawable/ic_right_arrow"
+        android:gravity="center_vertical"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:text="@string/alert"
+        android:textColor="@color/text_important_color"
+        android:textSize="@dimen/text_15sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/line_color" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:visibility="visible">
+
+        <TextView
+            style="@style/textRegular"
+            android:layout_width="wrap_content"
+            android:layout_height="59dp"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:text="@string/weather_push"
+            android:textColor="@color/text_important_color"
+            android:textSize="@dimen/text_15sp" />
+
+
+        <com.kyleduo.switchbutton.SwitchButton
+            android:id="@+id/sw_weather_push"
+            style="@style/swStyle"
+            android:layout_width="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@color/line_color" />
+
+
+    <RelativeLayout
+        android:id="@+id/rl_bt_disconnect"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp">
+
+        <TextView
+            style="@style/textRegular"
+            android:layout_width="wrap_content"
+            android:layout_height="59dp"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:text="@string/bluetooth_disconnect_tip"
+            android:textColor="@color/text_important_color"
+            android:textSize="@dimen/text_15sp" />
+
+
+        <com.kyleduo.switchbutton.SwitchButton
+            android:id="@+id/tw_bt_disconnect_tip"
+            style="@style/swStyle"
+            android:layout_width="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true" />
+
+    </RelativeLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/line_color" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_bright_screen"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp">
+
+        <com.jieli.healthaide.ui.widget.FocusTextView
+            android:id="@+id/tv_bright_screen"
+            style="@style/textRegular"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:text="@string/bright_screen"
+            android:textColor="@color/text_important_color"
+            android:textSize="@dimen/text_15sp"
+            app:layout_constraintBottom_toTopOf="@id/tv_bright_screen_hint"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.jieli.healthaide.ui.widget.FocusTextView
+            android:id="@+id/tv_bright_screen_hint"
+            style="@style/textRegular"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:ellipsize="marquee"
+            android:gravity="center_vertical"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            tools:text="adasdasdasdasdasdasdadasdadasdasadasdasdasdasdasdasdadasdadasdasadasdasdasdasdasdasdadasdadasdas"
+            android:text="@string/tip_bright_screen"
+            android:textColor="@color/text_secondary_disable_color"
+            android:textSize="@dimen/text_12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/tv_lift_wrist_detection_value"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_bright_screen" />
+
+        <TextView
+            android:id="@+id/tv_lift_wrist_detection_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:drawableEnd="@drawable/ic_right_arrow"
+            android:text="@string/turned_off"
+            android:textColor="@color/text_secondary_disable_color"
+            android:textSize="@dimen/text_13sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@color/line_color" />
+
+
+    <TextView
+        android:id="@+id/tv_sensor_setting"
+        style="@style/textRegular"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:drawableEnd="@drawable/ic_right_arrow"
+        android:gravity="center_vertical"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:text="@string/sensor_setting"
+        android:textColor="@color/text_important_color"
+        android:textSize="@dimen/text_15sp" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/line_color" />
+</LinearLayout>

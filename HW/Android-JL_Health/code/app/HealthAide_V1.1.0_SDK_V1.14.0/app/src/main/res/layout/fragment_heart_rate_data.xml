@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import
+            alias="HeartRateViewModel"
+            type="com.jieli.healthaide.ui.health.heartrate.HeartRateViewModel" />
+
+        <variable
+            name="heartRateViewModel"
+            type="HeartRateViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff6f7f8"
+        tools:context=".ui.health.sleep.SleepDataFragment">
+
+        <View
+            android:id="@+id/view_bg_top"
+            android:layout_width="match_parent"
+            android:layout_height="410dp"
+            android:background="@drawable/bg_heart_rate_fragment"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!--    <include-->
+        <!--        android:id="@+id/layout_calender_selector"-->
+        <!--        layout="@layout/layout_calender_selector"-->
+        <!--        app:layout_constraintEnd_toEndOf="parent"-->
+        <!--        app:layout_constraintStart_toStartOf="parent"-->
+        <!--        android:visibility="invisible"/>-->
+
+        <com.jieli.healthaide.ui.widget.CalenderSelectorView
+            android:id="@+id/layout_calender_selector"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/layout_calender_selector" />
+
+
+        <TextView
+            android:id="@+id/tv_heart_rate_range"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:gravity="center"
+            android:text="@{heartRateViewModel.timeIntervalHeartRateValueLiveData}"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            app:layout_constraintEnd_toStartOf="@id/tv_heart_rate_unit"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_date"
+            tools:text=" 7843 " />
+
+        <TextView
+            android:id="@+id/tv_heart_rate_unit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="@string/times_per_minute"
+            android:textColor="#B3ffffff"
+            android:textSize="14dp"
+            app:layout_constraintBaseline_toBaselineOf="@id/tv_heart_rate_range"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/tv_heart_rate_range" />
+
+        <FrameLayout
+            android:id="@+id/fl_charts_parent"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_heart_rate_range"
+            tools:layout_height="180dp" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_heart_rate_analysis"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_health_detail_shape"
+            android:paddingTop="4dp"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fl_charts_parent"
+            tools:itemCount="4"
+            tools:listitem="@layout/item_heart_rate_analysis" />
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{heartRateViewModel.timeIntervalLiveData}"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/layout_calender_selector"
+            tools:text="2月25日" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

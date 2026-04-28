@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+
+    <include
+        android:id="@+id/layout_topbar"
+        layout="@layout/view_topbar" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:background="@color/bg_color"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/layout_topbar" />
+
+    <include
+        android:id="@+id/layout_account_security"
+        layout="@layout/layout_setting_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        app:layout_constraintTop_toBottomOf="@id/layout_topbar" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:background="@color/bg_color"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/layout_account_security" />
+
+    <include
+        android:id="@+id/layout_target"
+        layout="@layout/layout_setting_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/layout_account_security" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:background="@color/bg_color"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/layout_target" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_setting"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:paddingStart="14dp"
+        android:paddingEnd="14dp"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/layout_target"
+        tools:itemCount="5"
+        tools:listitem="@layout/item_mine_common" />
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:background="@color/bg_color"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rv_setting" />
+
+
+    <TextView
+        android:id="@+id/tv_setting_disconnect_tip"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_marginTop="7dp"
+        android:gravity="center_vertical"
+        android:paddingStart="14dp"
+        android:visibility="gone"
+        android:text="@string/bluetooth_disconnect_tip"
+        android:textColor="@color/text_important_color"
+        android:textSize="@dimen/text_15sp"
+        app:layout_constraintTop_toBottomOf="@id/rv_setting" />
+
+
+    <com.kyleduo.switchbutton.SwitchButton
+        android:id="@+id/sw_setting_disconnect_tipn"
+        android:layout_width="wrap_content"
+        android:layout_height="27dp"
+        android:layout_marginEnd="14dp"
+        app:kswBackDrawable="@drawable/bg_sw_selector"
+        app:kswThumbColor="@color/white"
+        app:kswThumbHeight="22dp"
+        app:kswThumbRangeRatio="2.2"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/tv_setting_disconnect_tip"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tv_setting_disconnect_tip" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="14dp"
+        android:background="@color/bg_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_setting_disconnect_tip" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_bright_screen_tip"
+        android:layout_width="0dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="1dp"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_setting_disconnect_tip">
+
+
+        <TextView
+            android:id="@+id/tv_bright_screen_tip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingStart="14dp"
+            android:text="@string/bright_screen"
+            android:textColor="@color/text_important_color"
+            android:textSize="@dimen/text_15sp"
+            app:layout_constraintBottom_toTopOf="@id/tv_bright_screen_sub_tip"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="packed" />
+
+
+        <TextView
+            android:id="@+id/tv_bright_screen_sub_tip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingStart="14dp"
+            android:text="@string/bright_screen_hint"
+            android:textColor="@color/text_secondary_disable_color"
+            android:textSize="@dimen/text_12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_bright_screen_tip" />
+
+
+        <com.kyleduo.switchbutton.SwitchButton
+            android:id="@+id/sw_bright_screen_tip"
+
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_marginEnd="14dp"
+            app:kswBackDrawable="@drawable/bg_sw_selector"
+            app:kswThumbColor="@color/white"
+            app:kswThumbHeight="22dp"
+            app:kswThumbRangeRatio="2.2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:background="@color/bg_color"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cl_bright_screen_tip" />
+
+    <include
+        android:id="@+id/layout_clean_cache"
+        layout="@layout/layout_setting_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cl_bright_screen_tip" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/bg_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/layout_clean_cache" />
+    <TextView
+        android:id="@+id/tv_open_bt_share_status"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"
+        android:text="当前蓝牙共享状态："
+        app:layout_constraintTop_toBottomOf="@+id/layout_clean_cache" />
+    <Button
+        android:id="@+id/tv_open_bt_share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="蓝牙共享"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@+id/tv_open_bt_share_status" />
+    <Button
+        android:id="@+id/tv_go_bt_share_page"
+        android:text="跳转蓝牙共享界面"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_open_bt_share"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/tv_test"
+        android:text="测试一机一码"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@+id/tv_go_bt_share_page"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_test_tip"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@+id/tv_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/tv_test_esim"
+        android:text="测试esim"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_test_tip"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tv_test_esim_rev"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@+id/tv_test_esim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

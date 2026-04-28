@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import
+            alias="Fragment"
+            type="com.jieli.healthaide.ui.device.nfc.fragment.NFCCardDetailFragment" />
+
+        <variable
+            name="fragment"
+            type="Fragment" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        tools:context=".ui.device.nfc.fragment.NFCCardDetailFragment">
+
+        <include
+            android:id="@+id/view_topbar"
+            layout="@layout/view_topbar" />
+
+        <View
+            android:id="@+id/view_gray"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:background="@color/bg_color"
+            app:layout_constraintTop_toBottomOf="@+id/view_topbar" />
+
+        <include
+            android:id="@+id/layout_card"
+            layout="@layout/item_nfc_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintTop_toBottomOf="@id/view_gray" />
+
+        <TextView
+            android:id="@+id/tv_nfc_detail_add_time_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="54dp"
+            android:text="@string/add_time"
+            android:textColor="@color/text_important_color"
+            android:textSize="@dimen/text_15sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/layout_card" />
+
+        <TextView
+            android:id="@+id/tv_nfc_detail_add_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:text="2021-07-14 16:25:39"
+            android:textColor="@color/text_secondary_color"
+            android:textSize="@dimen/text_14sp"
+            app:layout_constraintBaseline_toBaselineOf="@id/tv_nfc_detail_add_time_tip"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <View
+            android:id="@+id/line_add_time"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/line_color"
+            app:layout_constraintEnd_toEndOf="@+id/et_nfc_setting_door_key_name"
+            app:layout_constraintStart_toStartOf="@+id/et_nfc_setting_door_key_name"
+            app:layout_constraintTop_toBottomOf="@id/tv_nfc_detail_add_time_tip" />
+
+        <TextView
+            android:id="@+id/tv_card_edit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_right_arrow"
+            android:onClick="@{()->fragment.editNFCCard()}"
+            android:padding="16dp"
+            android:text="@string/edit_card"
+            android:textColor="@color/text_important_color"
+            android:textSize="@dimen/text_15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/line_add_time" />
+
+        <View
+            android:id="@+id/line_card_edit"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/line_color"
+            app:layout_constraintEnd_toEndOf="@+id/tv_card_edit"
+            app:layout_constraintStart_toStartOf="@+id/tv_card_edit"
+            app:layout_constraintTop_toBottomOf="@id/tv_card_edit" />
+
+        <TextView
+            android:id="@+id/tv_nfc_detail_default"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/btn_gray_shape"
+            android:gravity="center"
+            android:onClick="@{()->fragment.setDefaultCard()}"
+            android:text="@string/set_default_card"
+            android:textColor="@color/auxiliary_widget"
+            android:textSize="@dimen/text_15sp"
+            app:layout_constraintBottom_toTopOf="@id/tv_nfc_detail_delete"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/line_card_edit"
+            app:layout_constraintVertical_chainStyle="packed" />
+
+        <TextView
+            android:id="@+id/tv_nfc_detail_delete"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="80dp"
+            android:background="@drawable/btn_gray_shape"
+            android:gravity="center"
+            android:onClick="@{()->fragment.deleteCurrentCard()}"
+            android:text="@string/delte_current_card"
+            android:textColor="@color/red_F71817"
+            android:textSize="@dimen/text_15sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_nfc_detail_default" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

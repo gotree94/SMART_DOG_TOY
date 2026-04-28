@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:padding="12dp">
+
+    <ImageView
+        android:id="@+id/iv_app_info_logo"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:scaleType="centerInside"
+        tool:src="@mipmap/ic_logo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_app_info_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="10dp"
+        tool:text="@string/app_name"
+        android:textColor="@color/black_242424"
+        android:textSize="@dimen/text_16sp"
+        app:layout_constraintTop_toTopOf="@+id/iv_app_info_logo"
+        app:layout_constraintStart_toEndOf="@+id/iv_app_info_logo"
+        app:layout_constraintEnd_toStartOf="@+id/sbtn_app_info_choose_status"/>
+
+    <TextView
+        android:id="@+id/tv_app_info_package_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="10dp"
+        tool:text="com.jieli.healthaide"
+        android:textColor="@color/black_585858"
+        android:textSize="@dimen/text_14sp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_app_info_name"
+        app:layout_constraintStart_toEndOf="@+id/iv_app_info_logo"
+        app:layout_constraintEnd_toStartOf="@+id/sbtn_app_info_choose_status"/>
+
+    <com.kyleduo.switchbutton.SwitchButton
+        android:id="@+id/sbtn_app_info_choose_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

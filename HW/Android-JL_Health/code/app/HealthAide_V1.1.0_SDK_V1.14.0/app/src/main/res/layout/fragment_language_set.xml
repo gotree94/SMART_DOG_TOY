@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:fitsSystemWindows="true"
+        tools:context=".ui.mine.LanguageSetFragment">
+
+        <include
+            android:id="@+id/view_topbar"
+            layout="@layout/view_topbar" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view_topbar">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white">
+                <View
+                    android:id="@+id/space"
+                    android:layout_width="0dp"
+                    android:layout_height="8dp"
+                    android:background="@color/bg_color"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"/>
+
+                <TextView
+                    android:id="@+id/tv_follow_system"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="7dp"
+                    android:background="@color/white"
+                    android:drawableEnd="@drawable/ic_choose_blue"
+                    android:gravity="center_vertical"
+                    android:padding="14dp"
+                    android:text="@string/follow_system"
+                    android:textColor="@color/text_important_color"
+                    android:textSize="@dimen/text_15sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/space"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_simplified_chinese"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    android:drawableEnd="@drawable/ic_choose_blue"
+                    android:gravity="center_vertical"
+                    android:padding="14dp"
+                    android:text="@string/simplified_chinese"
+                    android:textColor="@color/text_important_color"
+                    android:textSize="@dimen/text_15sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_follow_system" />
+
+
+                <TextView
+                    android:id="@+id/tv_english"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    android:drawableEnd="@drawable/ic_choose_blue"
+                    android:gravity="center_vertical"
+                    android:padding="14dp"
+                    android:text="@string/english"
+                    android:textColor="@color/text_important_color"
+                    android:textSize="@dimen/text_15sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_simplified_chinese" />
+
+                <TextView
+                    android:id="@+id/tv_janapese"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    android:drawableEnd="@drawable/ic_choose_blue"
+                    android:gravity="center_vertical"
+                    android:padding="14dp"
+                    android:text="@string/japanese"
+                    android:textColor="@color/text_important_color"
+                    android:textSize="@dimen/text_15sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_english" />
+
+                <TextView
+                    android:id="@+id/tv_korean"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    android:drawableEnd="@drawable/ic_choose_blue"
+                    android:gravity="center_vertical"
+                    android:padding="14dp"
+                    android:text="@string/korean"
+                    android:textColor="@color/text_important_color"
+                    android:textSize="@dimen/text_15sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_janapese" />
+
+                <TextView
+                    android:id="@+id/tv_french"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    android:drawableEnd="@drawable/ic_choose_blue"
+                    android:gravity="center_vertical"
+                    android:padding="14dp"
+                    android:text="@string/french"
+                    android:textColor="@color/text_important_color"
+                    android:textSize="@dimen/text_15sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_korean" />
+
+                <TextView
+                    android:id="@+id/tv_german"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    android:drawableEnd="@drawable/ic_choose_blue"
+                    android:gravity="center_vertical"
+                    android:padding="14dp"
+                    android:text="@string/german"
+                    android:textColor="@color/text_important_color"
+                    android:textSize="@dimen/text_15sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_french" />
+
+                <TextView
+                    android:id="@+id/tv_italian"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    android:drawableEnd="@drawable/ic_choose_blue"
+                    android:gravity="center_vertical"
+                    android:padding="14dp"
+                    android:text="@string/italian"
+                    android:textColor="@color/text_important_color"
+                    android:textSize="@dimen/text_15sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_german" />
+
+                <TextView
+                    android:id="@+id/tv_portuguese"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    android:drawableEnd="@drawable/ic_choose_blue"
+                    android:gravity="center_vertical"
+                    android:padding="14dp"
+                    android:text="@string/portuguese"
+                    android:textColor="@color/text_important_color"
+                    android:textSize="@dimen/text_15sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_italian" />
+
+                <TextView
+                    android:id="@+id/tv_spanish"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    android:drawableEnd="@drawable/ic_choose_blue"
+                    android:gravity="center_vertical"
+                    android:padding="14dp"
+                    android:text="@string/spanish"
+                    android:textColor="@color/text_important_color"
+                    android:textSize="@dimen/text_15sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_portuguese" />
+
+                <TextView
+                    android:id="@+id/tv_swedish"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    android:drawableEnd="@drawable/ic_choose_blue"
+                    android:gravity="center_vertical"
+                    android:padding="14dp"
+                    android:text="@string/swedish"
+                    android:textColor="@color/text_important_color"
+                    android:textSize="@dimen/text_15sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_spanish" />
+
+                <TextView
+                    android:id="@+id/tv_polish"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    android:drawableEnd="@drawable/ic_choose_blue"
+                    android:gravity="center_vertical"
+                    android:padding="14dp"
+                    android:text="@string/polish"
+                    android:textColor="@color/text_important_color"
+                    android:textSize="@dimen/text_15sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_swedish" />
+
+                <TextView
+                    android:id="@+id/tv_russian"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    android:drawableEnd="@drawable/ic_choose_blue"
+                    android:gravity="center_vertical"
+                    android:padding="14dp"
+                    android:text="@string/russian"
+                    android:textColor="@color/text_important_color"
+                    android:textSize="@dimen/text_15sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_polish" />
+
+                <TextView
+                    android:id="@+id/tv_turkish"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    android:drawableEnd="@drawable/ic_choose_blue"
+                    android:gravity="center_vertical"
+                    android:padding="14dp"
+                    android:text="@string/turkish"
+                    android:textColor="@color/text_important_color"
+                    android:textSize="@dimen/text_15sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_russian" />
+
+                <TextView
+                    android:id="@+id/tv_hebrew"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    android:drawableEnd="@drawable/ic_choose_blue"
+                    android:gravity="center_vertical"
+                    android:padding="14dp"
+                    android:text="@string/hebrew"
+                    android:textColor="@color/text_important_color"
+                    android:textSize="@dimen/text_15sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_turkish" />
+
+                <TextView
+                    android:id="@+id/tv_thai"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    android:drawableEnd="@drawable/ic_choose_blue"
+                    android:gravity="center_vertical"
+                    android:padding="14dp"
+                    android:text="@string/thai"
+                    android:textColor="@color/text_important_color"
+                    android:textSize="@dimen/text_15sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_hebrew" />
+
+                <TextView
+                    android:id="@+id/tv_arabic"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    android:drawableEnd="@drawable/ic_choose_blue"
+                    android:gravity="center_vertical"
+                    android:padding="14dp"
+                    android:text="@string/arabic"
+                    android:textColor="@color/text_important_color"
+                    android:textSize="@dimen/text_15sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_thai" />
+
+                <TextView
+                    android:id="@+id/tv_vietnamese"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    android:drawableEnd="@drawable/ic_choose_blue"
+                    android:gravity="center_vertical"
+                    android:padding="14dp"
+                    android:text="@string/vietnamese"
+                    android:textColor="@color/text_important_color"
+                    android:textSize="@dimen/text_15sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_arabic" />
+
+                <TextView
+                    android:id="@+id/tv_indonesian"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    android:drawableEnd="@drawable/ic_choose_blue"
+                    android:gravity="center_vertical"
+                    android:padding="14dp"
+                    android:text="@string/indonesian"
+                    android:textColor="@color/text_important_color"
+                    android:textSize="@dimen/text_15sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_vietnamese" />
+
+                <TextView
+                    android:id="@+id/tv_malay"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    android:drawableEnd="@drawable/ic_choose_blue"
+                    android:gravity="center_vertical"
+                    android:padding="14dp"
+                    android:text="@string/malay"
+                    android:textColor="@color/text_important_color"
+                    android:textSize="@dimen/text_15sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_indonesian" />
+
+                <TextView
+                    android:id="@+id/tv_persian"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    android:drawableEnd="@drawable/ic_choose_blue"
+                    android:gravity="center_vertical"
+                    android:padding="14dp"
+                    android:text="@string/persian"
+                    android:textColor="@color/text_important_color"
+                    android:textSize="@dimen/text_15sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_malay" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@color/line_color"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_malay" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@color/line_color"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_indonesian" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@color/line_color"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_vietnamese" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@color/line_color"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_arabic" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@color/line_color"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_thai" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@color/line_color"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_hebrew" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@color/line_color"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_turkish" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@color/line_color"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_russian" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@color/line_color"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_polish" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@color/line_color"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_swedish" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@color/line_color"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_spanish" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@color/line_color"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_portuguese" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@color/line_color"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_italian" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@color/line_color"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_german" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@color/line_color"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_french" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@color/line_color"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_korean" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@color/line_color"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_janapese" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@color/line_color"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_simplified_chinese" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@color/line_color"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_follow_system" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

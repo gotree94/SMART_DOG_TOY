@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/content_color"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp">
+
+        <include
+            android:id="@+id/view_topbar"
+            layout="@layout/view_topbar" />
+
+        <com.kyleduo.switchbutton.SwitchButton
+            android:id="@+id/sw_pressure_auto"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="14dp"
+            app:kswBackDrawable="@drawable/bg_sw_selector"
+            app:kswThumbColor="@color/white"
+            app:kswThumbHeight="22dp"
+            app:kswThumbRangeRatio="2.2"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@color/bg_color" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_pressure_auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        tools:itemCount="4"
+        tools:listitem="@layout/item_pressure_auto" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_color"
+        android:padding="22dp"
+        style="@style/textRegular"
+        android:textColor="@color/text_secondary_disable_color"
+        android:text="@string/tip_pressure_auto_tip"
+        android:textSize="12sp" />
+</LinearLayout>

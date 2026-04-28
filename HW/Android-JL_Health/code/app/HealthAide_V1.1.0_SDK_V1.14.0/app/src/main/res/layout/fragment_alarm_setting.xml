@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".ui.ContentActivity">
+
+    <include
+        android:id="@+id/view_topbar"
+        layout="@layout/view_topbar" />
+
+    <View
+        android:id="@+id/view_top"
+        android:layout_width="0dp"
+        android:layout_height="8dp"
+        android:background="@color/bg_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_topbar" />
+
+    <com.contrarywind.view.WheelView
+        android:id="@+id/hour"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toStartOf="@id/tv_dot"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_top" />
+
+    <TextView
+        android:id="@+id/tv_dot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text=":"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="@id/hour"
+        app:layout_constraintEnd_toStartOf="@id/min"
+        app:layout_constraintStart_toEndOf="@id/hour"
+        app:layout_constraintTop_toBottomOf="@+id/view_top"
+        app:layout_constraintTop_toTopOf="@id/hour" />
+
+    <com.contrarywind.view.WheelView
+        android:id="@+id/min"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@id/hour"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/tv_dot"
+        app:layout_constraintTop_toBottomOf="@+id/view_top"
+        app:layout_constraintTop_toTopOf="@id/hour" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_repeat"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="12dp"
+        android:background="@color/white"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/hour"
+        app:spanCount="7"
+        tools:itemCount="7"
+        tools:listitem="@layout/item_alarm_repeat" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1px"
+        android:background="@color/line_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rv_repeat" />
+
+
+    <TextView
+        android:id="@+id/tv_alarm_name_title"
+        android:layout_width="wrap_content"
+        android:layout_height="51dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="21dp"
+        android:drawablePadding="13dp"
+        android:gravity="center_vertical"
+        android:text="@string/named"
+        android:textColor="@color/text_important_color"
+        android:textSize="@dimen/text_15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rv_repeat"
+        app:drawableStartCompat="@drawable/ic_alarm_name" />
+
+    <TextView
+        android:id="@+id/tv_alarm_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="21dp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:lines="1"
+        android:maxLength="20"
+        android:ellipsize="end"
+        android:drawablePadding="5dp"
+        android:gravity="center_vertical|end"
+        android:textColor="@color/text_secondary_disable_color"
+        android:textSize="@dimen/text_15sp"
+        app:layout_constraintBottom_toBottomOf="@id/tv_alarm_name_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/tv_alarm_name_title"
+        app:layout_constraintTop_toTopOf="@id/tv_alarm_name_title"
+        tools:text="测试闹钟上山大老虎1111112222233333344444555"
+        app:drawableEndCompat="@mipmap/ic_next_gray" />
+
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1px"
+        android:background="@color/line_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_alarm_name_title" />
+
+
+    <TextView
+        android:id="@+id/tv_bell_name_title"
+        android:layout_width="wrap_content"
+        android:layout_height="51dp"
+        android:layout_centerVertical="true"
+        android:drawablePadding="13dp"
+        android:gravity="center_vertical"
+        android:text="@string/bell"
+        android:textColor="@color/text_important_color"
+        android:textSize="@dimen/text_15sp"
+        app:layout_constraintStart_toStartOf="@id/tv_alarm_name_title"
+        app:layout_constraintTop_toBottomOf="@id/tv_alarm_name_title"
+        app:drawableStartCompat="@drawable/ic_alarm_bell" />
+
+    <TextView
+        android:id="@+id/tv_alarm_bell"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="21dp"
+        android:layout_toEndOf="@+id/tv_bell_name_title"
+        android:drawablePadding="5dp"
+        android:ellipsize="end"
+        android:gravity="center_vertical|end"
+        android:maxLines="1"
+        android:maxLength="36"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:singleLine="true"
+        android:textColor="@color/text_secondary_disable_color"
+        android:textSize="@dimen/text_15sp"
+        app:layout_constraintBottom_toBottomOf="@id/tv_bell_name_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/tv_bell_name_title"
+        app:layout_constraintTop_toTopOf="@id/tv_bell_name_title"
+        tools:text="@string/open_gpg_tip"
+        app:drawableEndCompat="@mipmap/ic_next_gray" />
+
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1px"
+        android:background="@color/line_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_bell_name_title" />
+
+    <TextView
+        android:id="@+id/tv_alarm_bell_alarm_time_title"
+        android:layout_width="wrap_content"
+        android:layout_height="51dp"
+        android:layout_centerVertical="true"
+        android:drawablePadding="13dp"
+        android:gravity="center_vertical"
+        android:text="@string/alarm_bell_time"
+        android:textColor="@color/text_important_color"
+        android:textSize="@dimen/text_15sp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="@id/tv_bell_name_title"
+        app:layout_constraintTop_toBottomOf="@id/tv_bell_name_title"
+        app:drawableStartCompat="@drawable/ic_alarm_bell" />
+
+    <TextView
+        android:id="@+id/tv_alarm_bell_alarm_time"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="21dp"
+        android:layout_toEndOf="@+id/tv_bell_name_title"
+        android:drawablePadding="5dp"
+        android:ellipsize="end"
+        android:gravity="center_vertical|end"
+        android:maxLines="1"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:singleLine="true"
+        android:textColor="@color/text_secondary_disable_color"
+        android:textSize="@dimen/text_15sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/tv_alarm_bell_alarm_time_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/tv_alarm_bell_alarm_time_title"
+        app:layout_constraintTop_toTopOf="@id/tv_alarm_bell_alarm_time_title"
+        tools:text="@string/min_format"
+        app:drawableEndCompat="@mipmap/ic_next_gray" />
+
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1px"
+        android:background="@color/line_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_alarm_bell_alarm_time_title" />
+
+
+    <TextView
+        android:id="@+id/tv_alarm_bell_interval_title"
+        android:layout_width="wrap_content"
+        android:layout_height="51dp"
+        android:layout_centerVertical="true"
+        android:drawablePadding="13dp"
+        android:gravity="center_vertical"
+        android:text="@string/alarm_bell_interval"
+        android:textColor="@color/text_important_color"
+        android:textSize="@dimen/text_15sp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="@id/tv_alarm_bell_alarm_time_title"
+        app:layout_constraintTop_toBottomOf="@id/tv_alarm_bell_alarm_time_title"
+        app:drawableStartCompat="@drawable/ic_alarm_bell" />
+
+    <TextView
+        android:id="@+id/tv_alarm_bell_interval"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="21dp"
+        android:layout_toEndOf="@+id/tv_bell_name_title"
+        android:drawablePadding="5dp"
+        android:ellipsize="end"
+        android:gravity="center_vertical|end"
+        android:maxLines="1"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:singleLine="true"
+        android:textColor="@color/text_secondary_disable_color"
+        android:textSize="@dimen/text_15sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/tv_alarm_bell_interval_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/tv_alarm_bell_interval_title"
+        app:layout_constraintTop_toTopOf="@id/tv_alarm_bell_interval_title"
+        tools:text="@string/app_name"
+        app:drawableEndCompat="@mipmap/ic_next_gray" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/bg_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_alarm_bell_interval_title" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_del_alarm"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="72dp"
+        android:background="@drawable/btn_white_shape"
+        android:gravity="center"
+        android:text="@string/alarm_delete"
+        app:textAllCaps="false"
+        android:textColor="@color/red_D25454"
+        android:textSize="@dimen/text_18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

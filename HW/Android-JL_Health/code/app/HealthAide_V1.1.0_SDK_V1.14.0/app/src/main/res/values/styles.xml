@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TabLayoutTextStyle">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="HeartRateDottedLineStyle">
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginTop">39dp</item>
+        <item name="android:layout_marginEnd">38dp</item>
+        <item name="android:layout_height">1.5dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="background">@drawable/shape_dotted_line</item>
+        <item name="android:layerType">software</item>
+    </style>
+
+    <style name="HeartRateDottedTextViewStyle">
+        <item name="android:textColor">@color/white_light_b3</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="textMedium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <!--        <item name="android:textFontWeight" tools:targetApi="p">500</item>-->
+    </style>
+
+    <style name="textLight">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <!--        <item name="android:textFontWeight" tools:targetApi="p">300</item>-->
+        <!--        <item name="android:textFontWeight">900</item>-->
+    </style>
+
+    <style name="textThin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+        <!--        <item name="android:textFontWeight" tools:targetApi="p">100</item>-->
+    </style>
+
+    <style name="textRegular">
+        <item name="android:fontFamily">sans-serif</item>
+        <!--        <item name="android:textFontWeight" tools:targetApi="p">400</item>-->
+    </style>
+
+    <style name="textBlack">
+        <item name="android:fontFamily">sans-serif-black</item>
+        <!--        <item name="android:textFontWeight" tools:targetApi="p">900</item>-->
+    </style>
+
+    <style name="sportTextAppearance" parent="textMedium">
+        <item name="android:textSize">@dimen/text_16sp</item>
+    </style>
+
+
+    <!--ScanDeviceDialog-->
+    <style name="BottomToTopAnim">
+        <item name="android:windowEnterAnimation">@anim/slide_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_bottom</item>
+    </style>
+
+    <style name="swStyle">
+        <item name="kswBackDrawable">@drawable/bg_sw_selector</item>
+        <item name="kswThumbColor">@color/sw_thumb_color</item>
+        <item name="kswThumbHeight">22dp</item>
+        <item name="kswThumbRangeRatio">2.2</item>
+        <item name="android:layout_width">wrap_content</item>
+
+        <item name="android:layout_height">27dp</item>
+    </style>
+    <style name="swTitleStyle" parent="textRegular">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">59dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/text_important_color</item>
+        <item name="android:textSize">@dimen/text_15sp</item>
+
+    </style>
+    <style name="TextLayoutTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorAccent">@color/gray_9E9E9E</item>
+    </style>
+</resources>

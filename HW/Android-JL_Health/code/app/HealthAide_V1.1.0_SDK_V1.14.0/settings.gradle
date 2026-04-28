@@ -1,0 +1,3 @@
+include ':wheelview'
+include ':app'
+rootProject.name = "HealthAide"

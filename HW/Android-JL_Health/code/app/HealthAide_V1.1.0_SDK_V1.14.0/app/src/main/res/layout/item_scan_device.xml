@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:layout_marginTop="12dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_card_white_shape">
+
+
+    <ImageView
+        android:id="@+id/iv_item_scan_device_product_image"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        tool:src="@drawable/ic_watch_product"
+        android:layout_marginTop="17dp"
+        android:layout_marginBottom="17dp"
+        android:layout_marginStart="12dp"
+        android:scaleType="centerInside"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tool:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/tv_item_scan_device_connect_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="19dp"
+        android:paddingEnd="19dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:layout_marginEnd="16dp"
+        tool:text="连接"
+        android:textColor="@color/btn_purple_to_gray_selector"
+        android:textSize="@dimen/text_15sp"
+        android:background="@drawable/bg_btn_purple_selector"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_item_scan_device_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tool:text="JieLi Watch"
+        android:textSize="@dimen/text_16sp"
+        android:textColor="@color/text_important_color"
+        android:layout_marginStart="8dp"
+        app:layout_constraintVertical_chainStyle="spread"
+        app:layout_constraintStart_toEndOf="@+id/iv_item_scan_device_product_image"
+        app:layout_constraintEnd_toStartOf="@+id/tv_item_scan_device_connect_status"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

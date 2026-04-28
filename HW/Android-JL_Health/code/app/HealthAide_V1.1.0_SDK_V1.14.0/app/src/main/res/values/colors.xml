@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="black_40_transparent">#66000000</color>
+    <color name="text_transparent">#00000000</color>
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_light_59">#59FFFFFF</color>
+    <color name="white_light_b3">#b3FFFFFF</color>
+    <color name="half_transparent">#00FFFFFF</color>
+    <color name="gray_transparent_9C272626">#9C272626</color>
+    <color name="gray_transparent_80817E7E">#80817E7E</color>
+    <color name="gray_transparent_08817E7E">#08242424</color>
+
+    <color name="gray_4B4B4B">#4B4B4B</color>
+    <color name="gray_AEAEAE">#AEAEAE</color>
+    <color name="gray_B4BBB8">#B4BBB8</color>
+    <color name="gray_9E9E9E">#9E9E9E</color>
+    <color name="gray_919191">#919191</color>
+    <color name="gray_B3B3B3">#B3B3B3</color>
+    <color name="gray_D8D8D8">#D8D8D8</color>
+    <color name="gray_EAEAEA">#EAEAEA</color>
+    <color name="gray_F9F9F9">#F9F9F9</color>
+    <color name="gray_CECECE">#CECECE</color>
+    <color name="gray_F7F7F7">#F7F7F7</color>
+    <color name="gray_EFEFEF">#EFEFEF</color>
+    <color name="gray_4D000000">#4D000000</color>
+    <color name="gray_838383">#838383</color>
+
+    <color name="white_F8FAFC">#F8FAFC</color>
+    <color name="white_EEEEEE">#EEEEEE</color>
+    <color name="white_F0F1F5">#F0F1F5</color>
+    <color name="white_EDEDED">#EDEDED</color>
+
+    <color name="black_242424">#242424</color>
+    <color name="black_333333">#333333</color>
+    <color name="black_131313">#131313</color>
+
+    <color name="blue_7D85DD">#7D85DD</color>
+    <color name="blue_4852CA">#4852CA</color>
+    <color name="blue_558CFF">#558CFF</color>
+    <color name="blue_scan_side">#2A017CB4</color>
+    <color name="blue_scan_partial">#B20493D5</color>
+    <color name="blue_scan_middle">#00AFFF</color>
+    <color name="black_4d000000">#4d000000</color>
+    <color name="blue_448eff">#448eff</color>
+
+    <color name="purple_9A64FF">#9A64FF</color>
+    <color name="purple_6C3FEC">#6C3FEC</color>
+    <color name="purple_805BEB">#805BEB</color>
+    <color name="purple_8856F8">#8856F8</color>
+    <color name="purple_B9A4F0">#B9A4F0</color>
+    <color name="purple_D19DF7">#D19DF7</color>
+    <color name="purple_D0C2F8">#D0C2F8</color>
+
+    <color name="red_E16F7D">#E16F7D</color>
+    <color name="red_D25454">#D25454</color>
+    <color name="red_F6BCA9">#F6BCA9</color>
+    <color name="red_F39696">#F39696</color>
+    <color name="red_F71817">#F71817</color>
+    <color name="red_E44D3F">#E44D3F</color>
+    <color name="red_F05252">#F05252</color>
+
+
+    <color name="yellow_E1966C">#E1966C</color>
+    <color name="yellow_F18753">#F18753</color>
+    <color name="yellow_E98E5F">#E98E5F</color>
+    <color name="yellow_FFC15D">#FFC15D</color>
+    <color name="yellow_F2C45A">#F2C45A</color>
+
+    <color name="green_7EC97D">#7EC97D</color>
+
+    <color name="black_585858">#585858</color>
+    <color name="gray_727272">#727272</color>
+    <color name="gray_f5f5f5">#F5F5F5</color>
+
+
+    <color name="main_color">@color/purple_805BEB</color>
+    <color name="auxiliary_widget">@color/blue_558CFF</color>
+    <color name="auxiliary_state">#774E04</color>
+    <color name="auxiliary_error">#E06D63</color>
+    <color name="auxiliary_warn">#FDB85A</color>
+
+    <color name="auxiliary_contact_select">#F1ECFF</color>
+
+    <color name="text_important_color">@color/black_242424</color>
+    <color name="text_secondary_color">#4B4B4B</color>
+    <color name="text_secondary_disable_color">#919191</color>
+
+    <color name="line_color">#F7F7F7</color>
+    <color name="divider_line_color">#805BEB</color>
+    <color name="content_color">@color/white</color>
+    <color name="bg_color">#fff8fafe</color>
+
+
+    <color name="sports_detail_step_freq_line">#FF51CD96</color>
+    <color name="red_FFEB5B5B">#FFEB5B5B</color>
+    <color name="sports_status_0">#BABABA</color>
+    <color name="sports_status_1">#87C1EF</color>
+    <color name="sports_status_2">#92D58B</color>
+    <color name="sports_status_3">#F6E970</color>
+    <color name="sports_status_4">#F9B478</color>
+    <color name="sports_status_5">#F07B71</color>
+
+    <color name="sports_status_0_a10">#19BABABA</color>
+    <color name="sports_status_1_a10">#1987C1EF</color>
+    <color name="sports_status_2_a10">#1992D58B</color>
+    <color name="sports_status_3_a10">#19F6E970</color>
+    <color name="sports_status_4_a10">#19F9B478</color>
+    <color name="sports_status_5_a10">#19F07B71</color>
+
+
+</resources>

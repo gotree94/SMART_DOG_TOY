@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".ui.device.market.WatchDialFragment">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/vp2_dial_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tb_dial_header" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tb_dial_header"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cl_dial_topbar"
+        app:tabGravity="center"
+        app:tabIndicator="@drawable/ic_purple_tab_indicator_shape"
+        app:tabIndicatorColor="@color/purple_805BEB"
+        app:tabIndicatorFullWidth="false"
+        app:tabRippleColor="@color/text_transparent"
+        app:tabSelectedTextColor="@color/black_242424"
+        app:tabTextColor="@color/text_secondary_disable_color">
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/watch_market"
+            tools:text="表盘商城" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/my_dials" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/default_alarm_custom" />
+    </com.google.android.material.tabs.TabLayout>
+
+    <include
+        android:id="@+id/cl_dial_topbar"
+        layout="@layout/view_topbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

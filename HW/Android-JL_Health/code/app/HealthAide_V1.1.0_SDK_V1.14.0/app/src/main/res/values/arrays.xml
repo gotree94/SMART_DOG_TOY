@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="user_msg_list">
+        <item>@string/nickname</item>
+        <item>@string/sex</item>
+        <item>@string/date_of_birth</item>
+        <item>@string/stature</item>
+        <item>@string/weight</item>
+        <item>@string/sport_target</item>
+    </array>
+
+    <string-array name="mine_item_names">
+        <item>@string/mine_my_data</item>
+        <item>@string/mine_sport_weekly</item>
+        <item>@string/mine_setting</item>
+        <!--        <item>@string/mine_help</item>-->
+        <item>@string/mine_about</item>
+        <item>Weather test</item>
+    </string-array>
+
+    <integer-array name="mine_item_icons">
+        <item>@mipmap/ic_mine_icon_data_nol</item>
+        <item>@mipmap/ic_mine_icon_weekly_nol</item>
+        <item>@mipmap/ic_mine_icon_settle_nol</item>
+        <!--        <item>@mipmap/ic_mine_icon_help_nol</item>-->
+        <item>@mipmap/ic_mine_icon_about_nol</item>
+        <!--        <item>@mipmap/ic_mine_icon_about_nol</item>-->
+    </integer-array>
+
+
+    <string-array name="user_info_list">
+        <item>@string/user_info_avatar</item>
+        <item>@string/nickname</item>
+        <item>@string/sex</item>
+        <item>@string/date_of_birth</item>
+        <item>@string/stature</item>
+        <item>@string/weight</item>
+        <item>@string/step_number</item>
+    </string-array>
+
+    <array name="alarm_weeks_workday">
+        <item>@string/alarm_repeat_simple_mon</item>
+        <item>@string/alarm_repeat_simple_tue</item>
+        <item>@string/alarm_repeat_simple_wed</item>
+        <item>@string/alarm_repeat_simple_thu</item>
+        <item>@string/alarm_repeat_simple_fri</item>
+    </array>
+    <array name="alarm_weeks">
+        <item>@string/alarm_repeat_mon</item>
+        <item>@string/alarm_repeat_tue</item>
+        <item>@string/alarm_repeat_wed</item>
+        <item>@string/alarm_repeat_thu</item>
+        <item>@string/alarm_repeat_fri</item>
+        <item>@string/alarm_repeat_sat</item>
+        <item>@string/alarm_repeat_sun</item>
+    </array>
+    <array name="alarm_weeks_simple">
+        <item>@string/alarm_repeat_simple_mon</item>
+        <item>@string/alarm_repeat_simple_tue</item>
+        <item>@string/alarm_repeat_simple_wed</item>
+        <item>@string/alarm_repeat_simple_thu</item>
+        <item>@string/alarm_repeat_simple_fri</item>
+        <item>@string/alarm_repeat_simple_sat</item>
+        <item>@string/alarm_repeat_simple_sun</item>
+    </array>
+
+    <array name="sw_status_string_array">
+        <item>@string/turned_off</item>
+        <item>@string/all_day</item>
+        <item>@string/time_open</item>
+    </array>
+
+</resources>

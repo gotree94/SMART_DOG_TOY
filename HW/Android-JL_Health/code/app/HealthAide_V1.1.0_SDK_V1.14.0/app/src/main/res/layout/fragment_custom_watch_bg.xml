@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    tools:context=".ui.device.watch.CustomWatchBgFragment">
+
+   <include
+       android:id="@+id/cl_custom_watch_bg_topbar"
+       layout="@layout/view_topbar"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"/>
+
+    <ImageView
+        android:id="@+id/iv_custom_watch_bg_img"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_watch_3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cl_custom_watch_bg_topbar"
+        app:layout_constraintVertical_bias="0.25"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+    <TextView
+        android:id="@+id/tv_custom_watch_bg_choose"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="48dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="48dp"
+        android:text="@string/choose_photo"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingStart="60dp"
+        android:paddingEnd="60dp"
+        android:textColor="@color/btn_blue_2_gray_selector"
+        android:textSize="@dimen/text_15sp"
+        android:background="@drawable/bg_btn_gray_white_20_selector"
+        app:layout_constraintTop_toBottomOf="@+id/iv_custom_watch_bg_img"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_custom_watch_bg_restore"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="48dp"
+        android:text="@string/watch_restore"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingStart="60dp"
+        android:paddingEnd="60dp"
+        android:textColor="@color/text_black_2_white_selector"
+        android:textSize="@dimen/text_15sp"
+        android:background="@drawable/bg_btn_gray_white_20_selector"
+        app:layout_constraintTop_toBottomOf="@+id/tv_custom_watch_bg_choose"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

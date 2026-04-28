@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="46dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    tools:background="@color/auxiliary_error">
+
+    <ImageView
+
+        android:id="@+id/iv_mine_item_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_next_gray" />
+
+
+    <TextView
+        android:id="@+id/tv_mine_item_name"
+        style="@style/textMedium"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingStart="12dp"
+        android:textColor="@color/text_important_color"
+        android:textSize="15sp"
+        tools:text="我的数据" />
+
+
+    <ImageView
+        android:id="@+id/iv_mine_item_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_next_gray" />
+</LinearLayout>

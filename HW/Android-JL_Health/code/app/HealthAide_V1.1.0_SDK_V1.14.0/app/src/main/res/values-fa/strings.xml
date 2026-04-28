@@ -1,0 +1,970 @@
+<resources>
+    <string name="app_name">WearLink</string>
+
+    <!--HomeActivity-->
+    <string name="tab_health">سالم</string>
+    <string name="tab_sports">حرکت</string>
+    <string name="tab_device">دستگاه</string>
+    <string name="tab_settings">تنظیم</string>
+    <string name="tab_mine">من</string>
+
+    <string name="search_phone">جستجوی دستگاه در تلفن موبایل&#8230;</string>
+    <string name="close_play">صدا را خاموش کنید</string>
+
+    <!--Load More View-->
+    <string name="status_loading">بارگذاری...</string>
+    <string name="status_load_complete">برای بارگذاری بیشتر کلیک کنید</string>
+    <string name="status_load_end">داده های بیشتری وجود ندارد</string>
+    <string name="status_load_failed">بارگیری نشد، برای امتحان مجدد روی من کلیک کنید</string>
+
+    <!--action-->
+    <string name="scan_qr_code">کد QR را اسکن کنید</string>
+    <string name="add_device">افزودن دستگاه</string>
+    <string name="sports_settings">تنظیمات حرکت</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">سلام، ارتباط خالی</string>
+    <string name="calendar_type_day">روز</string>
+    <string name="calendar_type_week">هفته</string>
+    <string name="calendar_type_year">سال</string>
+    <string name="blood_oxygen_saturation">تنظیم اکسیژن خون</string>
+    <string name="movement_record">ضبط ورزش</string>
+    <string name="empty_record">ثبت نشده</string>
+    <string name="heart_rate">سرعت قلب</string>
+    <string name="sleep">خواب</string>
+    <string name="today_empty_data">امروز هیچ داده‌ای نیست</string>
+    <string name="weight">وزن</string>
+    <string name="pressure">فشار</string>
+    <string name="kilogram">Kg</string>
+    <string name="calendar_type_month">ماه</string>
+    <string name="distance_km">فاصله (کیلومتر)</string>
+    <string name="distance_mile">فاصله (مایل)</string>
+    <string name="climbing_stairs_m">بالا</string>
+    <string name="climbing_stairs_foot">بالا رفتن (پاها)</string>
+    <string name="calories_kcal">گرم (kcal)</string>
+    <string name="step">step</string>
+    <string name="step_number">قدم‌ها</string>
+    <string name="medium_high_strength">نیروی متوسط</string>
+    <string name="min">دقیقه‌</string>
+    <string name="average_step">قدم متوسط</string>
+    <string name="all_step">همۀ قدم‌ها</string>
+    <string name="all_mile">کل مایلیج</string>
+    <string name="all_consumption">تمام مصرف</string>
+    <string name="kilocalorie">كيلو كارد</string>
+    <string name="kilometre">کیلومتر</string>
+    <string name="weight_setting">تنظیم وزن</string>
+    <string name="weight_target">هدف وزن</string>
+    <string name="date">تاریخ</string>
+    <string name="time">زمان</string>
+    <string name="weekly_average">متوسط هفته</string>
+    <string name="daily_average">متوسط در روز</string>
+    <string name="month_average">متوسط ماه</string>
+    <string name="year_average">متوسط سال</string>
+    <string name="range_of_variation">تغییر</string>
+    <string name="weight_start_data">آغاز：%.1f </string>
+    <string name="weight_target_data">هدف：%.1f </string>>
+    <string name="kg">kg</string>
+    <string name="sober">ترسناک</string>
+    <string name="rapid_eye_movement">حرکت چشم سریع</string>
+    <string name="light_sleep">يه خواب عميق</string>
+    <string name="deep_sleep">خواب عميق</string>
+    <!--Health- Pressure-->
+    <string name="uptilted">از طرف بلند</string>
+    <string name="medium">دوم</string>
+    <string name="normal">طبیعی</string>
+    <!--Login-->
+    <string name="login">وارد شدن</string>
+    <string name="hint_input_phone_number_or_email">لطفاً شماره تلفن/آدرس ایمیل خود را وارد کنید</string>
+    <string name="hint_input_phone_number">لطفا شماره موبایل خود را وارد کنید</string>
+    <string name="hint_input_password">لطفاً یک رمز گذاری وارد کنید</string>
+    <string name="login_by_sms">وارد شدن با رمز تصدیق</string>
+    <string name="forgot_password">رمز‌گذاری را فراموش کنید？</string>
+    <string name="register_tips">حساب نداره؟ ثبت کنید</string>
+    <string name="phone_or_email_tips_empty">شماره تلفن موبایل/آدرس ایمیل نمی‌تواند خالی باشد</string>
+    <string name="phone_or_email_tips_format_err">قالب تلفن/پیام ایمیل غلط</string>
+    <string name="phone_tips_empty">شماره موبایل نمی‌تواند خالی باشد</string>
+    <string name="phone_tips_format_err">قالب شماره موبایل غلط</string>
+    <string name="email_address_tips_empty">آدرس ایمیل نمی‌تواند خالی باشد</string>
+    <string name="email_address_tips_format_err">قالب نشانی ایمیل اشتباه است</string>
+    <string name="password_tips_empty">رمز‌گذاری نمی‌توان خالی باشد</string>
+    <string name="password_tips_format_err">طول رمز‌گذاری باید ۶ تا ۱۲ نمره باشد</string>
+    <string name="register_succeed">وارد شدن موفق بود</string>
+    <string name="login_by_account">با رمز‌گذاری حساب وارد شوید</string>
+    <!--帐号与安全-->
+    <string name="search">جستجو</string>
+    <string name="account_security">حساب و امنیت</string>
+    <string name="modify_phone_number">تغییر شماره موبایل</string>
+    <string name="modify_email_address">تغییر نشانی ایمیل</string>
+    <string name="change_password">تغییر رمز‌گذاری</string>
+    <string name="change">جایگزینی</string>
+    <string name="bind_new_phone_number">یک شماره تلفن جدید بسته</string>
+    <string name="bind_new_email_address">پیوند نشانی ایمیل جدید</string>
+    <string name="modify_binded_phone_number">تغییر شماره تلفن متصل?</string>
+    <string name="current_binded_phone_number">شماره تلفن در حال حاضر بسته است</string>
+    <string name="modify_binded_email_address">جایگزینی آدرس ایمیل متصل?</string>
+    <string name="current_binded_email_address">آدرس ایمیل در حال حاضر بسته است</string>
+    <string name="authentication">شناسایی</string>
+    <string name="authentication_tip">برای تایید کردن که این عملیات شما است، لطفا هویت شما را تایید کنید</string>
+    <string name="sms_verification_code">رمز verification SMS</string>
+    <string name="bind_new_phone_number_success">شماره تلفن جدید موفقیت متصل شده است!</string>
+    <string name="bind_new_email_address_success">آدرس ایمیل جدید را با موفقیت پیوند کرد!</string>
+    <string name="modified_success">تغییر موفق شد</string>
+    <string name="old_password">اسم رمز قدیمی</string>
+    <string name="input_old_password">وارد کردن رمز گذشته قدیمی</string>
+    <string name="new_password">رمز‌گذاری جدید</string>
+    <string name="password_input_tip">لطفاً یک رمز گذاری جدید از ۶- ۱۲ حرف و شماره تنظیم کنید</string>
+    <string name="inout_new_password">وارد یک رمز‌گذاری جدید</string>
+    <string name="inout_new_password_again">گزارش جدید را دوباره وارد کنید</string>
+    <string name="password_is_inconsistent">کلمه‌های رمز مخالف نیستند، لطفاً دوباره وارد شوید</string>
+    <string name="phone_number_is_empty">شماره موبایل نمی‌تواند خالی باشد</string>
+    <string name="sms_verification_code_error">خطای رمز verification SMS</string>
+    <string name="current_phone_registered">تلفن موبایل فعلی ثبت شده است</string>
+    <string name="current_phone_no_register">حساب فعلی ثبت نشده</string>
+    <string name="account_password_error">خطای رمز‌گذاری حساب</string>
+    <string name="new_password_no_be_empty">رمز جدید نمی‌تواند خالی باشد</string>
+    <string name="old_password_error">خطای رمز‌گذاری قدیمی</string>
+    <!--Register-->
+    <string name="register">ثبت کنید</string>
+    <string name="input_verification_code">وارد کنید کد تصدیق</string>
+    <string name="send_sms_code">فرستاد رمز تصدیق</string>
+    <string name="resend_sms_code">بازجویی（%1$s）</string>
+    <string name="input_identifying_code">وارد کنید کد تصدیق</string>
+    <string name="send_identifying_code">فرستاد رمز تصدیق</string>
+    <string name="resend_identifying_code">بازجویی（%1$s）</string>
+    <string name="input_password_tips">لطفاً یک رمز گذاری از ۶ تا ۱۲ حرف و شماره را تنظیم کنید</string>
+    <string name="sms_code_tips_empty">رمز تصدیق نمی‌تواند خالی باشد</string>
+    <string name="sms_code_tips_format_err">قالب غلط رمز تصدیق</string>
+    <string name="identifying_code_tips_empty">رمز تصدیق نمی‌تواند خالی باشد</string>
+    <string name="identifying_code_tips_format_err">قالب غلط رمز تصدیق</string>
+    <string name="hint_input_email">لطفاً نشانی ایمیل را وارد کنید</string>
+
+    <!--User Message-->
+    <string name="input_user_msg">بهتر اطلاعات شخصی</string>
+    <string name="nickname">اسم</string>
+    <string name="sex">جنس</string>
+    <string name="date_of_birth">تاریخ تولد</string>
+    <string name="stature">بلندی</string>
+    <string name="sport_target">حرکت هدف</string>
+    <string name="next_step">قدم بعدی</string>
+    <string name="skip_progress">پریدن</string>
+
+    <string name="please_input">لطفا وارد شوید</string>
+    <string name="please_choose">لطفا انتخاب کنید</string>
+    <string name="heart_rate_range">مدت سرعت قلب</string>
+    <string name="times_per_minute">زمان/دقیقه</string>
+    <string name="resting_heart_rate">سرعت استراحت قلب</string>
+    <string name="resting_heart_rate_avg">یعنی سرعت استراحت قلب</string>
+    <string name="static_heart_rate_too_high">سرعت قلب بالا</string>
+    <string name="low_resting_heart_rate">سرعت قلب آمار خیلی کمه</string>
+
+    <!--Sex Dialog-->
+    <string name="man">مرد</string>
+    <string name="woman">زن</string>
+    <string name="hour">ساعت</string>
+    <string name="minute">دقیقه‌</string>
+    <string name="score">شاخه</string>
+
+
+    <!--Permission-->
+    <string name="open_gpg_tip">کاربرد به کاربرد GPS نیاز دارد، لطفا خدمت محل را برای ادامه دادن روشن کنید</string>
+    <string name="permissions_tips_01">برای استفاده از نرم‌افزار معمولا، لطفاً</string>
+    <string name="permission_contacts">اجازه دهید خواندن و نوشتن ارتباطات</string>
+    <string name="permission_mic">اجازه دهید میکروفون</string>
+    <string name="permission_read_phone_state">اجازه دهید اطلاعات تلفن را بخوانید</string>
+    <string name="permission_location">اجازه دهید اطلاعات موقعیت یافت</string>
+    <string name="permission_storage">اجازه دهید پرونده خواندن و نوشتن</string>
+    <string name="permission_bluetooth">اجازه دهید بلوتوت</string>
+    <string name="permission_phone_settings">اجازه دهید تغییر تنظیمات تلفن با استفاده از</string>
+    <string name="permissions_tips_02">لطفا به تنظیمات سیستم بروید تا اجازه دادن کاربردها</string>
+    <string name="permission">حکومت</string>
+    <string name="permission_sport">تنظیمات اجازه ورزشی</string>
+    <string name="permission_sport_tips">به دلیل تنظیمات ذخیره قدرت و محدودیت فرایند پشتیبانی، اندروید ممکن است از%1$s دلار خاموش کند که دارای ثبت ورزش می‌کنند یا باعث می‌شود که بعضی داده‌های ثبت ورزش از دست داده شود. اگر با مشکلات رابطه مواجه می‌کنید، می‌توانید روش‌های زیر را برای تنظیم ارائه کنید.</string>
+    <string name="permission_sport_suspension_title">تنظیمات نمایش سطح بالا (پنجره معلق) در برنامه های دیگر</string>
+    <string name="permission_sport_suspension_describe">برای اینکه مطمئن شوید که شما توسط سیستم موبایل در حال حرکت کشته نمی شوید، که به خسارت داده های حرکت، لطفا اجازه دهید اجازه پنجره %1$s دلار بالا</string>
+    <string name="permission_sport_suspension_operate">باز کردن اجازه پنجره شناورند</string>
+    <string name="permission_sport_battery_optimized_title">بهینه سازی باتری</string>
+    <string name="permission_sport_battery_optimized_describe">در حالت ذخیره قدرت، عملیات %1$s دلار هنوز ممکن است محدود شود. وقتی شروع به حرکت کردن، سعی کنید قدرت را در یک حالت نسبتا به اندازه کافی نگه دارید، و حالت ذخیره قدرت را خاموش کنید. واردات تنظیمات مربوط به معمول در بار وضعیت یا تنظیمات مربوط به باتری هستند</string>
+    <string name="permission_sport_battery_optimized_operate_1">بهینه سازی باتری روشن است ، برای بستن کلیک کنید</string>
+    <string name="permission_sport_battery_optimized_operate_2">بهینه سازی باتری خاموش است</string>
+    <string name="permission_sport_background_title">تنظیمات محافظت زمینه</string>
+    <string name="permission_sport_background_describe">اضافه کردن %1$s دلار به فهرست محافظت زمینه می‌تواند کمک کند%1$s دلار در زمینه به اندازه‌ای ادامه دهد. \n روش تنظیم:</string>
+    <string name="permission_sport_background_operate">فعال کردن تنظیمات سیستم محافظت زمینه</string>
+    <string name="permission_sport_powersave_title">حالت ذخیره برق</string>
+    <string name="permission_sport_powersave_describe">به خاطر تنظیم ذخیره‌ی قدرت سیستم، کاربرد یخ‌زده می‌شود. برای مطمئن کردن که فعالیت‌های پشتیبانی مانند ثبت داده‌های ورزشی تاثیر نمی‌شود، لطفاً لطفاً به فهرست سفید optimization باتری %1$s دلار اضافه کنید. \n روش تنظیم:</string>
+    <string name="permission_sport_powersave_oprate">فعال کردن تنظیمات ضد سیستم خواب</string>
+    <string name="lock_screen_display">قفل نمایش پرده</string>
+    <string name="locak_screen_display_hint">روش تنظیم: اطلاعات کاربرد ->مدیریت اجازه ->نمایش پرده را قفل کنید</string>
+    <string name="instructions_for_use">دستورالعمل استفاده</string>
+    <string name="permissions_camera">مجوزهای دوربین</string>
+    <string name="permissions_bluetooth">مجوزهای بلوتوث</string>
+    <string name="permissions_location">مجوزهای مکان</string>
+    <string name="permissions_storage">مجوزهای ذخیره سازی</string>
+    <string name="permissions_read_contact">خواندن مجوز اطلاعات تماس</string>
+    <string name="permissions_camera_explain">برای اسکن، تنظیم آواتار، تنظیم پس‌زمینه صورت سفارشی ساعت و سایر عملکردها استفاده می‌شود.</string>
+    <string name="permissions_bluetooth_explain">برای جستجو و اتصال دستگاه های بلوتوث، برقراری ارتباط با دستگاه های بلوتوث و سایر عملکردها استفاده می شود.</string>
+    <string name="permissions_location_explain">برای عملکرد بلوتوث، اطلاعات آب و هوا، موقعیت یابی نقشه، مسیر حرکت و سایر عملکردها استفاده می شود.</string>
+    <string name="permissions_storage_explain">برای خواندن فایل های موسیقی، تنظیم آواتارها، خواندن گالری ها و سایر عملکردها استفاده می شود.</string>
+    <string name="permissions_read_contact_explain">برای همگام سازی اطلاعات تماس با دستگاه استفاده می شود.</string>
+    <string name="rejust_permissions_tips">اگر از فعال کردن آن امتناع کنید، نمی توانید از توابع بالا استفاده کنید.</string>
+
+
+    <!-- reset password-->
+    <string name="password">رمز‌گذاری</string>
+    <string name="finish">کامل</string>
+    <string name="sms_check">چک</string>
+    <string name="hint_text_password_again_input">لطفاً دوباره تأیید رمز</string>
+
+    <!--Add Device-->
+    <string name="connect">ارتباط</string>
+    <string name="status_disconnect">متصل نشده</string>
+    <string name="status_connected">ارتباط</string>
+    <string name="status_connecting">ارتباط</string>
+    <string name="add">افزودن به</string>
+    <string name="no_device_tips">هنوز هیچ دستگاه اضافه نکردی</string>
+    <string name="user_denies_permissions">لطفاً اجازه‌های مربوط به \"%1$s\" در سیستم را اجازه دهید</string>
+    <string name="start_scan_failed">نتوانست آغاز دستگاه اسکن را شروع کرد، لطفاً بعد دوباره امتحان کنید</string>
+    <string name="bluetooth_is_close">بلوتوس خاموش شده لطفا بلوتوس رو روشن کن و دوباره امتحان کن</string>
+
+    <!--Watch Control-->
+    <string name="restore_watch_system_success">بازیابی سیستم موفق شد</string>
+    <string name="restore_watch_system_failure">سعی به بازیابی سیستم ، دلیل: %1$s</string>
+    <string name="battery_format">قدرت %1$d%%</string>
+    <string name="local_watch">تماس محلی</string>
+    <string name="watch_market_all">کل</string>
+    <string name="using_watch">استفاده از</string>
+    <string name="use_watch">استفاده</string>
+    <string name="update_watch">برای تازگی</string>
+    <string name="download_watch">بارگیری</string>
+    <string name="buy_watch">خرید</string>
+
+    <string name="health_record">سالم</string>
+    <string name="music_manager">مدیریت موسیقی</string>
+    <string name="device_music">موسیقی دستگاه</string>
+    <string name="alarm">ساعت هشدار</string>
+    <string name="contacts">ارتباطات بالا</string>
+    <string name="card_bag">کيف کارت</string>
+    <string name="firmware_upgrade">هشدار نسخه دستگاه</string>
+    <string name="science_sleep">شناسایی خواب</string>
+    <string name="turned_on">باز شده</string>
+    <string name="turned_off">بسته</string>
+    <string name="sedentary_reminder">یادآوری از صندلی طولانی</string>
+    <string name="sedentary_reminder_tip">یادآوری برای نشستن بیش از یک ساعت</string>
+    <string name="continuous_measurement_heart_rate">اندازه دائمی درجه قلبی</string>
+    <string name="heart_rate_range_early_warning">یادآوری سرعت قلبی را تمرین کنید</string>
+    <string name="pressure_auto_testing">کشف فشار خودکار</string>
+
+    <string name="retrieve_password">دریافت رمز‌گذاری</string>
+    <string name="reset_password">تغییر رمز‌گذاری</string>
+    <string name="call_phone_error_tips">موقعیت تلفن در حال پیشرفت است، لطفاً بعد عملیات کنید</string>
+
+
+    <!-- Mine -->
+    <string name="mine_my_data">اطلاعات من</string>
+    <string name="mine_sport_weekly">هفته ورزش</string>
+    <string name="mine_setting">تنظیم</string>
+    <string name="mine_help">کمک</string>
+    <string name="mine_about">در مورد</string>
+
+    <string name="user_info">اطلاعات شخصی</string>
+    <string name="user_info_avatar">نقشه سر</string>
+    <string name="health_state">سلامتی</string>
+    <string name="activity_statistics">آمار فعالیت</string>
+    <string name="target">هدف</string>
+    <string name="format_birthday_year_month">%1$d-%2$d</string>
+    <string name="format_height">%1$dسانتیمتر</string>
+    <string name="format_step_number_target">%1$dstep</string>
+    <string name="hint_input_nickname">لطفاً اسم‌نام خود را وارد کنید</string>
+    <string name="save">حفاظت</string>
+    <string name="tip_nickname_null">نیرنگ نمی‌تواند خالی باشد</string>
+    <string name="sure">تعیین کنید</string>
+    <string name="distance">کل مایلیج</string>
+    <string name="climb">بالا</string>
+    <string name="heat">تعداد گرما</string>
+    <string name="distance_m">برنج</string>
+    <string name="kcal">كيلو كارد</string>
+    <string name="relax">آروم باشید</string>
+    <string name="alert">هشدار پیام</string>
+    <string name="sensor_setting">تنظیمات سنسور</string>
+    <string name="open">باز شده</string>
+    <string name="weather_push">فشار هوا</string>
+    <string name="clean_cache">ذخیره پاک</string>
+    <string name="tip_clean_cache">آیا داده‌های cache کاربر پاک شود</string>
+    <string name="bright_screen">مغز را بالا ببرید تا پرده را روشن کند</string>
+    <string name="tip_bright_screen">دستت رو بالا ببر و پرده رو به خودت ببر تا پرده رو روشن کنه</string>
+    <string name="bright_screen_hint">پرده هنگامی که مغز در حالت ناراحتی رشد نمی‌شود روشن نمی‌شود</string>
+    <string name="bluetooth_disconnect_tip">یادآوری اتصال بلوتوت</string>
+    <string name="target_consume">تقریباً حدود %1$d دلار kcal مصرف کنید</string>
+    <string name="target_step">قدم هدف</string>
+    <string name="target_weight">وزن هدف</string>
+    <string name="multilingual">چند زبانه</string>
+    <string name="simplified_chinese">چینی ساده</string>
+    <string name="follow_system">سیستم ردیابی</string>
+    <string name="english">انگلیسی</string>
+    <string name="japanese">ژاپني</string>
+    <string name="korean">کره</string>
+    <string name="french">فرانسوي</string>
+    <string name="german">آلمان</string>
+    <string name="italian">ایتالیایی</string>
+    <string name="portuguese">پورتوگل</string>
+    <string name="spanish">اسپانیایی</string>
+    <string name="swedish">سوئدی</string>
+    <string name="polish">لهستان</string>
+    <string name="russian">روسي</string>
+    <string name="turkish">ترکيه</string>
+    <string name="hebrew">عبری</string>
+    <string name="thai">تايلي</string>
+    <string name="arabic">عربی</string>
+    <string name="vietnamese">ویتنامی</string>
+    <string name="indonesian">اندونزیایی</string>
+    <string name="malay">مالایی</string>
+    <string name="persian">فارسي</string>
+    <string name="set_language">تنظیم زبان</string>
+    <string name="unit_settings">تنظیم واحد</string>
+    <string name="unit_metric">متریک</string>>
+    <string name="unit_imperial">امپراتوری</string>
+    <string name="format_weight">%1$dکيلومتر .</string>
+    <string name="no_nickname">نام نیرنگ تنظیم نشده</string>
+    <string name="user_agreement">قرارداد کاربر</string>
+    <string name="privacy_policy">سیاست خصوصی</string>
+    <string name="current_app_version">نسخه‌ی جاری:%1$s</string>
+    <string name="agree_and_use">موافقم</string>
+    <string name="not_agree_and_exit">رد کنید</string>
+    <string name="privacy_policy_name">"سیاست حفظ حریم خصوصی"</string>
+    <string name="user_service_name">"توافقنامه خدمات کاربر"</string>
+    <string name="declaration">%1$sاعلام</string>
+    <string name="user_declaration">
+        «%1$s» نرم‌افزاری است که برای ثبت و تجزیه و تحلیل داده‌های سلامت ورزشی کاربر، ارائه راهنمایی‌های حرفه‌ای سلامت ورزشی و خدمات مدیریت دستگاه‌های پوشیدنی هوشمند به کاربران استفاده می‌شود. برای رسیدن به هدف فوق،
+         هنگامی که ما خدماتی را به شما ارائه می دهیم، ممکن است نیاز داشته باشیم اطلاعات مربوطه شما را جمع آوری کنیم و از مجوزهای زیر استفاده کنیم: استفاده از دوربین، استفاده از اطلاعات موقعیت مکانی، استفاده از مجوز بلوتوث،
+         تقویم خود را بخوانید، مخاطبین خود را بخوانید، به وب دسترسی پیدا کنید. ما باید ضربان قلب، خواب، اکسیژن خون، سوابق تمرینی و سایر داده های تمرینی شما را با فضای ابری هماهنگ کنیم.
+         ما برای حفاظت از حریم خصوصی و حفاظت از اطلاعات شخصی شما اهمیت زیادی قائل هستیم. قبل از استفاده از برنامه "%2$s"، لطفا #### و تمام شرایط **** را به دقت بخوانید و پس از موافقت و موافقت، استفاده از ما را شروع کنید. همه شرایط خدمات را بپذیرید
+    </string>
+    <string name="agree_policy_tips">من خواندم و با #### و **** موافقت کردم</string>
+    <string name="check_policy_status_tips">لطفا شرایط خدمات و سیاست حفظ حریم خصوصی را بخوانید و با آن موافقت کنید</string>
+
+    <string name="add_music">اضافه موسیقی</string>
+    <string name="download_music">همگام موسیقی برای دیدن %1$d/%2$d</string>
+    <string name="transfer_info">انتقال(%1$d/%2$d)</string>
+
+    <string name="message_notify">یادآوری</string>
+    <string name="sync_wechat">ویچت</string>
+    <string name="sync_qq">QQ</string>
+    <string name="sync_sms">پیام کوتاه</string>
+    <string name="sync_other">دیگر</string>
+
+    <!--Watch Market-->
+    <string name="watch_market">فروشگاه زنگ بزن</string>
+    <string name="manager">مدیریت</string>
+    <string name="delete_watch_tip">نه کمتر از دو صفحه</string>
+    <string name="last_page">من يه خط پايين دارم</string>
+    <string name="delete_watch_err">پاک کردن دیل [%1$s] دلار به خاطر %2$s دلار شکست خورد</string>
+    <string name="create_watch_err">بارگیری واچ فیس [%1$s] به دلیل %2$s انجام نشد</string>
+    <string name="update_watch_err">خرابی در آغاز کردن صفحه [%1$s] دلار چون %2$s دلار</string>
+    <string name="transfer_file_warning">در طول انتقال پرونده ،\n لطفا بلوتوت و شبکه را باز نگه دارید. Do not turn the device off and lock the screen phone</string>
+    <string name="device_is_disconnected">دستگاه متصل نشده</string>
+    <string name="server_none_device_support_version">هیچ نسخه توسط دستگاه پشتیبانی نشده</string>
+
+    <!--Dial Detail-->
+    <string name="watch_dial">تماس ساعت</string>
+    <string name="my_dials">زنگ زدن من</string>
+    <string name="free_dial">تماس آزاد</string>
+    <string name="pay_dial">تلفن پول</string>
+    <string name="dial_desc">【معرفی برای زنگ زدن】</string>
+    <string name="download_dial">بارگیری</string>
+    <string name="update_dial">تازگی</string>
+    <string name="purchase_record">خرید ثبت</string>
+    <string name="handle_dial_tips">پروندۀ انتقال می‌شود. لطفا از interface ۀ جاری خارج نشوید</string>
+
+    <!--Payment-->
+    <string name="product_name">اسم تجارت</string>
+    <string name="product_price">مقدار تجارت</string>
+    <string name="pay_way">روش پاداش</string>
+    <string name="pay_way_tips">لطفا یک روش پرداخت را انتخاب کنید</string>
+    <string name="ali_pay">پرداخت Alipay</string>
+    <string name="weixin_pay">پول WeChat</string>
+    <string name="whether_payment_finish">آیا پرداخت تمام شده است?</string>
+    <string name="unfinished">در هوا باشید</string>
+    <string name="finished">کرده است.</string>
+
+    <string name="payment_success">پاداش موفق شد</string>
+    <string name="payment_failed">پول تموم نشده لطفاً دوباره پول بده</string>
+    <string name="payment_processing">پرداخت پول لطفا صبر کنید</string>
+    <string name="payment_error">پاداش شکست خورد</string>
+    <string name="payment_duplex">درخواست تکرار شده، لطفاً یه مدت صبر کنید و دوباره امتحان کنید</string>
+    <string name="payment_user_cancel">کاربر پاداش را کنسل می‌کند</string>
+    <string name="payment_network">پرداخت شکست خورد. مشکلی در شبکه وجود دارد</string>
+    <string name="payment_unknown">خطا ناشناخته</string>
+    <string name="use_dial">برای استفاده</string>
+
+    <string name="no_purchase_record">ثبت خرید نیست</string>
+
+    <!--Upgrade-->
+    <string name="upgrade">برنامه‌سازی</string>
+    <string name="current_dev_version">نسخه‌ی جاری</string>
+    <string name="latest_version">آخرین نسخه</string>
+    <string name="check_update">بررسی برای روزگاری‌ها</string>
+    <string name="dev_ota">فعالیت‌سازی فروشگاه</string>
+    <string name="upgrade_warning">در طول فرایند پیشرفت، لطفاً بلوتوت و شبکه باز نگه دارید ؛ \n دستگاه را خاموش نکنید و تلفن صفحه را قفل نکنید</string>
+    <string name="ota_result_success">برنامه‌سازی کامل شد</string>
+    <string name="ota_result_failed">فعال‌سازی</string>
+    <string name="ota_result_cancel">توسعه کنسل شد</string>
+    <string name="new_ota_version">نسخه جدید%1$s</string>
+    <string name="ota_state_ready">آماده‌سازی برای ابتدایی</string>
+    <string name="ota_state_check_file">بررسی</string>
+    <string name="ota_state_updating">توسعه‌سازی</string>
+    <string name="ota_state_finish">پایان برنامه‌سازی</string>
+    <string name="update_resource_tips">انتقال منابع تماس（%1$d/%2$d）</string>
+    <string name="resource_unfinished_tips">اگر توسعه‌سازی منابع کامل نشده، دستگاه در دسترسی نیست. می‌خواهید به توسعه منابع ادامه دهید？</string>
+    <string name="firmware_mandatory_upgrade">برنامه‌سازی دستگاه کامل نشده. باید برنامه‌سازی را ادامه دهید تا معمولاً از آن استفاده کنید</string>
+    <string name="network_module_ota_upgrade_tips">ارتقاء ماژول 4G تکمیل نشده است آیا می خواهید به ارتقاء ادامه دهید؟</string>
+    <string name="upgrade_warning_tips">هشدار ابزاری</string>
+    <string name="exit_and_disconnect">بازگشت مجبور شده</string>
+    <string name="continue_upgrade">ادامه برنامه‌سازی</string>
+    <!--ota err-->
+    <string name="ota_err_no_space">فضای بهبود‌سازی کافی نیست. لطفا پرونده‌ی تماس‌سازی را قبل از ادامه دادن حذف کنید</string>
+    <string name="ota_err_device_not_connect">دستگاه ابزاری متصل نیست. لطفا مطمئن شوید که دستگاه معمولاً متصل شده است</string>
+    <string name="ota_err_low_power">سطح باتری دستگاه برای ارتقا باید بالای %1$s درصد باشد</string>
+    <string name="ota_err_file_info">خطای ارتقا اطلاعات فایل</string>
+    <string name="ota_err_file_same_version">نسخه فایل ارتقا مانند نسخه دستگاه است</string>
+    <string name="ota_err_tws_not_connect">دستگاه جفت و متصل نیست</string>
+    <string name="ota_err_not_in_charging_bin">هدست در محفظه شارژ نیست</string>
+    <string name="ota_err_data_crc_check">خطای تأیید صحت اطلاعات ارتقا دهید</string>
+    <string name="ota_err_failed">ارتقا انجام نشد</string>
+    <string name="ota_err_key_mismatch">عدم تطابق کلید</string>
+    <string name="ota_err_uboot_mismatch">عدم تطابق UBoot</string>
+    <string name="ota_err_data_len">خطای طول در حین ارتقا رخ داد</string>
+    <string name="ota_err_flash_io">خطاهای خواندن و نوشتن فلش رخ می دهد</string>
+    <string name="ota_err_cmd_timeout">زمان پایان فرمان</string>
+    <string name="ota_err_data_offset">خطا در خواندن افست داده</string>
+    <string name="ota_err_reconnect_device_timeout">زمان اتصال مجدد به دستگاه تمام شد</string>
+    <string name="ota_err_waiting_for_cmd_timeout">زمان انتظار برای فرمان تمام شد</string>
+    <string name="ota_err_send_data_timeout">زمان ارسال فرمان تمام شد</string>
+    <string name="ota_err_update_data">داده های ارتقاء خوانده نشد</string>
+    <string name="ota_err_not_found_file">فایل ارتقا یافت نشد</string>
+    <string name="ota_err_bad_status">دستگاه وضعیت ناموفق را برگرداند</string>
+    <string name="ota_err_bad_result">دستگاه یک نتیجه ناموفق را نشان داد</string>
+    <string name="ota_err_unknown">خطای ارتقا ناشناخته</string>
+
+    <!--闹钟-->
+    <string name="named">نام</string>
+    <string name="alarm_open_success">باز ساعت هشدار موفقیت</string>
+    <string name="alarm_open_failure">خطا در باز کردن ساعت هشدار</string>
+    <string name="alarm_close_success">ساعت هشدار را به موفقیت بسته</string>
+    <string name="alarm_close_failure">خطا در بستن ساعت هشدار</string>
+    <string name="operate_alarm_failure">خطا در عملکرد ساعت هشدار</string>
+    <string name="alarm_list_read_failed">خرابی در خواندن فهرست هشدار</string>
+    <string name="delete">حذف</string>
+    <string name="alarm_set_num_is_full">تعداد ساعت هشدار پر است</string>
+    <string name="alarm_delete_failure">پاک ساعت هشدار شکست خورد</string>
+    <string name="alarm_delete_success">ساعت هشدار موفقیت پاک شد</string>
+
+    <string name="alarm_stop_success">ساعت هشدار موفقیت متوقف شد</string>
+    <string name="alarm_stop_failed">پایان ساعت هشدار شکست خورد</string>
+    <string name="alarm_delete">حذف ساعت هشدار</string>
+    <string name="sync_time">همزمان زمان دستگاه</string>
+    <string name="sync_time_success">زمان همگانی موفق شد</string>
+    <string name="sync_time_failed">زمان همزمان شکست خورد</string>
+
+
+    <string name="save_alarm_failed_no_modify">ساعت هشدار تغییر نشده</string>
+    <string name="save_alarm_failed">خطا در ذخیره ساعت هشدار</string>
+    <string name="save_alarm_success">ساعت هشدار موفقیت ذخیره شده</string>
+    <string name="choose_repeat_mode_tip">لطفا یک حالت انتخاب کنید</string>
+    <string name="alarm_name_can_not_be_empty">نام هشدار نمی‌تواند خالی باشد</string>
+    <string name="alarm_name_length_too_long">نام هشدار خیلی طولانی است</string>
+    <string name="alarm_name_format_error">قالب ورودی اشتباهی از نام هشدار</string>
+    <string name="default_alarm_name">ساعت هشدار</string>
+    <string name="default_alarm_custom">سفارشی</string>
+    <string name="alarm_edit_title">ویرایش ساعت هشدار</string>
+    <string name="alarm_create_title">هشدار جدید</string>
+    <string name="alarm_repeat_on_workday">از دوشنبه تا جمعه</string>
+    <string name="alarm_repeat_every_day">هر روز</string>
+    <string name="alarm_repeat_single">زمان تنها</string>
+    <string name="alarm_repeat_week">هفته</string>
+    <string name="alarm_repeat_mon">دوشنبه</string>
+    <string name="alarm_repeat_tue">سه شنبه</string>
+    <string name="alarm_repeat_wed">چهارشنبه</string>
+    <string name="alarm_repeat_thu">پنجشنبه</string>
+    <string name="alarm_repeat_fri">جمعه</string>
+    <string name="alarm_repeat_sat">شنبه</string>
+    <string name="alarm_repeat_sun">شنبه</string>
+    <string name="alarm_repeat_simple_mon">یک</string>
+    <string name="alarm_repeat_simple_tue">دو</string>
+    <string name="alarm_repeat_simple_wed">سه</string>
+    <string name="alarm_repeat_simple_thu">چهار</string>
+    <string name="alarm_repeat_simple_fri">پنج</string>
+    <string name="alarm_repeat_simple_sat">شش</string>
+    <string name="alarm_repeat_simple_sun">روز</string>
+
+    <!--AlarmSettings-->
+    <string name="alarm_settings">مدیر هشدار</string>
+    <string name="bell">صدای زنگ زدن</string>
+    <string name="repeat">تکرار</string>
+    <string name="light">نور</string>
+    <string name="alarm_state">وضعیت</string>
+    <string name="delete_alarm_tip">می‌خواهید این ساعت هشدار را حذف کنید</string>
+    <string name="stop_alarm">بس کن</string>
+    <string name="alarm_running">ساعت هشدار داره صدا مي زنه</string>
+    <string name="unnamed">نام نشده</string>
+    <string name="hint_input_alarm">لطفا نام ساعت هشدار را وارد کنید</string>
+
+    <string name="alarm_bell_1">صدای حلقه ۱</string>
+    <string name="alarm_bell_2">صدای حلقه ۲</string>
+    <string name="alarm_bell_3">صدای حلقه ۳</string>
+    <string name="alarm_bell_4">رینگتون ۴</string>
+    <string name="alarm_bell_5">صدای حلقه ۵</string>
+    <string name="alarm_default_bell">پیش‌فرض</string>
+    <string name="alarm_count_tip">بعد از آنکه ساعت هشدار آماده شود و با ساعت همزمان شود، ساعت برای یادآوری شما دور خواهد شد. ميتوني ساعت 5 هشدار رو تنظيم کني</string>
+    <string name="alarm_bell_list_read_failed">دریافت فهرست صوتهای حلقه پیش‌فرض</string>
+
+    <string name="alarm_bell_time">مدت ساعت هشدار</string>
+    <string name="min_format">%1$d دقیقه</string>
+    <string name="alarm_bell_interval">فاصله بازگرداندن</string>
+    <string name="bell_repeat_count_title">تعداد حلقه‌های تکرار</string>
+    <string name="bell_interal_time_title">فاصله تکرار (دقیقه‌ها)</string>
+    <string name="interval_format">%1$dدقیقه‌,%2$dثانیه</string>
+    <string name="count_format">ثانیه</string>
+
+
+    <!-- file -->
+    <string name="msg_read_file_err_reading">دستگاه شلوغه لطفاً بعد دوباره امتحان کنید!</string>
+    <string name="msg_read_file_err_offline">دستگاه آنلاین نیست!</string>
+    <string name="msg_read_file_err_beyond_max_depth">سطح قابل خواندن！</string>
+    <string name="empty_folder">پوشۀ خالی</string>
+    <string name="get_music_info_failed">نتوانست اطلاعات موسیقی را دریافت کرد</string>
+
+    <!-- 联系人-->
+    <string name="tip_not_contact">هیچ ارتباط مورد علاقه‌ای ندارد</string>
+    <string name="tip_add_contact">تنظیم تماس‌های مورد علاقه‌ای برای ساعت شما تا سریع تماس‌ها را انجام دهید، و تماس‌هایی که تنظیم کرده‌اید به طور خودکار با دستگاه هماهنگ می‌شوند</string>
+    <string name="tip_max_contacts_can_add">می‌توانید تا %1$d موارد دلخواه را به ساعت خود اضافه کنید. مخاطبینی که اغلب استفاده می‌کنید به‌طور خودکار با دستگاه همگام‌سازی می‌شوند.</string>
+    <string name="sort">مرتب سازی</string>
+    <string name="hint_search_contact">جستجو ارتباطات</string>
+    <string name="unchose">انتخاب نشده</string>
+    <string name="format_contact_chose_count">%1$d دلار انتخاب شده</string>
+    <string name="tip_max_contact_err">برگزیدن تا%1$d ارتباطات</string>
+    <string name="tip_update_contact_failed">گزارش ارتباط شکست خورد</string>
+    <string name="tip_sync_contact_failed">همگام ارتباط شکست خورد</string>
+    <string name="tip_cancel_get_contact">کنسل گرفتن ارتباط</string>
+    <string name="tip_cancel_update_contact">لغو به روزرسانی آشنا</string>
+
+    <!-- 音乐管理 -->
+    <string name="tip_transfer_finish">انتقال کامل شد</string>
+    <string name="tip_transfer_canceled">انتقال کنسل شد</string>
+    <string name="tip_transfer_error">متوقف انتقال به دلیل شکست انتقال</string>
+    <string name="tip_mobile_not_has_contacts">کتاب نشانی موبایل فعلی خالی است</string>
+    <string name="ask_delete_contact">حذف ارتباط برگزیده</string>
+    <string name="tip_logout">باید از حساب خارج شوید</string>
+    <string name="tip_downloading_music">(لطفاً ارتباط بلوتوت بین تلفن و ساعت شما در طول انتقال پرونده موسیقی نگه دارید)</string>
+    <string name="tip_download_finished">%1$dانتقال موسیقی موفق شد</string>
+    <string name="tip_please_chose_contact">لطفاً یک ارتباط را انتخاب کنید</string>
+    <string name="tip_check_net">شبکه متصل نیست، لطفا تنظیمات شبکه را بررسی کنید</string>
+    <string name="sport_other">دیگر</string>
+    <string name="sport_outdoor_running">در حال فرار</string>
+    <string name="sport_indoor_running">در حال فرار داخلی</string>
+    <string name="exercise_time">مدت تمرین</string>
+    <string name="total_time">مدت عمومی</string>
+    <string name="pace">پیک</string>
+    <string name="average_pace">سرعت متوسط</string>
+    <string name="consumption_of_kilocalories">مصرف (kcal)</string>
+    <string name="whether_delete">می‌خواهید حذف کنید؟：%1$s</string>
+
+    <!--二维码扫描-->
+    <string name="scan_qr_code_title">اسکن کد QR</string>
+    <string name="select_from_gallery">انتخاب از گالری</string>
+    <string name="pair_device">دستگاه‌های جفت دستی</string>
+    <string name="scan_qr_tips">جایگزین کد QR در جعبه</string>
+    <string name="scan_env_dark_tips">شما در یک محیط تاریک هستید، پیشنهاد می‌شود که نور چراغ را روشن کنید</string>
+    <string name="scan_env_light_tips">شما در محیط طبیعی هستید، پیشنهاد می‌شود که نور فلش را خاموش کنید</string>
+    <string name="not_found_qr">کد QR پیدا نشد</string>
+
+    <string name="device_searching">جستجو برای دستگاه موجود&#8230;</string>
+    <string name="no_found_device_tips">دستگاه پیدا نشد؟ اضافه شده توسط ####</string>
+    <string name="no_found_device_tips_2">هیچ دستگاه پیدا نشده ، لطفا مطمئن شوید که دستگاه فعال شده و نزدیک به تلفن موبایل است</string>
+    <string name="retry">دوباره امتحان کنید</string>
+    <string name="no_binding">به طور موقتی متصل نشده</string>
+    <string name="not_found_target">دستگاه هدف پیدا نشد؟ ####</string>
+    <string name="rescan_device">دوباره جستجو کن</string>
+
+    <string name="connect_device">اتصال دستگاه</string>
+    <string name="dev_connecting">جفت&#8230;</string>
+    <string name="dev_connecting_desc">لطفاً جفت روی دستگاه تایید کنید&#8230;</string>
+    <string name="dev_connect_success">جفت موفق شد</string>
+    <string name="dev_connect_success_desc">دستگاه جفت شده لطفاً تجربه کن</string>
+    <string name="dev_connect_fail">جفت دستگاه شکست خورد</string>
+    <string name="dev_connect_fail_desc">لطفاً دوباره کد را برای ارتباط یا دستگیری دستگیر کنید</string>
+    <string name="cur_dev_msg">دستگاه جفت فعلی: %1$s</string>
+    <string name="gps">GPS</string>
+    <string name="km">کیلومتر</string>
+    <string name="step_freq_info_title">فرکانس قدم (قدم/دقیقه)</string>
+    <string name="average_step_freq">فرکانس قدم متوسط</string>
+    <string name="max_step_freq">فرانسوی بزرگترین قدم</string>
+    <string name="per_pace_of_km">سرعت در کیلومتر</string>
+    <string name="average_pace_of_per_km">سرعت متوسط (/km)</string>
+    <string name="max_pace_of_per_km">سریع‌ترین سرعت (/km)</string>
+    <string name="app_running">فرار می‌کند</string>
+
+    <string name="watch_edit">ویرایش</string>
+    <string name="current_watch">تماس فعلی</string>
+    <string name="choose_photo">افزودن عکسها</string>
+    <string name="watch_restore">بازگرداندن پیش‌فرض</string>
+    <string name="take_photo">عکس</string>
+    <string name="get_photo_from_album">انتخاب از آلبوم موبایل</string>
+    <string name="select">انتخاب</string>
+    <string name="set_custom_bg_success">تنظیم پشتیبانی شخصی موفق شد</string>
+
+    <!--Message-->
+    <string name="enable_notification_listener_service_tips">برای استفاده از فعالیت همگانی اطلاعات ، کاربر باید موافق باشد تا اطلاعات بار یادآوری را دریافت کند. آیا می‌خواهید آن را فعال کنید؟？</string>
+    <string name="bt_disconnect_tips">لطفاً اول دستگاه را متصل کنید</string>
+    <string name="not_found_history">هیچ دستگاه برای پیوند پیدا نشد</string>
+
+    <!--fatfs error-->
+    <string name="not_enough_space">فضای کافی برای تماشا، نمی‌تواند پرونده‌های بیشتری اضافه کند</string>
+    <string name="empty_date">روز ماه</string>
+
+
+    <!-- unit -->
+    <string name="unit">شرکت</string>
+    <string name="unit_cm">سانتیمتر</string>
+    <string name="unit_m">برنج</string>
+    <string name="unit_km">کیلومتر</string>
+
+    <string name="unit_in">اینچ</string>
+    <string name="unit_ft">پا</string>
+    <string name="unit_mile">مایل</string>
+
+    <string name="unit_kg">کيلومتر</string>
+    <string name="unit_lb">پوند</string>
+    <string name="unit_running">step</string>
+    <string name="no_sdcard_device">هیچ دستگاه وارد نشده</string>
+    <string name="select_all">برگزیدن همه‌ی</string>
+    <string name="cancel_select_all">هیچ‌کدام</string>
+    <string name="logout">خروج</string>
+    <string name="local_music">موسیقی محلی</string>
+    <string name="music">موسیقی</string>
+
+    <!--HistoryRecordFragment-->
+    <string name="reconnect_history">پیوند دوباره</string>
+    <string name="remove_history">حذف دستگاه</string>
+    <string name="history_connect_ok">اتصال دستگاه موفق شد</string>
+    <string name="history_connect_failed">اتصال دستگاه شکست خورد</string>
+    <string name="remove_history_success">تاریخ را با موفقیت حذف کرد</string>
+    <string name="remove_history_failed">خرابی در حذف تاریخ</string>
+    <string name="history_is_gone">تاریخ حذف شده است</string>
+
+
+    <!--  健康设置 -->
+    <string name="tip_pressure_auto_tip">هنگامی که "شناسایی فشار خودکار" روشن شود، دستگاه به طور هوشمند وضعیت فعالیت شما را داوری می کند. اگر آن را ثابت می کند، آن تغییر میزان قلب شما را شناسایی می کند و فشار را محاسبه می کند. در طول تمرین، شناسایی فشار خودکار انجام نمی شود. برای اطمینان شناسایی درست، لطفا دستگاه را درست</string>
+    <string name="pressure_auto_relax">آروم باشید</string>
+    <string name="pressure_auto_normal">طبیعی</string>
+    <string name="pressure_auto_medium">دوم</string>
+    <string name="pressure_auto_high">در سمت بالا، پیشنهاد می‌شود که به منطقی فشار را کنترل کند</string>
+    <string name="heart_measure_way">روش اندازه میزان قلب</string>
+    <string name="smart">اطلاعات</string>
+    <string name="tip_heart_smart_measure">به طور حرکتی فرکانس اندازه اندازه‌گیری را بر اساس وضعیت تمرین کنید، و با هوشمند سرعت قلب شما را برای ۲۴ ساعت کنترل کنید، که به ذخیره قدرت کمک می‌کند</string>
+    <string name="tip_heart_real_measure">میزان قلب شما در زمان واقعی ۲۴ ساعت را تماشا می‌کند. داده‌های میزان قلب جزئیات بیشتری و به طریق زمانی بیشتری تاثیر بسیار بزرگی بر مصرف برق دارد.</string>
+    <string name="real">زمان واقعی</string>
+    <string name="heart_rate_limit">حدود بالاتر سرعت قلب</string>
+    <string name="heart_rate_limit_warn">هشدار سرعت قلب بالا</string>
+    <string name="tip_heart_rate_limit_warn">یادآوری وقتی میزان قلبی بیشتر از %1$d دلار دفعه/دقیقه است</string>
+
+    <string name="more">بیشتر</string>
+    <!--Nfc-->
+    <string name="nfc_card_bag">کيف کارت</string>
+    <string name="door_key">کلید در</string>
+    <string name="add_door_key">افزودن کلید در</string>
+    <string name="detail">جزئیات</string>
+    <string name="door_key_simulation">شبیه کارت در</string>
+    <string name="edit">ویرایش</string>
+    <string name="door_key_name">اسم کلید در</string>
+    <string name="modify_key_name">تغییر نام کلید</string>
+    <string name="delete_card_fail">پاک کردن کارت ناکام شد</string>
+    <string name="save_failed">ذخیره شکست خورد</string>
+    <string name="card_is_existed">این کارت قبلا وجود دارد، لطفاً دوباره اضافه نکنید</string>
+    <string name="no_storage_device">هیچ دستگاه ذخیره</string>
+    <string name="nfc_card_over_limit">کارت NFC به حد بالا رسید</string>
+    <string name="tips">نوع‌ها</string>
+    <string name="analog_nfc_key_card">کارت دسترسی فیزیکی شبیه‌سازی</string>
+    <string name="analog_key_card_to_device">شبیه‌سازی کارت دسترسی موجود به دستگاه قابل پوشیدن</string>
+    <string name="add_time">افزودن زمان</string>
+    <string name="edit_card">ویرایش کارت</string>
+    <string name="set_default_card">تنظیم به عنوان کارت پیش‌فرض</string>
+    <string name="delte_current_card">حذف این کارت</string>
+    <string name="home">خونه</string>
+    <string name="company">شرکت</string>
+    <string name="prepare_read_card">آماده‌ی خواندن کارت</string>
+    <string name="card_close_phone">لطفا کارت را برای شناسایی به تلفن پیوند دهید</string>
+    <string name="card_support_range">نگاه کردن محدوده پشتیبانی کارت در</string>
+    <string name="start_check">آغاز شناسایی</string>
+    <string name="set_commonly_use_card_to_default">کارت کنترل دسترسی معمولی را به عنوان کارت پیش‌فرض تنظیم کنید و مستقیما کارت را هنگامی که پرده خاموش شود تغییر دهید</string>
+    <string name="keep_device_connect_phone">لطفاً دستگاه قابل پوشیدن با تلفن موبایل را از طریق بلوتوت متصل کنید و فرایند شبیه سازی دستگاه قابل پوشیدن را عملیات نکنید، که حدود یک دقیقه طول می کشد</string>
+    <string name="add_failed">افزودن شکست</string>
+    <string name="failed_reason">دلیل غلطی</string>
+    <string name="system_exception">ناعادی سیستم</string>
+    <string name="detailed_analysis">تحلیل جزئیات</string>
+    <string name="get_data_error">استثناء در دریافت داده یا اجرای دستورات</string>
+    <string name="handling_suggestions">استفاده از پیشنهاد</string>
+    <string name="try_again">لطفاً دوباره امتحان کنید</string>
+    <string name="got_it">فهمیدم</string>
+    <string name="detecting">شناسایی…</string>
+    <string name="detecting_no_move_card">لطفا کارت را در طول کشف حرکت نکنید</string>
+    <string name="detect_success">کشف موفق شد</string>
+    <string name="read_card_failed">خواندن کارت شکست خورد</string>
+    <string name="card_move_fast">کارت خیلی سریع حرکت کرد، لطفاً دوباره امتحان کنید</string>
+    <string name="read_card_failed_encryption">این کارت رمزگذاری شده و شبیه سازی را پشتیبانی نمی‌کند. \n راه دیگری امتحان کنید</string>
+    <string name="analog_card_number">شماره کارت آنلاگ</string>
+    <string name="step_sensor">سنسور قدم</string>
+    <string name="keep_data_record">ذخیره ثبت داده</string>
+    <string name="heart_rate_sensor">سنسور سرعت قلب</string>
+    <string name="blood_oxygen_sensor">سنسور اکسیژن خون</string>
+    <string name="altitude_pressure_sensor">سنسور فشار هوا</string>
+    <string name="fall_detection">شناسایی سقوط</string>
+    <string name="heart_rate_space_mode">تقسیم میزان سرعت قلبی</string>
+    <string name="percent_of_max_heart_rate">حداکثر سرعت قلبی</string>
+    <string name="percentage_of_reserve_heart_rate">درصد ذخیره سرعت قلبی</string>
+
+    <!--Health Service-->
+    <string name="service_none_device">لطفا دستگاه شما را به تجربه لذت ورزش ارتباط دهید</string>
+    <string name="service_health_data">اطلاعات سلامتی</string>
+
+    <string name="close">بسته</string>
+    <string name="all_day">باز کردن تمام روز</string>
+    <string name="time_open">زمان روشن شد</string>
+    <string name="start_time">زمان باز کردن</string>
+    <string name="end_time">زمان پایان</string>
+    <string name="status_text">وضعیت باز کردن</string>
+    <string name="fall_response_way">حالت پاسخ فرود</string>
+    <string name="response_mode_bright">پرده روشن</string>
+    <string name="response_mode_shake">شوک</string>
+    <string name="response_mode_call">تلفن</string>
+    <string name="emergency_contact">تماس اضطراری</string>
+    <string name="tip_emergency_contact">وقتی سقوط می‌شود، تماس اضطراری خودکار را تماس بگیرید</string>
+    <string name="no_setting">تنظیم نشده</string>
+    <string name="title_open_sedentary_reminder">فعال کردن یادآوری طولانی</string>
+    <string name="tip_sedentary_reminder">اگر بیشتر از یک ساعت بشینید، دستگاه برای یادآوری شما می‌شود</string>
+    <string name="free_lunch_break">در طول استراحت ناهار توقف نشده</string>
+    <string name="tip_free_lunch_break">12:00 تا 14:00 بهم يادآوري نکن</string>
+    <string name="modification">تغییر</string>
+    <string name="mobile">شماره تلفن</string>
+    <string name="save_contact">ذخیره تماس</string>
+    <string name="hint_emergency_contact">لطفا شماره تلفن اضطراری را پر کنید</string>
+    <string name="title_emergency_contact">تنظیمات تماس اضطراری</string>
+    <string name="next_day">روز بعد</string>
+    <string name="start_sports_failed">خطا در آغاز حرکت</string>
+    <string name="start" translatable="false">آغاز</string>
+
+    <!--    实时运动强度状-->
+    <string name="save_sports_status_0">بدون حرکت</string>
+    <string name="save_sports_status_1">گرم</string>
+    <string name="save_sports_status_2">گاز سوختن</string>
+    <string name="save_sports_status_3">تحمل Aerobic</string>
+    <string name="save_sports_status_4">شکیبایی</string>
+    <string name="save_sports_status_5">محدودیت</string>
+
+    <!--    储备心率模式-->
+    <string name="real_sports_status_0">بدون حرکت</string>
+    <string name="real_sports_status_1">بنیاد ایروبی</string>
+    <string name="real_sports_status_2">پيشرفت هوايي</string>
+    <string name="real_sports_status_3">سطح اسید لاکتیک</string>
+    <string name="real_sports_status_4">بنیاد آناروبیک</string>
+    <string name="real_sports_status_5">آناروبیک پیشرفته</string>
+
+    <string name="step_number_and_unit"  >قدم‌ها</string>
+    <string name="heart_rate_and_unit">سرعت قلب (زمان/دقیقه)</string>
+    <string name="average_heart_rate_and_unit">سرعت قلب متوسط (زمان/دقیقه)</string>
+    <!--Health Sleep-->
+    <string name="sleep_analysis_avg_type1">مدت عادی خواب شب %1$s ساعت و %2$s دقیقه</string>
+    <string name="sleep_analysis_avg_type2">متوسط نسبت خواب عمیق%1$s%%</string>
+    <string name="sleep_analysis_avg_type3">مقدار متوسط خواب عمیق%1$s%%</string>
+    <string name="sleep_analysis_avg_type4">نسبت حرکت چشم سریع متوسط%1$s%%</string>
+    <string name="sleep_analysis_avg_type5">متوسط ادامه خواب عمیق%1$sشاخه</string>
+    <string name="sleep_analysis_avg_type6">زمان بیداری متوسط%1$sثانیه</string>
+    <string name="sleep_analysis_type1">زمان خواب عادی شب:%1$s ساعت $,%2$s دقیقه</string>
+    <string name="sleep_analysis_type2">نسبت خواب عمیق%1$s%%</string>
+    <string name="sleep_analysis_type3">نسبت خواب عمیق%1$s%%</string>
+    <string name="sleep_analysis_type4">نسبت حرکت چشم سریع%1$s%%</string>
+    <string name="sleep_analysis_type5">ادامه خواب عمیق%1$sشاخه</string>
+    <string name="sleep_analysis_type6">زمان بیداری%1$sثانیه</string>
+    <string name="time_duration_type1">%1$sh%2$sm</string>
+    <string name="time_duration_type2">%1$sشاخه</string>
+    <string name="sleep_score">امتياز خواب</string>
+    <string name="sober_full">ترسناک</string>
+    <string name="rapid_eye_movement_full">حرکت چشم سریع</string>
+    <string name="light_sleep_full">خواب روشن</string>
+    <string name="deep_sleep_full">خواب عميق</string>
+    <string name="sleep_score_avg">امتیاز متوسط خواب</string>
+    <string name="sober_avg">چشم متوسط</string>
+    <string name="rapid_eye_movement_avg">حرکت چشم سریع متوسط</string>
+    <string name="light_sleep_avg">بيشترين گلوله</string>
+    <string name="deep_sleep_avg">عمق متوسط</string>
+    <string name="sleep_ratio">Proportion</string>
+    <string name="references">ارزش مربوط: </string>
+    <string name="sleep_nap">خواب اسپاراديک</string>
+    <string name="sleep_avg_nap">خواب متوسط</string>
+    <string name="sleep_total">کامل خواب</string>
+    <string name="status_low">پایین</string>
+    <string name="status_high">از طرف بلند</string>
+    <string name="status_normal">طبیعی</string>
+    <string name="status_over_weight">زیاد وزن</string>
+    <string name="status_over_obese">اطمینان</string>
+    <string name="tip_waiting">لطفا صبر کن...</string>
+    <string name="empty_sports_record">هیچ ثبت حرکتی نیست</string>
+    <string name="reach_target_days">%d روزهای تمرین قابلیت</string>
+    <string name="weekly_step">قدم در هفته</string>
+    <string name="weekly_distance">یک هفته مایلیج</string>
+    <string name="weekly_kcal">مصرف گرم</string>
+    <string name="day">روز</string>
+    <string name="long_press_to_stop">فشار طولانی برای پایان</string>
+    <string name="no_data">هیچ داده‌ای</string>
+    <string name="sports_stop">پایان</string>
+    <string name="sports_resume">ادامه بده</string>
+    <string name="max_heart_rate">بالاترین سرعت قلبی</string>
+    <string name="average_heart_rate">سرعت قلب متوسط</string>
+    <string name="today_step">امروز قدم‌ها</string>
+    <string name="low_spo2">اکسیژن پایین خون</string>
+    <string name="spo2_range">حداکثر</string>
+    <string name="min_value">کمترین مقدار</string>
+    <string name="max_value">بالاترین مقدار</string>
+    <string name="last_time">به روز </string>
+    <string name="outdoor">در فضای باز</string>
+    <string name="indoor">داخل سالن</string>
+    <string name="http_tip_400">درخواست نامعتبر است</string>
+    <string name="http_tip_401">غیر مجاز</string>
+    <string name="http_tip_403">دسترسی ممنوع</string>
+    <string name="http_tip_404">پرونده یافت نشد</string>
+    <string name="http_tip_405">منابع ممنوع است</string>
+    <string name="http_tip_500">استثنا سرور</string>
+    <string name="http_tip_501">دروازه خطا</string>
+    <string name="http_tip_504">مهلت زمانی دروازه</string>
+    <string name="http_tip_unknow">خطای ناشناخته</string>
+    <string name="percent">%</string>
+
+    <string name="permission_system_set">برو به تنظیمات>مدیریت کاربرد>مدیریت سلامتی>مجوزها</string>
+    <string name="permission_describe_camera">این ویژه به دوربین شما نیاز دارد. لطفا%1$s دلار اجازه دوربین را برای استفاده از این عملکرد معمولاً فعال کنید</string>
+    <string name="permission_describe_contacts">این ویژگی به کتاب آدرس شما نیاز دارد. لطفا%1$s دلار اجازه کتاب نشانی را برای استفاده از این تابع معمولا باز کنید</string>
+    <string name="permission_describe_location">این ویژگی به اطلاعات محل شما نیاز دارد. لطفا%1$s دلار اجازه اطلاعات محل را برای استفاده از این تابع معمولا باز کنید</string>
+    <string name="permission_describe_external_storage">این ویژه به خاطر تلفن شما نیاز داره. لطفا%1$s اجازه خواندن/ نوشتن پرونده را برای استفاده از این تابع معمولاً فعال کنید</string>
+    <string name="allow">اجازه دهید</string>
+    <string name="open_gps_service_tip">اسکن بلوتوث و اتصال جفت نیاز به به دست آوردن اطلاعات مکان دارد ، آیا اجازه می دهد سرویس مکان روشن شود</string>
+    <string name="go_setting">برای تنظیم</string>
+    <string name="no_movement">هیچ حرکتی</string>
+    <string name="open_gps_permission">اجازه محل باز کردن</string>
+    <string name="open_gps_services">فعال کردن خدمت محل موبایل</string>
+    <string name="permission_describe_gps_permission_sport">برای استفاده از عملکرد مربوط به ردیابی و نقشه حرکت، لطفاً اجازه دهید "اطلاعات محل دستگاه" تا از تأثیر استفاده نکنید</string>
+    <string name="permission_describe_gps_service_sport">برای استفاده از نقشه حرکت و نقشه ارتباط به نقشه، باید خدمات موبایل "محل" را فعال کنید تا از تأثیر استفاده نکنید</string>
+    <string name="cancel_account_tip">نمیخوام از استفاده ادامه بدم？</string>
+    <string name="cancel_account">کنسل حساب</string>
+    <string name="delete_account_influence">حساب بعد از لغو بازگرداندن نمی‌شود. ادامه دهید？</string>
+    <string name="synchronizing_data">همزمان داده‌ها…</string>
+    <string name="running_too_short">اگر فاصله حرکت خیلی کوتاه است، پشتیبانی ضبط ذخیره نمی‌شود</string>
+    <string name="slider_to_unlock">باز کردن قفل کشویی</string>
+    <string name="please_click_finish_btn">لطفا دکمه پایان را فشار دهید تا حرکت پایان یابد</string>
+    <string name="tip_finished_exercise">آیا پایان این فعالیت</string>
+    <string name="keep_moving">ادامه بده</string>
+    <string name="terminate_sport">پایان حرکت</string>
+    <string name="running_set">تنظیمات اجرا</string>
+    <string name="copyright">کپی رایت © 2021-2024 Zhuhai JieLi تکنولوژی Co.، Ltd. کلیه حقوق محفوظ است</string>
+    <string name="email_register">ميدوني چيه ؟</string>
+    <string name="phone_register">ثبت نام تلفن همراه </string>
+    <string name="search_password_by_email">ثبت نام تلفن همراه </string>
+    <string name="search_password_by_mobile">بازیابی رمز عبور با استفاده از شماره تلفن همراه </string>
+    <string name="device_not_support">دستگاه پشتیبانی نمی کند</string>
+    <string name="execution_succeeded">اجرای موفق شد</string>
+    <string name="cancel">لغو کنید</string>
+    <string name="double_tap_to_exit">برای خروج از کاربرد دوباره فشار دهید</string>
+    <string name="account_deleted_successfully">حساب موفقیت پاک شده</string>
+    <string name="network_error_tip">به نظر می‌رسد شبکه مشکلی وجود دارد. لطفا شبکه را بررسی کنید</string>
+    <string name="missing_server_information">اطلاعات کارساز گم شده</string>
+    <string name="inconsistent_motion_state">وضعیت حرکت ناپایدار</string>
+    <string name="failed_to_get_weather">دریافت هوا ناکام شد</string>
+    <string name="no_weather_data">هیچ داده‌های هوا</string>
+    <string name="ai_no_speak">به نظر ميرسه هنوز صحبت نکردي</string>
+    <string name="ai_no_skill">هنوز اين مهارت رو ياد نگرفتم</string>
+    <string name="ai_operation_failed">فعالیت شکست خورد</string>
+    <string name="ai_operation_completed">ما عمليات رو براي شما تموم کرديم</string>
+    <string name="ai_network_wrong">مشکلی در شبکه وجود دارد:(</string>
+    <string name="ai_error_code">کد خطا:</string>
+    <string name="ai_is_delete">مطمئني که حذفش کني؟</string>
+    <string name="ai_is_delete_all">تمام محتویات این مکالمه حذف می‌شود و نمی‌توانند برگردند. می‌خواهید آن را حذف کنید؟</string>
+    <string name="ai_cloud_serve">خدمات ابرName</string>
+    <string name="multi_select">چند انتخاب</string>
+    <string name="none_session_record">در حال حاضر ثبت گفتگوی وجود ندارد</string>
+    <string name="sms_login">وارد کردن رمز verification</string>
+    <string name="use_account_password_login">با رمز‌گذاری حساب وارد شوید</string>
+    <string name="detach">حذف</string>
+    <string name="validate">validation</string>
+    <string name="set_password">تنظیم رمز‌گذاری</string>
+    <string name="hint_input_bind_phone_number">لطفا شماره تلفن متصل را وارد کنید</string>
+    <string name="ai_no_response">ببخشيد، شايد سوالت رو درک نکنم. لطفاً يه توضيح جزئيات از محتويات رو که مي خواي بدوني بدين، و من بهترين کارهام رو انجام ميدم تا کمکتون کنم.</string>
+    <string name="wait_ai_response_tip">هنوز پاسخ AI را دریافت نکردم، و این عملیات در حال حاضر پشتیبانی نیست</string>
+    <string name="style_selection">انتخاب سبک</string>
+    <string name="ai_dial_style_1">طرح نقاشی رنگ</string>
+    <string name="ai_dial_style_2">سبک سرزمین واقعی</string>
+    <string name="ai_dial_style_3">سبک کارتون 3D</string>
+    <string name="ai_dial_style_4">Name</string>
+    <string name="ai_dial_style_5">سبک اوریگامی</string>
+    <string name="ai_dial_style_6">طرح رنگ آب</string>
+    <string name="ai_dial">تماس AI</string>
+    <string name="custom_dial">تماس شخصی</string>
+    <string name="re_crop">دوباره قطع کنید</string>
+    <string name="transfer_ing">انتقال</string>
+    <string name="copy">کپی</string>
+
+    <!--About-->
+    <string name="icp_info">اطلاعات بایگانی ICP</string>
+
+    <!--Feedback-->
+    <string name="feedback">بازخورد</string>
+    <string name="feedback_type">نوع بازخورد</string>
+    <string name="problem_feedback">سوال بازخورد</string>
+    <string name="hint_enter_feedback">لطفا سوال خود را با جزئیات وارد کنید و ما در اسرع وقت آن را برای شما حل خواهیم کرد</string>
+    <string name="hint_enter_phone">لطفا شماره تلفن همراه خود را برای ارتباط آسان وارد کنید</string>
+    <string name="commit">ارسال</string>
+    <string name="phone_format_tips">لطفا شماره تلفن صحیح را وارد کنید</string>
+    <string name="phone_empty_tips">لطفا شماره تلفن را وارد کنید</string>
+    <string name="feedback_empty_tips">لطفا محتوای بازخورد را وارد کنید</string>
+    <string name="network_exception_tips">به نظر می رسد شبکه قطع شده است، لطفاً بعداً دوباره امتحان کنید.</string>
+    <string name="feedback_success">با تشکر از بازخورد شما</string>
+
+    <!--ImageVerifyDialog-->
+    <string name="image_captcha">کپچای تصویری</string>
+    <string name="can_not_see_it">مشخص نیست؟ یکی دیگر را امتحان کنید</string>
+    <string name="input_captcha_tips">لطفا کپچای صحیح را وارد کنید</string>
+    <string name="load_code_failed_tips">در بارگذاری کد تصویری تأیید مشکلی پیش آمد، لطفا بعدا دوباره امتحان کنید.</string>
+    <string name="fail_recognize_format">قادر به شناسایی قالب نیست</string>
+
+    <!--TestConfigurationFragment-->
+    <string name="test_configuration">پیکربندی آزمایش</string>
+    <string name="save_configuration">ذخیره</string>
+    <string name="enable_log_function">آیا می خواهید عملکرد ثبت لاگ را فعال کنید؟</string>
+    <string name="use_device_auth">آیا احراز هویت دستگاه فعال شود؟</string>
+    <string name="support_local_ota">آیا OTA محلی روشن شود؟</string>
+    <string name="test_custom_cmd">آزمایش دستورالعمل سفارشی</string>
+    <string name="click_again_to_test_configuration">دوباره بزنید تا وارد رابط پیکربندی آزمایش شوید.</string>
+    <string name="save_configuration_success">پیکربندی با موفقیت ذخیره شد، به زودی از برنامه خارج میشوید.</string>
+
+    <!--LogFileFragment-->
+    <string name="log_file">چاپ لاگ ها</string>
+    <string name="clear_log_file">پاک کردن</string>
+    <string name="remove_file">حذف</string>
+    <string name="file_not_found">فایل وجود ندارد</string>
+    <string name="open_file_failed_by_other_app">برنامهای برای باز کردن فایل موجود نیست</string>
+    <string name="open_file_exception">خطای باز کردن فایل</string>
+    <string name="download_file_permission_tips">عملکرد دانلود فایل نیاز به اجازه خواندن و نوشتن حافظه تلفن توسط کاربر دارد.</string>
+    <string name="download_file_permission_denied_tips">عملکرد دانلود نیاز به خواندن و نوشتن حافظه تلفن دارد. لطفاً به صفحه مدیریت مجوزهای سیستم بروید و مجوز دهید.。</string>
+    <string name="download_file_successful">دانلود فایل موفقیت آمیز بود</string>
+    <string name="download_file_exception">خطای دانلود فایل</string>
+    <string name="share_log_file">به اشتراک گذاری لاگ های چاپ</string>
+    <string name="share_file_exception">خطای به اشتراک گذاری فایل</string>
+
+    <!--CustomCmdTestFragment-->
+    <string name="input_custom_data">وارد کردن داده های سفارشی</string>
+    <string name="log_content">محتوای لاگ</string>
+    <string name="hint_input_hex_data">لطفا داده های هگز را وارد کنید</string>
+    <string name="send_custom_cmd">ارسال دستور سفارشی</string>
+
+    <!--Operation-->
+    <string name="operation_failed">%1$s شکست خورد</string>
+    <string name="error_code">کد خطا</string>
+    <string name="op_delete_file">حذف فایل</string>
+    <string name="op_delete_folder">حذف تمام فایل ها</string>
+
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="156dp"
+    android:layout_height="161dp"
+    android:background="@drawable/bg_contact_menu"
+    android:orientation="vertical"
+
+    android:paddingTop="6dp"
+    android:gravity="center_vertical"
+   >
+
+    <TextView
+        android:id="@+id/tv_contact_menu_add"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:drawableStart="@drawable/ic_contact_menu_add"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical"
+        android:text="@string/add"
+        android:paddingStart="24dp"
+        android:textColor="@color/text_important_color"
+        android:textSize="@dimen/text_15sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="24dp"
+        android:background="@drawable/line_gray_1dp" />
+
+    <TextView
+        android:id="@+id/tv_contact_menu_sort"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:drawableStart="@drawable/ic_contact_menu_sort"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical"
+        android:text="@string/sort"
+        android:paddingStart="24dp"
+        android:textColor="@color/text_important_color"
+        android:textSize="@dimen/text_15sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="24dp"
+        android:background="@drawable/line_gray_1dp" />
+
+    <TextView
+        android:id="@+id/tv_contact_menu_delete"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:drawableStart="@drawable/ic_contact_menu_delete"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical"
+        android:text="@string/detach"
+        android:paddingStart="24dp"
+        android:textColor="@color/text_important_color"
+        android:textSize="@dimen/text_15sp" />
+
+
+
+</LinearLayout>

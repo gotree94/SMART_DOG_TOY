@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cl_none_device_container"
+    android:padding="12dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:background="@drawable/bg_card_white_shape">
+
+    <ImageView
+        android:id="@+id/iv_none_device_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_none_device"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_none_device_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_device_tips"
+        android:textColor="@color/text_secondary_disable_color"
+        android:textSize="@dimen/text_14sp"
+        android:layout_marginStart="6dp"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintTop_toTopOf="@+id/iv_none_device_img"
+        app:layout_constraintStart_toEndOf="@+id/iv_none_device_img"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/tv_none_device_add_device" />
+
+    <TextView
+        android:id="@+id/tv_none_device_add_device"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/add"
+        android:textColor="@color/btn_purple_to_gray_selector"
+        android:background="@drawable/bg_btn_purple_selector"
+        app:layout_constraintTop_toBottomOf="@+id/tv_none_device_content"
+        app:layout_constraintStart_toEndOf="@+id/iv_none_device_img"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_none_device_img"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

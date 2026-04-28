@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import
+            alias="Fragment"
+            type="com.jieli.healthaide.ui.device.nfc.fragment.NFCCardBagFragment" />
+
+        <variable
+            name="fragment"
+            type="Fragment" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        tools:context=".ui.device.nfc.fragment.NFCCardBagFragment">
+
+        <include
+            android:id="@+id/view_topbar"
+            layout="@layout/view_topbar" />
+
+        <ImageView
+            android:id="@+id/iv_nfc_empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/ic_nfc_card_bag_empty"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view_topbar" />
+
+        <TextView
+            android:id="@+id/tv_nfc_simulation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
+            android:text="@string/analog_nfc_key_card"
+            android:textColor="@color/black_242424"
+            android:textSize="@dimen/text_15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_nfc_empty" />
+
+        <TextView
+            android:id="@+id/tv_nfc_simulation_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="@string/analog_key_card_to_device"
+            android:textColor="@color/text_secondary_disable_color"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_nfc_simulation" />
+
+        <TextView
+            android:id="@+id/bt_nfc_add"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/btn_purple_shape"
+            android:gravity="center"
+            android:onClick="@{()->fragment.addNewDoorKey()}"
+            android:text="@string/add"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_nfc_simulation_hint" />
+
+        <androidx.constraintlayout.widget.Group
+            android:id="@+id/group_empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:constraint_referenced_ids="iv_nfc_empty,tv_nfc_simulation,tv_nfc_simulation_hint,bt_nfc_add"
+            tools:visibility="gone" />
+
+        <View
+            android:id="@+id/view_gray"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:background="@color/bg_color"
+            app:layout_constraintTop_toBottomOf="@+id/view_topbar" />
+
+        <TextView
+            android:id="@+id/tv_card_type_door_key"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="13dp"
+            android:text="@string/door_key"
+            android:textColor="@color/black_242424"
+            android:textSize="@dimen/text_15sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view_gray" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_nfc_door_key"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="19dp"
+            android:layout_marginEnd="16dp"
+            tools:itemCount="1"
+            tools:listitem="@layout/item_nfc_card"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_card_type_door_key"
+            tools:layout_editor_absoluteX="178dp" />
+
+        <TextView
+            android:id="@+id/bt_nfc_add_key"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="69dp"
+            android:background="@drawable/bg_btn_white_shape_blue_stroke"
+            android:gravity="center"
+            android:onClick="@{()->fragment.addNewDoorKey()}"
+            android:text="@string/add_door_key"
+            android:textColor="@color/auxiliary_widget"
+            android:textSize="@dimen/text_15sp"
+            app:layout_constraintBottom_toBottomOf="@+id/rv_nfc_door_key"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <androidx.constraintlayout.widget.Group
+            android:id="@+id/group_card_bag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:constraint_referenced_ids="rv_nfc_door_key,bt_nfc_add_key,view_gray,tv_card_type_door_key"
+            tools:visibility="visible" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

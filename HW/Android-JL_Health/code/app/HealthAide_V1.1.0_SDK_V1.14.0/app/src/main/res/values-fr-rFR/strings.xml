@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">WearLink</string>
+
+    <!--HomeActivity-->
+    <string name="tab_health">Santé</string>
+    <string name="tab_sports">Sports</string>
+    <string name="tab_device">Matériel</string>
+    <string name="tab_settings">Paramètres</string>
+    <string name="tab_mine">La mienne.</string>
+
+    <string name="search_phone">Recherche d\'appareils dans le téléphone</string>
+    <string name="close_play">Éteignez le son.</string>
+
+    <!--Load More View-->
+    <string name="status_loading">Chargement&#8230;</string>
+    <string name="status_load_complete">Cliquez pour charger plus</string>
+    <string name="status_load_end">Plus de données</string>
+    <string name="status_load_failed">Échec du chargement, cliquez sur moi pour réessayer</string>
+
+    <!--action-->
+    <string name="scan_qr_code">Scanner le code QR</string>
+    <string name="add_device">Ajouter un périphérique</string>
+    <string name="sports_settings">Paramètres de mouvement</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Bonjour, interface vide</string>
+    <string name="calendar_type_day">Jour</string>
+    <string name="calendar_type_week">Semaine</string>
+    <string name="calendar_type_year">Année</string>
+    <string name="blood_oxygen_saturation">Saturation en oxygène du sang</string>
+    <string name="movement_record">Enregistrement</string>
+    <string name="empty_record">Aucun enregistrement</string>
+    <string name="heart_rate">Fréquence cardiaque</string>
+    <string name="sleep">Sommeil</string>
+    <string name="today_empty_data">Aucune donnée disponible aujourd\'hui</string>
+    <string name="weight">Poids corporel</string>
+    <string name="pressure">Pression</string>
+    <string name="kilogram">Kgm</string>
+    <string name="calendar_type_month">Mois</string>
+    <string name="distance_km">Distance (km)</string>
+    <string name="distance_mile">Distance (miles)</string>
+    <string name="climbing_stairs_m">Escalade (m)</string>
+    <string name="climbing_stairs_foot">Escaliers (pieds)</string>
+    <string name="calories_kcal">Chaleur (kcal)</string>
+    <string name="step">Étapes</string>
+    <string name="step_number">Nombre d\'étapes</string>
+    <string name="medium_high_strength">Intensité moyenne à élevée</string>
+    <string name="min">Minutes</string>
+    <string name="average_step">Nombre moyen d\'étapes</string>
+    <string name="all_step">Nombre total d\'étapes</string>
+    <string name="all_mile">Kilométrage</string>
+    <string name="all_consumption">Consommation</string>
+    <string name="kilocalorie">Kilocalories</string>
+    <string name="kilometre">Km</string>
+    <string name="weight_setting">Réglage du poids</string>
+    <string name="weight_target">Objectifs de poids</string>
+    <string name="date">Date</string>
+    <string name="time">Temps</string>
+    <string name="weekly_average">Moyenne hebdomadaire</string>
+    <string name="daily_average">Moyenne quotidienne</string>
+    <string name="month_average">Moyenne mensuelle</string>
+    <string name="year_average">Moyenne annuelle</string>
+    <string name="range_of_variation">Changements</string>
+    <string name="weight_start_data">Début:%.1f</string>
+    <string name="weight_target_data">Cible:%.1f</string>&gt;
+    <string name="kg">Kg</string>
+    <string name="sober">Réveillez - vous.</string>
+    <string name="rapid_eye_movement">Mouvement oculaire rapide</string>
+    <string name="light_sleep">Sommeil léger</string>
+    <string name="deep_sleep">Dormez profondément.</string>
+    <!--Health- Pressure-->
+    <string name="uptilted">Élevé</string>
+    <string name="medium">Moyenne</string>
+    <string name="normal">Normal.</string>
+    <!--Login-->
+    <string name="login">Connexion</string>
+    <string name="hint_input_phone_number_or_email">Veuillez saisir votre numéro de téléphone / courriel</string>
+    <string name="hint_input_phone_number">Veuillez saisir le numéro de téléphone</string>
+    <string name="hint_input_password">Veuillez saisir le mot de passe</string>
+    <string name="login_by_sms">Connectez - vous avec un code de vérification</string>
+    <string name="forgot_password">Tu as oublié ton mot de passe?</string>
+    <string name="register_tips">Pas de compte? Inscrivez - vous maintenant</string>
+    <string name="phone_or_email_tips_empty">Le numéro de téléphone / courriel ne peut pas être vide</string>
+    <string name="phone_or_email_tips_format_err">Mauvais format de numéro de téléphone / courriel</string>
+    <string name="phone_tips_empty">Le numéro de téléphone ne peut pas être vide</string>
+    <string name="phone_tips_format_err">Format incorrect du numéro de téléphone</string>
+    <string name="email_address_tips_empty">L\'adresse électronique ne peut pas être vide</string>
+    <string name="email_address_tips_format_err">Adresse électronique mal formée</string>
+    <string name="password_tips_empty">Le mot de passe ne peut pas être vide</string>
+    <string name="password_tips_format_err">La longueur du mot de passe doit être de 6 à 12 bits</string>
+    <string name="register_succeed">Inscription réussie</string>
+    <string name="login_by_account">Connectez - vous par mot de passe de compte</string>
+    <!--帐号与安全-->
+    <string name="search">Recherche</string>
+    <string name="account_security">Comptes et sécurité</string>
+    <string name="modify_phone_number">Changer le numéro de téléphone</string>
+    <string name="modify_email_address">Modifier l\'adresse électronique</string>
+    <string name="change_password">Modifier le mot de passe</string>
+    <string name="change">Remplacer</string>
+    <string name="bind_new_phone_number">Lier un nouveau numéro de téléphone</string>
+    <string name="bind_new_email_address">Lier une nouvelle adresse de boîte aux lettres</string>
+    <string name="modify_binded_phone_number">Changer le numéro de téléphone lié?</string>
+    <string name="current_binded_phone_number">Le numéro de téléphone actuellement lié est</string>
+    <string name="modify_binded_email_address">Remplacer l\'adresse e - mail liée?</string>
+    <string name="current_binded_email_address">L\'adresse électronique actuellement liée est</string>
+    <string name="authentication">Authentification</string>
+    <string name="authentication_tip">Pour confirmer que c\'est vous, veuillez vous authentifier.</string>
+    <string name="sms_verification_code">Code de vérification SMS</string>
+    <string name="bind_new_phone_number_success">Le nouveau numéro de téléphone mobile a été lié avec succès!</string>
+    <string name="bind_new_email_address_success">Nouvelle adresse e - mail liée avec succès!</string>
+    <string name="modified_success">Modification réussie</string>
+    <string name="old_password">Ancien mot de passe</string>
+    <string name="input_old_password">Saisissez l\'ancien mot de passe</string>
+    <string name="new_password">Nouveau mot de passe</string>
+    <string name="password_input_tip">Veuillez définir un nouveau mot de passe pour les combinaisons de lettres et de chiffres de 6 à 12 chiffres</string>
+    <string name="inout_new_password">Saisissez un nouveau mot de passe</string>
+    <string name="inout_new_password_again">Saisissez à nouveau le nouveau mot de passe</string>
+    <string name="password_is_inconsistent">Mot de passe incohérent, veuillez saisir à nouveau</string>
+    <string name="phone_number_is_empty">Le numéro de téléphone ne peut pas être vide</string>
+    <string name="sms_verification_code_error">Erreur de code de vérification SMS</string>
+    <string name="current_phone_registered">Le téléphone actuel est déjà enregistré</string>
+    <string name="current_phone_no_register">Le compte courant n\'est pas enregistré</string>
+    <string name="account_password_error">Erreur de mot de passe du compte</string>
+    <string name="new_password_no_be_empty">Le nouveau mot de passe ne peut pas être vide</string>
+    <string name="old_password_error">Erreur d\'ancien mot de passe</string>
+    <!--Register-->
+    <string name="register">Inscription</string>
+    <string name="input_verification_code">Saisissez le Code de vérification</string>
+    <string name="send_sms_code">Envoyer un code de vérification</string>
+    <string name="resend_sms_code">Récupérer (%1$s)</string>
+    <string name="input_identifying_code">Saisissez le Code de vérification</string>
+    <string name="send_identifying_code">Envoyer un code de vérification</string>
+    <string name="resend_identifying_code">Récupérer (%1$s)</string>
+    <string name="input_password_tips">Veuillez définir un mot de passe pour une combinaison de 6 à 12 lettres et chiffres</string>
+    <string name="sms_code_tips_empty">Le Code de vérification ne peut pas être vide</string>
+    <string name="sms_code_tips_format_err">Le format du Code de vérification est incorrect</string>
+    <string name="identifying_code_tips_empty">Le Code de vérification ne peut pas être vide</string>
+    <string name="identifying_code_tips_format_err">Le format du Code de vérification est incorrect</string>
+    <string name="hint_input_email">Veuillez saisir l\'adresse électronique</string>
+
+    <!--User Message-->
+    <string name="input_user_msg">Améliorer les renseignements personnels</string>
+    <string name="nickname">Un surnom.</string>
+    <string name="sex">Sexe</string>
+    <string name="date_of_birth">Date de naissance</string>
+    <string name="stature">Taille</string>
+    <string name="sport_target">Cible mobile</string>
+    <string name="next_step">Prochaines étapes</string>
+    <string name="skip_progress">Skip</string>
+
+    <string name="please_input">Veuillez entrer</string>
+    <string name="please_choose">Veuillez sélectionner</string>
+    <string name="heart_rate_range">Plage de fréquence cardiaque</string>
+    <string name="times_per_minute">Temps / minute</string>
+    <string name="resting_heart_rate">Fréquence cardiaque au repos</string>
+    <string name="resting_heart_rate_avg">Fréquence cardiaque moyenne au repos</string>
+    <string name="static_heart_rate_too_high">Fréquence cardiaque statique élevée</string>
+    <string name="low_resting_heart_rate">Faible fréquence cardiaque statique</string>
+
+    <!--Sex Dialog-->
+    <string name="man">Hommes</string>
+    <string name="woman">Femmes</string>
+    <string name="hour">Heures</string>
+    <string name="minute">Minutes</string>
+    <string name="score">Points</string>
+
+
+    <!--Permission-->
+    <string name="open_gpg_tip">L\'application nécessite une fonction GPS, veuillez activer le Service de localisation pour continuer</string>
+    <string name="permissions_tips_01">Pour une utilisation normale du logiciel, s\'il vous plaît</string>
+    <string name="permission_contacts">Autoriser les contacts en lecture et en écriture</string>
+    <string name="permission_mic">Autoriser l\'utilisation du microphone</string>
+    <string name="permission_read_phone_state">Autoriser la lecture des informations du téléphone</string>
+    <string name="permission_location">Autoriser l\'accès aux informations de localisation</string>
+    <string name="permission_storage">Autoriser la lecture et l\'écriture de fichiers</string>
+    <string name="permission_bluetooth">Autoriser Bluetooth</string>
+    <string name="permission_phone_settings">Autoriser la modification des paramètres du téléphone</string>
+    <string name="permissions_tips_02">Aller à la configuration du système pour accorder l\'application</string>
+    <string name="permission">Autorité</string>
+    <string name="permission_sport">Paramètres des permissions de mouvement</string>
+    <string name="permission_sport_tips">Android peut désactiver%1$s qui enregistre le mouvement en raison des paramètres d\'économie d\'énergie et des restrictions de spooler, ou peut causer la perte de certaines données d\'enregistrement de mouvement. Si vous rencontrez des problèmes, veuillez vous référer aux paramètres de la méthode ci - dessous.</string>
+    <string name="permission_sport_suspension_title">Appliquer les paramètres d\'affichage supérieur (fenêtre suspendue) à d\'autres</string>
+    <string name="permission_sport_suspension_describe">Pour vous assurer que vous n\'êtes pas tué par erreur par le système mobile pendant le mouvement, ce qui entraîne une perte de données de mouvement, veuillez accorder l\'autorisation de fenêtre flottante%1$s</string>
+    <string name="permission_sport_suspension_operate">Activer les permissions de fenêtre suspendue</string>
+    <string name="permission_sport_battery_optimized_title">Optimisation de la batterie</string>
+    <string name="permission_sport_battery_optimized_describe">Le fonctionnement de%1$s peut encore être limité en mode économie d\'énergie. Le Mouvement doit être amorcé de manière à ce que la quantité d\'électricité soit relativement suffisante et que le mode d\'économie d\'énergie soit désactivé. L\'entrée des paramètres pertinents se trouve généralement dans la barre d\'état ou les paramètres liés à la batterie.</string>
+    <string name="permission_sport_battery_optimized_operate_1">Optimisation de la batterie activée, cliquez sur Fermer</string>
+    <string name="permission_sport_battery_optimized_operate_2">Optimisation de la batterie désactivée</string>
+    <string name="permission_sport_background_title">Paramètres de protection de fond</string>
+    <string name="permission_sport_background_describe">L\'ajout de%1$s à la liste de protection de l\'arrière - plan peut aider%1$s à continuer à fonctionner en arrière - plan dans une certaine mesure. N méthode de réglage:</string>
+    <string name="permission_sport_background_operate">Activer les paramètres du système de protection de fond</string>
+    <string name="permission_sport_powersave_title">Mode d\'économie d\'énergie</string>
+    <string name="permission_sport_powersave_describe">L\'application est gelée en raison des paramètres d\'économie d\'énergie du système. Pour s\'assurer que l\'activité de fond, comme l\'enregistrement des données de mouvement, n\'est pas affectée, ajoutez%1$s à la liste blanche d\'optimisation de la batterie. \n méthode de réglage:</string>
+    <string name="permission_sport_powersave_oprate">Activer les paramètres du système anti - sommeil</string>
+    <string name="lock_screen_display">Affichage de l\'écran de verrouillage</string>
+    <string name="locak_screen_display_hint">Méthode de réglage: informations d\'application - &gt; Gestion des droits - &gt; affichage de l\'écran de verrouillage</string>
+    <string name="instructions_for_use">Mode d\'emploi</string>
+    <string name="permissions_camera">Autorisations de la caméra</string>
+    <string name="permissions_bluetooth">Autorisations Bluetooth</string>
+    <string name="permissions_location">Autorisations De Localisation</string>
+    <string name="permissions_storage">Autorisations De Stockage</string>
+    <string name="permissions_read_contact">Autorisation de lire les informations de contact</string>
+    <string name="permissions_camera_explain">Utilisé pour numériser, définir un avatar, définir l\'arrière-plan du cadran de la montre personnalisé et d\'autres fonctions.</string>
+    <string name="permissions_bluetooth_explain">Utilisé pour rechercher et connecter des appareils Bluetooth, communiquer avec des appareils Bluetooth et d\'autres fonctions.</string>
+    <string name="permissions_location_explain">Utilisé pour la fonction Bluetooth, les informations météorologiques, le positionnement sur la carte, la trajectoire de mouvement et d\'autres fonctions.</string>
+    <string name="permissions_storage_explain">Utilisé pour lire des fichiers musicaux, définir des avatars, lire des galeries et d\'autres fonctions.</string>
+    <string name="permissions_read_contact_explain">Utilisé pour synchroniser les informations de contact avec l\'appareil.</string>
+    <string name="rejust_permissions_tips">Si vous refusez de l\'activer, vous ne pourrez pas utiliser les fonctions ci-dessus.</string>
+
+    <!-- reset password-->
+    <string name="password">Mot de passe</string>
+    <string name="finish">Terminé.</string>
+    <string name="sms_check">Vérification</string>
+    <string name="hint_text_password_again_input">Veuillez confirmer à nouveau le mot de passe</string>
+
+    <!--Add Device-->
+    <string name="connect">Connexion</string>
+    <string name="status_disconnect">Non connecté</string>
+    <string name="status_connected">Connecté</string>
+    <string name="status_connecting">Connecté</string>
+    <string name="add">Ajouter</string>
+    <string name="no_device_tips">L\'équipement est vide</string>
+    <string name="user_denies_permissions">Veuillez accorder des permissions sur le système \"%1$s\"</string>
+    <string name="start_scan_failed">Impossible de démarrer le périphérique de numérisation, Veuillez réessayer plus tard</string>
+    <string name="bluetooth_is_close">Bluetooth est désactivé, veuillez activer Bluetooth et réessayer</string>
+
+    <!--Watch Control-->
+    <string name="restore_watch_system_success">Système de récupération réussi</string>
+    <string name="restore_watch_system_failure">La récupération du système a échoué pour la raison:%1$s</string>
+    <string name="battery_format">Électricité %1$d%%</string>
+    <string name="local_watch">Cadran local</string>
+    <string name="watch_market_all">Tous</string>
+    <string name="using_watch">En service</string>
+    <string name="use_watch">Utilisation</string>
+    <string name="update_watch">Mise à jour</string>
+    <string name="download_watch">Télécharger</string>
+    <string name="buy_watch">Achats</string>
+
+    <string name="health_record">Santé</string>
+    <string name="music_manager">Gestion de la musique</string>
+    <string name="device_music">Musique d\'équipement</string>
+    <string name="alarm">Réveil</string>
+    <string name="contacts">Contacts communs</string>
+    <string name="card_bag">Carbag</string>
+    <string name="firmware_upgrade">Mise à jour de la version du périphérique</string>
+    <string name="science_sleep">Détection du sommeil</string>
+    <string name="turned_on">Ouvert</string>
+    <string name="turned_off">Fermé</string>
+    <string name="sedentary_reminder">Rappel sédentaire</string>
+    <string name="sedentary_reminder_tip">Rappel de rester assis plus d\'une heure</string>
+    <string name="continuous_measurement_heart_rate">Mesure continue de la fréquence cardiaque</string>
+    <string name="heart_rate_range_early_warning">Rappel de la fréquence cardiaque</string>
+    <string name="pressure_auto_testing">Détection automatique de la pression</string>
+
+    <string name="retrieve_password">Récupérer le mot de passe</string>
+    <string name="reset_password">Réinitialiser le mot de passe</string>
+    <string name="call_phone_error_tips">État du téléphone, Veuillez réessayer plus tard</string>
+
+
+    <!-- Mine -->
+    <string name="mine_my_data">Mes données</string>
+    <string name="mine_sport_weekly">Journal hebdomadaire du sport</string>
+    <string name="mine_setting">Paramètres</string>
+    <string name="mine_help">Aide</string>
+    <string name="mine_about">À propos de</string>
+
+    <string name="user_info">Renseignements personnels</string>
+    <string name="user_info_avatar">Portrait</string>
+    <string name="health_state">État de santé</string>
+    <string name="activity_statistics">Statistiques des activités</string>
+    <string name="target">Objectifs</string>
+    <string name="format_birthday_year_month">%1$dannée%2$dmois</string>
+    <string name="format_height">%1$d cm</string>
+    <string name="format_step_number_target">%1$d step</string>
+    <string name="hint_input_nickname">Veuillez saisir un surnom</string>
+    <string name="save">Enregistrer</string>
+    <string name="tip_nickname_null">Le surnom ne peut pas être vide</string>
+    <string name="sure">Déterminer</string>
+    <string name="distance">Kilométrage total</string>
+    <string name="climb">Monte.</string>
+    <string name="heat">Chaleur</string>
+    <string name="distance_m">M</string>
+    <string name="kcal">Kilocalories</string>
+    <string name="relax">Détends - toi.</string>
+    <string name="alert">Notification des messages</string>
+    <string name="sensor_setting">Configuration du capteur</string>
+    <string name="open">Ouvert</string>
+    <string name="weather_push">Météo push</string>
+    <string name="clean_cache">Effacer le cache</string>
+    <string name="tip_clean_cache">Voulez - vous effacer les données du cache utilisateur</string>
+    <string name="bright_screen">Écran lumineux pour soulever le poignet</string>
+    <string name="tip_bright_screen">Allumez l\'écran en soulevant votre poignet et en tournant l\'écran vers vous - même.</string>
+    <string name="bright_screen_hint">L\'écran de levage du poignet ne s\'allume pas en mode sans interruption</string>
+    <string name="bluetooth_disconnect_tip">Rappel de déconnexion Bluetooth</string>
+    <string name="target_consume">Consommation d\'environ %1$d kilocalories</string>
+    <string name="target_step">Étapes cibles</string>
+    <string name="target_weight">Poids cible</string>
+    <string name="multilingual">Multilingue</string>
+    <string name="simplified_chinese">Chinois simplifié</string>
+    <string name="follow_system">Système de suivi</string>
+    <string name="english">English</string>
+    <string name="japanese">Japonais</string>
+    <string name="korean">Coréen</string>
+    <string name="french">Français</string>
+    <string name="german">Allemand</string>
+    <string name="italian">Italien</string>
+    <string name="portuguese">Portugais</string>
+    <string name="spanish">Espagnol</string>
+    <string name="swedish">Suédois</string>
+    <string name="polish">Polonais</string>
+    <string name="russian">Russe</string>
+    <string name="turkish">Turc</string>
+    <string name="hebrew">Hébreu</string>
+    <string name="thai">Thai</string>
+    <string name="arabic">Arabe</string>
+    <string name="vietnamese">Vietnamien</string>
+    <string name="indonesian">Indonésien</string>
+    <string name="malay">Malay</string>
+    <string name="persian">Persan</string>
+    <string name="set_language">Définir la langue</string>
+    <string name="unit_settings">Configuration des unités</string>
+    <string name="unit_metric">Système métrique</string>&gt;
+    <string name="unit_imperial">Anglais</string>
+    <string name="format_weight">%1$d kg</string>
+    <string name="no_nickname">Aucun surnom défini</string>
+    <string name="user_agreement">Protocole utilisateur</string>
+    <string name="privacy_policy">Politique de confidentialité</string>
+    <string name="current_app_version">Version actuelle:%1$s</string>
+    <string name="agree_and_use">D\'accord.</string>
+    <string name="not_agree_and_exit">Rejeté</string>
+    <string name="privacy_policy_name">"Politique de confidentialité"</string>
+    <string name="user_service_name">"Accord de services aux utilisateurs"</string>
+    <string name="declaration">%1$s Déclaration</string>
+    <string name="user_declaration">"%1$s" est un logiciel utilisé pour enregistrer et analyser les données de santé sportive des utilisateurs, fournir aux utilisateurs des conseils professionnels en matière de santé sportive et des services de gestion d\'appareils portables intelligents. Afin d\'atteindre l\'objectif ci-dessus,
+         Lorsque nous vous fournissons des services, nous pouvons avoir besoin de collecter vos informations pertinentes et d\'utiliser les autorisations suivantes: utiliser l\'appareil photo, utiliser les informations de localisation, utiliser l\'autorisation Bluetooth,
+         Lisez votre calendrier, lisez vos contacts, accédez au Web. Nous devons synchroniser votre fréquence cardiaque, votre sommeil, votre oxygène sanguin, vos enregistrements d\'exercices et d\'autres données d\'exercices sur le cloud.
+         Nous attachons une grande importance à la protection de votre vie privée et à la protection de vos informations personnelles. Avant d\'utiliser l\'application "%2$s", veuillez lire attentivement #### et tous les termes de ****, et commencez à nous utiliser après avoir accepté et accepter tous les termes des services.</string>
+    <string name="agree_policy_tips">J\'ai lu et accepté #### et ****</string>
+    <string name="check_policy_status_tips">Veuillez lire et accepter les conditions d\'utilisation et la politique de confidentialité</string>
+
+    <string name="add_music">Ajouter de la musique</string>
+    <string name="download_music">Synchroniser la musique à la montre %1$d/%2$d</string>
+    <string name="transfer_info">Transfert (%1$d/%2$d)</string>
+
+    <string name="message_notify">Notification</string>
+    <string name="sync_wechat">Wechat</string>
+    <string name="sync_qq">QQ</string>
+    <string name="sync_sms">SMS</string>
+    <string name="sync_other">Autres</string>
+
+    <!--Watch Market-->
+    <string name="watch_market">Centre commercial de cadran</string>
+    <string name="manager">Gestion</string>
+    <string name="delete_watch_tip">Pas moins de 2 cadrans</string>
+    <string name="last_page">J\'ai des résultats.</string>
+    <string name="delete_watch_err">Impossible de supprimer le tableau [%1$s] parce que%2$s</string>
+    <string name="create_watch_err">Impossible de télécharger le tableau [%1$s] parce que%2$s</string>
+    <string name="update_watch_err">Impossible de mettre à jour le tableau [%1$s] parce que%2$s</string>
+    <string name="transfer_file_warning">Gardez Bluetooth et le réseau allumés pendant le transfert de fichiers</string>
+    <string name="device_is_disconnected">Périphérique non connecté</string>
+    <string name="server_none_device_support_version">Aucune version prise en charge par l\'appareil</string>
+
+    <!--Dial Detail-->
+    <string name="watch_dial">Cadran</string>
+    <string name="my_dials">Mon cadran</string>
+    <string name="free_dial">Cadran gratuit</string>
+    <string name="pay_dial">Cadran payant</string>
+    <string name="dial_desc">[Introduction au tableau]</string>
+    <string name="download_dial">Téléchargement en cours</string>
+    <string name="update_dial">Mise à jour</string>
+    <string name="purchase_record">Historique des achats</string>
+    <string name="handle_dial_tips">Transfert de fichiers, ne quittez pas l\'interface actuelle</string>
+
+    <!--Payment-->
+    <string name="product_name">Nom commercial</string>
+    <string name="product_price">Montant de la marchandise</string>
+    <string name="pay_way">Mode de paiement</string>
+    <string name="pay_way_tips">Veuillez sélectionner le mode de paiement</string>
+    <string name="ali_pay">AliPay</string>
+    <string name="weixin_pay">Paiement Wechat</string>
+    <string name="whether_payment_finish">Le paiement est - il terminé?</string>
+    <string name="unfinished">Non terminé</string>
+    <string name="finished">Terminé</string>
+
+    <string name="payment_success">Paiement réussi</string>
+    <string name="payment_failed">Le paiement n\'est pas terminé, veuillez le refaire.</string>
+    <string name="payment_processing">Veuillez patienter pendant le traitement du paiement</string>
+    <string name="payment_error">Échec du paiement</string>
+    <string name="payment_duplex">Répétez la demande, attendez un certain temps avant d\'essayer</string>
+    <string name="payment_user_cancel">Annulation du paiement par l\'utilisateur</string>
+    <string name="payment_network">Échec du paiement, problème de réseau</string>
+    <string name="payment_unknown">Erreur inconnue</string>
+    <string name="use_dial">À utiliser</string>
+
+    <string name="no_purchase_record">Pas de dossier d\'achat pour le moment</string>
+
+    <!--Upgrade-->
+    <string name="upgrade">Mise à jour</string>
+    <string name="current_dev_version">Version actuelle</string>
+    <string name="latest_version">Est déjà la dernière version</string>
+    <string name="check_update">Vérifier les mises à jour</string>
+    <string name="dev_ota">Mise à jour du firmware</string>
+    <string name="upgrade_warning">Gardez Bluetooth et le réseau allumés pendant la mise à niveau</string>
+    <string name="ota_result_success">Mise à jour terminée</string>
+    <string name="ota_result_failed">Échec de la mise à jour</string>
+    <string name="ota_result_cancel">Mise à jour annulée</string>
+    <string name="new_ota_version">Nouvelle version%1$s</string>
+    <string name="ota_state_ready">Préparation de la mise à niveau</string>
+    <string name="ota_state_check_file">Mise à jour de la vérification</string>
+    <string name="ota_state_updating">Mise à jour</string>
+    <string name="ota_state_finish">Fin de la mise à jour</string>
+    <string name="update_resource_tips">Transfert des ressources du cadran （%1$d/%2$d）</string>
+    <string name="resource_unfinished_tips">La mise à niveau des ressources n\'est pas terminée, ce qui entraînera l\'indisponibilité de l\'appareil.</string>
+    <string name="firmware_mandatory_upgrade">La mise à niveau de l\'appareil n\'est pas terminée, la mise à niveau doit se poursuivre pour fonctionner correctement.</string>
+    <string name="network_module_ota_upgrade_tips">La mise à niveau du module 4G n\'est pas terminée. Voulez-vous continuer la mise à niveau?</string>
+    <string name="upgrade_warning_tips">Mise à jour des avertissements</string>
+    <string name="exit_and_disconnect">Sortie forcée</string>
+    <string name="continue_upgrade">Continuer la mise à jour</string>
+    <!--ota err-->
+    <string name="ota_err_no_space">Il n\'y a pas assez d\'espace pour la mise à jour. Veuillez supprimer le fichier de cadran avant de procéder.</string>
+    <string name="ota_err_device_not_connect">L\'appareil de mise à niveau n\'est pas connecté, assurez - vous que l\'appareil est correctement connecté</string>
+    <string name="ota_err_low_power">Le niveau de batterie de l\'appareil doit être supérieur à %1$s pour effectuer la mise à niveau</string>
+    <string name="ota_err_file_info">Erreur d\'informations sur le fichier de mise à niveau</string>
+    <string name="ota_err_file_same_version">La version du fichier de mise à niveau est la même que la version de l\'appareil</string>
+    <string name="ota_err_tws_not_connect">L\'appareil n\'est pas couplé et connecté</string>
+    <string name="ota_err_not_in_charging_bin">Le casque n\'est pas dans le compartiment de charge</string>
+    <string name="ota_err_data_crc_check">Erreur de vérification des données de mise à niveau</string>
+    <string name="ota_err_failed">Échec de la mise à niveau</string>
+    <string name="ota_err_key_mismatch">incompatibilité de clé</string>
+    <string name="ota_err_uboot_mismatch">Non-concordance UBoot</string>
+    <string name="ota_err_data_len">Une erreur de longueur s\'est produite lors de la mise à jour</string>
+    <string name="ota_err_flash_io">Des erreurs de lecture et d\'écriture flash se produisent</string>
+    <string name="ota_err_cmd_timeout">délai de commande</string>
+    <string name="ota_err_data_offset">Erreur lors de la lecture de l\'offset des données</string>
+    <string name="ota_err_reconnect_device_timeout">La connexion à l\'appareil a expiré</string>
+    <string name="ota_err_waiting_for_cmd_timeout">Délai d\'attente de la commande expiré</string>
+    <string name="ota_err_send_data_timeout">Expiration de la commande d\'envoi</string>
+    <string name="ota_err_update_data">Impossible de lire les données de mise à niveau</string>
+    <string name="ota_err_not_found_file">Fichier de mise à jour introuvable</string>
+    <string name="ota_err_bad_status">L\'appareil a renvoyé un état d\'échec</string>
+    <string name="ota_err_bad_result">L\'appareil a renvoyé un résultat d\'échec</string>
+    <string name="ota_err_unknown">Erreur de mise à jour inconnue</string>
+
+    <!--闹钟-->
+    <string name="named">Nom</string>
+    <string name="alarm_open_success">Alarme allumée avec succès</string>
+    <string name="alarm_open_failure">Impossible d\'allumer l\'alarme</string>
+    <string name="alarm_close_success">Alarme éteinte avec succès</string>
+    <string name="alarm_close_failure">Échec de l\'arrêt de l\'alarme</string>
+    <string name="operate_alarm_failure">Le fonctionnement de l\'alarme a échoué</string>
+    <string name="alarm_list_read_failed">Échec de la lecture de la liste d\'alarme</string>
+    <string name="delete">Supprimer</string>
+    <string name="alarm_set_num_is_full">Le nombre d\'alarmes est complet.</string>
+    <string name="alarm_delete_failure">Échec de la suppression de l\'alarme</string>
+    <string name="alarm_delete_success">Suppression réussie de l\'horloge d\'alarme</string>
+
+    <string name="alarm_stop_success">L\'alarme s\'est arrêtée avec succès</string>
+    <string name="alarm_stop_failed">Échec de l\'arrêt de l\'alarme</string>
+    <string name="alarm_delete">Supprimer le réveil</string>
+    <string name="sync_time">Synchronisation du temps du périphérique</string>
+    <string name="sync_time_success">Synchronisation réussie</string>
+    <string name="sync_time_failed">Échec de la synchronisation du temps</string>
+
+
+    <string name="save_alarm_failed_no_modify">L\'horloge d\'alarme n\'a pas été modifiée</string>
+    <string name="save_alarm_failed">Échec de l\'enregistrement de l\'alarme</string>
+    <string name="save_alarm_success">L\'horloge d\'alarme a été sauvegardée avec succès</string>
+    <string name="choose_repeat_mode_tip">Veuillez sélectionner un mode</string>
+    <string name="alarm_name_can_not_be_empty">Le nom de l\'alarme ne peut pas être vide</string>
+    <string name="alarm_name_length_too_long">Le nom de l\'alarme est trop long</string>
+    <string name="alarm_name_format_error">Mauvais format d\'entrée du nom de l\'alarme</string>
+    <string name="default_alarm_name">Réveil</string>
+    <string name="default_alarm_custom">Personnalisation</string>
+    <string name="alarm_edit_title">Éditeur d\'alarme</string>
+    <string name="alarm_create_title">Nouveau réveil</string>
+    <string name="alarm_repeat_on_workday">Du lundi au vendredi</string>
+    <string name="alarm_repeat_every_day">Tous les jours</string>
+    <string name="alarm_repeat_single">Une seule fois</string>
+    <string name="alarm_repeat_week">Semaine</string>
+    <string name="alarm_repeat_mon">Lundi</string>
+    <string name="alarm_repeat_tue">Mardi</string>
+    <string name="alarm_repeat_wed">Mercredi</string>
+    <string name="alarm_repeat_thu">Jeudi</string>
+    <string name="alarm_repeat_fri">Vendredi</string>
+    <string name="alarm_repeat_sat">Samedi</string>
+    <string name="alarm_repeat_sun">Dimanche</string>
+    <string name="alarm_repeat_simple_mon">Lun.</string>
+    <string name="alarm_repeat_simple_tue">Mar.</string>
+    <string name="alarm_repeat_simple_wed">Mer.</string>
+    <string name="alarm_repeat_simple_thu">Jeu.</string>
+    <string name="alarm_repeat_simple_fri">Ven.</string>
+    <string name="alarm_repeat_simple_sat">Sam.</string>
+    <string name="alarm_repeat_simple_sun">Dim.</string>
+
+    <!--AlarmSettings-->
+    <string name="alarm_settings">Gestion des alarmes</string>
+    <string name="bell">Sonnerie</string>
+    <string name="repeat">Je répète.</string>
+    <string name="light">Éclairage</string>
+    <string name="alarm_state">Statut</string>
+    <string name="delete_alarm_tip">Voulez - vous supprimer l\'alarme</string>
+    <string name="stop_alarm">Arrêtez!</string>
+    <string name="alarm_running">Le réveil sonne.</string>
+    <string name="unnamed">Sans nom</string>
+    <string name="hint_input_alarm">Veuillez saisir le nom de l\'alarme</string>
+
+    <string name="alarm_bell_1">Sonnerie 0</string>
+    <string name="alarm_bell_2">Sonnerie 2</string>
+    <string name="alarm_bell_3">Sonnerie 3</string>
+    <string name="alarm_bell_4">Sonnerie 4</string>
+    <string name="alarm_bell_5">Sonnerie 5</string>
+    <string name="alarm_default_bell">Par défaut</string>
+    <string name="alarm_count_tip">Réglez l\'horloge d\'alarme, synchronisez - vous avec la montre, la montre vibrera pour vous rappeler. Vous pouvez régler jusqu\'à 5 alarmes.</string>
+    <string name="alarm_bell_list_read_failed">Impossible d\'obtenir la liste des sonneries par défaut</string>
+
+    <string name="alarm_bell_time">Durée de l\'alarme</string>
+    <string name="min_format">%1$d minutes</string>
+    <string name="alarm_bell_interval">Intervalle de réponse</string>
+    <string name="bell_repeat_count_title">Nombre de sonneries répétées</string>
+    <string name="bell_interal_time_title">Intervalle de répétition (minutes)</string>
+    <string name="interval_format">%1$dminutes,%2$dfois</string>
+    <string name="count_format">Temps</string>
+
+
+    <!-- file -->
+    <string name="msg_read_file_err_reading">L\'appareil est occupé, Veuillez réessayer plus tard!</string>
+    <string name="msg_read_file_err_offline">L\'appareil n\'est pas en ligne!</string>
+    <string name="msg_read_file_err_beyond_max_depth">Au - delà du niveau lisible!</string>
+    <string name="empty_folder">Dossier vide</string>
+    <string name="get_music_info_failed">Impossible d\'obtenir des informations musicales</string>
+
+    <!-- 联系人-->
+    <string name="tip_not_contact">Pas de favoris</string>
+    <string name="tip_add_contact">Configurez vos contacts préférés pour votre montre afin que les appels puissent être lancés rapidement et que les contacts soient automatiquement synchronisés sur l\'appareil.</string>
+    <string name="tip_max_contacts_can_add">Vous pouvez ajouter jusqu\'à %1$d favoris à votre montre. Les favoris que vous définissez sont automatiquement synchronisés sur l\'appareil.</string>
+    <string name="sort">Trier</string>
+    <string name="hint_search_contact">Rechercher les contacts</string>
+    <string name="unchose">Non sélectionné</string>
+    <string name="format_contact_chose_count">%1$d sélectionné</string>
+    <string name="tip_max_contact_err">Sélectionner jusqu\'à %1$d contacts</string>
+    <string name="tip_update_contact_failed">Échec de la mise à jour des contacts</string>
+    <string name="tip_sync_contact_failed">La synchronisation des contacts a échoué</string>
+    <string name="tip_cancel_get_contact">Annuler l\'acquisition des contacts</string>
+    <string name="tip_cancel_update_contact">Annuler la mise à jour des contacts</string>
+
+    <!-- 音乐管理 -->
+    <string name="tip_transfer_finish">Transmission terminée</string>
+    <string name="tip_transfer_canceled">Transfert annulé</string>
+    <string name="tip_transfer_error">Transmission interrompue en raison d\'une défaillance de transmission</string>
+    <string name="tip_mobile_not_has_contacts">L\'Annuaire téléphonique actuel est vide</string>
+    <string name="ask_delete_contact">Supprimer les contacts sélectionnés</string>
+    <string name="tip_logout">Si vous devez vous déconnecter du compte</string>
+    <string name="tip_downloading_music">(Veuillez garder votre téléphone connecté à votre montre Bluetooth pendant le transfert de fichiers musicaux)</string>
+    <string name="tip_download_finished">%1$d Transfert de musique réussi</string>
+    <string name="tip_please_chose_contact">Veuillez sélectionner un contact</string>
+    <string name="tip_check_net">Le réseau n\'est pas connecté, veuillez vérifier les paramètres du réseau.</string>
+    <string name="sport_other">Autres</string>
+    <string name="sport_outdoor_running">Course à l\'extérieur</string>
+    <string name="sport_indoor_running">Course intérieure</string>
+    <string name="exercise_time">Durée du mouvement</string>
+    <string name="total_time">Durée totale</string>
+    <string name="pace">Rythme</string>
+    <string name="average_pace">Vitesse moyenne</string>
+    <string name="consumption_of_kilocalories">Consommation (kcal)</string>
+    <string name="whether_delete">Voulez - vous supprimer:%1$s</string>
+
+    <!--二维码扫描-->
+    <string name="scan_qr_code_title">Numériser le Code QR</string>
+    <string name="select_from_gallery">Sélectionner dans la galerie</string>
+    <string name="pair_device">Équipement d\'appariement manuel</string>
+    <string name="scan_qr_tips">Code QR mis dans la boîte</string>
+    <string name="scan_env_dark_tips">Vous êtes dans un environnement sombre, il est recommandé d\'allumer la lampe de poche</string>
+    <string name="scan_env_light_tips">Vous êtes dans un environnement normal, il est recommandé d\'éteindre la lampe de poche</string>
+    <string name="not_found_qr">Code QR introuvable</string>
+
+    <string name="device_searching">Recherche de périphériques disponibles...</string>
+    <string name="no_found_device_tips">Appareil non trouvé? Ajouté par ####</string>
+    <string name="no_found_device_tips_2">Aucun appareil trouvé, assurez - vous que l\'appareil est alimenté et près du téléphone</string>
+    <string name="retry">Retry</string>
+    <string name="no_binding">Ne pas lier temporairement</string>
+    <string name="not_found_target">Appareil cible introuvable? ####</string>
+    <string name="rescan_device">Chercher à nouveau</string>
+
+    <string name="connect_device">Matériel de connexion</string>
+    <string name="dev_connecting">Appariement...</string>
+    <string name="dev_connecting_desc">Veuillez confirmer l\'appariement sur l\'appareil...</string>
+    <string name="dev_connect_success">Appariement réussi</string>
+    <string name="dev_connect_success_desc">L\'appareil est jumelé, s\'il vous plaît expérimentez maintenant</string>
+    <string name="dev_connect_fail">Échec de l\'appariement des périphériques</string>
+    <string name="dev_connect_fail_desc">S\'il vous plaît re - scanner la connexion de code ou ajouter l\'appareil manuellement</string>
+    <string name="cur_dev_msg">Périphérique actuellement apparié:%1$s</string>
+    <string name="gps">GPS</string>
+    <string name="km">Km</string>
+    <string name="step_freq_info_title">Fréquence des pas (pas / minute)</string>
+    <string name="average_step_freq">Fréquence moyenne des marches</string>
+    <string name="max_step_freq">Fréquence maximale de marche</string>
+    <string name="per_pace_of_km">Vitesse par km</string>
+    <string name="average_pace_of_per_km">Vitesse moyenne (/ km)</string>
+    <string name="max_pace_of_per_km">Vitesse maximale (/ km)</string>
+    <string name="app_running">En cours</string>
+
+    <string name="watch_edit">Édition</string>
+    <string name="current_watch">Cadran actuel</string>
+    <string name="choose_photo">Ajouter une photo</string>
+    <string name="watch_restore">Restaurer par défaut</string>
+    <string name="take_photo">Prendre des photos</string>
+    <string name="get_photo_from_album">Sélectionnez dans l\'album de votre téléphone</string>
+    <string name="select">Sélectionner</string>
+    <string name="set_custom_bg_success">Définir l\'arrière - plan personnalisé avec succès</string>
+
+    <!--Message-->
+    <string name="enable_notification_listener_service_tips">L\'utilisation de la fonction de synchronisation de l\'information exige que l\'utilisateur accepte d\'obtenir l\'information de la barre de notification.</string>
+    <string name="bt_disconnect_tips">Veuillez d\'abord Connecter l\'appareil</string>
+    <string name="not_found_history">Aucun appareil à connecter trouvé</string>
+
+    <!--fatfs error-->
+    <string name="not_enough_space">Il n\'y a pas assez d\'espace pour la montre pour ajouter des fichiers</string>
+    <string name="empty_date">Mois - jour</string>
+
+
+    <!-- unit -->
+    <string name="unit">Unité</string>
+    <string name="unit_cm">Cm</string>
+    <string name="unit_m">M</string>
+    <string name="unit_km">Km</string>
+
+    <string name="unit_in">Pouces</string>
+    <string name="unit_ft">Pieds</string>
+    <string name="unit_mile">Miles</string>
+
+    <string name="unit_kg">Kg</string>
+    <string name="unit_lb">Livres</string>
+    <string name="unit_running">Étapes</string>
+    <string name="no_sdcard_device">Aucun appareil inséré</string>
+    <string name="select_all">Sélectionner tout</string>
+    <string name="cancel_select_all">Pas du tout.</string>
+    <string name="logout">Déconnecter</string>
+    <string name="local_music">Musique locale</string>
+    <string name="music">Musique</string>
+
+    <!--HistoryRecordFragment-->
+    <string name="reconnect_history">Reconnecter</string>
+    <string name="remove_history">Supprimer le périphérique</string>
+    <string name="history_connect_ok">Connexion réussie du périphérique</string>
+    <string name="history_connect_failed">Défaillance de la connexion du périphérique</string>
+    <string name="remove_history_success">Suppression réussie de l\'historique</string>
+    <string name="remove_history_failed">Impossible de supprimer l\'historique</string>
+    <string name="history_is_gone">Historique supprimé</string>
+
+
+    <!--  健康设置 -->
+    <string name="tip_pressure_auto_tip">Lorsque la détection automatique de pression est activée, l\'appareil jugera intelligemment votre état actif. Si elle est jugée statique, elle détectera la variabilité de votre fréquence cardiaque et calculera la pression. La détection automatique de pression n\'est pas effectuée pendant l\'exercice. Pour s\'assurer que la détection est correcte, portez l\'appareil correctement.</string>
+    <string name="pressure_auto_relax">Détends - toi.</string>
+    <string name="pressure_auto_normal">Normal.</string>
+    <string name="pressure_auto_medium">Moyenne</string>
+    <string name="pressure_auto_high">Haut, il est recommandé de contrôler raisonnablement la pression</string>
+    <string name="heart_measure_way">Mesure de la fréquence cardiaque</string>
+    <string name="smart">Intelligent</string>
+    <string name="tip_heart_smart_measure">Ajustez dynamiquement la fréquence de mesure en fonction de l\'état de l\'exercice et surveillez intelligemment votre rythme cardiaque 24 heures sur 24 pour aider à économiser de l\'énergie</string>
+    <string name="tip_heart_real_measure">Surveillance en temps réel de votre fréquence cardiaque 24 heures sur 24, données de fréquence cardiaque plus détaillées, rafraîchissement plus rapide, impact important sur la consommation d\'énergie</string>
+    <string name="real">En temps réel</string>
+    <string name="heart_rate_limit">Limite supérieure de la fréquence cardiaque</string>
+    <string name="heart_rate_limit_warn">Alerte à la limite supérieure de la fréquence cardiaque</string>
+    <string name="tip_heart_rate_limit_warn">Rappel lorsque la fréquence cardiaque est supérieure à %1$d fois / minute</string>
+
+    <string name="more">Plus</string>
+    <!--Nfc-->
+    <string name="nfc_card_bag">Carbag</string>
+    <string name="door_key">Clé de la porte</string>
+    <string name="add_door_key">Ajouter une clé de porte</string>
+    <string name="detail">Détails</string>
+    <string name="door_key_simulation">Simulation de carte de porte</string>
+    <string name="edit">Édition</string>
+    <string name="door_key_name">Nom de la clé de porte</string>
+    <string name="modify_key_name">Modifier le nom de la clé</string>
+    <string name="delete_card_fail">Impossible de supprimer la carte</string>
+    <string name="save_failed">Échec de l\'enregistrement</string>
+    <string name="card_is_existed">Cette carte existe déjà.</string>
+    <string name="no_storage_device">Pas de stockage</string>
+    <string name="nfc_card_over_limit">La carte NFC a atteint la limite supérieure</string>
+    <string name="tips">Conseils</string>
+    <string name="analog_nfc_key_card">Carte d\'accès physique analogique</string>
+    <string name="analog_key_card_to_device">Simuler une carte de contrôle d\'accès existante sur l\'appareil</string>
+    <string name="add_time">Ajouter le temps</string>
+    <string name="edit_card">Modifier la carte</string>
+    <string name="set_default_card">Définir comme carte par défaut</string>
+    <string name="delte_current_card">Supprimer cette carte</string>
+    <string name="home">La maison</string>
+    <string name="company">Entreprises</string>
+    <string name="prepare_read_card">Préparez - vous à lire la carte</string>
+    <string name="card_close_phone">Veuillez attacher la carte au téléphone pour le test</string>
+    <string name="card_support_range">Voir la plage de support de la carte de porte</string>
+    <string name="start_check">Début de la détection</string>
+    <string name="set_commonly_use_card_to_default">Définissez la carte de contrôle d\'accès commune comme la carte par défaut, et vous pouvez la glisser directement en éteignant l\'écran.</string>
+    <string name="keep_device_connect_phone">S\'il vous plaît garder votre appareil portable connecté au téléphone Bluetooth, ne pas utiliser le processus de simulation de l\'appareil portable prend environ une minute</string>
+    <string name="add_failed">Impossible d\'ajouter</string>
+    <string name="failed_reason">Raison de l\'échec</string>
+    <string name="system_exception">Anomalie du système</string>
+    <string name="detailed_analysis">Analyse détaillée</string>
+    <string name="get_data_error">Exception à l\'obtention de données ou à l\'exécution d\'instructions</string>
+    <string name="handling_suggestions">Recommandations</string>
+    <string name="try_again">Veuillez réessayer.</string>
+    <string name="got_it">J\'ai compris.</string>
+    <string name="detecting">Détection en cours...</string>
+    <string name="detecting_no_move_card">Ne pas déplacer la carte pendant l\'inspection</string>
+    <string name="detect_success">Détection réussie</string>
+    <string name="read_card_failed">Impossible de lire la carte</string>
+    <string name="card_move_fast">La carte a été déplacée trop rapidement.</string>
+    <string name="read_card_failed_encryption">Cette carte est chiffrée et ne supporte pas l\'émulation pour le moment. N essayez une autre méthode</string>
+    <string name="analog_card_number">Numéro de carte analogique</string>
+    <string name="step_sensor">Capteur de pas</string>
+    <string name="keep_data_record">Stockage des enregistrements de données</string>
+    <string name="heart_rate_sensor">Capteur de fréquence cardiaque</string>
+    <string name="blood_oxygen_sensor">Capteur d\'oxygène du sang</string>
+    <string name="altitude_pressure_sensor">Capteur de pression d\'air d\'altitude</string>
+    <string name="fall_detection">Détection des chutes</string>
+    <string name="heart_rate_space_mode">Division des intervalles de fréquence cardiaque</string>
+    <string name="percent_of_max_heart_rate">Fréquence cardiaque maximale Pourcentage</string>
+    <string name="percentage_of_reserve_heart_rate">Pourcentage de la fréquence cardiaque de réserve</string>
+
+    <!--Health Service-->
+    <string name="service_none_device">S\'il vous plaît connectez l\'appareil et expérimentez le plaisir du mouvement</string>
+    <string name="service_health_data">Données sur la santé</string>
+
+    <string name="close">Fermer</string>
+    <string name="all_day">Ouvert toute la journée</string>
+    <string name="time_open">Chronométré</string>
+    <string name="start_time">Heure d\'ouverture</string>
+    <string name="end_time">Fin</string>
+    <string name="status_text">État d\'ouverture</string>
+    <string name="fall_response_way">Réponse aux chutes</string>
+    <string name="response_mode_bright">Écran lumineux</string>
+    <string name="response_mode_shake">Vibrations</string>
+    <string name="response_mode_call">Appel téléphonique</string>
+    <string name="emergency_contact">Contacts d\'urgence</string>
+    <string name="tip_emergency_contact">Appeler automatiquement le contact d\'urgence en cas de chute</string>
+    <string name="no_setting">Non défini</string>
+    <string name="title_open_sedentary_reminder">Activer le rappel sédentaire</string>
+    <string name="tip_sedentary_reminder">Rester assis plus d\'une heure, l\'appareil vibre</string>
+    <string name="free_lunch_break">Pause déjeuner.</string>
+    <string name="tip_free_lunch_break">00 - 14: 00 ne me rappelle pas</string>
+    <string name="modification">Modifier</string>
+    <string name="mobile">Numéro de téléphone portable</string>
+    <string name="save_contact">Enregistrer les contacts</string>
+    <string name="hint_emergency_contact">Veuillez remplir le numéro de téléphone mobile du contact d\'urgence</string>
+    <string name="title_emergency_contact">Paramètres de contact d\'urgence</string>
+    <string name="next_day">Le lendemain</string>
+    <string name="start_sports_failed">Impossible de démarrer le mouvement</string>
+    <string name="start" translatable="false">Début</string>
+
+    <!--    实时运动强度状-->
+    <string name="save_sports_status_0">Non mobile</string>
+    <string name="save_sports_status_1">échauffement</string>
+    <string name="save_sports_status_2">Graisse combustible</string>
+    <string name="save_sports_status_3">Endurance aérobie</string>
+    <string name="save_sports_status_4">Endurance anaérobie</string>
+    <string name="save_sports_status_5">Limites</string>
+
+    <!--    储备心率模式-->
+    <string name="real_sports_status_0">Non mobile</string>
+    <string name="real_sports_status_1">Base aérobie</string>
+    <string name="real_sports_status_2">Aérobie avancée</string>
+    <string name="real_sports_status_3">Seuil de lactate</string>
+    <string name="real_sports_status_4">Fondation anaérobie</string>
+    <string name="real_sports_status_5">Stade avancé anaérobie</string>
+
+    <string name="step_number_and_unit">Steps (Steps)</string>
+    <string name="heart_rate_and_unit">Fréquence cardiaque (temps / minute)</string>
+    <string name="average_heart_rate_and_unit">Fréquence cardiaque moyenne (temps / minute)</string>
+    <!--Health Sleep-->
+    <string name="sleep_analysis_avg_type1">Durée moyenne du sommeil nocturne%1$s heures%2$s minutes</string>
+    <string name="sleep_analysis_avg_type2">Taux moyen de sommeil profond%1$s%%</string>
+    <string name="sleep_analysis_avg_type3">Taux moyen de sommeil léger%1$s%%</string>
+    <string name="sleep_analysis_avg_type4">Taux moyen de mouvements oculaires rapides%1$s%%</string>
+    <string name="sleep_analysis_avg_type5">Continuité moyenne du sommeil profond%1$s points</string>
+    <string name="sleep_analysis_avg_type6">Temps moyen de veille%1$s</string>
+    <string name="sleep_analysis_type1">Sommeil nocturne normal%1$s heures%2$s minutes</string>
+    <string name="sleep_analysis_type2">Taux de sommeil profond%1$s%%</string>
+    <string name="sleep_analysis_type3">Taux de sommeil léger%1$s%%</string>
+    <string name="sleep_analysis_type4">Mouvement oculaire rapide%1$s%%</string>
+    <string name="sleep_analysis_type5">Continuité du sommeil profond%1$spoints</string>
+    <string name="sleep_analysis_type6">Temps de veille%1$s</string>
+    <string name="time_duration_type1">%1$s heure%2$s minute</string>
+    <string name="time_duration_type2">%1$s points</string>
+    <string name="sleep_score">Score de sommeil</string>
+    <string name="sober_full">Réveillez - vous.</string>
+    <string name="rapid_eye_movement_full">Mouvement oculaire rapide</string>
+    <string name="light_sleep_full">Sommeil léger</string>
+    <string name="deep_sleep_full">Sommeil profond</string>
+    <string name="sleep_score_avg">Score moyen de sommeil</string>
+    <string name="sober_avg">Sobriété moyenne</string>
+    <string name="rapid_eye_movement_avg">Mouvement oculaire rapide moyen</string>
+    <string name="light_sleep_avg">Profondeur moyenne</string>
+    <string name="deep_sleep_avg">Profondeur moyenne</string>
+    <string name="sleep_ratio">Pourcentage</string>
+    <string name="references">Valeur de référence:</string>
+    <string name="sleep_nap">Sieste sporadique</string>
+    <string name="sleep_avg_nap">Siestes sporadiques moyennes</string>
+    <string name="sleep_total">Sommeil total</string>
+    <string name="status_low">Faible</string>
+    <string name="status_high">Élevé</string>
+    <string name="status_normal">Normal.</string>
+    <string name="status_over_weight">Surcharge pondérale</string>
+    <string name="status_over_obese">Obésité</string>
+    <string name="tip_waiting">Plus tard, s\'il vous plaît...</string>
+    <string name="empty_sports_record">Pas d\'enregistrement de mouvement</string>
+    <string name="reach_target_days">L\'exercice atteint%d jours</string>
+    <string name="weekly_step">Pas par semaine</string>
+    <string name="weekly_distance">Kilométrage hebdomadaire</string>
+    <string name="weekly_kcal">Consommation de chaleur</string>
+    <string name="day">Oh, mon Dieu.</string>
+    <string name="long_press_to_stop">Fin de la longue presse</string>
+    <string name="no_data">Aucune donnée disponible</string>
+    <string name="sports_stop">Fin</string>
+    <string name="sports_resume">Continue.</string>
+    <string name="max_heart_rate">Fréquence cardiaque maximale</string>
+    <string name="average_heart_rate">Fréquence cardiaque moyenne</string>
+    <string name="today_step">Nombre d\'étapes</string>
+    <string name="low_spo2">Il y a moins d\'oxygène dans le sang.</string>
+    <string name="spo2_range">Minimum - maximum</string>
+    <string name="min_value">Valeur minimale</string>
+    <string name="max_value">Valeur maximale</string>
+    <string name="last_time">Mise à jour</string>
+    <string name="outdoor">Extérieur</string>
+    <string name="indoor">Intérieur</string>
+    <string name="http_tip_400">Requête non valable</string>
+    <string name="http_tip_401">Non autorisé</string>
+    <string name="http_tip_403">Accès interdit</string>
+    <string name="http_tip_404">Impossible de trouver le fichier</string>
+    <string name="http_tip_405">Ressources interdites</string>
+    <string name="http_tip_500">Exception au serveur</string>
+    <string name="http_tip_501">Mauvaise passerelle</string>
+    <string name="http_tip_504">Temps d\'arrêt de la passerelle</string>
+    <string name="http_tip_unknow">Erreur inconnue</string>
+    <string name="percent">(%)</string>
+
+    <string name="permission_system_set">Aller aux paramètres &gt; gestion de l\'application &gt; assistants de santé &gt; permissions</string>
+    <string name="permission_describe_camera">Cette fonctionnalité nécessite l\'utilisation de votre appareil photo. S\'il vous plaît%1$s activer les permissions de la caméra pour utiliser cette fonctionnalité correctement</string>
+    <string name="permission_describe_contacts">Cette fonctionnalité nécessite l\'utilisation de votre carnet d\'adresses. S\'il vous plaît%1$s activer les permissions du carnet d\'adresses pour utiliser cette fonctionnalité correctement</string>
+    <string name="permission_describe_location">Cette fonctionnalité nécessite des informations sur votre emplacement. S\'il vous plaît%1$s activer les permissions d\'information de localisation pour utiliser cette fonctionnalité correctement</string>
+    <string name="permission_describe_external_storage">Cette fonctionnalité nécessite le stockage de votre téléphone. Veuillez activer les permissions de lecture et d\'écriture du fichier%1$s pour utiliser cette fonctionnalité correctement</string>
+    <string name="allow">Allow</string>
+    <string name="open_gps_service_tip">La numérisation Bluetooth et la connexion d\'appariement nécessitent des informations de localisation, si le Service de localisation peut être activé</string>
+    <string name="go_setting">Pour définir</string>
+    <string name="no_movement">Pas de mouvement.</string>
+    <string name="open_gps_permission">Activer les permissions de localisation</string>
+    <string name="open_gps_services">Activer le Service de localisation du téléphone</string>
+    <string name="permission_describe_gps_permission_sport">En utilisant les fonctions liées à la piste de mouvement et à la carte, veuillez autoriser l\'information sur l\'emplacement de l\'appareil pour éviter d\'affecter l\'utilisation.</string>
+    <string name="permission_describe_gps_service_sport">Pour utiliser les fonctions liées à la piste de mouvement et à la carte, il est nécessaire d\'activer le Service de « positionnement » du téléphone mobile afin d\'éviter toute influence sur l\'utilisation.</string>
+    <string name="cancel_account_tip">Tu ne veux plus l\'utiliser?</string>
+    <string name="cancel_account">Déconnecter le compte</string>
+    <string name="delete_account_influence">Le compte n\'est pas récupérable après la déconnexion, voulez - vous continuer?</string>
+    <string name="synchronizing_data">Synchronisation des données...</string>
+    <string name="running_too_short">La distance de mouvement est trop courte, la sauvegarde des enregistrements ne sera pas sauvegardée</string>
+    <string name="slider_to_unlock">Déverrouillage coulissant</string>
+    <string name="please_click_finish_btn">Appuyez sur le bouton fin pour mettre fin au mouvement</string>
+    <string name="tip_finished_exercise">Mettre fin à l\'activité</string>
+    <string name="keep_moving">Continue de bouger.</string>
+    <string name="terminate_sport">Fin du mouvement</string>
+    <string name="running_set">Paramètres d\'exécution</string>
+    <string name="copyright">Tous droits réservés ©2021-2024 Zhuhai JieLi Technology Co., Ltd. Tous droits réservés</string>
+    <string name="email_register">Inscription à la boîte aux lettres</string>
+    <string name="phone_register">Enregistrement mobile</string>
+    <string name="search_password_by_email">Récupérer le mot de passe en utilisant la boîte aux lettres</string>
+    <string name="search_password_by_mobile">Récupérer le mot de passe en utilisant le numéro de téléphone</string>
+    <string name="device_not_support">Périphérique non pris en charge</string>
+    <string name="execution_succeeded">Exécution réussie</string>
+    <string name="cancel">Annuler</string>
+    <string name="double_tap_to_exit">Appuyez un autre clic pour quitter l\'application</string>
+    <string name="account_deleted_successfully">Numéro de compte supprimé avec succès</string>
+    <string name="network_error_tip">Réseau comme si quelque chose n\'allait pas, veuillez détecter le réseau</string>
+    <string name="missing_server_information">Manque d\'informations sur le serveur</string>
+    <string name="inconsistent_motion_state">État de mouvement incohérent</string>
+    <string name="failed_to_get_weather">Obtenir la météo échoue</string>
+    <string name="no_weather_data">Pas de données météo</string>
+    <string name="ai_no_speak">On dirait que tu n\'as pas commencé à parler</string>
+    <string name="ai_no_skill">Je n\'ai pas encore appris cette compétence pour le moment</string>
+    <string name="ai_operation_failed">L\'opération a échoué</string>
+    <string name="ai_operation_completed">L\'opération est terminée pour vous</string>
+    <string name="ai_network_wrong">Un petit problème avec le réseau: (</string>
+    <string name="ai_error_code">Code d\'erreur:</string>
+    <string name="ai_is_delete">Sûr de supprimer?</string>
+    <string name="ai_is_delete_all">Tout le contenu de cette conversation sera supprimé et ne peut pas être révoqué, est - ce supprimé?</string>
+    <string name="ai_cloud_serve">Services Cloud ai</string>
+    <string name="multi_select">Choix multiples</string>
+    <string name="none_session_record">Aucune conversation enregistrée pour le moment</string>
+    <string name="sms_login">CAPTCHA login</string>
+    <string name="use_account_password_login">Se connecter avec le mot de passe du compte</string>
+    <string name="detach">Supprimer</string>
+    <string name="validate">Vérification</string>
+    <string name="set_password">Définir un mot de passe</string>
+    <string name="hint_input_bind_phone_number">Veuillez entrer le numéro de téléphone portable lié</string>
+    <string name="ai_no_response">Désolé, je n\'ai peut - être pas compris votre question. S\'il vous plaît décrire en détail ce que vous voulez savoir, je vais essayer de vous aider.</string>
+    <string name="wait_ai_response_tip">Aucune réponse ai n\'a été reçue, l\'opération n\'est pas prise en charge pour le moment</string>
+    <string name="style_selection">Choix de style</string>
+    <string name="ai_dial_style_1">Style de peinture à l\'encre</string>
+    <string name="ai_dial_style_2">Style de paysage réaliste</string>
+    <string name="ai_dial_style_3">Style de dessin animé 3D</string>
+    <string name="ai_dial_style_4">Style Cyberpunk</string>
+    <string name="ai_dial_style_5">Style origami</string>
+    <string name="ai_dial_style_6">Style d\'encre aquarelle</string>
+    <string name="ai_dial">Cadran ai</string>
+    <string name="custom_dial">Personnaliser le cadran</string>
+    <string name="re_crop">Recadrer</string>
+    <string name="transfer_ing">En transit...</string>
+    <string name="copy">copie</string>
+
+    <!--About-->
+    <string name="icp_info">Informations de dépôt ICP</string>
+
+    <!--Feedback-->
+    <string name="feedback">Rétroaction</string>
+    <string name="feedback_type">Type de commentaire</string>
+    <string name="problem_feedback">Question de commentaires</string>
+    <string name="hint_enter_feedback">Veuillez saisir votre question détaillée et nous la résoudrons pour vous dans les plus brefs délais</string>
+    <string name="hint_enter_phone">Veuillez entrer votre numéro de téléphone portable pour un contact facile</string>
+    <string name="commit">Soumettre</string>
+    <string name="phone_format_tips">Veuillez entrer le bon numéro de téléphone</string>
+    <string name="phone_empty_tips">Veuillez entrer le numéro de téléphone</string>
+    <string name="feedback_empty_tips">Veuillez saisir le contenu des commentaires</string>
+    <string name="network_exception_tips">Le réseau semble être en panne, veuillez réessayer plus tard.</string>
+    <string name="feedback_success">Merci pour vos commentaires</string>
+
+    <!--ImageVerifyDialog-->
+    <string name="image_captcha">Captcha d\'image</string>
+    <string name="can_not_see_it">Pas clair ? En essayer une autre.</string>
+    <string name="input_captcha_tips">Veuillez entrer le bon captcha.</string>
+    <string name="load_code_failed_tips">Un problème s\'est produit lors du chargement du code de vérification image, veuillez réessayer ultérieurement.</string>
+    <string name="fail_recognize_format">Format non reconnu</string>
+
+    <!--TestConfigurationFragment-->
+    <string name="test_configuration">Configuration de test</string>
+    <string name="save_configuration">Enregistrer</string>
+    <string name="enable_log_function">Activer la fonction de journalisation ?</string>
+    <string name="use_device_auth">Activer l\'authentification de l\'appareil ?</string>
+    <string name="support_local_ota">Activer la mise à jour OTA locale ?</string>
+    <string name="local_ota_desc">Instructions de test OTA local :\n1. Le nom du fichier de mise à niveau est fixe : 【update.zip】 ou 【update.ufw】\n2. Emplacement du fichier : Dans le dossier \'racine du téléphone/Android/data/%1$s/files/upgrade/\'</string>
+    <string name="test_custom_cmd">Tester la commande personnalisée</string>
+    <string name="click_again_to_test_configuration">Appuyez à nouveau pour entrer dans l\'interface de configuration de test</string>
+    <string name="save_configuration_success">Configuration enregistrée avec succès, l\'application va bientôt se fermer</string>
+
+    <!--LogFileFragment-->
+    <string name="log_file">Imprimer les journaux</string>
+    <string name="clear_log_file">Effacer</string>
+    <string name="remove_file">Supprimer</string>
+    <string name="file_not_found">Le fichier n\'existe pas</string>
+    <string name="open_file_failed_by_other_app">Aucune application disponible pour ouvrir le fichier</string>
+    <string name="open_file_exception">Erreur lors de l\'ouverture du fichier</string>
+    <string name="download_file_permission_tips">La fonction de téléchargement de fichiers nécessite la permission de lecture/écriture du stockage</string>
+    <string name="download_file_permission_denied_tips">Cette fonction nécessite l\'autorisation de lire et écrire. Veuillez autoriser dans les paramètres des autorisations système</string>
+    <string name="download_file_successful">Téléchargement du fichier réussi</string>
+    <string name="download_file_exception">Erreur lors du téléchargement du fichier</string>
+    <string name="share_log_file">Partager les journaux d\'impression</string>
+    <string name="share_file_exception">Erreur lors du partage du fichier</string>
+
+    <!--CustomCmdTestFragment-->
+    <string name="input_custom_data">Saisir les données personnalisées</string>
+    <string name="log_content">Contenu du journal</string>
+    <string name="hint_input_hex_data">Veuillez saisir les données hexadécimales</string>
+    <string name="send_custom_cmd">Envoyer une commande personnalisée</string>
+
+    <!--Operation-->
+    <string name="operation_failed">%1$s a échoué</string>
+    <string name="error_code">Code d\'erreur</string>
+    <string name="op_delete_file">Supprimer le fichier</string>
+    <string name="op_delete_folder">Supprimer tous les fichiers</string>
+
+</resources>

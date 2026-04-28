@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        tools:context=".ui.health.weight.WeightSettingFragment">
+
+        <include
+            android:id="@+id/layout_topbar"
+            layout="@layout/view_topbar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/gray_f5f5f5"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/layout_topbar"
+            tools:layout_editor_absoluteX="-114dp" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cl_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/bg_card_white_shape"
+            app:layout_constraintTop_toBottomOf="@id/layout_topbar">
+
+            <include
+                android:id="@+id/layout_calender"
+                layout="@layout/layout_setting_item"
+                android:layout_width="match_parent"
+                android:layout_height="60dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:background="@color/gray_f5f5f5"
+                app:layout_constraintTop_toBottomOf="@id/layout_calender" />
+
+            <include
+                android:id="@+id/layout_time"
+                layout="@layout/layout_setting_item"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="1dp"
+                app:layout_constraintTop_toBottomOf="@id/layout_calender" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/tv_weight_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="12dp"
+            android:text="@string/weight"
+            android:textColor="@color/black_242424"
+            android:textSize="@dimen/text_15sp"
+            app:layout_constraintStart_toStartOf="@+id/cl_time"
+            app:layout_constraintTop_toBottomOf="@+id/cl_time" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/ll_target_weight"
+            android:layout_width="0dp"
+            android:layout_height="160dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/bg_card_white_shape"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_weight_tip">
+
+            <TextView
+                android:id="@+id/tv_target_weight_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:text="10.0"
+                android:textColor="@color/black_242424"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toTopOf="@id/scale_view_weight"
+                app:layout_constraintEnd_toStartOf="@id/tv_target_weight_unit"
+                app:layout_constraintHorizontal_chainStyle="packed"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_target_weight_unit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/unit_kg"
+                app:layout_constraintBaseline_toBaselineOf="@id/tv_target_weight_value"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/tv_target_weight_value" />
+
+            <com.jieli.healthaide.ui.widget.rulerview.RulerView
+                android:id="@+id/scale_view_weight"
+                android:layout_width="310dp"
+                android:layout_height="81dp"
+                android:layout_marginBottom="14dp"
+                app:allScaleHeight="66dp"
+                app:bigScaleColor="@color/gray_D8D8D8"
+                app:bigScaleHeight="43dp"
+                app:bigScaleIntervalValue="10"
+                app:bigScaleLineWidth="2dp"
+                app:bigScaleMarginTop="18dp"
+                app:intervalDistance="8dp"
+                app:intervalValue="1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_target_weight_value"
+                app:maxValue="2500"
+                app:minValue="100"
+                app:pointerHeight="66dp"
+                app:rulerViewWidth="310dp"
+                app:smallScaleColor="@color/gray_D8D8D8"
+                app:smallScaleHeight="28dp"
+                app:smallScaleLineWidth="2dp"
+                app:smallScaleMarginTop="18dp"
+                app:textAndScaleMargin="0dp"
+                app:textColor="@color/gray_B4BBB8"
+                app:textSize="13sp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/btn_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="128dp"
+            android:background="@drawable/bg_card_white_shape"
+            android:gravity="center"
+            android:text="@string/sure"
+            android:textColor="@color/purple_805BEB"
+            android:textSize="@dimen/text_15sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ll_target_weight" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.device.more.MessageSyncFragment">
+
+    <include
+        android:id="@+id/view_message_topbar"
+        layout="@layout/view_topbar"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/bg_color"
+        app:layout_constraintTop_toBottomOf="@+id/view_message_topbar"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TextView
+            android:id="@+id/tv_message_sync_settings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            android:text="@string/message_notify"
+            android:textColor="@color/black_242424"
+            android:textSize="@dimen/text_15sp"
+            android:background="@color/white"
+            android:paddingTop="19dp"
+            android:paddingBottom="19dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"/>
+
+        <com.kyleduo.switchbutton.SwitchButton
+            android:id="@+id/sbtn_message_sync_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tv_message_sync_settings"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_message_sync_settings"
+            app:kswBackDrawable="@drawable/bg_sw_selector"
+            app:kswThumbColor="@color/white"
+            app:kswThumbHeight="22dp"
+            app:kswThumbRangeRatio="2.2"/>
+
+        <TextView
+            android:id="@+id/tv_message_wechat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/tv_message_sync_settings"
+            android:layout_marginTop="8dp"
+            android:text="@string/sync_wechat"
+            android:textColor="@color/black_242424"
+            android:textSize="@dimen/text_15sp"
+            android:background="@color/white"
+            android:paddingTop="19dp"
+            android:paddingBottom="19dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"/>
+
+        <com.kyleduo.switchbutton.SwitchButton
+            android:id="@+id/sbtn_message_wechat_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tv_message_wechat"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_message_wechat"
+            app:kswBackDrawable="@drawable/bg_sw_selector"
+            app:kswThumbColor="@color/white"
+            app:kswThumbHeight="22dp"
+            app:kswThumbRangeRatio="2.2"/>
+
+        <View
+            android:id="@+id/view_message_wechat_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_message_wechat"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/line_color"/>
+
+        <TextView
+            android:id="@+id/tv_message_qq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/view_message_wechat_line"
+            android:text="@string/sync_qq"
+            android:textColor="@color/black_242424"
+            android:textSize="@dimen/text_15sp"
+            android:background="@color/white"
+            android:paddingTop="19dp"
+            android:paddingBottom="19dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"/>
+
+        <com.kyleduo.switchbutton.SwitchButton
+            android:id="@+id/sbtn_message_qq_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tv_message_qq"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_message_qq"
+            app:kswBackDrawable="@drawable/bg_sw_selector"
+            app:kswThumbColor="@color/white"
+            app:kswThumbHeight="22dp"
+            app:kswThumbRangeRatio="2.2"/>
+
+        <View
+            android:id="@+id/view_message_qq_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_message_qq"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/line_color"/>
+
+        <TextView
+            android:id="@+id/tv_message_sms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/view_message_qq_line"
+            android:text="@string/sync_sms"
+            android:textColor="@color/black_242424"
+            android:textSize="@dimen/text_15sp"
+            android:background="@color/white"
+            android:paddingTop="19dp"
+            android:paddingBottom="19dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"/>
+
+        <com.kyleduo.switchbutton.SwitchButton
+            android:id="@+id/sbtn_message_sms_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tv_message_sms"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_message_sms"
+            app:kswBackDrawable="@drawable/bg_sw_selector"
+            app:kswThumbColor="@color/white"
+            app:kswThumbHeight="22dp"
+            app:kswThumbRangeRatio="2.2"/>
+
+
+        <TextView
+            android:id="@+id/tv_message_other"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/tv_message_sms"
+            android:layout_marginTop="8dp"
+            android:text="@string/sync_other"
+            android:textColor="@color/black_242424"
+            android:textSize="@dimen/text_15sp"
+            android:background="@color/white"
+            android:paddingTop="19dp"
+            android:paddingBottom="19dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"/>
+
+        <com.kyleduo.switchbutton.SwitchButton
+            android:id="@+id/sbtn_message_other_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tv_message_other"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_message_other"
+            app:kswBackDrawable="@drawable/bg_sw_selector"
+            app:kswThumbColor="@color/white"
+            app:kswThumbHeight="22dp"
+            app:kswThumbRangeRatio="2.2"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

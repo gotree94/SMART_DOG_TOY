@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cl_health_header_main"
+    android:layout_width="match_parent"
+    android:layout_height="194dp"
+    android:layout_marginTop="3dp"
+    android:layout_marginBottom="6dp"
+    android:background="@drawable/dbg_header_view_shape"
+    tools:layout_height="match_parent">
+
+
+    <com.jieli.healthaide.ui.widget.RotatingView
+        android:id="@+id/rv_steps"
+        android:layout_width="124dp"
+        android:layout_height="124dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="26dp"
+        app:backgroundLineWidth="8dp"
+        app:contentEndColor="@color/white"
+        app:contentStartColor="@color/white"
+        app:contentTextColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rTextSize="14sp"
+        app:unitTextColor="@color/white_light_b3"
+        app:unitTextSize="14sp"
+        app:unitTypeDescribe="@string/target"
+        app:unitType="@string/step"
+      />
+
+    <TextView
+        android:id="@+id/tv_distance_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0.00"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_33"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rv_steps" />
+
+    <TextView
+        android:id="@+id/tv_heat_quantity_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_66"
+        app:layout_constraintStart_toStartOf="@+id/guideline_33"
+        app:layout_constraintTop_toBottomOf="@+id/rv_steps" />
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="16dp"
+        android:background="@drawable/bg_calendar_sel_shape"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_distance_unit"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_33"
+        app:layout_constraintStart_toStartOf="@+id/guideline_33"
+        app:layout_constraintTop_toTopOf="@+id/tv_distance_value" />
+
+    <TextView
+        android:id="@+id/tv_climb_stairs_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline_66"
+        app:layout_constraintTop_toBottomOf="@+id/rv_steps" />
+
+    <TextView
+        android:id="@+id/tv_distance_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="@string/distance_km"
+        android:textColor="@color/white_light_b3"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_33"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_distance_value" />
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="16dp"
+        android:background="@drawable/bg_calendar_sel_shape"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_distance_unit"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_66"
+        app:layout_constraintStart_toStartOf="@+id/guideline_66"
+        app:layout_constraintTop_toTopOf="@+id/tv_distance_value" />
+
+    <TextView
+        android:id="@+id/tv_heat_quantity_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="@string/climbing_stairs_m"
+        android:textColor="@color/white_light_b3"
+        android:textSize="10sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline_66"
+        app:layout_constraintTop_toBottomOf="@+id/tv_climb_stairs_value" />
+
+    <TextView
+        android:id="@+id/tv_climb_stairs_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="@string/calories_kcal"
+        android:textColor="@color/white_light_b3"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_66"
+        app:layout_constraintStart_toStartOf="@+id/guideline_33"
+        app:layout_constraintTop_toBottomOf="@+id/tv_heat_quantity_value" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.3333" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_66"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.6666" />
+
+    <TextView
+        android:id="@+id/tv_today_step_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="20dp"
+        android:drawableEnd="@drawable/ic_health_step"
+        android:drawablePadding="8dp"
+        android:text="@string/today_step"
+        android:textColor="@color/white_light_b3"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_today_step_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="7843"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="@+id/tv_today_step_tip"
+        app:layout_constraintTop_toBottomOf="@+id/tv_today_step_tip" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="@string/step"
+        android:textColor="@color/white_light_b3"
+        android:textSize="10sp"
+        app:layout_constraintBaseline_toBaselineOf="@id/tv_today_step_value"
+        app:layout_constraintStart_toEndOf="@+id/tv_today_step_value"
+        tools:layout_editor_absoluteY="81dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

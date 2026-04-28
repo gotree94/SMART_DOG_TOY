@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/tab_health"
+        android:icon="@drawable/bg_tab_health_selector"
+        android:title="@string/tab_health" />
+
+    <item
+        android:id="@+id/tab_sports"
+        android:icon="@drawable/bg_tab_sports_selector"
+        android:title="@string/tab_sports" />
+
+    <item
+        android:id="@+id/tab_device"
+        android:icon="@drawable/bg_tab_watch_selector"
+        android:title="@string/tab_device" />
+
+    <item
+        android:id="@+id/tab_mine"
+        android:icon="@drawable/bg_tab_mine_selector"
+        android:title="@string/tab_mine"/>
+
+</menu>

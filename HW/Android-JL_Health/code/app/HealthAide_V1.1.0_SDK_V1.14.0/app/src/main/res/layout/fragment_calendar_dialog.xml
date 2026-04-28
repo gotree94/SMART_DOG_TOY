@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="14dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/frameLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="19dp"
+            tools:context=".ui.dialog.CalendarDialog">
+
+            <ImageButton
+                android:id="@+id/bt_prev"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:padding="12dp"
+                android:src="@drawable/ic_left_sel"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_current_calendar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2021年4月"
+                android:textColor="@color/black_242424"
+                android:textSize="@dimen/text_16sp"
+                app:layout_constraintBottom_toBottomOf="@id/bt_prev"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@id/bt_prev" />
+
+            <ImageButton
+                android:id="@+id/bt_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:padding="12dp"
+                android:src="@drawable/btn_next_selector"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.haibin.calendarview.CalendarLayout
+                android:id="@+id/calendarLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bt_prev">
+
+                <com.haibin.calendarview.CalendarView
+                    android:id="@+id/calendarView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#fff"
+                    app:calendar_height="36dp"
+                    app:calendar_padding="10dp"
+                    app:current_day_text_color="#333333"
+                    app:current_month_lunar_text_color="#CFCFCF"
+                    app:current_month_text_color="#333333"
+                    app:day_text_size="@dimen/text_15sp"
+                    app:min_year="2004"
+                    app:other_month_text_color="#e1e1e1"
+                    app:scheme_text="假"
+                    app:scheme_text_color="#333"
+                    app:scheme_theme_color="#333"
+                    app:select_mode="range_mode"
+                    app:selected_text_color="#fff"
+                    app:selected_theme_color="#805BEB"
+                    app:week_background="#fff"
+                    app:week_start_with="mon"
+                    app:week_text_color="#111"
+                    app:week_line_background="#CFCFCF"
+                    app:week_text_size="@dimen/text_15sp" />
+
+            </com.haibin.calendarview.CalendarLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_month_and_year"
+                android:layout_width="match_parent"
+                android:layout_height="360dp"
+                android:overScrollMode="never"
+                android:visibility="gone"
+                app:layout_constraintTop_toBottomOf="@id/bt_prev"
+                tools:itemCount="12"
+                tools:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                tools:listitem="@layout/item_calendar"
+                tools:spanCount="3" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</layout>

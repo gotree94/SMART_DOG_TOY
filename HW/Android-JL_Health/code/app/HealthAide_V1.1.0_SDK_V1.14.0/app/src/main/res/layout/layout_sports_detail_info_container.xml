@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="21dp"
+    android:paddingEnd="21dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="24dp"
+
+    >
+
+    <include
+        android:id="@+id/layout_sports_detail_info_pace"
+        layout="@layout/layout_sports_detail_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <include
+        android:id="@+id/layout_sports_detail_info_step"
+        layout="@layout/layout_sports_detail_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/layout_sports_detail_info_pace"
+        app:layout_constraintTop_toBottomOf="@id/layout_sports_detail_info_pace" />
+
+
+    <include
+        android:id="@+id/layout_sports_detail_info_duration"
+        layout="@layout/layout_sports_detail_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <include
+        android:id="@+id/layout_sports_detail_info_heart_rate"
+        layout="@layout/layout_sports_detail_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        app:layout_constraintEnd_toEndOf="@id/layout_sports_detail_info_duration"
+        app:layout_constraintStart_toEndOf="@id/layout_sports_detail_info_step"
+        app:layout_constraintStart_toStartOf="@id/layout_sports_detail_info_duration"
+        app:layout_constraintTop_toBottomOf="@id/layout_sports_detail_info_pace" />
+
+
+    <include
+        android:id="@+id/layout_sports_detail_info_kcal"
+        layout="@layout/layout_sports_detail_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

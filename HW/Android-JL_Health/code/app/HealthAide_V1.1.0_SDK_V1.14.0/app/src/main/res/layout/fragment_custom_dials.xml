@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.device.market.CustomDialFragment">
+
+    <TextView
+        android:id="@+id/tv_device_dials"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:layout_marginStart="20dp"
+        android:text="@string/custom_dial"
+        android:textColor="@color/black_242424"
+        android:textSize="@dimen/text_16sp"
+        app:layout_constraintBottom_toTopOf="@+id/rv_my_dial_container"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_device_dials_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:text="@string/manager"
+        android:layout_marginEnd="16dp"
+        android:textColor="@color/blue_558CFF"
+        android:textSize="@dimen/text_13sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_device_dials"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_device_dials"
+        tools:text="管理" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_my_dial_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:overScrollMode="never"
+        android:paddingTop="13dp"
+        android:layout_marginStart="20dp"
+        android:paddingBottom="13dp"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_device_dials"
+        tools:itemCount="6"
+        tools:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        tools:listitem="@layout/item_watch_market"
+        tools:spanCount="3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

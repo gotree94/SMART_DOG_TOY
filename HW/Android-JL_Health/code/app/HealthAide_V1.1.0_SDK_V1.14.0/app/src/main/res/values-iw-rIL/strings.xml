@@ -1,0 +1,971 @@
+<resources>
+    <string name="app_name">WearLink</string>
+
+    <!--HomeActivity-->
+    <string name="tab_health">בריא</string>
+    <string name="tab_sports">תנועה</string>
+    <string name="tab_device">ציוד</string>
+    <string name="tab_settings">התקן</string>
+    <string name="tab_mine">שלי</string>
+
+    <string name="search_phone">חיפוש במכשיר בטלפון נייד&#8230;</string>
+    <string name="close_play">כבה את הקול</string>
+
+    <!--Load More View-->
+    <string name="status_loading">טוען&#8230;</string>
+    <string name="status_load_complete">לחץ כדי לטעון עוד</string>
+    <string name="status_load_end">אין יותר נתונים</string>
+    <string name="status_load_failed">הטעינה נכשלה, לחץ עליי כדי לנסות שוב</string>
+
+    <!--action-->
+    <string name="scan_qr_code">לסרוק קוד QR</string>
+    <string name="add_device">הוסף מכשיר</string>
+    <string name="sports_settings">הגדרות תנועה</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">שלום, ממשק ריק.</string>
+    <string name="calendar_type_day">יום</string>
+    <string name="calendar_type_week">שבוע</string>
+    <string name="calendar_type_year">שנה</string>
+    <string name="blood_oxygen_saturation">עיוות חמצן בדם</string>
+    <string name="movement_record">רישום ספורט</string>
+    <string name="empty_record">אין רישום</string>
+    <string name="heart_rate">קצב הלב</string>
+    <string name="sleep">לישון</string>
+    <string name="today_empty_data">אין נתונים היום</string>
+    <string name="weight">משקל</string>
+    <string name="pressure">לחץ</string>
+    <string name="kilogram">Kg</string>
+    <string name="calendar_type_month">חודש</string>
+    <string name="distance_km">מרחק (קילומטרים)</string>
+    <string name="distance_mile">מרחק (קילומטרים)</string>
+    <string name="climbing_stairs_m">מטפס (m)</string>
+    <string name="climbing_stairs_foot">טיפוס (רגליים)</string>
+    <string name="calories_kcal">חום (kcal)</string>
+    <string name="step">צעד</string>
+    <string name="step_number">צעדים</string>
+    <string name="medium_high_strength">כוח גבוה מדיום</string>
+    <string name="min">דקה</string>
+    <string name="average_step">צעדים ממוצעים</string>
+    <string name="all_step">שלבים מסוימים</string>
+    <string name="all_mile">קילומטר מסוים</string>
+    <string name="all_consumption">הצרכה הכוללת</string>
+    <string name="kilocalorie">Kilocalorie</string>
+    <string name="kilometre">קילומטר</string>
+    <string name="weight_setting">הגדרת משקל</string>
+    <string name="weight_target">מטרה משקל</string>
+    <string name="date">תאריך</string>
+    <string name="time">זמן</string>
+    <string name="weekly_average">ממוצע שבועי</string>
+    <string name="daily_average">ממוצע ביום</string>
+    <string name="month_average">ממוצע חודשי</string>
+    <string name="year_average">ממוצע שנתי</string>
+    <string name="range_of_variation">שינוי</string>
+    <string name="weight_start_data">התחלה：%.1f </string>
+    <string name="weight_target_data">מטרה：%.1f </string>>
+    <string name="kg">kg</string>
+    <string name="sober">פיכח.</string>
+    <string name="rapid_eye_movement">תנועת עין מהירה</string>
+    <string name="light_sleep">שינה גבוהה.</string>
+    <string name="deep_sleep">שינה עמוקה.</string>
+    <!--Health- Pressure-->
+    <string name="uptilted">בצד הגבוה</string>
+    <string name="medium">שנייה</string>
+    <string name="normal">נורמלי</string>
+    <!--Login-->
+    <string name="login">תחתום</string>
+    <string name="hint_input_phone_number_or_email">אנא הכנסו את מספר הטלפון הנייד/כתובת הדואר"ל שלכם</string>
+    <string name="hint_input_phone_number">אנא תכניס את מספר הנייד שלך</string>
+    <string name="hint_input_password">אנא הכנס סיסמה</string>
+    <string name="login_by_sms">נכנס עם קוד האישור</string>
+    <string name="forgot_password">שכחתי את הסיסמה？</string>
+    <string name="register_tips">אין חשבון? רשום עכשיו</string>
+    <string name="phone_or_email_tips_empty">מספר טלפון נייד/כתובת דואר אלקטרוני לא יכול להיות ריקה</string>
+    <string name="phone_or_email_tips_format_err">מספר נייד/פורמט דואר אלקטרוני לא נכון</string>
+    <string name="phone_tips_empty">מספר נייד לא יכול להיות ריק</string>
+    <string name="phone_tips_format_err">פורמט מספר נייד לא נכון</string>
+    <string name="email_address_tips_empty">כתובת דוא"ל לא יכולה להיות ריקה</string>
+    <string name="email_address_tips_format_err">פורמט כתובת דואר אלקטרוני לא נכון</string>
+    <string name="password_tips_empty">הסיסמה לא יכולה להיות ריקה</string>
+    <string name="password_tips_format_err">אורך הסיסמה צריכה להיות 6– 12 ביטים</string>
+    <string name="register_succeed">ההכניסה הצליחה</string>
+    <string name="login_by_account">להיכנס עם סיסמה חשבון</string>
+    <!--帐号与安全-->
+    <string name="search">חיפוש</string>
+    <string name="account_security">חשבון וביטחון</string>
+    <string name="modify_phone_number">שינוי מספר נייד</string>
+    <string name="modify_email_address">שינוי כתובת דואר אלקטרוני</string>
+    <string name="change_password">שינוי הסיסמה</string>
+    <string name="change">תחליף</string>
+    <string name="bind_new_phone_number">קשר מספר טלפון חדש</string>
+    <string name="bind_new_email_address">קשר כתובת דואר אלקטרוני חדשה</string>
+    <string name="modify_binded_phone_number">שינוי מספר הטלפון הנייד הקשור?</string>
+    <string name="current_binded_phone_number">מספר הטלפון הנייד המקושר כרגע הוא</string>
+    <string name="modify_binded_email_address">תחליף את כתובת האימייל הקבוצה?</string>
+    <string name="current_binded_email_address">כתובת האימייל הקשורה כרגע היא</string>
+    <string name="authentication">אישור</string>
+    <string name="authentication_tip">כדי לאשר שאתה המפעיל, בבקשה לאשר את זהותך.</string>
+    <string name="sms_verification_code">קוד האמת SMS</string>
+    <string name="bind_new_phone_number_success">מספר טלפון חדש קשור בהצלחה!</string>
+    <string name="bind_new_email_address_success">קישור בהצלחה את כתובת האימייל החדשה!</string>
+    <string name="modified_success">השינוי הצליח</string>
+    <string name="old_password">סיסמה ישנה</string>
+    <string name="input_old_password">הכנס סיסמה ישנה</string>
+    <string name="new_password">סיסמה חדשה</string>
+    <string name="password_input_tip">בבקשה קבע סיסמה חדשה של 6-12 אותיות ומספרים</string>
+    <string name="inout_new_password">הכנס סיסמה חדשה</string>
+    <string name="inout_new_password_again">הכנס שוב את הסיסמה החדשה</string>
+    <string name="password_is_inconsistent">הסיסמאות לא מתאימות, אנא תכניס מחדש</string>
+    <string name="phone_number_is_empty">מספר נייד לא יכול להיות ריק</string>
+    <string name="sms_verification_code_error">שגיאה בקוד האישור SMS</string>
+    <string name="current_phone_registered">הטלפון הנוכחי רשום</string>
+    <string name="current_phone_no_register">החשבון הנוכחי לא רשום</string>
+    <string name="account_password_error">שגיאה בסיסמה של חשבון</string>
+    <string name="new_password_no_be_empty">הסיסמה החדשה לא יכולה להיות ריקה</string>
+    <string name="old_password_error">טעות סיסמה ישנה</string>
+    <!--Register-->
+    <string name="register">רשום</string>
+    <string name="input_verification_code">הכנס קוד האישור</string>
+    <string name="send_sms_code">שלח קוד האישור</string>
+    <string name="resend_sms_code">לקבל מחדש（%1$s）</string>
+    <string name="input_identifying_code">הכנס קוד האישור</string>
+    <string name="send_identifying_code">שלח קוד האישור</string>
+    <string name="resend_identifying_code">לקבל מחדש（%1$s）</string>
+    <string name="input_password_tips">בבקשה קבע 6– סיסמה אלפנומרית 12 ספרות</string>
+    <string name="sms_code_tips_empty">הקוד האישור לא יכול להיות ריק</string>
+    <string name="sms_code_tips_format_err">צורה לא נכונה של קוד האישור</string>
+    <string name="identifying_code_tips_empty">הקוד האישור לא יכול להיות ריק</string>
+    <string name="identifying_code_tips_format_err">צורה לא נכונה של קוד האישור</string>
+    <string name="hint_input_email">בבקשה הכתוב את כתובת האימייל</string>
+
+    <!--User Message-->
+    <string name="input_user_msg">שיפור מידע אישי</string>
+    <string name="nickname">כינוי</string>
+    <string name="sex">מין</string>
+    <string name="date_of_birth">תאריך הלידה</string>
+    <string name="stature">גובה</string>
+    <string name="sport_target">העברת מטרה</string>
+    <string name="next_step">צעד הבא</string>
+    <string name="skip_progress">קפוץ</string>
+
+    <string name="please_input">אנא הכנס</string>
+    <string name="please_choose">בבקשה בחר</string>
+    <string name="heart_rate_range">טווח קצב הלב</string>
+    <string name="times_per_minute">פעמים/דקה</string>
+    <string name="resting_heart_rate">קצב לב מנוחה</string>
+    <string name="resting_heart_rate_avg">קצב לב מנוחה ממוצע</string>
+    <string name="static_heart_rate_too_high">קצב לב סטטי גבוה</string>
+    <string name="low_resting_heart_rate">קצב לב סטטי נמוך מדי</string>
+
+    <!--Sex Dialog-->
+    <string name="man">זכר</string>
+    <string name="woman">נקבה</string>
+    <string name="hour">שעה</string>
+    <string name="minute">דקה</string>
+    <string name="score">ענף</string>
+
+
+    <!--Permission-->
+    <string name="open_gpg_tip">האפליקציה זקוקה לפונקציה GPS, בבקשה דליק את שירות המיקום כדי להמשיך</string>
+    <string name="permissions_tips_01">כדי להשתמש בתוכנה בדרך כלל, בבקשה</string>
+    <string name="permission_contacts">אפשר לקרוא ולכתוב קשרים</string>
+    <string name="permission_mic">אפשר מיקרופון</string>
+    <string name="permission_read_phone_state">אפשר לקרוא מידע טלפון</string>
+    <string name="permission_location">אפשר לקבל מידע מיקום</string>
+    <string name="permission_storage">לאפשר לקבץ לקרוא ולכתוב</string>
+    <string name="permission_bluetooth">אפשר Bluetooth</string>
+    <string name="permission_phone_settings">אפשר לשנות את ההגדרות הטלפוניות באמצעות</string>
+    <string name="permissions_tips_02">נא ללכת לתקנות המערכת כדי להעניק בקשות</string>
+    <string name="permission">שפט</string>
+    <string name="permission_sport">הגדרות הרישוי ספורט</string>
+    <string name="permission_sport_tips">בגלל הסדרות לחסוך כוח ומגבלות תהליך רקע, אנדרואיד עלול לכבות את %1$s דולר שמקלט ספורט או לגרום לאבד כמה נתונים שיא ספורט. אם אתם מתמודדים עם בעיות קשורות, אתם יכולים להתייחס לשיטות הבאות</string>
+    <string name="permission_sport_suspension_title">הגדרות התצוגה העליונה (חלון מושעה) ביישומים אחרים</string>
+    <string name="permission_sport_suspension_describe">כדי להבטיח שלא תיהרג בטעות על-ידי מערכת הטלפון שלך במהלך התנועה, וכתוצאה מכך אובדן נתוני תנועה, נא להעניק הרשאה לחלון ההשעיה של%1$s</string>
+    <string name="permission_sport_suspension_operate">פתח רשות חלון צף</string>
+    <string name="permission_sport_battery_optimized_title">אופטימיזציה של הסוללה</string>
+    <string name="permission_sport_battery_optimized_describe">במצב חסכון חשמל, ניתן עדיין להגביל את הפעולה של%1$s דולר. כשמתחילים לזוז, נסו לשמור על הכוח במצב יחסית מספיק, ולכבות את מצב החסכון הכוח. הקישורים הרלוונטיים נמצאים בדרך כלל בסרט המצב או בסוללה.</string>
+    <string name="permission_sport_battery_optimized_operate_1">אופטימיזציה של הסוללה מופעלת, לחץ סגור</string>
+    <string name="permission_sport_battery_optimized_operate_2">אופטימיזציה של הסוללה כבויה</string>
+    <string name="permission_sport_background_title">הגדרות הגנת רקע</string>
+    <string name="permission_sport_background_describe">הוספת%1$s דולר לרשימת ההגנה הרקע יכולה לעזור דולר לרוץ באופן קבוע ברקע למידה מסוימת.%1$s \n  שיטת הגדרה:</string>
+    <string name="permission_sport_background_operate">תדליק את הגדרות מערכת הגנה הרקע</string>
+    <string name="permission_sport_powersave_title">מצב חיסוך חשמל</string>
+    <string name="permission_sport_powersave_describe">בגלל הסדרת החסכון הכוח של המערכת, האפליקציה תקפוא. כדי להבטיח שפעילות רקע כמו הקלטת נתוני ספורט לא ישפיעו, בבקשה תוסיף%1$s דולר לרשימה הלבנה של אופטימיזציה של הסוללה. \n שיטת הגדרה:</string>
+    <string name="permission_sport_powersave_oprate">תדליק את ההגדרות של מערכת שינה אנטי</string>
+    <string name="lock_screen_display">נעל תצוגת מסך</string>
+    <string name="locak_screen_display_hint">שיטת הגדרה: מידע ליישום ->ניהול רשויות ->נעול תצוגת מסך</string>
+    <string name="instructions_for_use">הוראות לשימוש</string>
+    <string name="permissions_camera">הרשאות מצלמה</string>
+    <string name="permissions_bluetooth">הרשאות Bluetooth</string>
+    <string name="permissions_location">הרשאות מיקום</string>
+    <string name="permissions_storage">הרשאות אחסון</string>
+    <string name="permissions_read_contact">קרא את הרשאת פרטי הקשר</string>
+    <string name="permissions_camera_explain">משמש לסריקה, הגדרת אווטאר, הגדרת רקע פנים שעון מותאם אישית ופונקציות אחרות.</string>
+    <string name="permissions_bluetooth_explain">משמש לחיפוש ולחיבור התקני Bluetooth, תקשורת עם התקני Bluetooth ופונקציות אחרות.</string>
+    <string name="permissions_location_explain">משמש לפונקציית Bluetooth, מידע מזג אוויר, מיקום מפה, מסלול תנועה ופונקציות אחרות.</string>
+    <string name="permissions_storage_explain">משמש לקריאת קבצי מוזיקה, הגדרת אווטרים, קריאת גלריות ופונקציות אחרות.</string>
+    <string name="permissions_read_contact_explain">משמש לסנכרון פרטי איש קשר למכשיר.</string>
+    <string name="rejust_permissions_tips">אם תסרב להפעיל אותו, לא תוכל להשתמש בפונקציות שלעיל.</string>
+
+
+    <!-- reset password-->
+    <string name="password">סיסמה</string>
+    <string name="finish">מושלם</string>
+    <string name="sms_check">בדיקה</string>
+    <string name="hint_text_password_again_input">נא לאשר את הסיסמה שוב</string>
+
+    <!--Add Device-->
+    <string name="connect">מחובר</string>
+    <string name="status_disconnect">לא מחובר</string>
+    <string name="status_connected">מחובר</string>
+    <string name="status_connecting">מחובר</string>
+    <string name="add">תוסיף ל</string>
+    <string name="no_device_tips">עדיין לא הוספת מכשירים.</string>
+    <string name="user_denies_permissions">\"%1$s\" נא לתת רשויות רלוונטיות במערכת</string>
+    <string name="start_scan_failed">לא הצליח להתחיל את מכשיר הסריקה, אנא נסה שוב מאוחר יותר</string>
+    <string name="bluetooth_is_close">Bluetooth כבוי, בבקשה דליק Bluetooth ולנסות שוב</string>
+
+    <!--Watch Control-->
+    <string name="restore_watch_system_success">התאוששות המערכת הצליחה</string>
+    <string name="restore_watch_system_failure">לא הצליח להחזיר את המערכת, הסיבה: %1$s</string>
+    <string name="battery_format">כוח %1$d%%</string>
+    <string name="local_watch">חיגוג מקומי</string>
+    <string name="watch_market_all">שלם</string>
+    <string name="using_watch">משתמש</string>
+    <string name="use_watch">שימוש</string>
+    <string name="update_watch">לעדכן</string>
+    <string name="download_watch">הורד</string>
+    <string name="buy_watch">קונה</string>
+
+    <string name="health_record">בריא</string>
+    <string name="music_manager">ניהול מוזיקה</string>
+    <string name="device_music">מוזיקה מכשיר</string>
+    <string name="alarm">שעון אזעקה</string>
+    <string name="contacts">הקשר העליון</string>
+    <string name="card_bag">תיק קלפים</string>
+    <string name="firmware_upgrade">עדכון גרסה המכשיר</string>
+    <string name="science_sleep">זיהוי שינה</string>
+    <string name="turned_on">פתוח</string>
+    <string name="turned_off">סגור</string>
+    <string name="sedentary_reminder">תזכורת לשבת ארוכה</string>
+    <string name="sedentary_reminder_tip">תזכור לשבת יותר משעה</string>
+    <string name="continuous_measurement_heart_rate">מידוד ממשיך של קצב הלב</string>
+    <string name="heart_rate_range_early_warning">תרגיל תזכורת קצב לב</string>
+    <string name="pressure_auto_testing">זיהוי לחץ אוטומטי</string>
+
+    <string name="retrieve_password">קיבל סיסמה</string>
+    <string name="reset_password">תחדש סיסמה</string>
+    <string name="call_phone_error_tips">מצב הטלפון בתהליך, בבקשה תפעיל מאוחר יותר</string>
+
+
+    <!-- Mine -->
+    <string name="mine_my_data">המידע שלי</string>
+    <string name="mine_sport_weekly">שבוע ספורט</string>
+    <string name="mine_setting">התקן</string>
+    <string name="mine_help">עזרה.</string>
+    <string name="mine_about">על</string>
+
+    <string name="user_info">מידע אישי</string>
+    <string name="user_info_avatar">פורטרט ראש</string>
+    <string name="health_state">בריאות</string>
+    <string name="activity_statistics">סטטיסטיקות פעילות</string>
+    <string name="target">מטרה</string>
+    <string name="format_birthday_year_month">%1$d-%2$d</string>
+    <string name="format_height">%1$dסנטימטר</string>
+    <string name="format_step_number_target">%1$dצעד</string>
+    <string name="hint_input_nickname">אנא הכנס את הכינוי שלך</string>
+    <string name="save">שמירה</string>
+    <string name="tip_nickname_null">הכינוי לא יכול להיות ריק</string>
+    <string name="sure">קבע</string>
+    <string name="distance">קילומטר מסוים</string>
+    <string name="climb">טפס.</string>
+    <string name="heat">כמות חום</string>
+    <string name="distance_m">אורז</string>
+    <string name="kcal">Kilocalorie</string>
+    <string name="relax">תירגע.</string>
+    <string name="alert">הודעה להודעה</string>
+    <string name="sensor_setting">הגדרות של החיישנים</string>
+    <string name="open">פתוח</string>
+    <string name="weather_push">דחף מזג האוויר</string>
+    <string name="clean_cache">נקי מחסן</string>
+    <string name="tip_clean_cache">האם לנקות מידע מחסן משתמשים</string>
+    <string name="bright_screen">הרים את היד כדי להדליק את המסך</string>
+    <string name="tip_bright_screen">תרים את היד ותפנה את המסך לעצמך כדי להדליק את המסך</string>
+    <string name="bright_screen_hint">המסך לא מאורר כאשר היד נעלה במצב ללא הפרעות</string>
+    <string name="bluetooth_disconnect_tip">תזכורת ניתק Bluetooth</string>
+    <string name="target_consume">תשתמש בסביבות%1$d דולר kcal</string>
+    <string name="target_step">צעדים מטרה</string>
+    <string name="target_weight">משקל המטרה</string>
+    <string name="multilingual">שפה</string>
+    <string name="simplified_chinese">סיני פשוט</string>
+    <string name="follow_system">מערכת מעקב</string>
+    <string name="english">אנגלית</string>
+    <string name="japanese">יפני</string>
+    <string name="korean">קוריאני</string>
+    <string name="french">צרפתית</string>
+    <string name="german">גרמני</string>
+    <string name="italian">איטלקי</string>
+    <string name="portuguese">פורטוגזית</string>
+    <string name="spanish">ספרדית</string>
+    <string name="swedish">שוודי</string>
+    <string name="polish">פולני</string>
+    <string name="russian">רוסי</string>
+    <string name="turkish">טורקית</string>
+    <string name="hebrew">עברית.</string>
+    <string name="thai">תאילנדי</string>
+    <string name="arabic">ערבית</string>
+    <string name="vietnamese">וייטנאמי</string>
+    <string name="indonesian">אינדונזי</string>
+    <string name="malay">מלאי</string>
+    <string name="persian">פרסי</string>
+    <string name="set_language">קבע שפה</string>
+    <string name="unit_settings">הגדרת יחידה</string>
+    <string name="unit_metric">מטריקה</string>>
+    <string name="unit_imperial">קיסרי</string>
+    <string name="format_weight">%1$dקילו.</string>
+    <string name="no_nickname">כינוי לא קבוע</string>
+    <string name="user_agreement">הסכם משתמש</string>
+    <string name="privacy_policy">מדיניות פרטיות</string>
+    <string name="current_app_version">גרסה הנוכחית:%1$s</string>
+    <string name="agree_and_use">הסכים</string>
+    <string name="not_agree_and_exit">מסרב</string>
+    <string name="privacy_policy_name">"מדיניות הפרטיות"</string>
+    <string name="user_service_name">"הסכם שירותי משתמש"</string>
+    <string name="declaration">%1$sהצהרה</string>
+    <string name="user_declaration">
+        "%1$s" היא תוכנה המשמשת להקלטה ולניתוח נתוני בריאות ספורט משתמשים, לספק למשתמשים הדרכה מקצועית לבריאות ספורט ושירותי ניהול מכשירים לבישים חכמים. על מנת להשיג את המטרה הנ"ל,
+         כאשר אנו מספקים לך שירותים, ייתכן שנצטרך לאסוף את המידע הרלוונטי שלך ולהשתמש בהרשאות הבאות: שימוש במצלמה, שימוש במידע מיקום, שימוש בהרשאת Bluetooth,
+         קרא את היומן שלך, קרא את אנשי הקשר שלך, גש לאינטרנט. עלינו לסנכרן את קצב הלב, השינה, החמצן בדם, רישומי הפעילות הגופנית ונתוני פעילות גופנית אחרים לענן.
+         אנו מייחסים חשיבות רבה להגנת הפרטיות שלך ולהגנת המידע האישי שלך. לפני שאתה משתמש באפליקציית "%2$s", אנא קרא את #### ואת כל התנאים של **** בעיון, והתחל להשתמש בנו לאחר שתסכים ו לקבל את כל שירותי התנאים.
+    </string>
+    <string name="agree_policy_tips">קראתי והסכמתי ל-#### ו-****</string>
+    <string name="check_policy_status_tips">אנא קרא והסכים לתנאי השירות ולמדיניות הפרטיות</string>
+
+    <string name="add_music">תוסיף מוזיקה</string>
+    <string name="download_music">סינכרון מוזיקה לצפות %1$d/%2$d</string>
+    <string name="transfer_info">העברה(%1$d/%2$d)</string>
+
+    <string name="message_notify">הודעה</string>
+    <string name="sync_wechat">WeChat</string>
+    <string name="sync_qq">QQ</string>
+    <string name="sync_sms">הודעה קצרה</string>
+    <string name="sync_other">אחרת</string>
+
+    <!--Watch Market-->
+    <string name="watch_market">קניון חיונים</string>
+    <string name="manager">ניהול</string>
+    <string name="delete_watch_tip">לא פחות משני חיוגים</string>
+    <string name="last_page">יש לי קו התחתון</string>
+    <string name="delete_watch_err">מחק חיגוג[%1$s]נכשל בגלל%2$s</string>
+    <string name="create_watch_err">הורדת פני השעון [%1$s] נכשלה עקב %2$s</string>
+    <string name="update_watch_err">העדכן חיגוג[%1$s]נכשל בגלל%2$s</string>
+    <string name="transfer_file_warning">במהלך העברת קובצים\n, בבקשה שמור על Bluetooth ורשת פתוחה. nDo not turn off the device and lock the screen phone</string>
+    <string name="device_is_disconnected">מכשיר לא מחובר</string>
+    <string name="server_none_device_support_version">אין גרסה שנתמכה על ידי המכשיר</string>
+
+    <!--Dial Detail-->
+    <string name="watch_dial">חיגוג שעון</string>
+    <string name="my_dials">החיוג שלי</string>
+    <string name="free_dial">חיגוג חופשי</string>
+    <string name="pay_dial">חיגוג משלם</string>
+    <string name="dial_desc">【הצגה לחייג】</string>
+    <string name="download_dial">הורדת</string>
+    <string name="update_dial">העדכון</string>
+    <string name="purchase_record">רשום קניה</string>
+    <string name="handle_dial_tips">הקובץ הועבר. בבקשה אל תצא מהממשק הנוכחי</string>
+
+    <!--Payment-->
+    <string name="product_name">שם הסחר</string>
+    <string name="product_price">כמות הסחורה</string>
+    <string name="pay_way">שיטת תשלום</string>
+    <string name="pay_way_tips">בבקשה בחר שיטת תשלום</string>
+    <string name="ali_pay">תשלום חיוני</string>
+    <string name="weixin_pay">תשלום בשיחה רטובה</string>
+    <string name="whether_payment_finish">האם התשלום הושלם?</string>
+    <string name="unfinished">תסתובב באוויר.</string>
+    <string name="finished">הושלם</string>
+
+    <string name="payment_success">התשלום הצליח</string>
+    <string name="payment_failed">תשלום לא מושלם, בבקשה תשלם שוב</string>
+    <string name="payment_processing">מעבד תשלום, בבקשה חכה.</string>
+    <string name="payment_error">תשלום נכשל</string>
+    <string name="payment_duplex">בקשה חוזרת, בבקשה לחכות לזמן מה ולנסות שוב</string>
+    <string name="payment_user_cancel">משתמש בוטל תשלום</string>
+    <string name="payment_network">התשלום נכשל. יש בעיה עם הרשת</string>
+    <string name="payment_unknown">טעות לא ידועה</string>
+    <string name="use_dial">להשתמש</string>
+
+    <string name="no_purchase_record">אין תיק קנייה</string>
+
+    <!--Upgrade-->
+    <string name="upgrade">שיפור</string>
+    <string name="current_dev_version">גרסה הנוכחית</string>
+    <string name="latest_version">האם הגרסה האחרונה</string>
+    <string name="check_update">תבדוק אחר עדכונים</string>
+    <string name="dev_ota">עדכון משטרה</string>
+    <string name="upgrade_warning">במהלך תהליך העדכון\n, בבקשה לשמור על Bluetooth והרשת פתוחה. Do not turn off the device and lock the screen phone</string>
+    <string name="ota_result_success">השדרה הושלמה</string>
+    <string name="ota_result_failed">השדרה נכשלה</string>
+    <string name="ota_result_cancel">העדכון בוטל</string>
+    <string name="new_ota_version">גרסה חדשה%1$s</string>
+    <string name="ota_state_ready">היכון לשדרוג</string>
+    <string name="ota_state_check_file">אישור שיפור</string>
+    <string name="ota_state_updating">מעדכנות</string>
+    <string name="ota_state_finish">סוף השדרה</string>
+    <string name="update_resource_tips">העברת משאבי חיגוג（%1$d/%2$d）</string>
+    <string name="resource_unfinished_tips">אם שיפור המשאבים לא מושלם, המכשיר לא יהיה זמין. האם אתה רוצה להמשיך לשפור את המשאב？</string>
+    <string name="firmware_mandatory_upgrade">השדרה של המכשיר לא הושלמה. אתה צריך להמשיך לשדרה כדי להשתמש בה בדרך כלל</string>
+    <string name="network_module_ota_upgrade_tips">שדרוג מודול ה-4G לא הושלם. האם ברצונך להמשיך בשדרוג?</string>
+    <string name="upgrade_warning_tips">אזהרה לשדרה</string>
+    <string name="exit_and_disconnect">חזרה כפויה</string>
+    <string name="continue_upgrade">המשיך לשדרוג</string>
+    <!--ota err-->
+    <string name="ota_err_no_space">מרחב שיפור לא מספיק. אנא מחק את קובץ החיוג לפני המשיכה</string>
+    <string name="ota_err_device_not_connect">התקן המעדכון לא מחובר. בבקשה תוודא שהמתקן מחובר באופן רגיל</string>
+    <string name="ota_err_low_power">רמת הסוללה של המכשיר חייבת להיות מעל %1$s כדי לשדרג</string>
+    <string name="ota_err_file_info">שגיאת פרטי קובץ בשדרוג</string>
+    <string name="ota_err_file_same_version">גרסת קובץ השדרוג זהה לגרסת המכשיר</string>
+    <string name="ota_err_tws_not_connect">המכשיר אינו מזווג ומחובר</string>
+    <string name="ota_err_not_in_charging_bin">האוזניות לא נמצאות בתא הטעינה</string>
+    <string name="ota_err_data_crc_check">שגיאת אימות נתונים בשדרוג</string>
+    <string name="ota_err_failed">השדרוג נכשל</string>
+    <string name="ota_err_key_mismatch">אי התאמה של מפתח</string>
+    <string name="ota_err_uboot_mismatch">חוסר התאמה של UBoot</string>
+    <string name="ota_err_data_len">אירעה שגיאת אורך במהלך השדרוג</string>
+    <string name="ota_err_flash_io">מתרחשות שגיאות קריאה וכתיבה של פלאש</string>
+    <string name="ota_err_cmd_timeout">פסק זמן לפקודה</string>
+    <string name="ota_err_data_offset">שגיאה בקריאת היסט נתונים</string>
+    <string name="ota_err_reconnect_device_timeout">תם הזמן הקצוב לחיבור חזרה למכשיר</string>
+    <string name="ota_err_waiting_for_cmd_timeout">תם הזמן הקצוב להמתנה לפקודה</string>
+    <string name="ota_err_send_data_timeout">תם הזמן הקצוב לפקודה לשלח</string>
+    <string name="ota_err_update_data">קריאת נתוני השדרוג נכשלה</string>
+    <string name="ota_err_not_found_file">קובץ השדרוג לא נמצא</string>
+    <string name="ota_err_bad_status">המכשיר החזיר מצב כשל</string>
+    <string name="ota_err_bad_result">המכשיר החזיר תוצאה כושלת</string>
+    <string name="ota_err_unknown">שגיאת שדרוג לא ידועה</string>
+
+    <!--闹钟-->
+    <string name="named">שם</string>
+    <string name="alarm_open_success">שעון אזעקה פתוח בהצלחה</string>
+    <string name="alarm_open_failure">לא הצליח לפתוח שעון אזעקה</string>
+    <string name="alarm_close_success">סגור את שעון האזעקה בהצלחה</string>
+    <string name="alarm_close_failure">לא הצליח לסגור את שעון האזעקה</string>
+    <string name="operate_alarm_failure">לא הצליח לפעיל את שעון האזעקה</string>
+    <string name="alarm_list_read_failed">לא הצליח לקרוא רשימת האזעקה</string>
+    <string name="delete">מחק</string>
+    <string name="alarm_set_num_is_full">מספר שעוני האזעקה מלא</string>
+    <string name="alarm_delete_failure">מחיקת שעון האזעקה נכשלה</string>
+    <string name="alarm_delete_success">שעון האזעקה נמחק בהצלחה</string>
+
+    <string name="alarm_stop_success">שעון האזעקה הפסיק בהצלחה</string>
+    <string name="alarm_stop_failed">הפסקת שעון האזעקה נכשלה</string>
+    <string name="alarm_delete">מחק שעון אזעקה</string>
+    <string name="sync_time">סינכרוניזת זמן המכשיר</string>
+    <string name="sync_time_success">הזמן ההתאם הצליח</string>
+    <string name="sync_time_failed">זמן ההתאם נכשל</string>
+
+
+    <string name="save_alarm_failed_no_modify">שעון האזעקה לא השתנה</string>
+    <string name="save_alarm_failed">לא הצליח לשמור שעון האזעקה</string>
+    <string name="save_alarm_success">שעון אזעקה נשמר בהצלחה</string>
+    <string name="choose_repeat_mode_tip">בבקשה בחר מצב</string>
+    <string name="alarm_name_can_not_be_empty">שם האזעקה לא יכול להיות ריק</string>
+    <string name="alarm_name_length_too_long">שם האזעקה ארוך מדי</string>
+    <string name="alarm_name_format_error">צורת הכניסה הלא נכונה של שם האזעקה</string>
+    <string name="default_alarm_name">שעון אזעקה</string>
+    <string name="default_alarm_custom">אישי</string>
+    <string name="alarm_edit_title">עורך שעון אזעקה</string>
+    <string name="alarm_create_title">אזעקה חדשה</string>
+    <string name="alarm_repeat_on_workday">ביום שני עד יום שישי</string>
+    <string name="alarm_repeat_every_day">כל יום</string>
+    <string name="alarm_repeat_single">פעם אחת</string>
+    <string name="alarm_repeat_week">שבוע</string>
+    <string name="alarm_repeat_mon">יום שני</string>
+    <string name="alarm_repeat_tue">יום שלישי</string>
+    <string name="alarm_repeat_wed">יום רביעי</string>
+    <string name="alarm_repeat_thu">יום חמישי</string>
+    <string name="alarm_repeat_fri">יום שישי</string>
+    <string name="alarm_repeat_sat">יום שבת</string>
+    <string name="alarm_repeat_sun">יום ראשון</string>
+    <string name="alarm_repeat_simple_mon">אחד</string>
+    <string name="alarm_repeat_simple_tue">שניים</string>
+    <string name="alarm_repeat_simple_wed">שלוש</string>
+    <string name="alarm_repeat_simple_thu">ארבע.</string>
+    <string name="alarm_repeat_simple_fri">חמש</string>
+    <string name="alarm_repeat_simple_sat">שש</string>
+    <string name="alarm_repeat_simple_sun">יום</string>
+
+    <!--AlarmSettings-->
+    <string name="alarm_settings">מנהל אזעקה</string>
+    <string name="bell">טונים טבעות</string>
+    <string name="repeat">חזור</string>
+    <string name="light">אור</string>
+    <string name="alarm_state">מצב</string>
+    <string name="delete_alarm_tip">האם אתה רוצה למחוק שעון האזעקה</string>
+    <string name="stop_alarm">תפסיק!</string>
+    <string name="alarm_running">שעון האזעקה מצלצל</string>
+    <string name="unnamed">ללא שם</string>
+    <string name="hint_input_alarm">אנא תכניס את שם שעון האזעקה</string>
+
+    <string name="alarm_bell_1">טון טבעת 0</string>
+    <string name="alarm_bell_2">טון טבעת 2</string>
+    <string name="alarm_bell_3">טון טבעת 3</string>
+    <string name="alarm_bell_4">טבעת 4</string>
+    <string name="alarm_bell_5">טון טבעת 5</string>
+    <string name="alarm_default_bell">default</string>
+    <string name="alarm_count_tip">אחרי שהשעון של האזעקה ייתקן לשעון, השעון ירוטט כדי להזכיר לך. אתה יכול לקבוע 5 שעוני אזעקה</string>
+    <string name="alarm_bell_list_read_failed">לא הצליח להשיג את רשימת הטבעות המוגדרת</string>
+
+    <string name="alarm_bell_time">זמן שעון האזעקה</string>
+    <string name="min_format">%1$dדקה</string>
+    <string name="alarm_bell_interval">Interval Reversion</string>
+    <string name="bell_repeat_count_title">מספר טבעות חוזרות</string>
+    <string name="bell_interal_time_title">Interval חוזר (דקות)</string>
+    <string name="interval_format">%1$dדקה,%2$dשנייה</string>
+    <string name="count_format">שנייה</string>
+
+
+    <!-- file -->
+    <string name="msg_read_file_err_reading">המכשיר עסוק, אנא נסה שוב מאוחר יותר.!</string>
+    <string name="msg_read_file_err_offline">המכשיר לא באינטרנט!</string>
+    <string name="msg_read_file_err_beyond_max_depth">מעל רמה קריאה！</string>
+    <string name="empty_folder">תיק ריק</string>
+    <string name="get_music_info_failed">לא הצליח לקבל מידע מוזיקה</string>
+
+    <!-- 联系人-->
+    <string name="tip_not_contact">אין קשרים אהובים</string>
+    <string name="tip_add_contact">קבע את הקשר האהוב עליך לשעון שלך כדי לעשות שיחות מהר, והקשרים שאתה קבע יהיו באופן אוטומטי מסונכרונים למתקן</string>
+    <string name="tip_max_contacts_can_add">אתה יכול להוסיף עד %1$d מועדפים לשעון שלך. אנשי הקשר בשימוש תכוף שתגדיר יסונכרנו אוטומטית למכשיר.</string>
+    <string name="sort">סוג</string>
+    <string name="hint_search_contact">מחפש קשרים</string>
+    <string name="unchose">לא נבחר</string>
+    <string name="format_contact_chose_count">נבחר%1$dאישי</string>
+    <string name="tip_max_contact_err">בחר הכי הרבה%1$dקשרים</string>
+    <string name="tip_update_contact_failed">עדכון קשר נכשל</string>
+    <string name="tip_sync_contact_failed">שינוי הקשר נכשל</string>
+    <string name="tip_cancel_get_contact">בוטל לקבל קשר</string>
+    <string name="tip_cancel_update_contact">בוטל את העדכון של הקשר</string>
+
+    <!-- 音乐管理 -->
+    <string name="tip_transfer_finish">העברה מושלמת</string>
+    <string name="tip_transfer_canceled">העברה בוטלה</string>
+    <string name="tip_transfer_error">הפרעת השידור בגלל כישלון השידור</string>
+    <string name="tip_mobile_not_has_contacts">ספר הכתובות הנוכחי של הטלפון הנייד ריק</string>
+    <string name="ask_delete_contact">מחק את הקשר הנבחר</string>
+    <string name="tip_logout">האם אתה צריך להתחבר מחשבון</string>
+    <string name="tip_downloading_music">(בבקשה שמור על הקשר Bluetooth בין הטלפון שלך לשעון שלך במהלך השידור קובץ מוזיקה)</string>
+    <string name="tip_download_finished">%1$dשידור מוזיקה הצליח</string>
+    <string name="tip_please_chose_contact">בבקשה בחר קשר</string>
+    <string name="tip_check_net">הרשת לא מחוברת, בבקשה בדוק את ההגדרות הרשת</string>
+    <string name="sport_other">אחרת</string>
+    <string name="sport_outdoor_running">פועל בחוץ</string>
+    <string name="sport_indoor_running">ניהול פנימי</string>
+    <string name="exercise_time">אורך התאמנות</string>
+    <string name="total_time">כל הזמן</string>
+    <string name="pace">צעד</string>
+    <string name="average_pace">מהירות ממוצעת</string>
+    <string name="consumption_of_kilocalories">שימוש (kcal)</string>
+    <string name="whether_delete">האם אתה רוצה למחוק：%1$s</string>
+
+    <!--二维码扫描-->
+    <string name="scan_qr_code_title">סרוק קוד QR.</string>
+    <string name="select_from_gallery">בחר מתוך הגלריה</string>
+    <string name="pair_device">ציוד זיווג ידני</string>
+    <string name="scan_qr_tips">שים קוד QR בקופסה</string>
+    <string name="scan_env_dark_tips">אתה בסביבה חשוכה, מומלץ להדליק את הפנס.</string>
+    <string name="scan_env_light_tips">אתה בסביבה נורמלית, מומלץ לכבות את הפנס</string>
+    <string name="not_found_qr">קוד QR לא נמצא</string>
+
+    <string name="device_searching">מחפש מכשירים זמינים&#8230;</string>
+    <string name="no_found_device_tips">מכשיר לא נמצא? נוסף על ידי ####</string>
+    <string name="no_found_device_tips_2">לא נמצא מכשיר, בבקשה תוודא שהמכשיר מופעל וקרוב לטלפון הנייד</string>
+    <string name="retry">ניסיון מחדש</string>
+    <string name="no_binding">לא מחובר זמנית</string>
+    <string name="not_found_target">מכשיר היעד לא נמצא? ####</string>
+    <string name="rescan_device">חפש שוב</string>
+
+    <string name="connect_device">מתקנים מחוברים</string>
+    <string name="dev_connecting">זוג&#8230;</string>
+    <string name="dev_connecting_desc">נא לאשר זוג על המכשיר&#8230;</string>
+    <string name="dev_connect_success">הזוג הצליח</string>
+    <string name="dev_connect_success_desc">המכשיר זוג, בבקשה חווי אותו עכשיו.</string>
+    <string name="dev_connect_fail">זוג מכשיר נכשל</string>
+    <string name="dev_connect_fail_desc">אנא סרקו את הקוד שוב כדי להתחבר או להוסיף את המכשיר ידנית</string>
+    <string name="cur_dev_msg">מכשיר זוג הנוכחי: %1$s</string>
+    <string name="gps">GPS</string>
+    <string name="km">קילומטר</string>
+    <string name="step_freq_info_title">תדר צעדים (צעד/דקה)</string>
+    <string name="average_step_freq">תדר צעד ממוצע</string>
+    <string name="max_step_freq">תדר צעד מקסים</string>
+    <string name="per_pace_of_km">每מהירות לקילומטר</string>
+    <string name="average_pace_of_per_km">מהירות ממוצעת (/קילומטר)</string>
+    <string name="max_pace_of_per_km">הקצב הכי מהיר (/קילומטר)</string>
+    <string name="app_running">ברח</string>
+
+    <string name="watch_edit">עורך</string>
+    <string name="current_watch">החיוג הנוכחי</string>
+    <string name="choose_photo">תוסיף תמונות</string>
+    <string name="watch_restore">מחדש מחדש</string>
+    <string name="take_photo">תמונה</string>
+    <string name="get_photo_from_album">בחר מאלבום נייד</string>
+    <string name="select">בחירה</string>
+    <string name="set_custom_bg_success">הצלחה לקבוע רקע מתאים</string>
+
+    <!--Message-->
+    <string name="enable_notification_listener_service_tips">כדי להשתמש בתפקיד סינכרוניזציה של המידע, המשתמש צריך להסכים להשיג מידע על חבל ההודעה. האם אתה רוצה לאפשר את זה עכשיו？</string>
+    <string name="bt_disconnect_tips">בבקשה תחבר קודם את המכשיר</string>
+    <string name="not_found_history">לא נמצא מכשיר מחובר</string>
+
+    <!--fatfs error-->
+    <string name="not_enough_space">לא מספיק מקום לשעון, לא מסוגל להוסיף עוד קובצים</string>
+    <string name="empty_date">יום חודש</string>
+
+
+    <!-- unit -->
+    <string name="unit">חברה</string>
+    <string name="unit_cm">סנטימטר</string>
+    <string name="unit_m">אורז</string>
+    <string name="unit_km">קילומטר</string>
+
+    <string name="unit_in">סנטימטר</string>
+    <string name="unit_ft">רגל</string>
+    <string name="unit_mile">קילומטר</string>
+
+    <string name="unit_kg">קילו</string>
+    <string name="unit_lb">פאונד</string>
+    <string name="unit_running">צעד</string>
+    <string name="no_sdcard_device">אין מכשיר נכנס</string>
+    <string name="select_all">בחר את כל</string>
+    <string name="cancel_select_all">אין</string>
+    <string name="logout">התחבר</string>
+    <string name="local_music">מוזיקה מקומית</string>
+    <string name="music">מוזיקה</string>
+
+    <!--HistoryRecordFragment-->
+    <string name="reconnect_history">מחדש מחובר</string>
+    <string name="remove_history">מחק מכשיר</string>
+    <string name="history_connect_ok">הקשר למכשיר הצליח</string>
+    <string name="history_connect_failed">הקשר למכשיר נכשל</string>
+    <string name="remove_history_success">היסטוריה המחקרה בהצלחה</string>
+    <string name="remove_history_failed">לא הצליח למחוק היסטוריה</string>
+    <string name="history_is_gone">ההיסטוריה נמחקה</string>
+
+
+    <!--  健康设置 -->
+    <string name="tip_pressure_auto_tip">כאשר "זיהוי לחץ אוטומטי" מופעל, המכשיר ישפוט באופן אינטליגנטי את מצבך הפעיל. אם הוא נחשב להיות סטטי, הוא יגלה את שינוי קצב הלב שלך ולחשוב את הלחץ. במהלך התרגיל, זיהוי לחץ אוטומטי לא נעשה. כדי להבטיח זיהוי תקין, אנא תלבש את המכשיר נכון.</string>
+    <string name="pressure_auto_relax">תירגע.</string>
+    <string name="pressure_auto_normal">נורמלי</string>
+    <string name="pressure_auto_medium">שנייה</string>
+    <string name="pressure_auto_high">בצד הגבוה, מומלץ לשלוט בהיגיון בלחץ</string>
+    <string name="heart_measure_way">שיטת מדידת קצב הלב</string>
+    <string name="smart">אינטליגנציה</string>
+    <string name="tip_heart_smart_measure">תואם דינמית את תדר המדידה לפי מצב התרגיל, ותעקב באופן אינטליגנטי על קצב הלב שלך במשך 24 שעות, מה שעוזר לחסוך כוח</string>
+    <string name="tip_heart_real_measure">תשגיח על קצב הלב שלך 24 שעות בזמן אמיתי. נתוני קצב הלב מפורטים יותר ומרעננים באופן זמני יותר, שיש לו השפעה גדולה על שימוש כוח</string>
+    <string name="real">זמן אמיתי</string>
+    <string name="heart_rate_limit">הגבול העליון של קצב הלב</string>
+    <string name="heart_rate_limit_warn">אזהרה על קצב הלב העליון</string>
+    <string name="tip_heart_rate_limit_warn">קצב הלב מעל%1$dתזכיר לפעמים/דקה</string>
+
+    <string name="more">יותר</string>
+    <!--Nfc-->
+    <string name="nfc_card_bag">תיק קלפים</string>
+    <string name="door_key">מפתח דלת</string>
+    <string name="add_door_key">תוסיף מפתח דלת</string>
+    <string name="detail">פרטים</string>
+    <string name="door_key_simulation">סימולציה של כרטיס דלת</string>
+    <string name="edit">עורך</string>
+    <string name="door_key_name">שם מפתח הדלת</string>
+    <string name="modify_key_name">שינוי שם המפתח</string>
+    <string name="delete_card_fail">לא הצליח למחוק כרטיס</string>
+    <string name="save_failed">השמור נכשל</string>
+    <string name="card_is_existed">כרטיס זה כבר קיים, בבקשה אל תוסיף אותו שוב</string>
+    <string name="no_storage_device">אין מכשיר אחסון</string>
+    <string name="nfc_card_over_limit">כרטיס NFC הגיע לגבול העליון</string>
+    <string name="tips">טיפים</string>
+    <string name="analog_nfc_key_card">כרטיס גישה פיזית דומה</string>
+    <string name="analog_key_card_to_device">תדמיין את כרטיס הגישה הקיום למתקן ללבוש</string>
+    <string name="add_time">תוסיף זמן</string>
+    <string name="edit_card">ערוך כרטיס</string>
+    <string name="set_default_card">קבע ככרטיס רשום</string>
+    <string name="delte_current_card">מחק את הכרטיס הזה</string>
+    <string name="home">בית</string>
+    <string name="company">חברה</string>
+    <string name="prepare_read_card">היכון לקרוא את הכרטיס</string>
+    <string name="card_close_phone">בבקשה תקשור את הכרטיס לטלפון כדי לגלות</string>
+    <string name="card_support_range">תראה את טווח תמיכת כרטיס הדלת</string>
+    <string name="start_check">התחל גילוי</string>
+    <string name="set_commonly_use_card_to_default">קבע את כרטיס הבקרה של הגישה המשותף ככרטיס הפרטי, ולהחליף ישירות את הכרטיס כאשר המסך כבוי</string>
+    <string name="keep_device_connect_phone">בבקשה שמרו את המכשיר הנייד מחובר לטלפון הנייד דרך Bluetooth, ואל תפעיל את תהליך הסימולציה של המכשיר הנייד, אשר לוקח בערך דקה אחת</string>
+    <string name="add_failed">הוספת נכשלה</string>
+    <string name="failed_reason">סיבה לכישלון</string>
+    <string name="system_exception">אי נורמליות מערכת</string>
+    <string name="detailed_analysis">ניתוח מפורט</string>
+    <string name="get_data_error">יוצא מן הכלל בלקבל נתונים או בהוראות ביצוע</string>
+    <string name="handling_suggestions">טיפול הצעות</string>
+    <string name="try_again">אנא נסה שוב.</string>
+    <string name="got_it">קיבלתי.</string>
+    <string name="detecting">מגלה…</string>
+    <string name="detecting_no_move_card">בבקשה אל תזיז את הכרטיס בזמן גילוי</string>
+    <string name="detect_success">הבחינה הצליחה</string>
+    <string name="read_card_failed">קריאת קלפים נכשלה</string>
+    <string name="card_move_fast">כרטיס זז מהר מדי, אנא נסה שוב</string>
+    <string name="read_card_failed_encryption">הכרטיס הזה מוצפן ולא תומך בסימולציה. נסה דרך אחרת.</string>
+    <string name="analog_card_number">מספר כרטיס אנאלי</string>
+    <string name="step_sensor">חיישני צעד</string>
+    <string name="keep_data_record">אחסון תיעוד נתונים</string>
+    <string name="heart_rate_sensor">חיישני קצב הלב</string>
+    <string name="blood_oxygen_sensor">חיישני חמצן בדם</string>
+    <string name="altitude_pressure_sensor">חיישני לחץ אוויר בגובה</string>
+    <string name="fall_detection">זיהוי נפילה</string>
+    <string name="heart_rate_space_mode">מחלקת interval קצב הלב</string>
+    <string name="percent_of_max_heart_rate">של קצב לב מקסימום</string>
+    <string name="percentage_of_reserve_heart_rate">אחוז משמורת קצב הלב</string>
+
+    <!--Health Service-->
+    <string name="service_none_device">בבקשה תחבר את המכשיר שלך לחוות את שמחה הספורט</string>
+    <string name="service_health_data">נתונים בריאות</string>
+
+    <string name="close">סגור</string>
+    <string name="all_day">פתוח כל היום</string>
+    <string name="time_open">מוקדם</string>
+    <string name="start_time">זמן פתיחה</string>
+    <string name="end_time">זמן הסוף</string>
+    <string name="status_text">מצב פתוח</string>
+    <string name="fall_response_way">מצב תגובה למפלה</string>
+    <string name="response_mode_bright">מסך בהיר</string>
+    <string name="response_mode_shake">הלם</string>
+    <string name="response_mode_call">שיחת טלפון</string>
+    <string name="emergency_contact">קשר חירום</string>
+    <string name="tip_emergency_contact">להתקשר למגע חירום באופן אוטומטי כשנופל</string>
+    <string name="no_setting">לא קבוע</string>
+    <string name="title_open_sedentary_reminder">אפשר תזכורת יושבת ארוכה</string>
+    <string name="tip_sedentary_reminder">אם תשב יותר משעה, המכשיר ירטט כדי להזכיר לך</string>
+    <string name="free_lunch_break">בלי הפרעות במהלך הפסקת ארוחת הצהריים</string>
+    <string name="tip_free_lunch_break">12: 00 עד 14: 00 אל תזכירי לי.</string>
+    <string name="modification">שינוי</string>
+    <string name="mobile">מספר טלפון נייד</string>
+    <string name="save_contact">שמור קשר</string>
+    <string name="hint_emergency_contact">בבקשה תמלא את מספר הטלפון של קשר חירום</string>
+    <string name="title_emergency_contact">תקשורת קשר חירום</string>
+    <string name="next_day">ביום הבא</string>
+    <string name="start_sports_failed">לא הצליח להתחיל תנועה</string>
+    <string name="start" translatable="false">התחלה</string>
+
+    <!--    实时运动强度状-->
+    <string name="save_sports_status_0">לא מוטיל</string>
+    <string name="save_sports_status_1">התחממות</string>
+    <string name="save_sports_status_2">שומן שורף</string>
+    <string name="save_sports_status_3">סובלנות אווירובית</string>
+    <string name="save_sports_status_4">סבלנות אנארובית</string>
+    <string name="save_sports_status_5">הגבול</string>
+
+    <!--    储备心率模式-->
+    <string name="real_sports_status_0">לא מוטיל</string>
+    <string name="real_sports_status_1">בסיס ארובי</string>
+    <string name="real_sports_status_2">התקדמות האירובית</string>
+    <string name="real_sports_status_3">גבול חומצת חלב</string>
+    <string name="real_sports_status_4">בסיס אנארובי</string>
+    <string name="real_sports_status_5">אנארובי מתקדם</string>
+
+    <string name="step_number_and_unit"  >צעדים</string>
+    <string name="heart_rate_and_unit">קצב הלב (פעמים/דקה)</string>
+    <string name="average_heart_rate_and_unit">קצב לב ממוצע (פעמים/דקה)</string>
+    <!--Health Sleep-->
+    <string name="sleep_analysis_avg_type1">זמן לישון רגיל בממוצע בלילה%1$sשעה%2$sענף</string>
+    <string name="sleep_analysis_avg_type2">יחס שינה עמוק ממוצע%1$s%%</string>
+    <string name="sleep_analysis_avg_type3">אחוז ממוצע של שינה גבוהה%1$s%%</string>
+    <string name="sleep_analysis_avg_type4">יחסי תנועת עין מהירה בממוצע%1$s%%</string>
+    <string name="sleep_analysis_avg_type5">תמשיכות שינה עמוקה בממוצע%1$sענף</string>
+    <string name="sleep_analysis_avg_type6">זמני ערה ממוצעים%1$sשנייה</string>
+    <string name="sleep_analysis_type1">זמן לישון רגיל בלילה%1$sשעה%2$sענף</string>
+    <string name="sleep_analysis_type2">יחס שינה עמוקה%1$s%%</string>
+    <string name="sleep_analysis_type3">יחסי שינה גבוהה%1$s%%</string>
+    <string name="sleep_analysis_type4">יחס תנועת עיניים מהירה%1$s%%</string>
+    <string name="sleep_analysis_type5">תמשיכות שינה עמוקה%1$sענף</string>
+    <string name="sleep_analysis_type6">זמנים של התעוררות%1$sשנייה</string>
+    <string name="time_duration_type1">%1$sשעה%2$sענף</string>
+    <string name="time_duration_type2">%1$sענף</string>
+    <string name="sleep_score">נקודת שינה</string>
+    <string name="sober_full">פיכח.</string>
+    <string name="rapid_eye_movement_full">תנועת עין מהירה</string>
+    <string name="light_sleep_full">שינה קלה</string>
+    <string name="deep_sleep_full">שינה עמוקה.</string>
+    <string name="sleep_score_avg">נקודת שינה ממוצעת</string>
+    <string name="sober_avg">ברור ממוצע</string>
+    <string name="rapid_eye_movement_avg">תנועת עין מהירה בממוצע</string>
+    <string name="light_sleep_avg">שטח ממוצע</string>
+    <string name="deep_sleep_avg">עמוק ממוצע</string>
+    <string name="sleep_ratio">אחוז</string>
+    <string name="references">ערך רמז: </string>
+    <string name="sleep_nap">שינויים ספורדיים</string>
+    <string name="sleep_avg_nap">שינויים ספורדיים ממוצעים</string>
+    <string name="sleep_total">שינה מוחלטת</string>
+    <string name="status_low">נמוך</string>
+    <string name="status_high">בצד הגבוה</string>
+    <string name="status_normal">נורמלי</string>
+    <string name="status_over_weight">משקל יתר</string>
+    <string name="status_over_obese">שמנה</string>
+    <string name="tip_waiting">בבקשה חכה....</string>
+    <string name="empty_sports_record">אין תיעוד תנועה</string>
+    <string name="reach_target_days">%d ימים של תרגיל מוכשר</string>
+    <string name="weekly_step">צעדים בשבוע</string>
+    <string name="weekly_distance">קילומטר שבוע אחד</string>
+    <string name="weekly_kcal">שימוש חום</string>
+    <string name="day">יום</string>
+    <string name="long_press_to_stop">לחץ ארוך עד הסוף</string>
+    <string name="no_data">אין נתונים</string>
+    <string name="sports_stop">סוף</string>
+    <string name="sports_resume">תמשיך</string>
+    <string name="max_heart_rate">קצב לב מקסים</string>
+    <string name="average_heart_rate">קצב לב ממוצע</string>
+    <string name="today_step">צעדים היום</string>
+    <string name="low_spo2">חמצן נמוך בדם</string>
+    <string name="spo2_range">ערך מינימום.</string>
+    <string name="min_value">מינימום.</string>
+    <string name="max_value">ערך עליון.</string>
+    <string name="last_time">חדש ביותר </string>
+    <string name="outdoor">בחוץ</string>
+    <string name="indoor">בתוך</string>
+    <string name="http_tip_400">בקשה לא נכונה</string>
+    <string name="http_tip_401">לא מאושר</string>
+    <string name="http_tip_403">אין גישה</string>
+    <string name="http_tip_404">לא יכול למצוא קובץ</string>
+    <string name="http_tip_405">משאב אסור</string>
+    <string name="http_tip_500">חירום לשרת</string>
+    <string name="http_tip_501">שער רע</string>
+    <string name="http_tip_504">פסק זמן שער</string>
+    <string name="http_tip_unknow">טעות לא ידועה</string>
+    <string name="percent">%</string>
+
+    <string name="permission_system_set">Go to Settings>Application Management>Health Assistant>Permissions</string>
+    <string name="permission_describe_camera">התמונה הזו דורשת את המצלמה שלך. בבקשה%1$s מאפשר רשות מצלמה להשתמש בתפקיד זה בדרך כלל</string>
+    <string name="permission_describe_contacts">התוכנית הזו דורשת את ספר הכתובות שלך. בבקשה%1$s פתח את רשות ספר הכתובות להשתמש בתפקיד זה בדרך כלל</string>
+    <string name="permission_describe_location">התוכנית הזו דורשת מידע מיקומך. אנא%1$s פתח את רשות מידע המיקום להשתמש בתפקיד הזה בדרך כלל</string>
+    <string name="permission_describe_external_storage">התחום הזה דורש את הזיכרון של הטלפון שלך. אנא%1$s מאפשר לקבץ רשות קריאה/כתיבה להשתמש בתפקיד זה בדרך כלל</string>
+    <string name="allow">אפשר</string>
+    <string name="open_gps_service_tip">סריקת Bluetooth וחיבור זוגות צריכים להשיג מידע מיקום, בין אם לאפשר שירות מיקום</string>
+    <string name="go_setting">לקבוע</string>
+    <string name="no_movement">אין תנועה</string>
+    <string name="open_gps_permission">אפשרות לפתוח מקום</string>
+    <string name="open_gps_services">תדליק שירות מיקום נייד</string>
+    <string name="permission_describe_gps_permission_sport">כדי להשתמש בתפקידים הקשורים למסלול תנועה ומפה, נא לאשר "מידע מיקום המתקן" כדי להימנע משפיע על השימוש</string>
+    <string name="permission_describe_gps_service_sport">כדי להשתמש בתפקידים הקשורים למסלול תנועה ומפה, אתה צריך להדליק את שירות "מיקום" הטלפון הנייד כדי להימנע להשפיע על השימוש.</string>
+    <string name="cancel_account_tip">אני לא רוצה להמשיך להשתמש？</string>
+    <string name="cancel_account">ביטול חשבון</string>
+    <string name="delete_account_influence">לא ניתן לשחזר את החשבון לאחר ביטול. המשיך？</string>
+    <string name="synchronizing_data">סינכרון נתונים…</string>
+    <string name="running_too_short">אם מרחק התנועה קצר מדי, גיבוי התקליט לא יישמר</string>
+    <string name="slider_to_unlock">חלק כדי לפתוח</string>
+    <string name="please_click_finish_btn">אנא לחץ על כפתור הסוף כדי לסיים את התנועה</string>
+    <string name="tip_finished_exercise">האם לסיים את הפעילות הזאת</string>
+    <string name="keep_moving">תמשיך לזוז.</string>
+    <string name="terminate_sport">תנועה סופית</string>
+    <string name="running_set">פעיל הגדרות</string>
+    <string name="copyright">זכויות עוצמה© 2021-2024זכויות עוצמה of Zhuhai JieLi טכנולוגיה Co., Ltd</string>
+    <string name="email_register">רשום דואר אלקטרוני</string>
+    <string name="phone_register">רשום טלפון נייד</string>
+    <string name="search_password_by_email">השתמש באימייל כדי להשיג סיסמה</string>
+    <string name="search_password_by_mobile">השתמש במספר הטלפון שלך כדי להשיג את הסיסמה שלך</string>
+    <string name="device_not_support">מכשיר לא תומך</string>
+    <string name="execution_succeeded">ההוצאה הצליחה</string>
+    <string name="cancel">לְבַטֵל</string>
+    <string name="double_tap_to_exit">לחץ שוב כדי לצאת מהיישום</string>
+    <string name="account_deleted_successfully">חשבון נמחק בהצלחה</string>
+    <string name="network_error_tip">נראה שיש משהו לא בסדר ברשת. בבקשה בדוק את הרשת</string>
+    <string name="missing_server_information">מידע השרת חסר</string>
+    <string name="inconsistent_motion_state">מצב תנועה לא קבוע</string>
+    <string name="failed_to_get_weather">לא הצליח לקבל מזג האוויר</string>
+    <string name="no_weather_data">אין מידע מזג האוויר</string>
+    <string name="ai_no_speak">נראה שעדיין לא התחלת לדבר.</string>
+    <string name="ai_no_skill">עדיין לא למדתי את הכישרון הזה.</string>
+    <string name="ai_operation_failed">הפעולה נכשלה</string>
+    <string name="ai_operation_completed">סיימנו את המבצע בשבילך.</string>
+    <string name="ai_network_wrong">יש בעיה עם הרשת:;</string>
+    <string name="ai_error_code">קוד שגיאה:</string>
+    <string name="ai_is_delete">אתה בטוח למחוק אותו?</string>
+    <string name="ai_is_delete_all">כל התוכן של השיחה הזו יימחק ולא ניתן לבטל. האם אתה רוצה למחוק אותה?</string>
+    <string name="ai_cloud_serve">שירות ענן AI</string>
+    <string name="multi_select">בחירה רבה</string>
+    <string name="none_session_record">אין כרגע שום רשומות שיחה</string>
+    <string name="sms_login">הכניסה לקוד האישור</string>
+    <string name="use_account_password_login">להיכנס עם סיסמה חשבון</string>
+    <string name="detach">הוציא</string>
+    <string name="validate">אישור</string>
+    <string name="set_password">קבע סיסמה</string>
+    <string name="hint_input_bind_phone_number">אנא תכניס את מספר הטלפון הנייד המקובל</string>
+    <string name="ai_no_response">מצטער, אני אולי לא מבין את השאלה שלך. אנא ספר תיאור מפורט של התוכן שאתה רוצה לדעת, ואני אעשה כמיטב יכולתי כדי לעזור לך.</string>
+    <string name="wait_ai_response_tip">עדיין לא קיבלתי תגובה AI, והמבצע הזה לא תומך כרגע</string>
+    <string name="style_selection">בחרת סגנון</string>
+    <string name="ai_dial_style_1">סגנון ציור דיו</string>
+    <string name="ai_dial_style_2">סגנון נוף מציאותי</string>
+    <string name="ai_dial_style_3">סגנון קריקטון 3D</string>
+    <string name="ai_dial_style_4">סגנון Cyberpunk</string>
+    <string name="ai_dial_style_5">סגנון אוריגמי</string>
+    <string name="ai_dial_style_6">סגנון דיו צבע מים</string>
+    <string name="ai_dial">חיוג AI</string>
+    <string name="custom_dial">חיגוג מיוחד</string>
+    <string name="re_crop">קצר שוב</string>
+    <string name="transfer_ing">העברה</string>
+    <string name="copy">לְהַעְתִיק</string>
+
+    <!--About-->
+    <string name="icp_info">מידע תיוק ICP</string>
+
+    <!--Feedback-->
+    <string name="feedback">מָשׁוֹב</string>
+    <string name="feedback_type">סוג משוב</string>
+    <string name="problem_feedback">שאלת משוב</string>
+    <string name="hint_enter_feedback">אנא הכנס את שאלתך המפורטת ואנו נפתור אותה עבורך בהקדם האפשרי</string>
+    <string name="hint_enter_phone">אנא הזן את מספר הטלפון הנייד שלך ליצירת קשר קל</string>
+    <string name="commit">שלח</string>
+    <string name="phone_format_tips">נא להזין את מספר הטלפון הנכון</string>
+    <string name="phone_empty_tips">נא להזין את מספר הטלפון</string>
+    <string name="feedback_empty_tips">נא להזין תוכן משוב</string>
+    <string name="network_exception_tips">נראה שהרשת מושבתת, אנא נסה שוב מאוחר יותר.</string>
+    <string name="feedback_success">תודה על המשוב שלך</string>
+
+    <!--ImageVerifyDialog-->
+    <string name="image_captcha">קaptcha תמונה</string>
+    <string name="can_not_see_it">לא ברור? נסה אחר</string>
+    <string name="input_captcha_tips">אנא הכנס את הקוד הנכון</string>
+    <string name="load_code_failed_tips">הייתה בעיה בטעינה של קוד אימות תמונה, אנא נסה שוב מאוחר יותר</string>
+    <string name="fail_recognize_format">אי אפשר לזהות פורמט</string>
+
+    <!--TestConfigurationFragment-->
+    <string name="test_configuration">תצורה לבדיקה</string>
+    <string name="save_configuration">שמור</string>
+    <string name="enable_log_function">להפעיל את פונקציית הרישום?</string>
+    <string name="use_device_auth">האם לאפשר אימות מכשיר?</string>
+    <string name="support_local_ota">האם לאפשר עדכון OTA מקומי?</string>
+    <string name="local_ota_desc">הוראות לבדיקת עדכון OTA מקומי:\n1. שם קובץ העדכון קבוע להיות 【update.zip】 או 【update.ufw】.\n2. מיקום קובץ העדכון: בתיקייה \'שורש הטלפון/Android/data/%1$s/files/upgrade/\'.</string>
+    <string name="test_custom_cmd">בדיקת פקודה מותאמת אישית</string>
+    <string name="click_again_to_test_configuration">הקש שוב כדי להיכנס לממשק התצורה לבדיקה.</string>
+    <string name="save_configuration_success">התצורה נשמרה בהצלחה, והיישומון יסגר כעת.</string>
+
+    <!--LogFileFragment-->
+    <string name="log_file">הדפסת יומן</string>
+    <string name="clear_log_file">נקה</string>
+    <string name="remove_file">מחק</string>
+    <string name="file_not_found">הקובץ לא קיים</string>
+    <string name="open_file_failed_by_other_app">אין תוכנית זמינה לפתיחה של הקובץ.</string>
+    <string name="open_file_exception">שגיאה בפתיחת הקובץ</string>
+    <string name="download_file_permission_tips">תכונת הורדת הקובץ דורשת מהמשתמש לאפשר قراءة וכתיבה לזכרון המכשיר.</string>
+    <string name="download_file_permission_denied_tips">תכונת ההורדה דורשת הרשאות قراءة/כתיבה. אנא עבור לדף ניהול ההרשאות במערכת כדי לאפשר זאת.</string>
+    <string name="download_file_successful">הורדת הקובץ הושלמה בהצלחה</string>
+    <string name="download_file_exception">שגיאה בהורדת הקובץ</string>
+    <string name="share_log_file">שתף בלוג הדפסה</string>
+    <string name="share_file_exception">שגיאה בשמירת הקובץ</string>
+
+    <!--CustomCmdTestFragment-->
+    <string name="input_custom_data">הזן נתונים מותאמים אישית</string>
+    <string name="log_content">תוכן יומן</string>
+    <string name="hint_input_hex_data">אנא הזן נתוני hex</string>
+    <string name="send_custom_cmd">שלח פקודת מותאמת אישית</string>
+
+    <!--Operation-->
+    <string name="operation_failed">%1$s נכשל</string>
+    <string name="error_code">קוד שגיאה</string>
+    <string name="op_delete_file">מחק קובץ</string>
+    <string name="op_delete_folder">מחק את כל הקבצים</string>
+
+</resources>

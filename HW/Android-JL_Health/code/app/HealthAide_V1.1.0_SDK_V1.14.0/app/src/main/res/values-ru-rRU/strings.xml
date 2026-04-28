@@ -1,0 +1,971 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">WearLink</string>
+
+    <!--HomeActivity-->
+    <string name="tab_health">здоровье</string>
+    <string name="tab_sports">движение</string>
+    <string name="tab_device">устройство</string>
+    <string name="tab_settings">Настройки</string>
+    <string name="tab_mine">мой</string>
+
+    <string name="search_phone">устройство для поиска в телефоне&#8230;</string>
+    <string name="close_play">Выключить звук</string>
+
+    <!--Load More View-->
+    <string name="status_loading">Загрузка&#8230;</string>
+    <string name="status_load_complete">Нажмите, чтобы загрузить больше</string>
+    <string name="status_load_end">больше нет данных</string>
+    <string name="status_load_failed">Не удалось загрузить, нажмите на меня, чтобы повторить попытку</string>
+
+    <!--action-->
+    <string name="scan_qr_code">сканировать QR-код</string>
+    <string name="add_device">Добавить устройство</string>
+    <string name="sports_settings">Настройки движения</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Привет, пустой интерфейс</string>
+    <string name="calendar_type_day">день</string>
+    <string name="calendar_type_week">неделя</string>
+    <string name="calendar_type_year">год</string>
+    <string name="blood_oxygen_saturation">насыщенность кислородом</string>
+    <string name="movement_record">кинематическая запись</string>
+    <string name="empty_record">без записи</string>
+    <string name="heart_rate">сообразительность</string>
+    <string name="sleep">спать</string>
+    <string name="today_empty_data">сегодня данных нет</string>
+    <string name="weight">вес</string>
+    <string name="pressure">давление</string>
+    <string name="kilogram">килограмм</string>
+    <string name="calendar_type_month">месяц</string>
+    <string name="distance_km">расстояние (км)</string>
+    <string name="distance_mile">расстояние (в милях)</string>
+    <string name="climbing_stairs_m">карабкаться по лестнице</string>
+    <string name="climbing_stairs_foot">подниматься по лестнице</string>
+    <string name="calories_kcal">калорийность (В тыс.</string>
+    <string name="step">шаг</string>
+    <string name="step_number">число шагов</string>
+    <string name="medium_high_strength">средняя прочность</string>
+    <string name="min">минута</string>
+    <string name="average_step">среднее число шагов</string>
+    <string name="all_step">общий шаг</string>
+    <string name="all_mile">общий пробег</string>
+    <string name="all_consumption">общий расход</string>
+    <string name="kilocalorie">килокалория</string>
+    <string name="kilometre">километр</string>
+    <string name="weight_setting">определение веса</string>
+    <string name="weight_target">весовая цель</string>
+    <string name="date">дата</string>
+    <string name="time">время</string>
+    <string name="weekly_average">Чжоу чжун</string>
+    <string name="daily_average">среднесуточный</string>
+    <string name="month_average">месячный баланс</string>
+    <string name="year_average">среднегодовой</string>
+    <string name="range_of_variation">изменение</string>
+    <string name="weight_start_data">Начало:%.1f</string>
+    <string name="weight_target_data">Цель:%.1f</string>&gt;
+    <string name="kg">Kg</string>
+    <string name="sober">трезвый</string>
+    <string name="rapid_eye_movement">быстрый глаз</string>
+    <string name="light_sleep">дремать</string>
+    <string name="deep_sleep">крепко спать</string>
+    <!--Health- Pressure-->
+    <string name="uptilted">завышение</string>
+    <string name="medium">средний</string>
+    <string name="normal">нормальный</string>
+    <!--Login-->
+    <string name="login">вход</string>
+    <string name="hint_input_phone_number_or_email">Введите номер телефона / почтовый ящик</string>
+    <string name="hint_input_phone_number">Введите номер телефона</string>
+    <string name="hint_input_password">Введите пароль</string>
+    <string name="login_by_sms">вход через код проверки</string>
+    <string name="forgot_password">Забыл пароль?</string>
+    <string name="register_tips">нет счета? немедленная регистрация</string>
+    <string name="phone_or_email_tips_empty">номер телефона / почтовый ящик не может быть пустым</string>
+    <string name="phone_or_email_tips_format_err">неправильный номер телефона / почтовый ящик</string>
+    <string name="phone_tips_empty">номер телефона не может быть пустым</string>
+    <string name="phone_tips_format_err">неправильный номер телефона</string>
+    <string name="email_address_tips_empty">почтовый ящик не может быть пустым</string>
+    <string name="email_address_tips_format_err">Неверный формат почтового ящика</string>
+    <string name="password_tips_empty">Пароль не может быть пустым</string>
+    <string name="password_tips_format_err">длина пароля должна быть 6 - 12 битов</string>
+    <string name="register_succeed">регистрация прошла успешно</string>
+    <string name="login_by_account">вход через учётную запись</string>
+    <!--帐号与安全-->
+    <string name="search">поиск</string>
+    <string name="account_security">номер счета и безопасность</string>
+    <string name="modify_phone_number">Изменить номер телефона</string>
+    <string name="modify_email_address">Изменить Адрес почтового ящика</string>
+    <string name="change_password">Изменить пароль</string>
+    <string name="change">замена</string>
+    <string name="bind_new_phone_number">связать новый номер телефона</string>
+    <string name="bind_new_email_address">новый почтовый адрес</string>
+    <string name="modify_binded_phone_number">сменить номер мобильного телефона?</string>
+    <string name="current_binded_phone_number">текущий связанный номер телефона</string>
+    <string name="modify_binded_email_address">поменять почтовый адрес привязки?</string>
+    <string name="current_binded_email_address">Адрес почтового ящика</string>
+    <string name="authentication">идентификация</string>
+    <string name="authentication_tip">чтобы убедиться, что это ваша собственная операция, Проверьте подлинность.</string>
+    <string name="sms_verification_code">код проверки SMS</string>
+    <string name="bind_new_phone_number_success">новый номер мобильного телефона!</string>
+    <string name="bind_new_email_address_success">новый почтовый адрес успешно привязан!</string>
+    <string name="modified_success">изменение завершено</string>
+    <string name="old_password">старый пароль</string>
+    <string name="input_old_password">Введите старый пароль</string>
+    <string name="new_password">новый пароль</string>
+    <string name="password_input_tip">Укажите новый пароль для комбинации 6 - 12 букв и цифр</string>
+    <string name="inout_new_password">Введите новый пароль</string>
+    <string name="inout_new_password_again">Введите новый пароль</string>
+    <string name="password_is_inconsistent">ошибка пароля, повторите ввод</string>
+    <string name="phone_number_is_empty">номер телефона не может быть пустым</string>
+    <string name="sms_verification_code_error">Ошибка проверки SMS</string>
+    <string name="current_phone_registered">мобильный телефон уже зарегистрирован</string>
+    <string name="current_phone_no_register">текущий счёт не зарегистрирован</string>
+    <string name="account_password_error">ошибка пароля номера счета</string>
+    <string name="new_password_no_be_empty">новый пароль не может быть пустым</string>
+    <string name="old_password_error">ошибка старого пароля</string>
+    <!--Register-->
+    <string name="register">регистрация</string>
+    <string name="input_verification_code">код проверки ввода</string>
+    <string name="send_sms_code">код отправки проверки</string>
+    <string name="resend_sms_code">получить заново (%1$s)</string>
+    <string name="input_identifying_code">код проверки ввода</string>
+    <string name="send_identifying_code">код отправки проверки</string>
+    <string name="resend_identifying_code">получить заново (%1$s)</string>
+    <string name="input_password_tips">Укажите пароль комбинации 6 - 12 букв и цифр</string>
+    <string name="sms_code_tips_empty">код проверки не может быть пустым</string>
+    <string name="sms_code_tips_format_err">Ошибка проверки формата кода</string>
+    <string name="identifying_code_tips_empty">код проверки не может быть пустым</string>
+    <string name="identifying_code_tips_format_err">Ошибка проверки формата кода</string>
+    <string name="hint_input_email">Введите адрес почтового ящика</string>
+
+    <!--User Message-->
+    <string name="input_user_msg">совершенствование личной информации</string>
+    <string name="nickname">прозвище</string>
+    <string name="sex">пол</string>
+    <string name="date_of_birth">год рождения</string>
+    <string name="stature">рост</string>
+    <string name="sport_target">движущаяся цель</string>
+    <string name="next_step">Следующие шаги</string>
+    <string name="skip_progress">пропустить</string>
+
+    <string name="please_input">Введите пожалуйста</string>
+    <string name="please_choose">Выберите</string>
+    <string name="heart_rate_range">близполюсная сердцебиения</string>
+    <string name="times_per_minute">мин.</string>
+    <string name="resting_heart_rate">статический сердцебиение</string>
+    <string name="resting_heart_rate_avg">средний статический пульс</string>
+    <string name="static_heart_rate_too_high">статическая гиперкардия</string>
+    <string name="low_resting_heart_rate">статическая анормальность сердца</string>
+
+    <!--Sex Dialog-->
+    <string name="man">мужчина</string>
+    <string name="woman">женщина</string>
+    <string name="hour">час</string>
+    <string name="minute">минута</string>
+    <string name="score">минута</string>
+
+
+    <!--Permission-->
+    <string name="open_gpg_tip">Приложение требует функции GPS, откройте службу определения местоположения для продолжения</string>
+    <string name="permissions_tips_01">чтобы нормально пользоваться программным обеспечением, пожалуйста</string>
+    <string name="permission_contacts">разрешить чтение и запись контактов</string>
+    <string name="permission_mic">разрешить использование микрофона</string>
+    <string name="permission_read_phone_state">Разрешить доступ к информации о телефоне</string>
+    <string name="permission_location">Доступ к информации о местоположении</string>
+    <string name="permission_storage">разрешить чтение и запись файлов</string>
+    <string name="permission_bluetooth">разрешить использование Bluetooth</string>
+    <string name="permission_phone_settings">Разрешить изменение параметров мобильного телефона</string>
+    <string name="permissions_tips_02">приглашение к системным настройкам</string>
+    <string name="permission">права</string>
+    <string name="permission_sport">Настройка прав передвижения</string>
+    <string name="permission_sport_tips">Android может быть зарегистрирован как движение%1$s закрыто из - за ограничений по питанию и фоновому процессу, что может привести к отсутствию некоторых данных о движении. если у вас возникли проблемы, обратитесь к следующему методу настройки.</string>
+    <string name="permission_sport_suspension_title">Показывать настройки верхнего слоя в других приложениях</string>
+    <string name="permission_sport_suspension_describe">для обеспечения того, чтобы вы не были ошибочно убиты мобильными системами во время движения, что приводит к потере данных о движении, пожалуйста, дайте%1$s суспензии окна права</string>
+    <string name="permission_sport_suspension_operate">права на открытие взвешенного окна</string>
+    <string name="permission_sport_battery_optimized_title">оптимизация батареи</string>
+    <string name="permission_sport_battery_optimized_describe">в экономном режиме работы%1$s все еще могут быть ограничены. при начале движения следует максимально увеличить количество электричества в режиме относительной достаточности и отключить режим энергосбережения. Соответствующие настройки, как правило, доступны в строке состояния или батарее.</string>
+    <string name="permission_sport_battery_optimized_operate_1">оптимизация открытой батареи, щелчок закрыть</string>
+    <string name="permission_sport_battery_optimized_operate_2">оптимизация батареи отключена</string>
+    <string name="permission_sport_background_title">Настройка фоновой защиты</string>
+    <string name="permission_sport_background_describe">Добавить%1$s в фоновый защитный список, чтобы помочь%1$s работать в фоновом режиме. метод \ n установки:</string>
+    <string name="permission_sport_background_operate">Открыть настройки фоновой системы</string>
+    <string name="permission_sport_powersave_title">экономный режим</string>
+    <string name="permission_sport_powersave_describe">так как система настроена на экономию электроэнергии, она позволит app войти в состояние замораживания. для обеспечения того, чтобы данные о движении и другие фоновые мероприятия не пострадали, пожалуйста, введите%1$s в Оптимизированный белый список батарей. метод \n установки:</string>
+    <string name="permission_sport_powersave_oprate">Открыть настройки системы предотвращения сна</string>
+    <string name="lock_screen_display">экран блокировки</string>
+    <string name="locak_screen_display_hint">Настройка: применить информацию - &gt; управление правами - &gt; блокировка экрана</string>
+    <string name="instructions_for_use">Инструкции по использованию</string>
+    <string name="permissions_camera">Разрешения камеры</string>
+    <string name="permissions_bluetooth">Разрешения Bluetooth</string>
+    <string name="permissions_location">разрешения местоположения</string>
+    <string name="permissions_storage">Разрешения на хранение</string>
+    <string name="permissions_read_contact">Разрешение на чтение контактной информации</string>
+    <string name="permissions_camera_explain">Используется для сканирования, установки аватара, установки пользовательского фона циферблата и других функций.</string>
+    <string name="permissions_bluetooth_explain">Используется для поиска и подключения Bluetooth-устройств, связи с Bluetooth-устройствами и других функций.</string>
+    <string name="permissions_location_explain">Используется для функции Bluetooth, информации о погоде, позиционирования карты, траектории движения и других функций.</string>
+    <string name="permissions_storage_explain">Используется для чтения музыкальных файлов, установки аватаров, чтения галерей и других функций.</string>
+    <string name="permissions_read_contact_explain">Используется для синхронизации контактной информации с устройством.</string>
+    <string name="rejust_permissions_tips">Если вы откажетесь включить его, вы не сможете использовать вышеуказанные функции.</string>
+
+
+    <!-- reset password-->
+    <string name="password">пароль</string>
+    <string name="finish">выполнить</string>
+    <string name="sms_check">проверка</string>
+    <string name="hint_text_password_again_input">Повторите пароль</string>
+
+    <!--Add Device-->
+    <string name="connect">соединение</string>
+    <string name="status_disconnect">не подключаться</string>
+    <string name="status_connected">Подключено</string>
+    <string name="status_connecting">соединение</string>
+    <string name="add">Добавить</string>
+    <string name="no_device_tips">Оборудование пустое</string>
+    <string name="user_denies_permissions">Введите права доступа в систему \"%1$s\"</string>
+    <string name="start_scan_failed">Ошибка запуска сканера, повторите позже</string>
+    <string name="bluetooth_is_close">синий зуб закрыт, пожалуйста, откройте синий зуб еще раз попробуйте</string>
+
+    <!--Watch Control-->
+    <string name="restore_watch_system_success">успешно восстанавливать систему</string>
+    <string name="restore_watch_system_failure">Не удалось восстановить систему из - за:%1$s</string>
+    <string name="battery_format">количество электричества %1$d%%</string>
+    <string name="local_watch">локальный циферблат</string>
+    <string name="watch_market_all">все</string>
+    <string name="using_watch">в эксплуатации</string>
+    <string name="use_watch">использование</string>
+    <string name="update_watch">Обновить</string>
+    <string name="download_watch">загрузка</string>
+    <string name="buy_watch">покупка</string>
+
+    <string name="health_record">здоровье</string>
+    <string name="music_manager">музыкальный менеджмент</string>
+    <string name="device_music">компьютерная музыка</string>
+    <string name="alarm">будильник</string>
+    <string name="contacts">Контактные лица</string>
+    <string name="card_bag">сумка</string>
+    <string name="firmware_upgrade">обновление версий устройства</string>
+    <string name="science_sleep">контроль сна</string>
+    <string name="turned_on">уже открыто</string>
+    <string name="turned_off">уже закрыто</string>
+    <string name="sedentary_reminder">увековечить напоминание</string>
+    <string name="sedentary_reminder_tip">долго сидеть и напоминать</string>
+    <string name="continuous_measurement_heart_rate">непрерывное измерение сердцебиения</string>
+    <string name="heart_rate_range_early_warning">Предупреждение пульса</string>
+    <string name="pressure_auto_testing">автоматическое определение давления</string>
+
+    <string name="retrieve_password">получить пароль</string>
+    <string name="reset_password">сбросить пароль</string>
+    <string name="call_phone_error_tips">состояние телефона, пожалуйста, перезвоните позже</string>
+
+
+    <!-- Mine -->
+    <string name="mine_my_data">мои данные</string>
+    <string name="mine_sport_weekly">спортивная неделя</string>
+    <string name="mine_setting">Настройки</string>
+    <string name="mine_help">помочь</string>
+    <string name="mine_about">О</string>
+
+    <string name="user_info">Личные сведения</string>
+    <string name="user_info_avatar">голова</string>
+    <string name="health_state">состояние здоровья</string>
+    <string name="activity_statistics">Статистика деятельности</string>
+    <string name="target">Цель</string>
+    <string name="format_birthday_year_month">%1$dГод%2$dмесяц</string>
+    <string name="format_height">%1$d сантиметр</string>
+    <string name="format_step_number_target">%1$d шаг</string>
+    <string name="hint_input_nickname">Введите Ник</string>
+    <string name="save">Сохранить</string>
+    <string name="tip_nickname_null">Имя пользователя не может быть пустым</string>
+    <string name="sure">определение</string>
+    <string name="distance">общий пробег</string>
+    <string name="climb">набор высоты</string>
+    <string name="heat">теплота</string>
+    <string name="distance_m">метр</string>
+    <string name="kcal">килокалория</string>
+    <string name="relax">расслабиться</string>
+    <string name="alert">сообщение</string>
+    <string name="sensor_setting">Настройки датчика</string>
+    <string name="open">уже открыто</string>
+    <string name="weather_push">передача погоды</string>
+    <string name="clean_cache">Очистить кэш</string>
+    <string name="tip_clean_cache">Очистить кэш пользователя</string>
+    <string name="bright_screen">экран с поднятым запястьем</string>
+    <string name="tip_bright_screen">поднять запястье и повернуть экран к себе</string>
+    <string name="bright_screen_hint">непрозрачный экран для поднятия запястья</string>
+    <string name="bluetooth_disconnect_tip">напоминание о отключении Bluetooth</string>
+    <string name="target_consume">расход около%1$d ккал</string>
+    <string name="target_step">шаг цели</string>
+    <string name="target_weight">Целевой вес</string>
+    <string name="multilingual">Многоязычие</string>
+    <string name="simplified_chinese">упрощенный китайский язык</string>
+    <string name="follow_system">следящий система</string>
+    <string name="english">Английский</string>
+    <string name="japanese">японский</string>
+    <string name="korean">Корейский</string>
+    <string name="french">французский</string>
+    <string name="german">Немецкий</string>
+    <string name="italian">Итальянский</string>
+    <string name="portuguese">португальский</string>
+    <string name="spanish">испанский</string>
+    <string name="swedish">Шведский</string>
+    <string name="polish">Польский</string>
+    <string name="russian">русский</string>
+    <string name="turkish">Турецкий</string>
+    <string name="hebrew">иврит</string>
+    <string name="thai">Тайский</string>
+    <string name="arabic">арабский</string>
+    <string name="vietnamese">вьетнамский</string>
+    <string name="indonesian">индонезийский язык</string>
+    <string name="malay">Малайский</string>
+    <string name="persian">персидский</string>
+    <string name="set_language">язык настройки</string>
+    <string name="unit_settings">единица</string>
+    <string name="unit_metric">метрическая система</string>&gt;
+    <string name="unit_imperial">Великобритания</string>
+    <string name="format_weight">%1$d кг</string>
+    <string name="no_nickname">не указан Ник</string>
+    <string name="user_agreement">Протокол пользователя</string>
+    <string name="privacy_policy">политика уединения</string>
+    <string name="current_app_version">текущая версия:%1$s</string>
+    <string name="agree_and_use">согласие</string>
+    <string name="not_agree_and_exit">отказ</string>
+    <string name="privacy_policy_name">"Политика конфиденциальности"</string>
+    <string name="user_service_name">"Соглашение об услугах пользователя"</string>
+    <string name="declaration">%1$s заявление</string>
+    <string name="user_declaration">«%1$s» — это программное обеспечение, используемое для записи и анализа данных о спортивном здоровье пользователей, предоставления пользователям профессиональных рекомендаций по спортивному здоровью и услуг по управлению смарт-носимыми устройствами. Для достижения вышеуказанной цели,
+         Когда мы предоставляем вам услуги, нам может потребоваться собрать вашу соответствующую информацию и использовать следующие разрешения: использовать камеру, использовать информацию о местоположении, использовать разрешение Bluetooth,
+         Прочитайте свой календарь, прочитайте свои контакты, зайдите в Интернет. Нам нужно синхронизировать ваш сердечный ритм, сон, кислород в крови, записи упражнений и другие данные об упражнениях в облаке.
+         Мы придаем большое значение защите вашей конфиденциальности и защите личной информации. Прежде чем использовать приложение «%2$s», пожалуйста, внимательно прочитайте #### и все условия **** и начните использовать нас после того, как вы согласитесь и принять все условия обслуживания.
+        </string>
+    <string name="agree_policy_tips">Я прочитал и согласен с #### и ****</string>
+    <string name="check_policy_status_tips">Пожалуйста, прочитайте и согласитесь с Условиями обслуживания и Политикой конфиденциальности.</string>
+
+    <string name="add_music">Добавить музыку</string>
+    <string name="download_music">синхронизация музыки с часами%1$d/%2$d</string>
+    <string name="transfer_info">передача (%1$d/%2$d)</string>
+
+    <string name="message_notify">Объявления</string>
+    <string name="sync_wechat">микрописьмо</string>
+    <string name="sync_qq">QQ</string>
+    <string name="sync_sms">SMS</string>
+    <string name="sync_other">Прочее</string>
+
+    <!--Watch Market-->
+    <string name="watch_market">торгующий циферблатом</string>
+    <string name="manager">управление</string>
+    <string name="delete_watch_tip">циферблат не может быть меньше двух</string>
+    <string name="last_page">Но у меня есть итог</string>
+    <string name="delete_watch_err">Ошибка удаления циферблата [%1$s] из - за%2$s</string>
+    <string name="create_watch_err">Ошибка загрузки таблицы [%1$s] из - за%2$s</string>
+    <string name="update_watch_err">Ошибка обновления таблицы [%1$s] из - за%2$s</string>
+    <string name="transfer_file_warning">во время передачи файлов, пожалуйста, сохранить синий зуб и сеть в открытом состоянии \ n не закрывать оборудование и заблокировать экран мобильный телефон</string>
+    <string name="device_is_disconnected">устройство не подключено</string>
+    <string name="server_none_device_support_version">версия без поддержки устройства</string>
+
+    <!--Dial Detail-->
+    <string name="watch_dial">циферблат</string>
+    <string name="my_dials">мой циферблат</string>
+    <string name="free_dial">бесплатный циферблат</string>
+    <string name="pay_dial">платный циферблат</string>
+    <string name="dial_desc">[Введение циферблата]</string>
+    <string name="download_dial">скачать</string>
+    <string name="update_dial">Обновить</string>
+    <string name="purchase_record">запись покупки</string>
+    <string name="handle_dial_tips">идёт передача файла, не выходить из текущего интерфейса</string>
+
+    <!--Payment-->
+    <string name="product_name">наименование товара</string>
+    <string name="product_price">товарная сумма</string>
+    <string name="pay_way">форма платежа</string>
+    <string name="pay_way_tips">Выберите режим платежей</string>
+    <string name="ali_pay">платить по депозиту</string>
+    <string name="weixin_pay">микроплатеж</string>
+    <string name="whether_payment_finish">оплата завершена?</string>
+    <string name="unfinished">незавершённый</string>
+    <string name="finished">закончено</string>
+
+    <string name="payment_success">платёж успешно</string>
+    <string name="payment_failed">платите, пожалуйста, ещё раз</string>
+    <string name="payment_processing">при обработке платежей, подождите немного</string>
+    <string name="payment_error">ошибка платежа</string>
+    <string name="payment_duplex">Повторите, пожалуйста, запрос на некоторое время</string>
+    <string name="payment_user_cancel">абонент отменил платеж</string>
+    <string name="payment_network">ошибка платежей, проблемы в сети</string>
+    <string name="payment_unknown">Неизвестная ошибка</string>
+    <string name="use_dial">перейти в эксплуатацию</string>
+
+    <string name="no_purchase_record">Пока нет покупной записи</string>
+
+    <!--Upgrade-->
+    <string name="upgrade">эскалация</string>
+    <string name="current_dev_version">текущая версия</string>
+    <string name="latest_version">это последняя версия</string>
+    <string name="check_update">Проверить обновление</string>
+    <string name="dev_ota">обновление крепления</string>
+    <string name="upgrade_warning">в процессе обновления, пожалуйста, сохранить синий зуб и сеть в открытом состоянии \ n не закрывать оборудование и заблокировать экран мобильный телефон</string>
+    <string name="ota_result_success">обновление завершено</string>
+    <string name="ota_result_failed">Ошибка обновления</string>
+    <string name="ota_result_cancel">обновление отменено</string>
+    <string name="new_ota_version">новая версия %1$s</string>
+    <string name="ota_state_ready">готовность к эскалации</string>
+    <string name="ota_state_check_file">расширенный контроль</string>
+    <string name="ota_state_updating">эскалация</string>
+    <string name="ota_state_finish">окончание эскалации</string>
+    <string name="update_resource_tips">передача ресурсов циферблата (%1$d/%2$d)</string>
+    <string name="resource_unfinished_tips">не завершена ли модернизация ресурсов, что приведет к тому, что оборудование будет недоступно и будет ли продолжаться модернизация ресурсов?</string>
+    <string name="firmware_mandatory_upgrade">модернизация оборудования не завершена, необходимо продолжать модернизацию, чтобы нормально работать</string>
+    <string name="network_module_ota_upgrade_tips">Обновление модуля 4G не завершено. Продолжить обновление?</string>
+    <string name="upgrade_warning_tips">предупреждение об обновлении</string>
+    <string name="exit_and_disconnect">обязательный выход</string>
+    <string name="continue_upgrade">продолжать эскалацию</string>
+    <!--ota err-->
+    <string name="ota_err_no_space">не хватает места для обновления, пожалуйста, удалите файл таблицы и продолжите</string>
+    <string name="ota_err_device_not_connect">модернизация оборудования не подключена, убедитесь, что оборудование подключено</string>
+    <string name="ota_err_low_power">Уровень заряда батареи устройства должен быть выше %1$s для обновления</string>
+    <string name="ota_err_file_info">Ошибка информации о файле обновления</string>
+    <string name="ota_err_file_same_version">Версия файла обновления совпадает с версией устройства.</string>
+    <string name="ota_err_tws_not_connect">Устройство не сопряжено и не подключено</string>
+    <string name="ota_err_not_in_charging_bin">Гарнитура не в зарядном отсеке</string>
+    <string name="ota_err_data_crc_check">Ошибка проверки данных обновления</string>
+    <string name="ota_err_failed">Ошибка обновления</string>
+    <string name="ota_err_key_mismatch">ключевое несоответствие</string>
+    <string name="ota_err_uboot_mismatch">Несоответствие UBoot</string>
+    <string name="ota_err_data_len">Во время обновления произошла ошибка длины</string>
+    <string name="ota_err_flash_io">Возникают ошибки чтения и записи флэш-памяти</string>
+    <string name="ota_err_cmd_timeout">время ожидания команды</string>
+    <string name="ota_err_data_offset">Ошибка чтения смещения данных</string>
+    <string name="ota_err_reconnect_device_timeout">Время ожидания обратного подключения к устройству истекло</string>
+    <string name="ota_err_waiting_for_cmd_timeout">Время ожидания команды истекло</string>
+    <string name="ota_err_send_data_timeout">Время отправки команды истекло</string>
+    <string name="ota_err_update_data">Не удалось прочитать данные обновления</string>
+    <string name="ota_err_not_found_file">Файл обновления не найден</string>
+    <string name="ota_err_bad_status">Устройство вернуло статус отказа</string>
+    <string name="ota_err_bad_result">Устройство вернуло неверный результат</string>
+    <string name="ota_err_unknown">неизвестная ошибка обновления</string>
+
+    <!--闹钟-->
+    <string name="named">имя</string>
+    <string name="alarm_open_success">открыть будильник успешно</string>
+    <string name="alarm_open_failure">Ошибка открытия будильника</string>
+    <string name="alarm_close_success">успешно закрыть будильник</string>
+    <string name="alarm_close_failure">ошибка закрытия будильника</string>
+    <string name="operate_alarm_failure">Ошибка операции будильника</string>
+    <string name="alarm_list_read_failed">Ошибка чтения списка напоминаний @ info: whatsthis</string>
+    <string name="delete">Удалить</string>
+    <string name="alarm_set_num_is_full">количество будильников уже переполнено</string>
+    <string name="alarm_delete_failure">Ошибка удаления напоминания @ info: whatsthis</string>
+    <string name="alarm_delete_success">будильник удалён успешно</string>
+
+    <string name="alarm_stop_success">будильник остановлен успешно</string>
+    <string name="alarm_stop_failed">Ошибка прерывания напоминания @ info: whatsthis</string>
+    <string name="alarm_delete">Удалить будильник</string>
+    <string name="sync_time">Синхронизация времени устройства</string>
+    <string name="sync_time_success">время синхронизации прошло успешно</string>
+    <string name="sync_time_failed">ошибка синхронизации</string>
+
+
+    <string name="save_alarm_failed_no_modify">будильник не изменён</string>
+    <string name="save_alarm_failed">Ошибка сохранения напоминания @ info: whatsthis</string>
+    <string name="save_alarm_success">будильник успешно сохранён</string>
+    <string name="choose_repeat_mode_tip">Выберите режим</string>
+    <string name="alarm_name_can_not_be_empty">название будильника не может быть пустым</string>
+    <string name="alarm_name_length_too_long">название будильника слишком длинное</string>
+    <string name="alarm_name_format_error">ошибка формата ввода имени будильника</string>
+    <string name="default_alarm_name">будильник</string>
+    <string name="default_alarm_custom">другой</string>
+    <string name="alarm_edit_title">редактор будильника</string>
+    <string name="alarm_create_title">создать будильник</string>
+    <string name="alarm_repeat_on_workday">с понедельника по пятницу</string>
+    <string name="alarm_repeat_every_day">каждый день</string>
+    <string name="alarm_repeat_single">однократный</string>
+    <string name="alarm_repeat_week">неделя</string>
+    <string name="alarm_repeat_mon">понедельник</string>
+    <string name="alarm_repeat_tue">Вторник</string>
+    <string name="alarm_repeat_wed">среда</string>
+    <string name="alarm_repeat_thu">четверг</string>
+    <string name="alarm_repeat_fri">пятница</string>
+    <string name="alarm_repeat_sat">суббота</string>
+    <string name="alarm_repeat_sun">воскресенье</string>
+    <string name="alarm_repeat_simple_mon">ПН</string>
+    <string name="alarm_repeat_simple_tue">ВТ</string>
+    <string name="alarm_repeat_simple_wed">СР</string>
+    <string name="alarm_repeat_simple_thu">ЧТ</string>
+    <string name="alarm_repeat_simple_fri">ПТ</string>
+    <string name="alarm_repeat_simple_sat">СБ</string>
+    <string name="alarm_repeat_simple_sun">ВС</string>
+
+    <!--AlarmSettings-->
+    <string name="alarm_settings">Управление будильниками</string>
+    <string name="bell">звонок</string>
+    <string name="repeat">повторение</string>
+    <string name="light">свет</string>
+    <string name="alarm_state">состояние</string>
+    <string name="delete_alarm_tip">Удалить будильник</string>
+    <string name="stop_alarm">остановить</string>
+    <string name="alarm_running">будильник звонит.</string>
+    <string name="unnamed">не называться</string>
+    <string name="hint_input_alarm">Введите название будильника</string>
+
+    <string name="alarm_bell_1">звонок</string>
+    <string name="alarm_bell_2">звонок</string>
+    <string name="alarm_bell_3">звонок</string>
+    <string name="alarm_bell_4">звонок</string>
+    <string name="alarm_bell_5">звонок</string>
+    <string name="alarm_default_bell">По умолчанию</string>
+    <string name="alarm_count_tip">Установите будильник, и часы встряхивают вас после синхронизации с часами. Вы можете установить максимум 5 будильников.</string>
+    <string name="alarm_bell_list_read_failed">Ошибка получения списка звонков по умолчанию</string>
+
+    <string name="alarm_bell_time">часы будильника</string>
+    <string name="min_format">%1$d мин</string>
+    <string name="alarm_bell_interval">интервал воспроизведения</string>
+    <string name="bell_repeat_count_title">частота повторных звонков</string>
+    <string name="bell_interal_time_title">интервал повторения (мин)</string>
+    <string name="interval_format">%1$d мин,%2$d</string>
+    <string name="count_format">порядок</string>
+
+
+    <!-- file -->
+    <string name="msg_read_file_err_reading">оборудование занято, попробуйте позже!</string>
+    <string name="msg_read_file_err_offline">устройство не работает!</string>
+    <string name="msg_read_file_err_beyond_max_depth">выше читаемого уровня!</string>
+    <string name="empty_folder">пустая папка</string>
+    <string name="get_music_info_failed">Ошибка получения музыкальной информации</string>
+
+    <!-- 联系人-->
+    <string name="tip_not_contact">нет контакта</string>
+    <string name="tip_add_contact">Настройка контакта для ваших часов, чтобы облегчить быстрый запуск разговора, настройки контактов будут автоматически синхронизированы с устройством.</string>
+    <string name="tip_max_contacts_can_add">в часы можно добавить%1$d для часто используемых контактов. установленные вами контакты будут автоматически синхронизированы с устройством.</string>
+    <string name="sort">сортировка</string>
+    <string name="hint_search_contact">поиск контактов</string>
+    <string name="unchose">выбор</string>
+    <string name="format_contact_chose_count">выбран%1$d</string>
+    <string name="tip_max_contact_err">Максимальное количество контактов в%1$d</string>
+    <string name="tip_update_contact_failed">Невозможно обновить контакт</string>
+    <string name="tip_sync_contact_failed">ошибка синхронизации контактов</string>
+    <string name="tip_cancel_get_contact">отменить получение контактов</string>
+    <string name="tip_cancel_update_contact">отменить обновление контактов</string>
+
+    <!-- 音乐管理 -->
+    <string name="tip_transfer_finish">Завершение передачи</string>
+    <string name="tip_transfer_canceled">передача отменена</string>
+    <string name="tip_transfer_error">сбой в передаче</string>
+    <string name="tip_mobile_not_has_contacts">текущий каталог мобильного телефона пуст</string>
+    <string name="ask_delete_contact">Удалить выбранный контакт</string>
+    <string name="tip_logout">Нужно ли выйти из учётной записи</string>
+    <string name="tip_downloading_music">(при передаче музыкальных файлов пожалуйста, поддерживайте связь между мобильным телефоном и часами Bluetooth)</string>
+    <string name="tip_download_finished">%1$d музыкальная передача прошла успешно</string>
+    <string name="tip_please_chose_contact">Выберите контакт</string>
+    <string name="tip_check_net">сеть не подключена, проверьте настройки сети.</string>
+    <string name="sport_other">Прочее</string>
+    <string name="sport_outdoor_running">бег на улице</string>
+    <string name="sport_indoor_running">бег в помещении</string>
+    <string name="exercise_time">длительность движения</string>
+    <string name="total_time">общая длина времени</string>
+    <string name="pace">распределение скорости</string>
+    <string name="average_pace">средняя скорость распределения</string>
+    <string name="consumption_of_kilocalories">Потребление (килокалорий)</string>
+    <string name="whether_delete">удалить:%1$s</string>
+
+    <!--二维码扫描-->
+    <string name="scan_qr_code_title">двухмерный код развертки</string>
+    <string name="select_from_gallery">выбрать из библиотеки</string>
+    <string name="pair_device">устройство ручного совмещения</string>
+    <string name="scan_qr_tips">QR - код в поле</string>
+    <string name="scan_env_dark_tips">Вы в темной среде, рекомендуется открыть фонарь</string>
+    <string name="scan_env_light_tips">в нормальных условиях рекомендуется отключить фонарь</string>
+    <string name="not_found_qr">не найден двухмерный код</string>
+
+    <string name="device_searching">Поиск доступных устройств...</string>
+    <string name="no_found_device_tips">Устройство не найдено? #### Добавить в</string>
+    <string name="no_found_device_tips_2">оборудование не найдено, пожалуйста, убедитесь, что у него есть электричество и рядом с мобильным телефоном.</string>
+    <string name="retry">повторная попытка</string>
+    <string name="no_binding">временно не связать</string>
+    <string name="not_found_target">Целевое устройство не найдено? ####</string>
+    <string name="rescan_device">искать снова</string>
+
+    <string name="connect_device">соединительное устройство</string>
+    <string name="dev_connecting">идёт спаривание...</string>
+    <string name="dev_connecting_desc">Убедитесь, что спаривание на устройстве...</string>
+    <string name="dev_connect_success">успешно сочетаться</string>
+    <string name="dev_connect_success_desc">устройство спарено, пожалуйста, сразу же испытайте</string>
+    <string name="dev_connect_fail">Ошибка настройки устройства</string>
+    <string name="dev_connect_fail_desc">перезарядка кода или ручное добавление устройства</string>
+    <string name="cur_dev_msg">текущая комбинация устройств:%1$s</string>
+    <string name="gps">GPS</string>
+    <string name="km">километр</string>
+    <string name="step_freq_info_title">частота шагов (шаг / минута)</string>
+    <string name="average_step_freq">средняя частота шагов</string>
+    <string name="max_step_freq">максимальная частота шагов</string>
+    <string name="per_pace_of_km">километровая скорость распределения</string>
+    <string name="average_pace_of_per_km">средняя скорость распределения (/ км)</string>
+    <string name="max_pace_of_per_km">максимальная скорость распределения (/ км)</string>
+    <string name="app_running">выполняется</string>
+
+    <string name="watch_edit">редактор</string>
+    <string name="current_watch">текущий циферблат</string>
+    <string name="choose_photo">Добавить фотографию</string>
+    <string name="watch_restore">восстановить по умолчанию</string>
+    <string name="take_photo">фотографировать</string>
+    <string name="get_photo_from_album">выбрать из альбома</string>
+    <string name="select">выборка</string>
+    <string name="set_custom_bg_success">Настройка Настроить фон успешно</string>
+
+    <!--Message-->
+    <string name="enable_notification_listener_service_tips">использовать функцию синхронизации информации, которая требует согласия пользователя на получение информации из панели уведомлений, чтобы открыть её сейчас?</string>
+    <string name="bt_disconnect_tips">подключите устройство</string>
+    <string name="not_found_history">Не найдено устройство</string>
+
+    <!--fatfs error-->
+    <string name="not_enough_space">не хватает места для часов, невозможно добавить файл</string>
+    <string name="empty_date">- месяц - день</string>
+
+
+    <!-- unit -->
+    <string name="unit">единица</string>
+    <string name="unit_cm">см сантиметр</string>
+    <string name="unit_m">метр</string>
+    <string name="unit_km">километр</string>
+
+    <string name="unit_in">дюйм</string>
+    <string name="unit_ft">фут</string>
+    <string name="unit_mile">миля</string>
+
+    <string name="unit_kg">кг килограмм</string>
+    <string name="unit_lb">фунт</string>
+    <string name="unit_running">шаг</string>
+    <string name="no_sdcard_device">не вставлять устройство</string>
+    <string name="select_all">полное обогащение</string>
+    <string name="cancel_select_all">совершенно не избранный</string>
+    <string name="logout">выход из системы</string>
+    <string name="local_music">местная музыка</string>
+    <string name="music">музыка</string>
+
+    <!--HistoryRecordFragment-->
+    <string name="reconnect_history">Повторное соединение</string>
+    <string name="remove_history">удалить устройство</string>
+    <string name="history_connect_ok">соединение с устройством завершено</string>
+    <string name="history_connect_failed">Ошибка подключения устройства</string>
+    <string name="remove_history_success">удаление журнала завершено</string>
+    <string name="remove_history_failed">Ошибка удаления журнала</string>
+    <string name="history_is_gone">журнал удалён</string>
+
+
+    <!--  健康设置 -->
+    <string name="tip_pressure_auto_tip">при запуске « автоматическое определение давления» устройство будет судить о вашем активном состоянии с помощью интеллекта. если судить о статическом состоянии, то оно будет определять изменчивость сердца и вычислять давление. во время движения не производится автоматическое определение давления. для того чтобы убедиться в правильности теста, используйте устройство.</string>
+    <string name="pressure_auto_relax">расслабиться</string>
+    <string name="pressure_auto_normal">нормальный</string>
+    <string name="pressure_auto_medium">средний</string>
+    <string name="pressure_auto_high">высокая оценка, рекомендуется рационально регулировать давление</string>
+    <string name="heart_measure_way">кардиометрический способ</string>
+    <string name="smart">интеллект</string>
+    <string name="tip_heart_smart_measure">по динамической регулировке частоты в зависимости от состояния движения, 24 часа интеллектуальный контроль за сердцебиением поможет сэкономить электричество</string>
+    <string name="tip_heart_real_measure">24 - часовой мониторинг в реальном времени ритма сердца</string>
+    <string name="real">истинное время</string>
+    <string name="heart_rate_limit">верхний предел сердцебиения</string>
+    <string name="heart_rate_limit_warn">раннее предупреждение верхнего предела сердцебиения</string>
+    <string name="tip_heart_rate_limit_warn">Напоминать, когда частота сердечных сокращений превышает %1$d ударов в минуту</string>
+
+    <string name="more">больше</string>
+    <!--Nfc-->
+    <string name="nfc_card_bag">сумка</string>
+    <string name="door_key">ключ от двери</string>
+    <string name="add_door_key">Добавить ключ от двери</string>
+    <string name="detail">подробности</string>
+    <string name="door_key_simulation">моделирование менки</string>
+    <string name="edit">редактор</string>
+    <string name="door_key_name">наименование ключа</string>
+    <string name="modify_key_name">Изменить имя ключа</string>
+    <string name="delete_card_fail">Ошибка удаления карты</string>
+    <string name="save_failed">Ошибка сохранения</string>
+    <string name="card_is_existed">карта уже существует, не добавлять</string>
+    <string name="no_storage_device">устройство без памяти</string>
+    <string name="nfc_card_over_limit">NFC карты достигли верхнего предела</string>
+    <string name="tips">подсказка</string>
+    <string name="analog_nfc_key_card">имитационная физическая карта</string>
+    <string name="analog_key_card_to_device">смоделировать на оборудование</string>
+    <string name="add_time">Добавить время</string>
+    <string name="edit_card">карта редактирования</string>
+    <string name="set_default_card">карта по умолчанию</string>
+    <string name="delte_current_card">Удалить эту карту</string>
+    <string name="home">жилище</string>
+    <string name="company">компания</string>
+    <string name="prepare_read_card">карта готовности к чтению</string>
+    <string name="card_close_phone">запишите карточку на мобильный телефон для проверки</string>
+    <string name="card_support_range">вид диапазон поддержки карточки</string>
+    <string name="start_check">начать проверку</string>
+    <string name="set_commonly_use_card_to_default">установить обычную карточку по умолчанию, выключить экран можно напрямую</string>
+    <string name="keep_device_connect_phone">Пожалуйста, держите Ноутбук подключен к мобильному Bluetooth</string>
+    <string name="add_failed">Ошибка добавления</string>
+    <string name="failed_reason">причина неудачи</string>
+    <string name="system_exception">системная аномалия</string>
+    <string name="detailed_analysis">подробный анализ</string>
+    <string name="get_data_error">аномалия в получении данных или выполнении команд</string>
+    <string name="handling_suggestions">Выполнение рекомендаций</string>
+    <string name="try_again">Пожалуйста, повторите.</string>
+    <string name="got_it">Понятно</string>
+    <string name="detecting">Обнаружен...</string>
+    <string name="detecting_no_move_card">Не перемещать карточку</string>
+    <string name="detect_success">проверка прошла успешно</string>
+    <string name="read_card_failed">Ошибка чтения карты</string>
+    <string name="card_move_fast">быстрая подача карт, повторите попытку</string>
+    <string name="read_card_failed_encryption">Эта карта является зашифрованной, пока не поддерживается симуляция. пробовать, попробовать</string>
+    <string name="analog_card_number">аналоговый номер карты</string>
+    <string name="step_sensor">шаговый датчик</string>
+    <string name="keep_data_record">хранение данных</string>
+    <string name="heart_rate_sensor">сердечный датчик</string>
+    <string name="blood_oxygen_sensor">кислородный датчик</string>
+    <string name="altitude_pressure_sensor">датчик барометрического давления над уровнем моря</string>
+    <string name="fall_detection">обнаружение падения</string>
+    <string name="heart_rate_space_mode">интервал сердцебиения</string>
+    <string name="percent_of_max_heart_rate">процент наибольшего сердцебиения</string>
+    <string name="percentage_of_reserve_heart_rate">процент запасного сердцебиения</string>
+
+    <!--Health Service-->
+    <string name="service_none_device">Пожалуйста, свяжитесь с устройством, испытать радость спорта</string>
+    <string name="service_health_data">данные о здоровье</string>
+
+    <string name="close">закрыть</string>
+    <string name="all_day">круглосуточное открытие</string>
+    <string name="time_open">временное открытие</string>
+    <string name="start_time">время открытия</string>
+    <string name="end_time">время окончания</string>
+    <string name="status_text">открытое состояние</string>
+    <string name="fall_response_way">режим реакции на падение</string>
+    <string name="response_mode_bright">светлый экран</string>
+    <string name="response_mode_shake">трястись</string>
+    <string name="response_mode_call">телефонный вызов</string>
+    <string name="emergency_contact">срочный контакт</string>
+    <string name="tip_emergency_contact">автоматический вызов аварийного контакта при падении</string>
+    <string name="no_setting">не установлено</string>
+    <string name="title_open_sedentary_reminder">открыть напоминание</string>
+    <string name="tip_sedentary_reminder">если вы будете сидеть дольше часа, устройство будет вибрировать</string>
+    <string name="free_lunch_break">обеденный перерыв</string>
+    <string name="tip_free_lunch_break">12.00-14.00 не напоминай мне</string>
+    <string name="modification">Изменить</string>
+    <string name="mobile">номер телефона</string>
+    <string name="save_contact">сохранить контакт</string>
+    <string name="hint_emergency_contact">Пожалуйста, заполните номер телефона экстренного контакта.</string>
+    <string name="title_emergency_contact">Настройка аварийного контакта</string>
+    <string name="next_day">на следующий день</string>
+    <string name="start_sports_failed">Не удалось запустить движение</string>
+    <string name="start" translatable="false">начало</string>
+
+    <!--    实时运动强度状-->
+    <string name="save_sports_status_0">движение</string>
+    <string name="save_sports_status_1">тепло</string>
+    <string name="save_sports_status_2">топленое масло</string>
+    <string name="save_sports_status_3">кислородная выносливость</string>
+    <string name="save_sports_status_4">бескислородная выносливость</string>
+    <string name="save_sports_status_5">предел</string>
+
+    <!--    储备心率模式-->
+    <string name="real_sports_status_0">движение</string>
+    <string name="real_sports_status_1">кислородный фундамент</string>
+    <string name="real_sports_status_2">кислородная прецессия</string>
+    <string name="real_sports_status_3">порог молочной кислоты</string>
+    <string name="real_sports_status_4">бескислородный фундамент</string>
+    <string name="real_sports_status_5">бескислородная прецессия</string>
+
+    <string name="step_number_and_unit">количество шагов (шагов)</string>
+    <string name="heart_rate_and_unit">частота сердцебиения (мин / мин)</string>
+    <string name="average_heart_rate_and_unit">среднее сердцебиение (в минутах)</string>
+    <!--Health Sleep-->
+    <string name="sleep_analysis_avg_type1">среднее время нормального сна в ночи %1$s%2$s</string>
+    <string name="sleep_analysis_avg_type2">средний процент глубокого сна %1$s%%</string>
+    <string name="sleep_analysis_avg_type3">средний процент малокровия %1$s%%</string>
+    <string name="sleep_analysis_avg_type4">средняя доля быстрых глаз %1$s%%</string>
+    <string name="sleep_analysis_avg_type5">средняя продолжительность глубокого %1$s сна</string>
+    <string name="sleep_analysis_avg_type6">среднее количество трезвости %1$s</string>
+    <string name="sleep_analysis_type1">нормальное время сна в ночи  %1$s%2$s</string>
+    <string name="sleep_analysis_type2">процент глубокого сна %1$s%%</string>
+    <string name="sleep_analysis_type3">процент сна %1$s%%</string>
+    <string name="sleep_analysis_type4">Доля быстрых глаз %1$s%%</string>
+    <string name="sleep_analysis_type5">непрерывность глубокого %1$s сна</string>
+    <string name="sleep_analysis_type6">трезвый %1$s раз</string>
+    <string name="time_duration_type1">%1$s%2$s час</string>
+    <string name="time_duration_type2">%1$s части</string>
+    <string name="sleep_score">очко во сне</string>
+    <string name="sober_full">трезвый</string>
+    <string name="rapid_eye_movement_full">быстрый глаз</string>
+    <string name="light_sleep_full">поверхностный сон</string>
+    <string name="deep_sleep_full">глубокий сон</string>
+    <string name="sleep_score_avg">средний балл во сне</string>
+    <string name="sober_avg">в среднем</string>
+    <string name="rapid_eye_movement_avg">средний быстрый глаз</string>
+    <string name="light_sleep_avg">средняя мелкость</string>
+    <string name="deep_sleep_avg">средняя глубина</string>
+    <string name="sleep_ratio">сравнивать</string>
+    <string name="references">Справочные значения:</string>
+    <string name="sleep_nap">спорадический сон</string>
+    <string name="sleep_avg_nap">средний эпизодический сон</string>
+    <string name="sleep_total">общий сон</string>
+    <string name="status_low">занижение</string>
+    <string name="status_high">завышение</string>
+    <string name="status_normal">нормальный</string>
+    <string name="status_over_weight">избыточный вес</string>
+    <string name="status_over_obese">ожирение</string>
+    <string name="tip_waiting">Пожалуйста...</string>
+    <string name="empty_sports_record">запись без движения</string>
+    <string name="reach_target_days">движение до%d дня</string>
+    <string name="weekly_step">число шагов в неделю</string>
+    <string name="weekly_distance">недельный пробег</string>
+    <string name="weekly_kcal">потребление тепла</string>
+    <string name="day">день</string>
+    <string name="long_press_to_stop">длинный конец</string>
+    <string name="no_data">Нет данных</string>
+    <string name="sports_stop">окончание</string>
+    <string name="sports_resume">Продолжить</string>
+    <string name="max_heart_rate">максимальная сердцебиение</string>
+    <string name="average_heart_rate">средняя сердцевина</string>
+    <string name="today_step">Шаги</string>
+    <string name="low_spo2">гипоксид крови</string>
+    <string name="spo2_range">минимум - максимум</string>
+    <string name="min_value">минимум</string>
+    <string name="max_value">максимум</string>
+    <string name="last_time">последний</string>
+    <string name="outdoor">на улице</string>
+    <string name="indoor">комната</string>
+    <string name="http_tip_400">Ошибка запроса</string>
+    <string name="http_tip_401">не разрешено</string>
+    <string name="http_tip_403">Доступ запрещен</string>
+    <string name="http_tip_404">Невозможно найти файл</string>
+    <string name="http_tip_405">ресурсы запрещены</string>
+    <string name="http_tip_500">ошибка сервера</string>
+    <string name="http_tip_501">ошибочный шлюз</string>
+    <string name="http_tip_504">задержка шлюза</string>
+    <string name="http_tip_unknow">Неизвестная ошибка</string>
+    <string name="percent">%</string>
+
+    <string name="permission_system_set">направление на "Настройка" &gt; управление прикладными программами "" медицинский помощник "&gt; права</string>
+    <string name="permission_describe_camera">Эта функция требует использования вашей камеры. Пожалуйста,%1$s открывает права камеры, чтобы нормально использовать эту функцию</string>
+    <string name="permission_describe_contacts">Эта функция требует использования вашего справочника. Пожалуйста, откройте права доступа к записям%1$s для обычного использования этой функции</string>
+    <string name="permission_describe_location">для этой функции необходимо использовать информацию о вашем положении. Пожалуйста,%1$s открывает права доступа к информации о местоположении, чтобы нормально использовать эту функцию</string>
+    <string name="permission_describe_external_storage">Эта функция требует хранения с помощью вашего мобильного телефона. %1$s открывает права на чтение и запись файлов, чтобы нормально использовать эту функцию</string>
+    <string name="allow">позволять</string>
+    <string name="open_gps_service_tip">сканирование Bluetooth и параметрическое соединение требуют информации о местоположении</string>
+    <string name="go_setting">перейти к настройке</string>
+    <string name="no_movement">временное движение</string>
+    <string name="open_gps_permission">права на открытие положения</string>
+    <string name="open_gps_services">Открыть расположение мобильного телефона</string>
+    <string name="permission_describe_gps_permission_sport">используйте связанные функции, связанные с траекторией движения и картой, пожалуйста, убедитесь, что данные о местоположении устройства будут использоваться во избежание эффекта.</string>
+    <string name="permission_describe_gps_service_sport">используйте корреляцию траектории движения и карты, чтобы открыть службу "позиционирования" для мобильных телефонов, чтобы избежать эффекта.</string>
+    <string name="cancel_account_tip">не хочешь продолжать использовать?</string>
+    <string name="cancel_account">закрыть счёт</string>
+    <string name="delete_account_influence">невозможно восстановить счёт после выхода из строя или нет?</string>
+    <string name="synchronizing_data">синхронизация данных...</string>
+    <string name="running_too_short">Слишком короткая дальность движения, не будет сохранена резервная копия</string>
+    <string name="slider_to_unlock">размыкание скольжения</string>
+    <string name="please_click_finish_btn">Нажмите кнопку конец</string>
+    <string name="tip_finished_exercise">завершение данного мероприятия</string>
+    <string name="keep_moving">продолжать движение</string>
+    <string name="terminate_sport">прекращать движение</string>
+    <string name="running_set">Параметры бега</string>
+    <string name="copyright">Авторское право ©2021-2024 чжухай, Джели, тоо, авторское право</string>
+    <string name="email_register">Регистрация почтового ящика</string>
+    <string name="phone_register">Регистрация мобильного телефона</string>
+    <string name="search_password_by_email">использовать почтовый ящик для получения пароля</string>
+    <string name="search_password_by_mobile">получение пароля с помощью номера мобильного телефона</string>
+    <string name="device_not_support">устройство не поддерживается</string>
+    <string name="execution_succeeded">Успешное осуществление</string>
+    <string name="cancel">Отмена</string>
+    <string name="double_tap_to_exit">Нажмите еще раз, чтобы выйти из приложения</string>
+    <string name="account_deleted_successfully">Счет удалён успешно</string>
+    <string name="network_error_tip">Кажется, что - то не так с сетью. Пожалуйста, проверьте сеть.</string>
+    <string name="missing_server_information">Отсутствие информации о сервере</string>
+    <string name="inconsistent_motion_state">Несоответствие движений</string>
+    <string name="failed_to_get_weather">Сбой погоды</string>
+    <string name="no_weather_data">Нет данных о погоде</string>
+    <string name="ai_no_speak">Вы, кажется, не начали говорить.</string>
+    <string name="ai_no_skill">Я пока не научился этому навыку.</string>
+    <string name="ai_operation_failed">Ошибка операции</string>
+    <string name="ai_operation_completed">Операция выполнена для вас.</string>
+    <string name="ai_network_wrong">Есть проблемы с сетью: (</string>
+    <string name="ai_error_code">Код ошибки:</string>
+    <string name="ai_is_delete">Определить удаление?</string>
+    <string name="ai_is_delete_all">Все содержимое этого диалога будет удалено и не может быть отозвано, будет ли удалено?</string>
+    <string name="ai_cloud_serve">Облачные сервисы ИИ</string>
+    <string name="multi_select">Несколько вариантов</string>
+    <string name="none_session_record">На данный момент записи разговора нет.</string>
+    <string name="sms_login">Код проверки</string>
+    <string name="use_account_password_login">Использовать пароль учетной записи</string>
+    <string name="detach">Удалить</string>
+    <string name="validate">Проверка</string>
+    <string name="set_password">Настройка пароля</string>
+    <string name="hint_input_bind_phone_number">Введите номер привязанного телефона.</string>
+    <string name="ai_no_response">Извините, я, возможно, не понял ваш вопрос. Пожалуйста, подробно опишите то, что вы хотите узнать, и я сделаю все возможное, чтобы помочь вам.</string>
+    <string name="wait_ai_response_tip">Ответ от ИИ пока не получен, операция пока не поддерживается</string>
+    <string name="style_selection">Выбор стиля</string>
+    <string name="ai_dial_style_1">Стиль чернил</string>
+    <string name="ai_dial_style_2">Стиль реалистичного пейзажа</string>
+    <string name="ai_dial_style_3">Стиль 3D мультфильмов</string>
+    <string name="ai_dial_style_4">Киберпанк</string>
+    <string name="ai_dial_style_5">Стиль оригами</string>
+    <string name="ai_dial_style_6">Стиль акварельных чернил</string>
+    <string name="ai_dial">AI циферблат</string>
+    <string name="custom_dial">Настройка циферблата</string>
+    <string name="re_crop">Перерезка</string>
+    <string name="transfer_ing">Передается...</string>
+    <string name="copy">копия</string>
+
+    <!--About-->
+    <string name="icp_info">Информация о регистрации ICP</string>
+
+    <!--Feedback-->
+    <string name="feedback">обратная связь</string>
+    <string name="feedback_type">тип обратной связи</string>
+    <string name="problem_feedback">Вопрос обратной связи</string>
+    <string name="hint_enter_feedback">Пожалуйста, введите свой подробный вопрос, и мы решим его для вас как можно скорее</string>
+    <string name="hint_enter_phone">Пожалуйста, введите номер вашего мобильного телефона для легкой связи</string>
+    <string name="commit">представлять на рассмотрение</string>
+    <string name="phone_format_tips">Пожалуйста, введите правильный номер телефона</string>
+    <string name="phone_empty_tips">Пожалуйста, введите номер телефона</string>
+    <string name="feedback_empty_tips">Пожалуйста, введите содержание отзыва</string>
+    <string name="network_exception_tips">Кажется, сеть не работает. Повторите попытку позже.</string>
+    <string name="feedback_success">Спасибо за ваш отзыв</string>
+
+    <!--ImageVerifyDialog-->
+    <string name="image_captcha">Капча изображения</string>
+    <string name="can_not_see_it">Не видно? Попробуйте другую.</string>
+    <string name="input_captcha_tips">Пожалуйста, введите правильный капчу.</string>
+    <string name="load_code_failed_tips">При загрузке изображения проверочного кода возникла проблема, попробуйте еще раз позже.</string>
+    <string name="fail_recognize_format">Невозможно определить формат.</string>
+
+    <!--TestConfigurationFragment-->
+    <string name="test_configuration">Тестовая конфигурация</string>
+    <string name="save_configuration">Сохранить</string>
+    <string name="enable_log_function">Aktiviere ich die Protokollierungsfunktion?</string>
+    <string name="use_device_auth">Включить аутентификацию устройства?</string>
+    <string name="support_local_ota">Включить локальное OTA-обновление?</string>
+    <string name="local_ota_desc">Инструкция по тестированию локального OTA:\n1. Имя файла обновления фиксировано: 【update.zip】 или 【update.ufw】\n2. Расположение файла обновления: в папке «Корень телефона/Android/data/%1$s/files/upgrade/»</string>
+    <string name="test_custom_cmd">Тест пользовательской команды</string>
+    <string name="click_again_to_test_configuration">Нажмите еще раз, чтобы перейти в интерфейс тестовой конфигурации</string>
+    <string name="save_configuration_success">Конфигурация успешно сохранена, приложение скоро закроется</string>
+
+    <!--LogFileFragment-->
+    <string name="log_file">Печать журнала</string>
+    <string name="clear_log_file">Очистить</string>
+    <string name="remove_file">Удалить</string>
+    <string name="file_not_found">Файл не существует</string>
+    <string name="open_file_failed_by_other_app">Нет доступных программ для открытия файла</string>
+    <string name="open_file_exception">Ошибка при открытии файла</string>
+    <string name="download_file_permission_tips">Для функции загрузки файлов требуется разрешение на чтение и запись памяти устройства</string>
+    <string name="download_file_permission_denied_tips">Эта функция требует прав на чтение и запись. Пожалуйста, разрешите доступ в настройках разрешений системы.</string>
+    <string name="download_file_successful">Файл успешно загружен</string>
+    <string name="download_file_exception">Ошибка при загрузке файла</string>
+    <string name="share_log_file">Поделиться журналом печати</string>
+    <string name="share_file_exception">Ошибка при отправке файла</string>
+
+    <!--CustomCmdTestFragment-->
+    <string name="input_custom_data">Benutzerdefinierte Daten eingeben</string>
+    <string name="log_content">Protokollinhalt</string>
+    <string name="hint_input_hex_data">Bitte Hex-Daten eingeben</string>
+    <string name="send_custom_cmd">Benutzerdefinierten Befehl senden</string>
+
+    <!--Operation-->
+    <string name="operation_failed">%1$s fehlgeschlagen </string>
+    <string name="error_code">Fehlercode</string>
+    <string name="op_delete_file">Datei löschen</string>
+    <string name="op_delete_folder">Alle Dateien löschen</string>
+
+</resources>

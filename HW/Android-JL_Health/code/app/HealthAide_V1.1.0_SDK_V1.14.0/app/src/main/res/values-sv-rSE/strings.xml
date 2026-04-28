@@ -1,0 +1,970 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">WearLink</string>
+
+    <!--HomeActivity-->
+    <string name="tab_health">Friska</string>
+    <string name="tab_sports">Rörelse</string>
+    <string name="tab_device">Utrustning</string>
+    <string name="tab_settings">Inrätta</string>
+    <string name="tab_mine">Min</string>
+
+    <string name="search_phone">Enhetssökning telefon</string>
+    <string name="close_play">stänga av ljudet</string>
+
+    <!--Load More View-->
+    <string name="status_loading">Läser in&#8230;</string>
+    <string name="status_load_complete">Klicka för att ladda mer</string>
+    <string name="status_load_end">Inga mer data</string>
+    <string name="status_load_failed">Det gick inte att ladda, klicka på mig för att försöka igen</string>
+
+    <!--action-->
+    <string name="scan_qr_code">Skanna QR kod</string>
+    <string name="add_device">Lägg till enhet</string>
+    <string name="sports_settings">Rörelseinställningar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hallå, tomt gränssnitt</string>
+    <string name="calendar_type_day">dag</string>
+    <string name="calendar_type_week">vecka</string>
+    <string name="calendar_type_year">år</string>
+    <string name="blood_oxygen_saturation">Syremätning i blodet</string>
+    <string name="movement_record">Sportrekord</string>
+    <string name="empty_record">Ingen post</string>
+    <string name="heart_rate">hjärtfrekvens</string>
+    <string name="sleep">sova</string>
+    <string name="today_empty_data">Inga data idag</string>
+    <string name="weight">vikt</string>
+    <string name="pressure">tryck</string>
+    <string name="kilogram">Kg</string>
+    <string name="calendar_type_month">månad</string>
+    <string name="distance_km">Avstånd (km)</string>
+    <string name="distance_mile">Avstånd (miles)</string>
+    <string name="climbing_stairs_m">Klättring (m)</string>
+    <string name="climbing_stairs_foot">Klättring (fötter)</string>
+    <string name="calories_kcal">Värme (kcal)</string>
+    <string name="step">steg</string>
+    <string name="step_number">Steg</string>
+    <string name="medium_high_strength">Medelhög hållfasthet</string>
+    <string name="min">minut</string>
+    <string name="average_step">Genomsnittliga steg</string>
+    <string name="all_step">Totalt steg</string>
+    <string name="all_mile">Total körsträcka</string>
+    <string name="all_consumption">Total förbrukning</string>
+    <string name="kilocalorie">Kilokalorie</string>
+    <string name="kilometre">kilometer</string>
+    <string name="weight_setting">Viktinställning</string>
+    <string name="weight_target">Viktmål</string>
+    <string name="date">datum</string>
+    <string name="time">tid</string>
+    <string name="weekly_average">Genomsnitt per vecka</string>
+    <string name="daily_average">genomsnitt per dag</string>
+    <string name="month_average">Månadsgenomsnitt</string>
+    <string name="year_average">Årligt genomsnitt</string>
+    <string name="range_of_variation">förändring</string>
+    <string name="weight_start_data">Start:%.1f</string>
+    <string name="weight_target_data">Mål:%.1f</string>&gt;
+    <string name="kg">kg</string>
+    <string name="sober">nykter</string>
+    <string name="rapid_eye_movement">Snabb ögonrörelse</string>
+    <string name="light_sleep">En ytlig sömn</string>
+    <string name="deep_sleep">Djup sömn</string>
+    <!--Health- Pressure-->
+    <string name="uptilted">På den höga sidan</string>
+    <string name="medium">sekundär</string>
+    <string name="normal">normal</string>
+    <!--Login-->
+    <string name="login">Logga in</string>
+    <string name="hint_input_phone_number_or_email">Ange ditt mobilnummer/e-postadress</string>
+    <string name="hint_input_phone_number">Ange ditt mobilnummer</string>
+    <string name="hint_input_password">Ange ett lösenord</string>
+    <string name="login_by_sms">Logga in med verifieringskod</string>
+    <string name="forgot_password">Glömt lösenordet?</string>
+    <string name="register_tips">Inget konto? Registrera nu</string>
+    <string name="phone_or_email_tips_empty">Mobilnummer/e-postadress kan inte vara tom</string>
+    <string name="phone_or_email_tips_format_err">Felaktigt mobilnummer/e-postformat</string>
+    <string name="phone_tips_empty">Mobilnumret kan inte vara tomt</string>
+    <string name="phone_tips_format_err">Felaktigt mobilnummer format</string>
+    <string name="email_address_tips_empty">E-postadress kan inte vara tom</string>
+    <string name="email_address_tips_format_err">E-postadressens format är felaktigt</string>
+    <string name="password_tips_empty">Lösenordet kan inte vara tomt</string>
+    <string name="password_tips_format_err">Lösenordslängd bör vara 6 – 12 siffror</string>
+    <string name="register_succeed">inloggning lyckades</string>
+    <string name="login_by_account">Logga in med kontolösenord</string>
+    <!--帐号与安全-->
+    <string name="search">söka</string>
+    <string name="account_security">Konto och säkerhet</string>
+    <string name="modify_phone_number">Ändra mobilnummer</string>
+    <string name="modify_email_address">Ändra e- postadress</string>
+    <string name="change_password">Ändra lösenord</string>
+    <string name="change">ersätt</string>
+    <string name="bind_new_phone_number">Binda ett nytt telefonnummer</string>
+    <string name="bind_new_email_address">Bind ny e- postadress</string>
+    <string name="modify_binded_phone_number">Ändra det bundna mobilnumret?</string>
+    <string name="current_binded_phone_number">Det aktuella mobiltelefonnumret är</string>
+    <string name="modify_binded_email_address">Ändra den bundna e-postadressen?</string>
+    <string name="current_binded_email_address">Den för närvarande bundna e-postadressen är</string>
+    <string name="authentication">Autentisering</string>
+    <string name="authentication_tip">För att bekräfta att du är operatör, vänligen verifiera din identitet.</string>
+    <string name="sms_verification_code">SMS-verifieringskod</string>
+    <string name="bind_new_phone_number_success">Det nya mobiltelefonnumret är bundet framgångsrikt!</string>
+    <string name="bind_new_email_address_success">Den nya e- postadressen är bunden med lyckat resultat!</string>
+    <string name="modified_success">Ändring lyckades</string>
+    <string name="old_password">Gammalt lösenord</string>
+    <string name="input_old_password">Ange gammalt lösenord</string>
+    <string name="new_password">Nytt lösenord</string>
+    <string name="password_input_tip">Ange ett nytt lösenord med 6-12 bokstäver och siffror</string>
+    <string name="inout_new_password">Ange ett nytt lösenord</string>
+    <string name="inout_new_password_again">Ange det nya lösenordet igen</string>
+    <string name="password_is_inconsistent">Lösenorden är inkonsekventa, skriv in igen</string>
+    <string name="phone_number_is_empty">Mobilnumret kan inte vara tomt</string>
+    <string name="sms_verification_code_error">Fel i SMS-verifieringskod</string>
+    <string name="current_phone_registered">Den aktuella mobiltelefonen har registrerats</string>
+    <string name="current_phone_no_register">Byteskontot är inte registrerat</string>
+    <string name="account_password_error">Fel i kontolösenordet</string>
+    <string name="new_password_no_be_empty">Det nya lösenordet kan inte vara tomt</string>
+    <string name="old_password_error">Gamla lösenordsfel</string>
+    <!--Register-->
+    <string name="register">register</string>
+    <string name="input_verification_code">Ange verifieringskod</string>
+    <string name="send_sms_code">Skicka verifieringskod</string>
+    <string name="resend_sms_code">Hämta (%1$s)</string>
+    <string name="input_identifying_code">Ange verifieringskod</string>
+    <string name="send_identifying_code">Skicka verifieringskod</string>
+    <string name="resend_identifying_code">Hämta (%1$s)</string>
+    <string name="input_password_tips">Ange ett lösenord med 6 – 12 bokstäver och siffror</string>
+    <string name="sms_code_tips_empty">Verifieringskoden kan inte vara tom</string>
+    <string name="sms_code_tips_format_err">Felaktigt format för kontrollkoden</string>
+    <string name="identifying_code_tips_empty">Verifieringskoden kan inte vara tom</string>
+    <string name="identifying_code_tips_format_err">Felaktigt format för kontrollkoden</string>
+    <string name="hint_input_email">Ange e-postadressen</string>
+
+    <!--User Message-->
+    <string name="input_user_msg">Förbättra personlig information</string>
+    <string name="nickname">smeknamn</string>
+    <string name="sex">Kön</string>
+    <string name="date_of_birth">Födelsedatum</string>
+    <string name="stature">höjd</string>
+    <string name="sport_target">Flytta mål</string>
+    <string name="next_step">nästa steg</string>
+    <string name="skip_progress">hoppa över</string>
+
+    <string name="please_input">Skriv in</string>
+    <string name="please_choose">Välj</string>
+    <string name="heart_rate_range">Hjärtfrekvensintervall</string>
+    <string name="times_per_minute">Tider/minut</string>
+    <string name="resting_heart_rate">Vila hjärtfrekvens</string>
+    <string name="resting_heart_rate_avg">Genomsnittlig vilopunkt</string>
+    <string name="static_heart_rate_too_high">Hög statisk hjärtfrekvens</string>
+    <string name="low_resting_heart_rate">Statisk hjärtfrekvens är för låg</string>
+
+    <!--Sex Dialog-->
+    <string name="man">hane</string>
+    <string name="woman">hona</string>
+    <string name="hour">timme</string>
+    <string name="minute">minut</string>
+    <string name="score">filial</string>
+
+
+    <!--Permission-->
+    <string name="open_gpg_tip">Appen behöver GPS-funktionen, slå på platstjänsten för att fortsätta</string>
+    <string name="permissions_tips_01">För att använda programvaran normalt, vänligen</string>
+    <string name="permission_contacts">Tillåt läsning och skrivning av kontakter</string>
+    <string name="permission_mic">Tillåt mikrofon</string>
+    <string name="permission_read_phone_state">Tillåt att läsa telefoninformation</string>
+    <string name="permission_location">Tillåt att hämta platsinformation</string>
+    <string name="permission_storage">Tillåt läsning och skrivning av filer</string>
+    <string name="permission_bluetooth">Tillåt Bluetooth</string>
+    <string name="permission_phone_settings">Tillåt att ändra telefoninställningar med</string>
+    <string name="permissions_tips_02">Gå till systeminställningarna för att bevilja ansökningar</string>
+    <string name="permission">jurisdiktion</string>
+    <string name="permission_sport">Inställningar för sportbehörighet</string>
+    <string name="permission_sport_tips">På grund av energibesparingsinställningar och begränsningar i bakgrundsprocessen kan Android stänga av%1$s som spelar in sport eller orsaka att vissa sportinspelningsdata saknas. Om du stöter på relaterade problem kan du läsa följande metoder för inställning.</string>
+    <string name="permission_sport_suspension_title">Visa (flytande fönster) inställningar på det övre lagret i andra program</string>
+    <string name="permission_sport_suspension_describe">För att säkerställa att du inte kommer att dödas av det mobila systemet under rörelsen, vilket kommer att leda till förlust av rörelsedata, vänligen ge%1$s hover window tillstånd</string>
+    <string name="permission_sport_suspension_operate">Öppna flytande fönsterbehörighet</string>
+    <string name="permission_sport_battery_optimized_title">Batterioptimering</string>
+    <string name="permission_sport_battery_optimized_describe">I energisparläge kan driften av%1$s fortfarande begränsas. När du börjar röra dig, försök att hålla strömmen i ett relativt tillräckligt tillstånd och stäng av energisparläget. De relevanta inställningarna finns i allmänhet i statusfältet eller batterirelaterade inställningar.</string>
+    <string name="permission_sport_battery_optimized_operate_1">Batterioptimering är aktiverad, klicka på Stäng</string>
+    <string name="permission_sport_battery_optimized_operate_2">Batterioptimering avstängd</string>
+    <string name="permission_sport_background_title">Inställningar för bakgrundsskydd</string>
+    <string name="permission_sport_background_describe">Om du lägger till%1$s i bakgrundsskyddslistan kan%1$s köras kontinuerligt i bakgrunden i viss mån. \N Inställningsmetod:</string>
+    <string name="permission_sport_background_operate">Aktivera inställningar för bakgrundsskydd</string>
+    <string name="permission_sport_powersave_title">Strömsparläge</string>
+    <string name="permission_sport_powersave_describe">På grund av systemets energisparande inställning kommer appen att frysas. För att säkerställa att bakgrundsaktiviteter som inspelning av sportdata inte påverkas, lägg till%1$s i den vita listan över batterioptimering. \N Inställningsmetod:</string>
+    <string name="permission_sport_powersave_oprate">Aktivera inställningar för viloläge</string>
+    <string name="lock_screen_display">Låsskärmens visning</string>
+    <string name="locak_screen_display_hint">Inställningsmetod: programinformation -&gt;behörighetshantering -&gt;låsskärmsvisning</string>
+    <string name="instructions_for_use">Användningsinstruktioner</string>
+    <string name="permissions_camera">Kamerabehörigheter</string>
+    <string name="permissions_bluetooth">Bluetooth-behörigheter</string>
+    <string name="permissions_location">Platsbehörigheter</string>
+    <string name="permissions_storage">Lagringsbehörigheter</string>
+    <string name="permissions_read_contact">Läs kontaktinformationsbehörighet</string>
+    <string name="permissions_camera_explain">Används för att skanna, ställa in avatar, ställa in anpassad urtavlabakgrund och andra funktioner.</string>
+    <string name="permissions_bluetooth_explain">Används för att söka och ansluta Bluetooth-enheter, kommunicera med Bluetooth-enheter och andra funktioner.</string>
+    <string name="permissions_location_explain">Används för Bluetooth-funktion, väderinformation, kartpositionering, rörelsebana och andra funktioner.</string>
+    <string name="permissions_storage_explain">Används för att läsa musikfiler, ställa in avatarer, läsa gallerier och andra funktioner.</string>
+    <string name="permissions_read_contact_explain">Används för att synkronisera kontaktinformation till enheten.</string>
+    <string name="rejust_permissions_tips">Om du vägrar att aktivera det kommer du inte att kunna använda ovanstående funktioner.</string>
+
+
+    <!-- reset password-->
+    <string name="password">lösenord</string>
+    <string name="finish">slutförd</string>
+    <string name="sms_check">kontroll</string>
+    <string name="hint_text_password_again_input">Bekräfta lösenordet igen</string>
+
+    <!--Add Device-->
+    <string name="connect">connect</string>
+    <string name="status_disconnect">Inte ansluten</string>
+    <string name="status_connected">Ansluten</string>
+    <string name="status_connecting">Anslutning</string>
+    <string name="add">Lägg till</string>
+    <string name="no_device_tips">El equipo está vacío</string>
+    <string name="user_denies_permissions">Ge \"%1$s\" relevanta behörigheter i systemet</string>
+    <string name="start_scan_failed">Misslyckades starta skanningen, försök igen senare</string>
+    <string name="bluetooth_is_close">Bluetooth är avstängd, slå på Bluetooth och försök igen</string>
+
+    <!--Watch Control-->
+    <string name="restore_watch_system_success">Systemåterställning lyckades</string>
+    <string name="restore_watch_system_failure">Misslyckades återställa systemet, orsak:%1$s</string>
+    <string name="battery_format">Effekt %1$d%%</string>
+    <string name="local_watch">Lokal uppringning</string>
+    <string name="watch_market_all">hela</string>
+    <string name="using_watch">Använda</string>
+    <string name="use_watch">användning</string>
+    <string name="update_watch">för att uppdatera</string>
+    <string name="download_watch">ladda ner</string>
+    <string name="buy_watch">köp</string>
+
+    <string name="health_record">friska</string>
+    <string name="music_manager">Musikhantering</string>
+    <string name="device_music">Enhetsmusik</string>
+    <string name="alarm">väckarklocka</string>
+    <string name="contacts">Toppkontakter</string>
+    <string name="card_bag">Kortpåse</string>
+    <string name="firmware_upgrade">Enhetsversionsuppdatering</string>
+    <string name="science_sleep">Sömndetektering</string>
+    <string name="turned_on">Öppnad</string>
+    <string name="turned_off">Stängt</string>
+    <string name="sedentary_reminder">Påminnelse om långa sittande</string>
+    <string name="sedentary_reminder_tip">Påminnelse för sittande i mer än en timme</string>
+    <string name="continuous_measurement_heart_rate">Kontinuerlig mätning av hjärtfrekvens</string>
+    <string name="heart_rate_range_early_warning">Påminnelse om träningspuls</string>
+    <string name="pressure_auto_testing">Automatisk tryckdetektering</string>
+
+    <string name="retrieve_password">Hämta lösenord</string>
+    <string name="reset_password">återställ lösenord</string>
+    <string name="call_phone_error_tips">Telefonstatus pågår, använd senare</string>
+
+
+    <!-- Mine -->
+    <string name="mine_my_data">Mina data</string>
+    <string name="mine_sport_weekly">Sports Weekly</string>
+    <string name="mine_setting">inrätta</string>
+    <string name="mine_help">hjälp</string>
+    <string name="mine_about">om</string>
+
+    <string name="user_info">personuppgifter</string>
+    <string name="user_info_avatar">Huvudporträtt</string>
+    <string name="health_state">hälsa</string>
+    <string name="activity_statistics">Verksamhetsstatistik</string>
+    <string name="target">Mål</string>
+    <string name="format_birthday_year_month">%1$dår%2$dmånad</string>
+    <string name="format_height">%1$d cm</string>
+    <string name="format_step_number_target">%1$d steg</string>
+    <string name="hint_input_nickname">Ange ditt smeknamn</string>
+    <string name="save">Bevarande</string>
+    <string name="tip_nickname_null">Smeknamnet kan inte vara tomt</string>
+    <string name="sure">bestämma</string>
+    <string name="distance">Total körsträcka</string>
+    <string name="climb">Klättra</string>
+    <string name="heat">värmemängd</string>
+    <string name="distance_m">ris</string>
+    <string name="kcal">Kilokalorie</string>
+    <string name="relax">slappna av</string>
+    <string name="alert">Meddelandemeddelande</string>
+    <string name="sensor_setting">Sensorinställningar</string>
+    <string name="open">Öppnad</string>
+    <string name="weather_push">Vädertryck</string>
+    <string name="clean_cache">Rensa cache</string>
+    <string name="tip_clean_cache">Om användarcachedata ska rensas</string>
+    <string name="bright_screen">Höj handleden för att tända skärmen</string>
+    <string name="tip_bright_screen">Lyft handleden och vrid skärmen mot dig själv för att tända skärmen</string>
+    <string name="bright_screen_hint">Skärmen lyser inte när handleden höjs i läget utan störning</string>
+    <string name="bluetooth_disconnect_tip">Påminnelse om frånkoppling av Bluetooth</string>
+    <string name="target_consume">Konsumera ungefär%1$d kcal</string>
+    <string name="target_step">Målsteg</string>
+    <string name="target_weight">Målvikt</string>
+    <string name="multilingual">Flerspråkiga</string>
+    <string name="simplified_chinese">Förenklad kinesiska</string>
+    <string name="follow_system">Uppföljningssystem</string>
+    <string name="english">Engelska</string>
+    <string name="japanese">Japanska</string>
+    <string name="korean">Koreansk</string>
+    <string name="french">Franska</string>
+    <string name="german">Tyska</string>
+    <string name="italian">Italienska</string>
+    <string name="portuguese">Portugisiska</string>
+    <string name="spanish">Spanska</string>
+    <string name="swedish">Svenska</string>
+    <string name="polish">Polska</string>
+    <string name="russian">Ryska</string>
+    <string name="turkish">Turkiska</string>
+    <string name="hebrew">Hebreiska</string>
+    <string name="thai">Thailändskt</string>
+    <string name="arabic">Arabiska</string>
+    <string name="vietnamese">Vietnamesiska</string>
+    <string name="indonesian">Indonesiska</string>
+    <string name="malay">Malay</string>
+    <string name="persian">Persiska</string>
+    <string name="set_language">Ange språk</string>
+    <string name="unit_settings">Enhetsinställning</string>
+    <string name="unit_metric">Metrisk</string>&gt;
+    <string name="unit_imperial">Imperial</string>
+    <string name="format_weight">%1$d kg</string>
+    <string name="no_nickname">Smeknamn inte angivet</string>
+    <string name="user_agreement">Användaravtal</string>
+    <string name="privacy_policy">Sekretesspolicy</string>
+    <string name="current_app_version">Nuvarande version:%1$s</string>
+    <string name="agree_and_use">enas</string>
+    <string name="not_agree_and_exit">vägra</string>
+    <string name="privacy_policy_name">"Integritetspolicy"</string>
+    <string name="user_service_name">"Användartjänstavtal"</string>
+    <string name="declaration">%1$s Sats</string>
+    <string name="user_declaration">"%1$s" är en programvara som används för att registrera och analysera hälsodata för användaridrotter, förse användare med professionell idrottshälsovägledning och smarta hanteringstjänster för bärbara enheter. För att uppnå ovanstående syfte,
+         När vi tillhandahåller tjänster till dig kan vi behöva samla in din relevanta information och använda följande behörigheter: använda kamera, använda platsinformation, använda Bluetooth-behörighet,
+         Läs din kalender, läs dina kontakter, få tillgång till webben. Vi behöver synkronisera din puls, sömn, blodsyre, träningsregister och annan träningsdata till molnet.
+         Vi lägger stor vikt vid ditt integritetsskydd och skydd av personlig information. Innan du använder APPEN "%2$s", läs #### och alla villkoren för **** noggrant och börja använda oss efter att du samtyckt och acceptera alla villkorstjänster.</string>
+    <string name="agree_policy_tips">Jag har läst och samtyckt till #### och ****</string>
+    <string name="check_policy_status_tips">Vänligen läs och godkänn användarvillkoren och sekretesspolicyn</string>
+
+    <string name="add_music">Lägg till musik</string>
+    <string name="download_music">Synkronisera musik för att titta på%1$d/%2$d</string>
+    <string name="transfer_info">Överföring (%1$d/%2$d)</string>
+
+    <string name="message_notify">Meddelande</string>
+    <string name="sync_wechat">WeChat</string>
+    <string name="sync_qq">QQ</string>
+    <string name="sync_sms">kort meddelande</string>
+    <string name="sync_other">Annat</string>
+
+    <!--Watch Market-->
+    <string name="watch_market">Ring mall</string>
+    <string name="manager">Administrering</string>
+    <string name="delete_watch_tip">Minst två urtavlar</string>
+    <string name="last_page">Jag har en slutlinje</string>
+    <string name="delete_watch_err">Misslyckades ta bort uppringning [%1$s] eftersom%2$s</string>
+    <string name="create_watch_err">Misslyckades ladda ner dial [%1$s] eftersom%2$s</string>
+    <string name="update_watch_err">Misslyckades uppdatera uppringningen [%1$s] eftersom%2$s</string>
+    <string name="transfer_file_warning">Under filöverföring, håll Bluetooth och nätverk öppna nStäng inte av enheten och lås skärmtelefonen</string>
+    <string name="device_is_disconnected">enheten är inte ansluten</string>
+    <string name="server_none_device_support_version">Ingen version som stöds av enheten</string>
+
+    <!--Dial Detail-->
+    <string name="watch_dial">klockratt</string>
+    <string name="my_dials">Min uppringning</string>
+    <string name="free_dial">Fri uppringning</string>
+    <string name="pay_dial">Betalnummer</string>
+    <string name="dial_desc">[Inledning till uppringning]</string>
+    <string name="download_dial">Nedladdning</string>
+    <string name="update_dial">Uppdatering</string>
+    <string name="purchase_record">Inköpspost</string>
+    <string name="handle_dial_tips">Filen överförs. Avsluta inte nuvarande gränssnitt</string>
+
+    <!--Payment-->
+    <string name="product_name">Handelsnamn</string>
+    <string name="product_price">Varubelopp</string>
+    <string name="pay_way">Betalningsmetod</string>
+    <string name="pay_way_tips">Välj betalningsmetod</string>
+    <string name="ali_pay">Alipay-betalning</string>
+    <string name="weixin_pay">WeChat- betalning</string>
+    <string name="whether_payment_finish">Har betalningen slutförts?</string>
+    <string name="unfinished">Häng i luften</string>
+    <string name="finished">Avslutad</string>
+
+    <string name="payment_success">Betalning lyckades</string>
+    <string name="payment_failed">Betalning ej slutförd, vänligen betala igen</string>
+    <string name="payment_processing">Betalningsförfarande, vänta.</string>
+    <string name="payment_error">Betalning misslyckades</string>
+    <string name="payment_duplex">Upprepad begäran, vänta ett tag och försök igen</string>
+    <string name="payment_user_cancel">Användaren avbryter betalning</string>
+    <string name="payment_network">Betalning misslyckades. Det finns ett problem med nätverket</string>
+    <string name="payment_unknown">okänt fel</string>
+    <string name="use_dial">Att använda</string>
+
+    <string name="no_purchase_record">Ingen inköpsredovisning</string>
+
+    <!--Upgrade-->
+    <string name="upgrade">uppgradering</string>
+    <string name="current_dev_version">nuvarande version</string>
+    <string name="latest_version">Är den senaste versionen</string>
+    <string name="check_update">Sök efter uppdateringar</string>
+    <string name="dev_ota">Uppdatering av programvara</string>
+    <string name="upgrade_warning">Håll Bluetooth och nätverket öppna under uppgraderingsprocessen nStäng inte av enheten och lås skärmtelefonen</string>
+    <string name="ota_result_success">Uppgradering slutförd</string>
+    <string name="ota_result_failed">Uppgradering misslyckades</string>
+    <string name="ota_result_cancel">Uppgradering avbruten</string>
+    <string name="new_ota_version">Ny version%1$s</string>
+    <string name="ota_state_ready">Förbered uppgradering</string>
+    <string name="ota_state_check_file">Uppgraderingsverifiering</string>
+    <string name="ota_state_updating">Uppgradering</string>
+    <string name="ota_state_finish">Uppgraderingens slut</string>
+    <string name="update_resource_tips">Överför uppringningsresurser (%1$d/%2$d)</string>
+    <string name="resource_unfinished_tips">Resursuppgraderingen är inte slutförd, vilket resulterar i att enheten inte är tillgänglig. Vill du fortsätta uppgradera resursen?</string>
+    <string name="firmware_mandatory_upgrade">Uppgraderingen av enheten har inte slutförts. Du måste fortsätta uppgradera för att använda den normalt</string>
+    <string name="network_module_ota_upgrade_tips">Uppgraderingen av 4G-modulen är inte slutförd. Vill du fortsätta uppgraderingen?</string>
+    <string name="upgrade_warning_tips">Uppgraderingsvarning</string>
+    <string name="exit_and_disconnect">tvångsåtervändande</string>
+    <string name="continue_upgrade">Fortsätt uppgraderingen</string>
+    <!--ota err-->
+    <string name="ota_err_no_space">Otillräckligt uppgraderingsutrymme. Ta bort uppringningsfilen innan du fortsätter</string>
+    <string name="ota_err_device_not_connect">Uppgraderingsenheten är inte ansluten. Kontrollera att enheten är ansluten normalt.</string>
+    <string name="ota_err_low_power">Enhetens batterinivå måste vara över %1$s för att uppgradera</string>
+    <string name="ota_err_file_info">Uppgraderingsfilinformationsfel</string>
+    <string name="ota_err_file_same_version">Uppgraderingsfilversionen är densamma som enhetsversionen</string>
+    <string name="ota_err_tws_not_connect">Enheten är inte ihopparad och ansluten</string>
+    <string name="ota_err_not_in_charging_bin">Headsetet finns inte i laddningsfacket</string>
+    <string name="ota_err_data_crc_check">Uppgraderingsdataverifieringsfel</string>
+    <string name="ota_err_failed">Uppgraderingen misslyckades</string>
+    <string name="ota_err_key_mismatch">Nyckelfel överensstämmer</string>
+    <string name="ota_err_uboot_mismatch">UBoot missmatch</string>
+    <string name="ota_err_data_len">Längdfel uppstod under uppgraderingen</string>
+    <string name="ota_err_flash_io">Flash läs- och skrivfel uppstår</string>
+    <string name="ota_err_cmd_timeout">Kommandot timeout</string>
+    <string name="ota_err_data_offset">Fel vid läsning av dataoffset</string>
+    <string name="ota_err_reconnect_device_timeout">Anslutningen tillbaka till enheten tog timeout</string>
+    <string name="ota_err_waiting_for_cmd_timeout">Väntar på kommando tog timeout</string>
+    <string name="ota_err_send_data_timeout">Sändningskommandot tog timeout</string>
+    <string name="ota_err_update_data">Det gick inte att läsa uppgraderingsdata</string>
+    <string name="ota_err_not_found_file">Uppgraderingsfilen hittades inte</string>
+    <string name="ota_err_bad_status">Enheten returnerade en misslyckad status</string>
+    <string name="ota_err_bad_result">Enheten returnerade ett misslyckat resultat</string>
+    <string name="ota_err_unknown">Okänt uppgraderingsfel</string>
+
+    <!--闹钟-->
+    <string name="named">namn</string>
+    <string name="alarm_open_success">Öppna alarmklockan framgångsrikt</string>
+    <string name="alarm_open_failure">Misslyckades öppna alarmklockan</string>
+    <string name="alarm_close_success">Stängde alarmklockan med lyckat resultat</string>
+    <string name="alarm_close_failure">Misslyckades stänga alarmklockan</string>
+    <string name="operate_alarm_failure">Misslyckades använda alarmklockan</string>
+    <string name="alarm_list_read_failed">Misslyckades läsa alarmlista</string>
+    <string name="delete">ta bort</string>
+    <string name="alarm_set_num_is_full">Antalet väckarklocka är fullt</string>
+    <string name="alarm_delete_failure">Radering av väckarklocka misslyckades</string>
+    <string name="alarm_delete_success">Väckarklocka raderad med lyckat resultat</string>
+
+    <string name="alarm_stop_success">Väckarklocka stoppades med lyckat resultat</string>
+    <string name="alarm_stop_failed">Väckarstopp misslyckades</string>
+    <string name="alarm_delete">Ta bort alarmklocka</string>
+    <string name="sync_time">Synkronisering av enhetstid</string>
+    <string name="sync_time_success">Synkroniseringstid lyckades</string>
+    <string name="sync_time_failed">Synkroniseringstid misslyckades</string>
+
+
+    <string name="save_alarm_failed_no_modify">Väckarklockan har inte ändrats</string>
+    <string name="save_alarm_failed">Misslyckades spara alarmklockan</string>
+    <string name="save_alarm_success">Väckarklocka sparad med lyckat resultat</string>
+    <string name="choose_repeat_mode_tip">Välj ett läge</string>
+    <string name="alarm_name_can_not_be_empty">Alarmnamnet kan inte vara tomt</string>
+    <string name="alarm_name_length_too_long">Alarmnamnet är för långt</string>
+    <string name="alarm_name_format_error">Fel inmatningsformat för alarmnamn</string>
+    <string name="default_alarm_name">väckarklocka</string>
+    <string name="default_alarm_custom">anpassad</string>
+    <string name="alarm_edit_title">Redigera väckarklocka</string>
+    <string name="alarm_create_title">Nytt alarm</string>
+    <string name="alarm_repeat_on_workday">från måndag till fredag</string>
+    <string name="alarm_repeat_every_day">Varje dag</string>
+    <string name="alarm_repeat_single">Engångstid</string>
+    <string name="alarm_repeat_week">vecka</string>
+    <string name="alarm_repeat_mon">Måndag</string>
+    <string name="alarm_repeat_tue">Tisdag</string>
+    <string name="alarm_repeat_wed">Onsdag</string>
+    <string name="alarm_repeat_thu">Torsdag</string>
+    <string name="alarm_repeat_fri">Fredag</string>
+    <string name="alarm_repeat_sat">Lördag</string>
+    <string name="alarm_repeat_sun">Söndag</string>
+    <string name="alarm_repeat_simple_mon">En</string>
+    <string name="alarm_repeat_simple_tue">Två</string>
+    <string name="alarm_repeat_simple_wed">Tre</string>
+    <string name="alarm_repeat_simple_thu">Fyra</string>
+    <string name="alarm_repeat_simple_fri">Fem</string>
+    <string name="alarm_repeat_simple_sat">Sex</string>
+    <string name="alarm_repeat_simple_sun">Dag</string>
+
+    <!--AlarmSettings-->
+    <string name="alarm_settings">Alarmhanterare</string>
+    <string name="bell">Ringtoner</string>
+    <string name="repeat">upprepa</string>
+    <string name="light">belysning</string>
+    <string name="alarm_state">tillstånd</string>
+    <string name="delete_alarm_tip">Vill du ta bort alarmklockan</string>
+    <string name="stop_alarm">Stoppa det</string>
+    <string name="alarm_running">Väckarklockan ringer</string>
+    <string name="unnamed">Ej namngiven</string>
+    <string name="hint_input_alarm">Ange alarmklockans namn</string>
+
+    <string name="alarm_bell_1">Rington 0</string>
+    <string name="alarm_bell_2">Rington 2</string>
+    <string name="alarm_bell_3">Rington 3</string>
+    <string name="alarm_bell_4">Rington 4</string>
+    <string name="alarm_bell_5">Rington 5</string>
+    <string name="alarm_default_bell">standard</string>
+    <string name="alarm_count_tip">När väckarklocka är inställd och synkroniserad med klockan vibrerar klockan för att påminna dig. Du kan ställa in upp till 5 väckarklocka.</string>
+    <string name="alarm_bell_list_read_failed">Misslyckades hämta standardringsignalistan</string>
+
+    <string name="alarm_bell_time">Väckarklocka varaktighet</string>
+    <string name="min_format">%1$d min</string>
+    <string name="alarm_bell_interval">Reverberationsintervall</string>
+    <string name="bell_repeat_count_title">Antal upprepade ringar</string>
+    <string name="bell_interal_time_title">Upprepa intervall (minuter)</string>
+    <string name="interval_format">%1$d minut,%2$d gånger</string>
+    <string name="count_format">andra</string>
+
+
+    <!-- file -->
+    <string name="msg_read_file_err_reading">Enheten är upptagen, försök igen senare!</string>
+    <string name="msg_read_file_err_offline">Enheten är inte online!</string>
+    <string name="msg_read_file_err_beyond_max_depth">Överskrid den läsbara nivån!</string>
+    <string name="empty_folder">Töm katalog</string>
+    <string name="get_music_info_failed">Misslyckades hämta musikinformation</string>
+
+    <!-- 联系人-->
+    <string name="tip_not_contact">Inga favoritkontakter</string>
+    <string name="tip_add_contact">Ställ in dina favoritkontakter för klockan så att du snabbt kan starta samtal. Kontakterna du ställer in synkroniseras automatiskt med enheten.</string>
+    <string name="tip_max_contacts_can_add">Du kan lägga till upp till%1$d favoritkontakter till din klocka. De favoritkontakter du anger synkroniseras automatiskt till enheten.</string>
+    <string name="sort">sortera</string>
+    <string name="hint_search_contact">Sök kontakter</string>
+    <string name="unchose">Ej markerad</string>
+    <string name="format_contact_chose_count">%1$d vald</string>
+    <string name="tip_max_contact_err">Välj upp till%1$d kontakter</string>
+    <string name="tip_update_contact_failed">Kontaktuppdatering misslyckades</string>
+    <string name="tip_sync_contact_failed">Kontaktsynkronisering misslyckades</string>
+    <string name="tip_cancel_get_contact">Avbryt att få kontakt</string>
+    <string name="tip_cancel_update_contact">Avbryt uppdatering av kontakter</string>
+
+    <!-- 音乐管理 -->
+    <string name="tip_transfer_finish">Överföring slutförd</string>
+    <string name="tip_transfer_canceled">Överföring avbruten</string>
+    <string name="tip_transfer_error">Överföringsavbrott på grund av överföringsfel</string>
+    <string name="tip_mobile_not_has_contacts">Den aktuella mobiltelefonadressboken är tom</string>
+    <string name="ask_delete_contact">Ta bort markerad kontakt</string>
+    <string name="tip_logout">Behöver du logga ut från kontot?</string>
+    <string name="tip_downloading_music">(Behåll Bluetooth-anslutningen mellan telefonen och klockan under musikfilöverföring)</string>
+    <string name="tip_download_finished">%1$d musik överfördes framgångsrikt</string>
+    <string name="tip_please_chose_contact">Välj en kontakt</string>
+    <string name="tip_check_net">Nätverket är inte anslutet. Kontrollera nätverksinställningarna.</string>
+    <string name="sport_other">Annat</string>
+    <string name="sport_outdoor_running">Utomhuslöpning</string>
+    <string name="sport_indoor_running">Inomhuslöpning</string>
+    <string name="exercise_time">Träningstid</string>
+    <string name="total_time">Total varaktighet</string>
+    <string name="pace">Tempot</string>
+    <string name="average_pace">Medelhastighet</string>
+    <string name="consumption_of_kilocalories">Förbrukning (kcal)</string>
+    <string name="whether_delete">Vill du ta bort:%1$s</string>
+
+    <!--二维码扫描-->
+    <string name="scan_qr_code_title">Skanna QR-kod</string>
+    <string name="select_from_gallery">Välj från galleri</string>
+    <string name="pair_device">Para ihop enheter manuellt</string>
+    <string name="scan_qr_tips">Placera QR-koden i rutan</string>
+    <string name="scan_env_dark_tips">Du befinner dig i en mörk miljö, rekommenderas att slå på ficklampan</string>
+    <string name="scan_env_light_tips">Du befinner dig i en normal miljö, rekommenderas att stänga av ficklampan</string>
+    <string name="not_found_qr">QR-kod hittades inte</string>
+
+    <string name="device_searching">Söker efter tillgängliga enheter</string>
+    <string name="no_found_device_tips">Hittade du inte enheten? Tillagd av ####</string>
+    <string name="no_found_device_tips_2">Ingen enhet hittades, kontrollera att enheten är ansluten och nära mobiltelefonen</string>
+    <string name="retry">försök igen</string>
+    <string name="no_binding">Inte bindande tillfälligt</string>
+    <string name="not_found_target">Hittade du inte målenheten? ####</string>
+    <string name="rescan_device">Sök igen</string>
+
+    <string name="connect_device">Ansluta enheter</string>
+    <string name="dev_connecting">Para ihop</string>
+    <string name="dev_connecting_desc">Bekräfta parkoppling på enheten</string>
+    <string name="dev_connect_success">Parning lyckades</string>
+    <string name="dev_connect_success_desc">Enheten har parkopplats, upplev den nu</string>
+    <string name="dev_connect_fail">Enhetsparning misslyckades</string>
+    <string name="dev_connect_fail_desc">Skanna koden igen för att ansluta eller manuellt lägga till enheten</string>
+    <string name="cur_dev_msg">Nuvarande ihopparad enhet:%1$s</string>
+    <string name="gps">GPS</string>
+    <string name="km">kilometer</string>
+    <string name="step_freq_info_title">Stegfrekvens (steg/minut)</string>
+    <string name="average_step_freq">Genomsnittlig stegfrekvens</string>
+    <string name="max_step_freq">Högsta stegfrekvens</string>
+    <string name="per_pace_of_km">Hastighet per kilometer</string>
+    <string name="average_pace_of_per_km">Medelhastighet (/km)</string>
+    <string name="max_pace_of_per_km">Snabbaste tempo (/km)</string>
+    <string name="app_running">Kör</string>
+
+    <string name="watch_edit">redigera</string>
+    <string name="current_watch">Nuvarande uppringning</string>
+    <string name="choose_photo">Lägg till foton</string>
+    <string name="watch_restore">Återställ standard</string>
+    <string name="take_photo">fotografi</string>
+    <string name="get_photo_from_album">Välj från mobilalbum</string>
+    <string name="select">markering</string>
+    <string name="set_custom_bg_success">Ställa in anpassad bakgrund lyckades</string>
+
+    <!--Message-->
+    <string name="enable_notification_listener_service_tips">För att använda informationssynkroniseringsfunktionen måste användaren gå med på att få information om meddelandefältet. Vill du aktivera den nu?</string>
+    <string name="bt_disconnect_tips">Anslut enheten först</string>
+    <string name="not_found_history">Ingen enhet hittades vara ansluten</string>
+
+    <!--fatfs error-->
+    <string name="not_enough_space">Otillräckligt utrymme för bevakning, kan inte lägga till fler filer</string>
+    <string name="empty_date">Månadsdag</string>
+
+
+    <!-- unit -->
+    <string name="unit">Företag</string>
+    <string name="unit_cm">centimeter</string>
+    <string name="unit_m">ris</string>
+    <string name="unit_km">kilometer</string>
+
+    <string name="unit_in">tum</string>
+    <string name="unit_ft">fot</string>
+    <string name="unit_mile">mile</string>
+
+    <string name="unit_kg">kg</string>
+    <string name="unit_lb">pund</string>
+    <string name="unit_running">steg</string>
+    <string name="no_sdcard_device">Ingen enhet infogad</string>
+    <string name="select_all">Välj alla</string>
+    <string name="cancel_select_all">Ingen</string>
+    <string name="logout">Logga ut</string>
+    <string name="local_music">Lokal musik</string>
+    <string name="music">musik</string>
+
+    <!--HistoryRecordFragment-->
+    <string name="reconnect_history">Återanslut</string>
+    <string name="remove_history">Ta bort enhet</string>
+    <string name="history_connect_ok">Enhetsanslutning lyckades</string>
+    <string name="history_connect_failed">Enhetsanslutning misslyckades</string>
+    <string name="remove_history_success">Historik raderad med lyckat resultat</string>
+    <string name="remove_history_failed">Misslyckades ta bort historik</string>
+    <string name="history_is_gone">Historik har tagits bort</string>
+
+
+    <!--  健康设置 -->
+    <string name="tip_pressure_auto_tip">När "automatisk tryckdetektering" är påslagen bedömer enheten intelligent ditt aktiva tillstånd. Om den bedöms vara statisk kommer den att upptäcka din pulsvariation och beräkna trycket. Under träning utförs inte automatisk tryckdetektering. För att säkerställa korrekt detektering bör du använda enheten korrekt.</string>
+    <string name="pressure_auto_relax">slappna av</string>
+    <string name="pressure_auto_normal">normal</string>
+    <string name="pressure_auto_medium">sekundär</string>
+    <string name="pressure_auto_high">På den höga sidan rekommenderas det att rimligen kontrollera trycket</string>
+    <string name="heart_measure_way">Pulsmätning</string>
+    <string name="smart">intelligens</string>
+    <string name="tip_heart_smart_measure">Justera mätfrekvensen dynamiskt efter träningsläget och övervaka din puls intelligent i 24 timmar, vilket hjälper till att spara energi</string>
+    <string name="tip_heart_real_measure">Övervaka din puls 24 timmar i realtid. Pulsdata är mer detaljerade och uppdaterade på ett snabbare sätt, vilket har stor inverkan på energiförbrukningen</string>
+    <string name="real">realtid</string>
+    <string name="heart_rate_limit">Övre hjärtfrekvensgräns</string>
+    <string name="heart_rate_limit_warn">Varning för övre hjärtfrekvens</string>
+    <string name="tip_heart_rate_limit_warn">Påminn om pulsen är högre än%1$d gånger/minut</string>
+
+    <string name="more">mer</string>
+    <!--Nfc-->
+    <string name="nfc_card_bag">Kortpåse</string>
+    <string name="door_key">dörrnyckel</string>
+    <string name="add_door_key">Lägg till dörrnyckel</string>
+    <string name="detail">detaljer</string>
+    <string name="door_key_simulation">Simulering av dörrkort</string>
+    <string name="edit">redigera</string>
+    <string name="door_key_name">Dörrnyckel namn</string>
+    <string name="modify_key_name">Ändra nyckelnamn</string>
+    <string name="delete_card_fail">Misslyckades ta bort kort</string>
+    <string name="save_failed">Spara misslyckades</string>
+    <string name="card_is_existed">Detta kort finns redan, lägg inte till det igen</string>
+    <string name="no_storage_device">Ingen lagringsenhet</string>
+    <string name="nfc_card_over_limit">NFC-kortet har nått den övre gränsen</string>
+    <string name="tips">Tips</string>
+    <string name="analog_nfc_key_card">Simulerat fysiskt passerkort</string>
+    <string name="analog_key_card_to_device">Simulera det befintliga passerkortet till den bärbara enheten</string>
+    <string name="add_time">Lägg till tid</string>
+    <string name="edit_card">Redigera kort</string>
+    <string name="set_default_card">Ange som standardkort</string>
+    <string name="delte_current_card">Ta bort kortet</string>
+    <string name="home">hem</string>
+    <string name="company">företag</string>
+    <string name="prepare_read_card">Förbered dig för att läsa kortet</string>
+    <string name="card_close_phone">Anslut kortet till telefonen för identifiering</string>
+    <string name="card_support_range">Visa dörrkortets stödområde</string>
+    <string name="start_check">Starta detektering</string>
+    <string name="set_commonly_use_card_to_default">Ställ in det gemensamma åtkomstkontrollkortet som standardkort och svep kortet direkt när skärmen är avstängd</string>
+    <string name="keep_device_connect_phone">Håll den bärbara enheten ansluten till mobiltelefonen via Bluetooth och använd inte simuleringsprocessen för bärbar enhet, som tar cirka en minut</string>
+    <string name="add_failed">Misslyckades lägga till</string>
+    <string name="failed_reason">Orsak till misslyckande</string>
+    <string name="system_exception">Systemavvikelser</string>
+    <string name="detailed_analysis">Detaljerad analys</string>
+    <string name="get_data_error">Undantag vid inhämtning av uppgifter eller genomförande av instruktioner</string>
+    <string name="handling_suggestions">Hantera förslag</string>
+    <string name="try_again">Snälla försök igen.</string>
+    <string name="got_it">fick det</string>
+    <string name="detecting">Detektera</string>
+    <string name="detecting_no_move_card">Flytta inte kortet under detektering</string>
+    <string name="detect_success">Upptäckt lyckades</string>
+    <string name="read_card_failed">Kortläsning misslyckades</string>
+    <string name="card_move_fast">Kortet rörde sig för snabbt, försök igen</string>
+    <string name="read_card_failed_encryption">Detta kort är krypterat och stöder inte simulering. \N Försök på ett annat sätt</string>
+    <string name="analog_card_number">Analogt kortnummer</string>
+    <string name="step_sensor">Stegsensor</string>
+    <string name="keep_data_record">Lagring av dataposter</string>
+    <string name="heart_rate_sensor">Pulssensor</string>
+    <string name="blood_oxygen_sensor">Blodsyrasensor</string>
+    <string name="altitude_pressure_sensor">Höjdlufttrycksgivare</string>
+    <string name="fall_detection">Falldetektering</string>
+    <string name="heart_rate_space_mode">Uppdelning av hjärtfrekvensintervallet</string>
+    <string name="percent_of_max_heart_rate">maximal hjärtfrekvens</string>
+    <string name="percentage_of_reserve_heart_rate">Procent av hjärtfrekvensreserven</string>
+
+    <!--Health Service-->
+    <string name="service_none_device">Anslut din enhet för att uppleva glädjen med sport</string>
+    <string name="service_health_data">Hälsoinformation</string>
+
+    <string name="close">stäng</string>
+    <string name="all_day">Öppet hela dagen</string>
+    <string name="time_open">Tid på</string>
+    <string name="start_time">Öppettider</string>
+    <string name="end_time">Sluttid</string>
+    <string name="status_text">Öppna tillstånd</string>
+    <string name="fall_response_way">Fallsvarsläge</string>
+    <string name="response_mode_bright">Ljus skärm</string>
+    <string name="response_mode_shake">chock</string>
+    <string name="response_mode_call">Telefonsamtal</string>
+    <string name="emergency_contact">nödkontakt</string>
+    <string name="tip_emergency_contact">Ring nödkontakt automatiskt när du faller</string>
+    <string name="no_setting">Ej inställd</string>
+    <string name="title_open_sedentary_reminder">Aktivera lång sittpåminnelse</string>
+    <string name="tip_sedentary_reminder">Om du sitter i mer än en timme vibrerar enheten för att påminna dig</string>
+    <string name="free_lunch_break">Inga avbrott under lunchrast</string>
+    <string name="tip_free_lunch_break">12: Påminn mig inte från 00 till 14:00</string>
+    <string name="modification">ändra</string>
+    <string name="mobile">mobiltelefonnummer</string>
+    <string name="save_contact">Spara kontakt</string>
+    <string name="hint_emergency_contact">Fyll i kontaktnumret för nödsituationer</string>
+    <string name="title_emergency_contact">Kontaktinställningar för nödsituationer</string>
+    <string name="next_day">Nästa dag</string>
+    <string name="start_sports_failed">Misslyckades starta rörelse</string>
+    <string name="start" translatable="false">Start</string>
+
+    <!--    实时运动强度状-->
+    <string name="save_sports_status_0">Nonmotil</string>
+    <string name="save_sports_status_1">uppvärmning</string>
+    <string name="save_sports_status_2">Brännfett</string>
+    <string name="save_sports_status_3">Aerob uthållighet</string>
+    <string name="save_sports_status_4">Anaerob uthållighet</string>
+    <string name="save_sports_status_5">gräns</string>
+
+    <!--    储备心率模式-->
+    <string name="real_sports_status_0">Nonmotil</string>
+    <string name="real_sports_status_1">Aerob Basis</string>
+    <string name="real_sports_status_2">Aerob utveckling</string>
+    <string name="real_sports_status_3">Tröskelvärde för mjölksyra</string>
+    <string name="real_sports_status_4">Anaerob bas</string>
+    <string name="real_sports_status_5">Avancerad anaerob</string>
+
+    <string name="step_number_and_unit">Steg</string>
+    <string name="heart_rate_and_unit">Hjärtfrekvens (gånger/minut)</string>
+    <string name="average_heart_rate_and_unit">Genomsnittlig hjärtfrekvens (gånger/minut)</string>
+    <!--Health Sleep-->
+    <string name="sleep_analysis_avg_type1">Den genomsnittliga normala sömntiden på natten är%1$s timmar och%2$s minuter</string>
+    <string name="sleep_analysis_avg_type2">Genomsnittlig procentandel djup sömn%1$s%%</string>
+    <string name="sleep_analysis_avg_type3">Genomsnittlig andel grunt sömn%1$s%%</string>
+    <string name="sleep_analysis_avg_type4">Genomsnittlig snabb ögonrörelsekvot%1$s%%</string>
+    <string name="sleep_analysis_avg_type5">Genomsnittlig kontinuitet i djup sömn%1$s minuter</string>
+    <string name="sleep_analysis_avg_type6">Genomsnittliga vaknatider%1$s</string>
+    <string name="sleep_analysis_type1">Normal sömntid på natten:%1$s timmar,%2$s minuter</string>
+    <string name="sleep_analysis_type2">Djupsömn%1$s%%</string>
+    <string name="sleep_analysis_type3">Låg sömnkvot%1$s%%</string>
+    <string name="sleep_analysis_type4">Snabba ögonrörelser%1$s%%</string>
+    <string name="sleep_analysis_type5">Kontinuitet i djup sömn%1$s minuter</string>
+    <string name="sleep_analysis_type6">%1$s nykterhet gånger</string>
+    <string name="time_duration_type1">%1$s timme%2$s minut</string>
+    <string name="time_duration_type2">%1$spoäng</string>
+    <string name="sleep_score">Sömnpoäng</string>
+    <string name="sober_full">nykter</string>
+    <string name="rapid_eye_movement_full">Snabb ögonrörelse</string>
+    <string name="light_sleep_full">Lätt sömn</string>
+    <string name="deep_sleep_full">Djup sömn</string>
+    <string name="sleep_score_avg">Genomsnittlig sömnpoäng</string>
+    <string name="sober_avg">Genomsnittlig klarhet</string>
+    <string name="rapid_eye_movement_avg">Genomsnittlig snabb ögonrörelse</string>
+    <string name="light_sleep_avg">Genomsnittlig grundlighet</string>
+    <string name="deep_sleep_avg">Genomsnittligt djup</string>
+    <string name="sleep_ratio">Andel</string>
+    <string name="references">Referensvärde:</string>
+    <string name="sleep_nap">Sporadiska tupplurar</string>
+    <string name="sleep_avg_nap">Genomsnittliga sporadiska tupplurar</string>
+    <string name="sleep_total">Total sömn</string>
+    <string name="status_low">Låg</string>
+    <string name="status_high">På den höga sidan</string>
+    <string name="status_normal">normal</string>
+    <string name="status_over_weight">övervikt</string>
+    <string name="status_over_obese">Fetma</string>
+    <string name="tip_waiting">Snälla vänta</string>
+    <string name="empty_sports_record">Inga förflyttningsregister</string>
+    <string name="reach_target_days">%d dagar av kvalificerad träning</string>
+    <string name="weekly_step">Steg per vecka</string>
+    <string name="weekly_distance">En veckas körsträcka</string>
+    <string name="weekly_kcal">Värmeförbrukning</string>
+    <string name="day">dag</string>
+    <string name="long_press_to_stop">Lång tryck till slut</string>
+    <string name="no_data">Inga data</string>
+    <string name="sports_stop">slut</string>
+    <string name="sports_resume">fortsätt</string>
+    <string name="max_heart_rate">Maximal hjärtfrekvens</string>
+    <string name="average_heart_rate">Genomsnittlig hjärtfrekvens</string>
+    <string name="today_step">Steg idag</string>
+    <string name="low_spo2">Lågt syre i blodet</string>
+    <string name="spo2_range">Min Max</string>
+    <string name="min_value">Minsta</string>
+    <string name="max_value">Maximal</string>
+    <string name="last_time">nyaste</string>
+    <string name="outdoor">utomhus</string>
+    <string name="indoor">inomhus</string>
+    <string name="http_tip_400">Ogiltig begäran</string>
+    <string name="http_tip_401">Obehörig</string>
+    <string name="http_tip_403">Ingen åtkomst</string>
+    <string name="http_tip_404">kan inte hitta fil</string>
+    <string name="http_tip_405">Resurser är förbjudna</string>
+    <string name="http_tip_500">Serverreferens</string>
+    <string name="http_tip_501">Dålig gateway</string>
+    <string name="http_tip_504">gateway timeout</string>
+    <string name="http_tip_unknow">okänt fel</string>
+    <string name="percent">%</string>
+
+    <string name="permission_system_set">Gå till Inställningar&gt;Programhantering&gt;Hälsoassistent&gt;Behörigheter</string>
+    <string name="permission_describe_camera">Den här funktionen kräver din kamera. %1$s aktiverar kamerabehörighet att använda den här funktionen normalt</string>
+    <string name="permission_describe_contacts">Den här funktionen kräver din adressbok. %1$s öppna adressboksbehörigheten för att använda den här funktionen normalt</string>
+    <string name="permission_describe_location">Den här funktionen kräver din platsinformation. %1$s öppna platsinformationsbehörigheten för att använda den här funktionen normalt</string>
+    <string name="permission_describe_external_storage">Den här funktionen kräver telefonens minne. %1$s aktiverar fil läs-/skrivbehörighet för att använda den här funktionen normalt</string>
+    <string name="allow">tillåta</string>
+    <string name="open_gps_service_tip">Bluetooth-skanning och parkoppling behöver hämta platsinformation, om platstjänsten ska aktiveras</string>
+    <string name="go_setting">Ställ in</string>
+    <string name="no_movement">Ingen rörelse</string>
+    <string name="open_gps_permission">Öppna platsbehörighet</string>
+    <string name="open_gps_services">Aktivera mobil lokaliseringstjänst</string>
+    <string name="permission_describe_gps_permission_sport">När du använder rörelsespår- och kartrelaterade funktioner, vänligen godkänna "Device Location Information" för att undvika att påverka användningen.</string>
+    <string name="permission_describe_gps_service_sport">För att använda funktionerna relaterade till rörelsespår och karta måste du aktivera mobiltelefonens "plats"-tjänst för att undvika att påverka användningen.</string>
+    <string name="cancel_account_tip">Vill du inte fortsätta använda?</string>
+    <string name="cancel_account">Avbrytning av konto</string>
+    <string name="delete_account_influence">Kontot kan inte återställas efter uppsägning. Vill du fortsätta?</string>
+    <string name="synchronizing_data">Synkronisera data</string>
+    <string name="running_too_short">Om rörelseavståndet är för kort sparas inte säkerhetskopian av posten</string>
+    <string name="slider_to_unlock">Skjut för att låsa upp</string>
+    <string name="please_click_finish_btn">Tryck på slutknappen för att avsluta rörelsen</string>
+    <string name="tip_finished_exercise">Om denna aktivitet ska avslutas</string>
+    <string name="keep_moving">Fortsätt röra på dig</string>
+    <string name="terminate_sport">Slutrörelse</string>
+    <string name="running_set">Körinställningar</string>
+    <string name="copyright">Upphovsrätt ©2021-2024 Copyright av Zhuhai Jieli Technology Co., Ltd</string>
+    <string name="email_register">E-postregistrering</string>
+    <string name="phone_register">Mobiltelefonregistrering</string>
+    <string name="search_password_by_email">Använd e-post för att hämta lösenord</string>
+    <string name="search_password_by_mobile">Använd ditt telefonnummer för att hämta ditt lösenord</string>
+    <string name="device_not_support">Enhet stöds inte</string>
+    <string name="execution_succeeded">Utförande lyckades</string>
+    <string name="cancel">Annullera</string>
+    <string name="double_tap_to_exit">Klicka igen för att avsluta programmet</string>
+    <string name="account_deleted_successfully">Konto raderat med lyckat resultat</string>
+    <string name="network_error_tip">Det verkar vara något fel på nätverket. Kontrollera nätverket</string>
+    <string name="missing_server_information">Saknad serverinformation</string>
+    <string name="inconsistent_motion_state">Inkonsekvent rörelsetillstånd</string>
+    <string name="failed_to_get_weather">Misslyckades få väder</string>
+    <string name="no_weather_data">Inga väderdata</string>
+    <string name="ai_no_speak">Du verkar inte ha börjat prata än.</string>
+    <string name="ai_no_skill">Jag har inte lärt mig den här skickligheten än.</string>
+    <string name="ai_operation_failed">operation misslyckades</string>
+    <string name="ai_operation_completed">Vi har slutfört operationen åt dig</string>
+    <string name="ai_network_wrong">Det finns ett problem med nätverket:(</string>
+    <string name="ai_error_code">Felkod:</string>
+    <string name="ai_is_delete">Är du säker på att radera det?</string>
+    <string name="ai_is_delete_all">Allt innehåll i konversationen tas bort och kan inte ångras. Vill du ta bort det?</string>
+    <string name="ai_cloud_serve">AI molntjänster</string>
+    <string name="multi_select">Multiple Choice</string>
+    <string name="none_session_record">Det finns för närvarande inga konversationsposter</string>
+    <string name="sms_login">Inloggning av verifieringskod</string>
+    <string name="use_account_password_login">Logga in med kontolösenord</string>
+    <string name="detach">ta bort</string>
+    <string name="validate">validera</string>
+    <string name="set_password">Ange lösenord</string>
+    <string name="hint_input_bind_phone_number">Ange det bundna mobiltelefonnumret</string>
+    <string name="ai_no_response">Förlåt, jag kanske inte förstår din fråga. Vänligen ge en detaljerad beskrivning av det innehåll du vill veta, så kommer jag att göra mitt bästa för att hjälpa dig.</string>
+    <string name="wait_ai_response_tip">Jag har inte fått något AI-svar än och den här åtgärden stöds för närvarande inte</string>
+    <string name="style_selection">Stilmarkering</string>
+    <string name="ai_dial_style_1">Bläckmålningsstil</string>
+    <string name="ai_dial_style_2">Realistisk landskapsstil</string>
+    <string name="ai_dial_style_3">3D tecknad stil</string>
+    <string name="ai_dial_style_4">Cyberpunk stil</string>
+    <string name="ai_dial_style_5">Origami stil</string>
+    <string name="ai_dial_style_6">Akvarellsbläckstil</string>
+    <string name="ai_dial">AI-uppringning</string>
+    <string name="custom_dial">Anpassad uppringning</string>
+    <string name="re_crop">Beskär igen</string>
+    <string name="transfer_ing">Överföring</string>
+    <string name="copy">kopiera</string>
+
+    <!--About-->
+    <string name="icp_info">ICP-arkiveringsinformation</string>
+
+    <!--Feedback-->
+    <string name="feedback">Respons</string>
+    <string name="feedback_type">Typ av feedback</string>
+    <string name="problem_feedback">Feedbackfråga</string>
+    <string name="hint_enter_feedback">Ange din detaljerade fråga så löser vi den åt dig så snart som möjligt</string>
+    <string name="hint_enter_phone">Vänligen ange ditt mobiltelefonnummer för enkel kontakt</string>
+    <string name="commit">Skicka in</string>
+    <string name="phone_format_tips">Vänligen ange rätt telefonnummer</string>
+    <string name="phone_empty_tips">Vänligen ange telefonnumret</string>
+    <string name="feedback_empty_tips">Ange feedbackinnehåll</string>
+    <string name="network_exception_tips">Nätverket verkar vara nere, försök igen senare.</string>
+    <string name="feedback_success">Tack för din feedback</string>
+
+    <!--ImageVerifyDialog-->
+    <string name="image_captcha">Bild-Captcha</string>
+    <string name="can_not_see_it">Inte klart? Försök med en annan.</string>
+    <string name="input_captcha_tips">Ange det korrekta captcha, tack.</string>
+    <string name="load_code_failed_tips">Det uppstod ett problem med att ladda in bildverifieringskoden, försök igen senare.</string>
+    <string name="fail_recognize_format">Misslyckades känna igen format.</string>
+
+    <!--TestConfigurationFragment-->
+    <string name="test_configuration">Testkonfiguration</string>
+    <string name="save_configuration">Spara</string>
+    <string name="enable_log_function">Aktivera loggningsfunktionen?</string>
+    <string name="use_device_auth">Ska enhetsautentisering aktiveras?</string>
+    <string name="support_local_ota">Ska lokal OTA aktiveras?</string>
+    <string name="local_ota_desc">Anvisningar för test av lokal OTA:\n1. Uppdateringsfilens namn är fastställt till 【update.zip】 eller 【update.ufw】.\n2. Uppdateringsfilens plats: I mappen \'telefonens rotkatalog/Android/data/%1$s/files/upgrade/\'.</string>
+    <string name="test_custom_cmd">Testa anpassat kommando</string>
+    <string name="click_again_to_test_configuration">Tryck en gång till för att gå till testkonfigurationsgränssnittet.</string>
+    <string name="save_configuration_success">Konfigurationen har sparats, appen kommer snart att avslutas.</string>
+
+    <!--LogFileFragment-->
+    <string name="log_file">Skriv ut loggar</string>
+    <string name="clear_log_file">Rensa</string>
+    <string name="remove_file">Ta bort</string>
+    <string name="file_not_found">Filen finns inte</string>
+    <string name="open_file_failed_by_other_app">Det finns inget program tillgängligt för att öppna filen</string>
+    <string name="open_file_exception">Fel vid filöppning</string>
+    <string name="download_file_permission_tips">Nedladdningsfunktionen kräver att användaren tillåter läsning och skrivning till telefonens lagring.</string>
+    <string name="download_file_permission_denied_tips">Nedladdningsfunktionen kräver åtkomst. Be användaren att gå till systemets behörighetshantering för att ge tillstånd.。</string>
+    <string name="download_file_successful">Nedladdning av filen lyckades</string>
+    <string name="download_file_exception">Fel vid nedladdning av fil</string>
+    <string name="share_log_file">Dela utskriftsloggar</string>
+    <string name="share_file_exception">Fel vid delning av fil</string>
+
+    <!--CustomCmdTestFragment-->
+    <string name="input_custom_data">Ange anpassade data</string>
+    <string name="log_content">Logg innehåll</string>
+    <string name="hint_input_hex_data">Var god ange hex-data</string>
+    <string name="send_custom_cmd">Skicka anpassat kommando</string>
+
+    <!--Operation-->
+    <string name="operation_failed">%1$s misslyckades</string>
+    <string name="error_code">Felkod</string>
+    <string name="op_delete_file">Ta bort fil</string>
+    <string name="op_delete_folder">Ta bort alla filer</string>
+
+</resources>

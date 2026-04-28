@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">WearLink</string>
+
+    <!--HomeActivity-->
+    <string name="tab_health">健康</string>
+    <string name="tab_sports">うんどう</string>
+    <string name="tab_device">デバイス</string>
+    <string name="tab_settings">設定＃セッテイ＃</string>
+    <string name="tab_mine">マイ</string>
+
+    <string name="search_phone">デバイス検索携帯電話で…</string>
+    <string name="close_play">サウンドを閉じる</string>
+
+    <!--Load More View-->
+    <string name="status_loading">読み込んでいます&#8230;</string>
+    <string name="status_load_complete">クリックしてさらに読み込む</string>
+    <string name="status_load_end">もうデータはありません</string>
+    <string name="status_load_failed">読み込みに失敗しました。クリックしてもう一度お試しください</string>
+
+    <!--action-->
+    <string name="scan_qr_code">QRコードをスキャン</string>
+    <string name="add_device">デバイスの追加</string>
+    <string name="sports_settings">モーション設定</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">こんにちは、空白のインタフェース</string>
+    <string name="calendar_type_day">日</string>
+    <string name="calendar_type_week">周</string>
+    <string name="calendar_type_year">年</string>
+    <string name="blood_oxygen_saturation">酸素飽和度</string>
+    <string name="movement_record">うんどうきろく</string>
+    <string name="empty_record">レコードなし</string>
+    <string name="heart_rate">心拍数</string>
+    <string name="sleep">スリープ</string>
+    <string name="today_empty_data">今日はデータがありません</string>
+    <string name="weight">体重</string>
+    <string name="pressure">あつりょく</string>
+    <string name="kilogram">キログラム</string>
+    <string name="calendar_type_month">月</string>
+    <string name="distance_km">距離（キロ）</string>
+    <string name="distance_mile">距離（マイル）</string>
+    <string name="climbing_stairs_m">ビルを登る（メートル）</string>
+    <string name="climbing_stairs_foot">ビルを登る（フィート）</string>
+    <string name="calories_kcal">熱（キロカロリー）</string>
+    <string name="step">ステップ</string>
+    <string name="step_number">ステップ数</string>
+    <string name="medium_high_strength">中高強度</string>
+    <string name="min">分</string>
+    <string name="average_step">平均ステップ数</string>
+    <string name="all_step">合計ステップ数</string>
+    <string name="all_mile">そうごうきょり</string>
+    <string name="all_consumption">総消費量</string>
+    <string name="kilocalorie">キロカロリー</string>
+    <string name="kilometre">キロ</string>
+    <string name="weight_setting">体重の設定</string>
+    <string name="weight_target">体重目標</string>
+    <string name="date">日付</string>
+    <string name="time">時間</string>
+    <string name="weekly_average">しゅうへいきん</string>
+    <string name="daily_average">日平均</string>
+    <string name="month_average">月平均</string>
+    <string name="year_average">年平均</string>
+    <string name="range_of_variation">へんか</string>
+    <string name="weight_start_data">開始:%1f</string>
+    <string name="weight_target_data">目標:%1f</string>&gt;
+    <string name="kg">kg</string>
+    <string name="sober">はっきりした</string>
+    <string name="rapid_eye_movement">すばやく目を動かす</string>
+    <string name="light_sleep">浅い眠り</string>
+    <string name="deep_sleep">深く眠る</string>
+    <!--Health- Pressure-->
+    <string name="uptilted">かたより</string>
+    <string name="medium">中程度</string>
+    <string name="normal">通常</string>
+    <!--Login-->
+    <string name="login">ログイン＃ログイン＃</string>
+    <string name="hint_input_phone_number_or_email">携帯電話番号/メールアドレスを入力してください</string>
+    <string name="hint_input_phone_number">携帯電話番号を入力してください</string>
+    <string name="hint_input_password">パスワードを入力してください</string>
+    <string name="login_by_sms">認証コードを使用したログイン</string>
+    <string name="forgot_password">パスワードを忘れる？</string>
+    <string name="register_tips">アカウントはありませんか？今すぐ登録</string>
+    <string name="phone_or_email_tips_empty">携帯電話番号/メールボックスを空にすることはできません</string>
+    <string name="phone_or_email_tips_format_err">携帯電話番号/メールボックスのフォーマットが正しくありません</string>
+    <string name="phone_tips_empty">携帯電話番号を空にすることはできません</string>
+    <string name="phone_tips_format_err">携帯電話番号のフォーマットが正しくありません</string>
+    <string name="email_address_tips_empty">メールアドレスを空にすることはできません</string>
+    <string name="email_address_tips_format_err">メールアドレスのフォーマットが正しくありません</string>
+    <string name="password_tips_empty">パスワードを空にすることはできません</string>
+    <string name="password_tips_format_err">パスワードの長さは6～12ビットでなければなりません</string>
+    <string name="register_succeed">登録に成功しました</string>
+    <string name="login_by_account">アカウントパスワードによるログイン</string>
+    <!--帐号与安全-->
+    <string name="search">検索けんさく</string>
+    <string name="account_security">アカウントとセキュリティ</string>
+    <string name="modify_phone_number">携帯電話番号の変更</string>
+    <string name="modify_email_address">メールアドレスの変更</string>
+    <string name="change_password">パスワードの変更</string>
+    <string name="change">交換</string>
+    <string name="bind_new_phone_number">新しい携帯番号のバインド</string>
+    <string name="bind_new_email_address">新しいメールアドレスのバインド</string>
+    <string name="modify_binded_phone_number">バインドされた携帯電話番号を変更しますか？</string>
+    <string name="current_binded_phone_number">現在バインドされている携帯電話番号は</string>
+    <string name="modify_binded_email_address">バインドされたメールアドレスを交換しますか？</string>
+    <string name="current_binded_email_address">現在バインドされているメールアドレスは</string>
+    <string name="authentication">認証</string>
+    <string name="authentication_tip">本人が操作していることを確認するために、認証を行ってください。</string>
+    <string name="sms_verification_code">SMS認証コード</string>
+    <string name="bind_new_phone_number_success">新しい携帯番号のバインドに成功！</string>
+    <string name="bind_new_email_address_success">新しいメールアドレスのバインドに成功しました！</string>
+    <string name="modified_success">変更に成功しました</string>
+    <string name="old_password">古いパスワード</string>
+    <string name="input_old_password">古いパスワードを入力</string>
+    <string name="new_password">新しいパスワード</string>
+    <string name="password_input_tip">6～12文字と数字を組み合わせた新しいパスワードを設定してください</string>
+    <string name="inout_new_password">新しいパスワードを入力</string>
+    <string name="inout_new_password_again">新しいパスワードを再入力</string>
+    <string name="password_is_inconsistent">パスワードが一致しません。再入力してください</string>
+    <string name="phone_number_is_empty">携帯番号を空にすることはできません</string>
+    <string name="sms_verification_code_error">SMS認証コードエラー</string>
+    <string name="current_phone_registered">現在携帯電話が登録されています</string>
+    <string name="current_phone_no_register">現在のアカウントは登録されていません</string>
+    <string name="account_password_error">アカウントパスワードが間違っています</string>
+    <string name="new_password_no_be_empty">新しいパスワードを空にすることはできません</string>
+    <string name="old_password_error">古いパスワードエラー</string>
+    <!--Register-->
+    <string name="register">登録</string>
+    <string name="input_verification_code">認証コードの入力</string>
+    <string name="send_sms_code">認証コードの送信</string>
+    <string name="resend_sms_code">再取得(%1$s)</string>
+    <string name="input_identifying_code">認証コードの入力</string>
+    <string name="send_identifying_code">認証コードの送信</string>
+    <string name="resend_identifying_code">再取得(%1$s)</string>
+    <string name="input_password_tips">6～12桁の英字と数字を組み合わせたパスワードを設定してください</string>
+    <string name="sms_code_tips_empty">認証コードを空にすることはできません</string>
+    <string name="sms_code_tips_format_err">認証コードの形式が正しくありません</string>
+    <string name="identifying_code_tips_empty">認証コードを空にすることはできません</string>
+    <string name="identifying_code_tips_format_err">認証コードの形式が正しくありません</string>
+    <string name="hint_input_email">メールアドレスを入力してください</string>
+
+    <!--User Message-->
+    <string name="input_user_msg">個人情報の充実</string>
+    <string name="nickname">ニックネーム</string>
+    <string name="sex">性別</string>
+    <string name="date_of_birth">生年月日</string>
+    <string name="stature">身長</string>
+    <string name="sport_target">運動目標</string>
+    <string name="next_step">次のステップ</string>
+    <string name="skip_progress">スキップ</string>
+
+    <string name="please_input">入力してください</string>
+    <string name="please_choose">選択してください</string>
+    <string name="heart_rate_range">心拍数範囲</string>
+    <string name="times_per_minute">回/分</string>
+    <string name="resting_heart_rate">せいしんりつ</string>
+    <string name="resting_heart_rate_avg">平均静止心拍数</string>
+    <string name="static_heart_rate_too_high">静的心拍数が高すぎる</string>
+    <string name="low_resting_heart_rate">静的心拍数が低すぎる</string>
+
+    <!--Sex Dialog-->
+    <string name="man">男</string>
+    <string name="woman">女</string>
+    <string name="hour">時間</string>
+    <string name="minute">分</string>
+    <string name="score">分</string>
+
+
+    <!--Permission-->
+    <string name="open_gpg_tip">アプリケーションにはGPS機能が必要です。続行するには測位サービスを開いてください</string>
+    <string name="permissions_tips_01">ソフトウェアを正常に使用するためには、</string>
+    <string name="permission_contacts">リード/ライト可能な連絡先</string>
+    <string name="permission_mic">マイクの使用を許可</string>
+    <string name="permission_read_phone_state">携帯電話の情報読み取りを許可</string>
+    <string name="permission_location">位置情報の取得を許可</string>
+    <string name="permission_storage">ファイルの読み書きを許可</string>
+    <string name="permission_bluetooth">Bluetoothの使用を許可</string>
+    <string name="permission_phone_settings">携帯電話の設定変更を許可する</string>
+    <string name="permissions_tips_02">システム設定へアプリケーションを付与してください</string>
+    <string name="permission">アクセス権</string>
+    <string name="permission_sport">モーションアクセス権の設定</string>
+    <string name="permission_sport_tips">Androidは省電力設定とバックグラウンドプロセスの制限のため、運動を記録している%1$sをオフにしたり、運動記録データの一部が失われたりする可能性があります。問題が発生した場合は、次の方法設定を参照してください。</string>
+    <string name="permission_sport_suspension_title">他のアプリケーションでの上部表示（浮遊窓）設定</string>
+    <string name="permission_sport_suspension_describe">運動中に携帯電話システムに誤ってプロセスを殺されず、運動データが失われないようにするために、%1$s浮遊窓権限を付与してください</string>
+    <string name="permission_sport_suspension_operate">浮遊窓のアクセス権を開く</string>
+    <string name="permission_sport_battery_optimized_title">バッテリ最適化</string>
+    <string name="permission_sport_battery_optimized_describe">省電力モードでは、%1$sの実行にまだ制限がある可能性があります。運動を開始するときは、できるだけ電力量が十分な状態になるようにし、省電力モードをオフにしてください。関連設置入口は一般的に状態欄や電池関連設置にある。</string>
+    <string name="permission_sport_battery_optimized_operate_1">バッテリの最適化をオンにし、閉じるをクリック</string>
+    <string name="permission_sport_battery_optimized_operate_2">バッテリ最適化がオフ</string>
+    <string name="permission_sport_background_title">バックグラウンド保護設定</string>
+    <string name="permission_sport_background_describe">バックグラウンド保護リストに%1$sを追加すると、バックグラウンドで%1$sを継続的に実行するのをある程度助けることができます。 n設定方法：</string>
+    <string name="permission_sport_background_operate">バックグラウンド保護システム設定を開く</string>
+    <string name="permission_sport_powersave_title">省電力モード</string>
+    <string name="permission_sport_powersave_describe">システムの省電力設定により、appは凍結状態になります。モーションデータなどのバックグラウンドアクティビティを記録しても影響を受けないようにするには、%1$sをバッテリ最適化ホワイトリストに追加してください。 n設定方法：</string>
+    <string name="permission_sport_powersave_oprate">アンチスリープシステム設定を開く</string>
+    <string name="lock_screen_display">ロックスクリーン表示</string>
+    <string name="locak_screen_display_hint">設定方法：情報の適用-&gt;権限管理-&gt;画面表示のロック</string>
+    <string name="instructions_for_use">使用説明</string>
+    <string name="permissions_camera">カメラの許可</string>
+    <string name="permissions_bluetooth">Bluetooth の許可</string>
+    <string name="permissions_location">位置情報の許可</string>
+    <string name="permissions_storage">ストレージのアクセス許可</string>
+    <string name="permissions_read_contact">連絡先情報の読み取り許可</string>
+    <string name="permissions_camera_explain">スキャン、アバターの設定、カスタムウォッチフェイスの背景の設定、その他の機能に使用されます。</string>
+    <string name="permissions_bluetooth_explain">Bluetooth デバイスの検索と接続、Bluetooth デバイスとの通信、その他の機能に使用されます。</string>
+    <string name="permissions_location_explain">Bluetooth 機能、天気情報、地図位置、運動軌跡などの機能に使用されます。</string>
+    <string name="permissions_storage_explain">音楽ファイルの読み込み、アバターの設定、ギャラリーの読み込み、その他の機能に使用されます。</string>
+    <string name="permissions_read_contact_explain">連絡先情報をデバイスに同期するために使用されます。</string>
+    <string name="rejust_permissions_tips">有効化を拒否すると、上記の機能が利用できなくなります。</string>
+
+    <!-- reset password-->
+    <string name="password">パスワード</string>
+    <string name="finish">完了</string>
+    <string name="sms_check">けんさ</string>
+    <string name="hint_text_password_again_input">パスワードを再確認してください</string>
+
+    <!--Add Device-->
+    <string name="connect">せつぞく</string>
+    <string name="status_disconnect">接続されていません</string>
+    <string name="status_connected">接続済み</string>
+    <string name="status_connecting">接続中</string>
+    <string name="add">追加</string>
+    <string name="no_device_tips">デバイスが空です</string>
+    <string name="user_denies_permissions">関連する権限をシステムで\"%1$s\"に付与してください</string>
+    <string name="start_scan_failed">スキャンデバイスの起動に失敗しました。後で再試行してください</string>
+    <string name="bluetooth_is_close">Bluetoothがオフになっているので、Bluetoothをオンにしてみてください</string>
+
+    <!--Watch Control-->
+    <string name="restore_watch_system_success">システムのリカバリに成功しました</string>
+    <string name="restore_watch_system_failure">システムのリカバリに失敗しました。理由:%1$s</string>
+    <string name="battery_format">電力量 %1$d%%</string>
+    <string name="local_watch">ローカル文字盤</string>
+    <string name="watch_market_all">すべて</string>
+    <string name="using_watch">使用中</string>
+    <string name="use_watch">使用</string>
+    <string name="update_watch">更新</string>
+    <string name="download_watch">ダウンロード</string>
+    <string name="buy_watch">購入する</string>
+
+    <string name="health_record">健康</string>
+    <string name="music_manager">音楽管理</string>
+    <string name="device_music">デバイス音楽</string>
+    <string name="alarm">目覚まし時計</string>
+    <string name="contacts">一般的な連絡先</string>
+    <string name="card_bag">パスケース</string>
+    <string name="firmware_upgrade">デバイスバージョンの更新</string>
+    <string name="science_sleep">スリープ検出</string>
+    <string name="turned_on">オープン</string>
+    <string name="turned_off">閉じる</string>
+    <string name="sedentary_reminder">長居注意</string>
+    <string name="sedentary_reminder_tip">1時間以上長居して注意する</string>
+    <string name="continuous_measurement_heart_rate">心拍数の連続測定</string>
+    <string name="heart_rate_range_early_warning">運動心拍数の注意</string>
+    <string name="pressure_auto_testing">圧力自動検出</string>
+
+    <string name="retrieve_password">パスワードを取り戻す</string>
+    <string name="reset_password">パスワードをリセット</string>
+    <string name="call_phone_error_tips">電話中の状態です。後で操作してください</string>
+
+
+    <!-- Mine -->
+    <string name="mine_my_data">マイデータ</string>
+    <string name="mine_sport_weekly">スポーツ週報</string>
+    <string name="mine_setting">設定＃セッテイ＃</string>
+    <string name="mine_help">ヘルプ</string>
+    <string name="mine_about">について</string>
+
+    <string name="user_info">個人情報</string>
+    <string name="user_info_avatar">アイコン</string>
+    <string name="health_state">健康状態</string>
+    <string name="activity_statistics">アクティビティ統計</string>
+    <string name="target">ターゲット</string>
+    <string name="format_birthday_year_month">%1$d年%2$d月</string>
+    <string name="format_height">%1$d cm</string>
+    <string name="format_step_number_target">%1$dステップ</string>
+    <string name="hint_input_nickname">ニックネームを入力してください</string>
+    <string name="save">保存＃ホゾン＃</string>
+    <string name="tip_nickname_null">ニックネームを空白にすることはできません</string>
+    <string name="sure">を選択して、</string>
+    <string name="distance">そうごうきょり</string>
+    <string name="climb">よじ登る</string>
+    <string name="heat">ねつりょう</string>
+    <string name="distance_m">メートル</string>
+    <string name="kcal">キロカロリー</string>
+    <string name="relax">リラックス</string>
+    <string name="alert">メッセージ通知</string>
+    <string name="sensor_setting">センサ設定</string>
+    <string name="open">オープン</string>
+    <string name="weather_push">天気プッシュ</string>
+    <string name="clean_cache">キャッシュのクリーンアップ</string>
+    <string name="tip_clean_cache">ユーザーキャッシュデータを消去するかどうか</string>
+    <string name="bright_screen">手首を上げてスクリーンを明るくする</string>
+    <string name="tip_bright_screen">手首を上げて画面を自分に向けると画面が点灯します</string>
+    <string name="bright_screen_hint">邪魔しないモードでは腕を上げて画面が明るくならない</string>
+    <string name="bluetooth_disconnect_tip">Bluetooth切断通知</string>
+    <string name="target_consume">約%1$dキロカロリーを消費</string>
+    <string name="target_step">目標ステップ数</string>
+    <string name="target_weight">目標体重</string>
+    <string name="multilingual">多言語</string>
+    <string name="simplified_chinese">簡体字中国語</string>
+    <string name="follow_system">フォローアップシステム</string>
+    <string name="english">English</string>
+    <string name="japanese">日本語</string>
+    <string name="korean">韓国語</string>
+    <string name="french">フランス語</string>
+    <string name="german">フランス語</string>
+    <string name="italian">イタリア語</string>
+    <string name="portuguese">ポルトガル語</string>
+    <string name="spanish">スペイン語</string>
+    <string name="swedish">スウェーデン語</string>
+    <string name="polish">ポーランド語</string>
+    <string name="russian">ロシア語</string>
+    <string name="turkish">トルコ語</string>
+    <string name="hebrew">ヘブライ語</string>
+    <string name="thai">タイ語</string>
+    <string name="arabic">アラビア語</string>
+    <string name="vietnamese">ベトナム語</string>
+    <string name="indonesian">インドネシア語</string>
+    <string name="malay">マレー語</string>
+    <string name="persian">ペルシア語</string>
+    <string name="set_language">言語の設定</string>
+    <string name="unit_settings">単位設定</string>
+    <string name="unit_metric">メートル法</string>&gt;
+    <string name="unit_imperial">イギリス</string>
+    <string name="format_weight">%1$d kg</string>
+    <string name="no_nickname">ニックネームが設定されていません</string>
+    <string name="user_agreement">ユーザプロトコル</string>
+    <string name="privacy_policy">プライバシーポリシー</string>
+    <string name="current_app_version">現在のバージョン:%1$s</string>
+    <string name="agree_and_use">に同意</string>
+    <string name="not_agree_and_exit">拒否</string>
+    <string name="privacy_policy_name">"プライバシーポリシー"</string>
+    <string name="user_service_name">「利用規約」</string>
+    <string name="declaration">%1$s宣言</string>
+    <string name="user_declaration">「%1$s」は、ユーザーのスポーツ健康データを記録・分析し、プロのスポーツ健康指導やスマートウェアラブルデバイス管理サービスをユーザーに提供するためのソフトウェアです。 上記の目的を達成するために、
+         サービスを提供する際、関連情報を収集し、次の権限を使用する必要がある場合があります: カメラの使用、位置情報の使用、Bluetooth 権限の使用、
+         カレンダーを読み、連絡先を読み、Web にアクセスします。 心拍数、睡眠、血中酸素、運動記録、その他の運動データをクラウドに同期する必要があります。
+         私たちはあなたのプライバシー保護と個人情報保護を非常に重視しています.「%2$s」アプリを使用する前に、####と****のすべての条件をよくお読みになり、同意してからご利用ください.サービスのすべての条件に同意します。</string>
+    <string name="agree_policy_tips">#### と **** を読み、同意しました</string>
+    <string name="check_policy_status_tips">利用規約とプライバシーポリシーを読んで同意してください</string>
+
+    <string name="add_music">音楽を追加</string>
+    <string name="download_music">音楽を同期して視聴する %1$d/%2$d</string>
+    <string name="transfer_info">転送中(%1$d/%2$d)</string>
+
+    <string name="message_notify">に知らせる</string>
+    <string name="sync_wechat">ウィーチャット</string>
+    <string name="sync_qq">QQ</string>
+    <string name="sync_sms">ショートメッセージ</string>
+    <string name="sync_other">その他</string>
+
+    <!--Watch Market-->
+    <string name="watch_market">文字盤商城</string>
+    <string name="manager">管理</string>
+    <string name="delete_watch_tip">文字盤は2つ未満にすることはできません</string>
+    <string name="last_page">私には一線があるよ</string>
+    <string name="delete_watch_err">文字盤[%1$s]の削除に失敗しました。理由は%2$sです</string>
+    <string name="create_watch_err">文字盤[%1$s]のダウンロードに失敗しました。理由は%2$sです</string>
+    <string name="update_watch_err">文字盤[%1$s]の更新に失敗しました。理由は%2$sです</string>
+    <string name="transfer_file_warning">ファイルの転送中は、Bluetoothとネットワークを開いたままにしてください nデバイスと画面ロック付き携帯電話を閉じないでください</string>
+    <string name="device_is_disconnected">デバイスが接続されていません</string>
+    <string name="server_none_device_support_version">デバイスサポートされていないバージョン</string>
+
+    <!--Dial Detail-->
+    <string name="watch_dial">文字盤</string>
+    <string name="my_dials">マイ文字盤</string>
+    <string name="free_dial">フリーダイヤル</string>
+    <string name="pay_dial">有料ダイヤル</string>
+    <string name="dial_desc">【文字盤概要】</string>
+    <string name="download_dial">ダウンロード中</string>
+    <string name="update_dial">更新中</string>
+    <string name="purchase_record">購買履歴</string>
+    <string name="handle_dial_tips">ファイルを転送しています。現在のインタフェースを終了しないでください</string>
+
+    <!--Payment-->
+    <string name="product_name">商品名称</string>
+    <string name="product_price">商品の金額</string>
+    <string name="pay_way">支払い方法</string>
+    <string name="pay_way_tips">支払い方法を選択してください</string>
+    <string name="ali_pay">アリペイ決済</string>
+    <string name="weixin_pay">ウィーチャットペイ</string>
+    <string name="whether_payment_finish">支払いは完了していますか。</string>
+    <string name="unfinished">未完了</string>
+    <string name="finished">完了</string>
+
+    <string name="payment_success">支払いに成功しました</string>
+    <string name="payment_failed">支払いが完了していません。再支払いしてください</string>
+    <string name="payment_processing">支払い処理中ですので、少々お待ちください</string>
+    <string name="payment_error">支払いに失敗しました</string>
+    <string name="payment_duplex">繰り返し要求します。しばらく待ってから試してください</string>
+    <string name="payment_user_cancel">ユーザーによる支払取消</string>
+    <string name="payment_network">支払いに失敗し、ネットワークに問題が発生しました</string>
+    <string name="payment_unknown">不明なエラー</string>
+    <string name="use_dial">使用しない</string>
+
+    <string name="no_purchase_record">購入履歴はありません</string>
+
+    <!--Upgrade-->
+    <string name="upgrade">アップグレード</string>
+    <string name="current_dev_version">現在のバージョン</string>
+    <string name="latest_version">最新バージョン</string>
+    <string name="check_update">更新のチェック</string>
+    <string name="dev_ota">ファームウェアアップデート</string>
+    <string name="upgrade_warning">アップグレード中は、Bluetoothとネットワークを開いたままにしてください nデバイスとロック付き携帯電話を閉じないでください</string>
+    <string name="ota_result_success">アップグレード完了</string>
+    <string name="ota_result_failed">アップグレードに失敗しました</string>
+    <string name="ota_result_cancel">アップグレードがキャンセルされました</string>
+    <string name="new_ota_version">新しいバージョン%1$s</string>
+    <string name="ota_state_ready">アップグレードの準備</string>
+    <string name="ota_state_check_file">アップグレード検証</string>
+    <string name="ota_state_updating">アップグレード中</string>
+    <string name="ota_state_finish">アップグレード終了</string>
+    <string name="update_resource_tips">文字盤リソースを転送中(%1$d/%2$d)</string>
+    <string name="resource_unfinished_tips">リソースのアップグレードが完了していないと、デバイスが使用できなくなります。リソースのアップグレードを続行しますか？</string>
+    <string name="firmware_mandatory_upgrade">デバイスのアップグレードが完了していません。正常に使用するには、アップグレードを続行する必要があります</string>
+    <string name="network_module_ota_upgrade_tips">4G モジュールのアップグレードが完了していません。アップグレードを続行しますか?</string>
+    <string name="upgrade_warning_tips">アップグレードの警告</string>
+    <string name="exit_and_disconnect">強制終了</string>
+    <string name="continue_upgrade">アップグレードを続行</string>
+    <!--ota err-->
+    <string name="ota_err_no_space">アップグレードスペースが不足しているので、続行する前に文字盤ファイルを削除してください</string>
+    <string name="ota_err_device_not_connect">アップグレードされたデバイスは接続されていません。デバイスが正常に接続されていることを確認してください</string>
+    <string name="ota_err_low_power">アップグレードするには、デバイスのバッテリー残量が %1$s を超えている必要があります</string>
+    <string name="ota_err_file_info">バージョンアップファイル情報エラー</string>
+    <string name="ota_err_file_same_version">アップグレード ファイルのバージョンは、デバイスのバージョンと同じです</string>
+    <string name="ota_err_tws_not_connect">デバイスはペアリングされておらず、接続されていません</string>
+    <string name="ota_err_not_in_charging_bin">ヘッドセットが充電コンパートメントにありません</string>
+    <string name="ota_err_data_crc_check">アップグレードデータ検証エラー</string>
+    <string name="ota_err_failed">アップグレードに失敗しました</string>
+    <string name="ota_err_key_mismatch">キーの不一致</string>
+    <string name="ota_err_uboot_mismatch">UBoot の不一致</string>
+    <string name="ota_err_data_len">アップグレード中に長さエラーが発生しました</string>
+    <string name="ota_err_flash_io">フラッシュの読み取りおよび書き込みエラーが発生する</string>
+    <string name="ota_err_cmd_timeout">コマンドタイムアウト</string>
+    <string name="ota_err_data_offset">データ オフセットの読み取りエラー</string>
+    <string name="ota_err_reconnect_device_timeout">デバイスへの接続がタイムアウトしました</string>
+    <string name="ota_err_waiting_for_cmd_timeout">コマンド待ちタイムアウト</string>
+    <string name="ota_err_send_data_timeout">送信コマンドがタイムアウトしました</string>
+    <string name="ota_err_update_data">アップグレード データの読み取りに失敗しました</string>
+    <string name="ota_err_not_found_file">アップグレード ファイルが見つかりません</string>
+    <string name="ota_err_bad_status">デバイスが失敗ステータスを返しました</string>
+    <string name="ota_err_bad_result">デバイスは失敗した結果を返しました</string>
+    <string name="ota_err_unknown">不明なアップグレード エラー</string>
+
+    <!--闹钟-->
+    <string name="named">の名前をあげる</string>
+    <string name="alarm_open_success">目覚まし時計をつけて成功</string>
+    <string name="alarm_open_failure">目覚まし時計を開けて失敗しました</string>
+    <string name="alarm_close_success">アラームを閉じることに成功しました</string>
+    <string name="alarm_close_failure">アラームを閉じることに失敗しました</string>
+    <string name="operate_alarm_failure">目覚まし時計の操作に失敗しました</string>
+    <string name="alarm_list_read_failed">アラームリストの読み取りに失敗しました</string>
+    <string name="delete">削除</string>
+    <string name="alarm_set_num_is_full">目覚まし時計の数がいっぱいになりました</string>
+    <string name="alarm_delete_failure">アラーム削除に失敗しました</string>
+    <string name="alarm_delete_success">目覚まし時計の削除に成功しました</string>
+
+    <string name="alarm_stop_success">目覚まし時計停止成功</string>
+    <string name="alarm_stop_failed">アラーム停止失敗</string>
+    <string name="alarm_delete">アラームを削除</string>
+    <string name="sync_time">デバイス時間同期</string>
+    <string name="sync_time_success">同期時間成功</string>
+    <string name="sync_time_failed">同期時間に失敗しました</string>
+
+
+    <string name="save_alarm_failed_no_modify">目覚まし時計は修正されていません</string>
+    <string name="save_alarm_failed">目覚まし時計の保存に失敗しました</string>
+    <string name="save_alarm_success">目覚まし時計の保存に成功しました</string>
+    <string name="choose_repeat_mode_tip">モードを選択してください</string>
+    <string name="alarm_name_can_not_be_empty">アラーム名を空白にすることはできません</string>
+    <string name="alarm_name_length_too_long">目覚まし時計の名前が長すぎる</string>
+    <string name="alarm_name_format_error">アラーム名入力形式エラー</string>
+    <string name="default_alarm_name">目覚まし時計</string>
+    <string name="default_alarm_custom">カスタム＃カスタム＃</string>
+    <string name="alarm_edit_title">アラーム編集</string>
+    <string name="alarm_create_title">新しい目覚まし時計</string>
+    <string name="alarm_repeat_on_workday">月曜日から金曜日まで</string>
+    <string name="alarm_repeat_every_day">毎日</string>
+    <string name="alarm_repeat_single">シングル</string>
+    <string name="alarm_repeat_week">周</string>
+    <string name="alarm_repeat_mon">月曜日</string>
+    <string name="alarm_repeat_tue">火曜日</string>
+    <string name="alarm_repeat_wed">水曜日</string>
+    <string name="alarm_repeat_thu">木曜日</string>
+    <string name="alarm_repeat_fri">金曜日</string>
+    <string name="alarm_repeat_sat">土曜日</string>
+    <string name="alarm_repeat_sun">日曜日</string>
+    <string name="alarm_repeat_simple_mon">月</string>
+    <string name="alarm_repeat_simple_tue">火</string>
+    <string name="alarm_repeat_simple_wed">水</string>
+    <string name="alarm_repeat_simple_thu">木</string>
+    <string name="alarm_repeat_simple_fri">金</string>
+    <string name="alarm_repeat_simple_sat">土</string>
+    <string name="alarm_repeat_simple_sun">日</string>
+
+    <!--AlarmSettings-->
+    <string name="alarm_settings">目覚まし時計の管理</string>
+    <string name="bell">ベル</string>
+    <string name="repeat">くりかえし</string>
+    <string name="light">ライトらいと</string>
+    <string name="alarm_state">ステータス</string>
+    <string name="delete_alarm_tip">アラームを削除するかどうか</string>
+    <string name="stop_alarm">ストップ</string>
+    <string name="alarm_running">目覚まし時計が鳴っている</string>
+    <string name="unnamed">名前なし</string>
+    <string name="hint_input_alarm">目覚まし時計の名前を入力してください</string>
+
+    <string name="alarm_bell_1">ベル0</string>
+    <string name="alarm_bell_2">ベル2</string>
+    <string name="alarm_bell_3">ベル3</string>
+    <string name="alarm_bell_4">ベル4</string>
+    <string name="alarm_bell_5">ベル5</string>
+    <string name="alarm_default_bell">デフォルト</string>
+    <string name="alarm_count_tip">目覚まし時計をセットし、時計に同期すると、時計が振動して注意します。目覚まし時計は最大5つまで設定できます。</string>
+    <string name="alarm_bell_list_read_failed">デフォルトベルリストの取得に失敗しました</string>
+
+    <string name="alarm_bell_time">目覚まし時計の時間</string>
+    <string name="min_format">%1$d分</string>
+    <string name="alarm_bell_interval">さいおんかんかく</string>
+    <string name="bell_repeat_count_title">繰り返し鳴動回数</string>
+    <string name="bell_interal_time_title">繰り返し間隔（分）</string>
+    <string name="interval_format">%1$d分、%2$d回</string>
+    <string name="count_format">次</string>
+
+
+    <!-- file -->
+    <string name="msg_read_file_err_reading">デバイスが忙しいので、後で再試行してください！</string>
+    <string name="msg_read_file_err_offline">デバイスがオンラインではありません！</string>
+    <string name="msg_read_file_err_beyond_max_depth">可読レベルを超えて！</string>
+    <string name="empty_folder">空のフォルダ</string>
+    <string name="get_music_info_failed">音楽情報の取得に失敗しました</string>
+
+    <!-- 联系人-->
+    <string name="tip_not_contact">共通の連絡先がありません</string>
+    <string name="tip_add_contact">腕時計に共通の連絡先を設定することで、通話を迅速に開始でき、設定した連絡先は自動的にデバイスに同期します。</string>
+    <string name="tip_max_contacts_can_add">腕時計に一般的な連絡先%1$dビットを追加することができます。設定した共通の連絡先は自動的にデバイスに同期されます。</string>
+    <string name="sort">ソート＃ソート＃</string>
+    <string name="hint_search_contact">連絡先の検索</string>
+    <string name="unchose">選択されていません</string>
+    <string name="format_contact_chose_count">%1$d個が選択されました</string>
+    <string name="tip_max_contact_err">最大%1$dの連絡先を選択</string>
+    <string name="tip_update_contact_failed">連絡先の更新に失敗しました</string>
+    <string name="tip_sync_contact_failed">連絡先の同期に失敗しました</string>
+    <string name="tip_cancel_get_contact">連絡先の取得解除</string>
+    <string name="tip_cancel_update_contact">連絡先の更新を解除</string>
+
+    <!-- 音乐管理 -->
+    <string name="tip_transfer_finish">転送完了</string>
+    <string name="tip_transfer_canceled">転送がキャンセルされました</string>
+    <string name="tip_transfer_error">転送失敗による転送中断</string>
+    <string name="tip_mobile_not_has_contacts">現在の携帯電話のアドレスは空です</string>
+    <string name="ask_delete_contact">選択した連絡先を削除するかどうか</string>
+    <string name="tip_logout">アカウントログオンを終了する必要があるかどうか</string>
+    <string name="tip_downloading_music">（音楽ファイル転送中は携帯電話と時計のBluetooth接続を維持してください）</string>
+    <string name="tip_download_finished">%1$d曲の音楽転送に成功しました</string>
+    <string name="tip_please_chose_contact">連絡先を選択してください</string>
+    <string name="tip_check_net">ネットワークが接続されていません。ネットワーク設定を確認してください。</string>
+    <string name="sport_other">その他</string>
+    <string name="sport_outdoor_running">アウトドアランニング</string>
+    <string name="sport_indoor_running">室内ランニング</string>
+    <string name="exercise_time">運動時間</string>
+    <string name="total_time">合計時間</string>
+    <string name="pace">はいそくど</string>
+    <string name="average_pace">へいきんはいそくど</string>
+    <string name="consumption_of_kilocalories">消費（キロカロリー）</string>
+    <string name="whether_delete">削除するかどうか:%1$s</string>
+
+    <!--二维码扫描-->
+    <string name="scan_qr_code_title">スキャン2次元コード</string>
+    <string name="select_from_gallery">ギャラリーから選択</string>
+    <string name="pair_device">手動ペアデバイス</string>
+    <string name="scan_qr_tips">2次元コードをボックスに入れる</string>
+    <string name="scan_env_dark_tips">暗い環境では懐中電灯をつけることをお勧めします</string>
+    <string name="scan_env_light_tips">通常の環境では懐中電灯をオフにすることをお勧めします</string>
+    <string name="not_found_qr">QRコードが見つかりません</string>
+
+    <string name="device_searching">使用可能なデバイスを検索中...</string>
+    <string name="no_found_device_tips">デバイスが見つかりませんか? によって追加 ＃＃＃＃</string>
+    <string name="no_found_device_tips_2">デバイスが見つかりませんでした。デバイスに電気があり、携帯電話に近いことを確認してください</string>
+    <string name="retry">再試行</string>
+    <string name="no_binding">バインドを保留中</string>
+    <string name="not_found_target">ターゲット デバイスが見つかりませんか? ####</string>
+    <string name="rescan_device">再検索</string>
+
+    <string name="connect_device">接続デバイス</string>
+    <string name="dev_connecting">ペアリング中...</string>
+    <string name="dev_connecting_desc">デバイス上でペアリング確認を行ってください…</string>
+    <string name="dev_connect_success">ペアリング成功</string>
+    <string name="dev_connect_success_desc">設備がペアリングされていますので、すぐにご体験ください</string>
+    <string name="dev_connect_fail">デバイスのペアリングに失敗しました</string>
+    <string name="dev_connect_fail_desc">コード接続を再スキャンするか、手動でデバイスを追加してください</string>
+    <string name="cur_dev_msg">現在のペアデバイス:%1$s</string>
+    <string name="gps">GPS</string>
+    <string name="km">キロ</string>
+    <string name="step_freq_info_title">ステップ周波数（ステップ／分）</string>
+    <string name="average_step_freq">へいきんステップしゅうはすう</string>
+    <string name="max_step_freq">さいだいステップしゅうはすう</string>
+    <string name="per_pace_of_km">キロ当たりの配速</string>
+    <string name="average_pace_of_per_km">平均配速（/キロ）</string>
+    <string name="max_pace_of_per_km">最速配速（/キロ）</string>
+    <string name="app_running">実行中</string>
+
+    <string name="watch_edit">編集</string>
+    <string name="current_watch">現在の文字盤</string>
+    <string name="choose_photo">写真を追加</string>
+    <string name="watch_restore">デフォルトに戻す</string>
+    <string name="take_photo">写真を撮る</string>
+    <string name="get_photo_from_album">携帯アルバムから選ぶ</string>
+    <string name="select">選択</string>
+    <string name="set_custom_bg_success">カスタム背景の設定に成功しました</string>
+
+    <!--Message-->
+    <string name="enable_notification_listener_service_tips">情報同期機能を使用するには、ユーザーが通知欄の情報を取得することに同意する必要がありますが、今からオンにしますか？</string>
+    <string name="bt_disconnect_tips">まずデバイスに接続してください</string>
+    <string name="not_found_history">接続する必要があるデバイスが見つかりませんでした</string>
+
+    <!--fatfs error-->
+    <string name="not_enough_space">腕時計のスペースが足りないので、ファイルを追加することはできません</string>
+    <string name="empty_date">-月-日</string>
+
+
+    <!-- unit -->
+    <string name="unit">単位</string>
+    <string name="unit_cm">センチメートル</string>
+    <string name="unit_m">メートル</string>
+    <string name="unit_km">キロ</string>
+
+    <string name="unit_in">インチ</string>
+    <string name="unit_ft">フィート</string>
+    <string name="unit_mile">マイル</string>
+
+    <string name="unit_kg">キログラム</string>
+    <string name="unit_lb">ポンド</string>
+    <string name="unit_running">ステップ</string>
+    <string name="no_sdcard_device">デバイスが挿入されていません</string>
+    <string name="select_all">すべて選択</string>
+    <string name="cancel_select_all">すべて選択しない</string>
+    <string name="logout">ログオンの終了</string>
+    <string name="local_music">ローカル音楽</string>
+    <string name="music">音楽</string>
+
+    <!--HistoryRecordFragment-->
+    <string name="reconnect_history">再接続</string>
+    <string name="remove_history">デバイスの削除</string>
+    <string name="history_connect_ok">デバイス接続に成功しました</string>
+    <string name="history_connect_failed">デバイス接続に失敗しました</string>
+    <string name="remove_history_success">履歴の削除に成功しました</string>
+    <string name="remove_history_failed">履歴の削除に失敗しました</string>
+    <string name="history_is_gone">履歴が削除されました</string>
+
+
+    <!--  健康设置 -->
+    <string name="tip_pressure_auto_tip">「圧力自動検出」がオンの場合、デバイスはインテリジェントにアクティブ状態を判断します。静止状態と判断すると、心拍数の変異性が検出され、圧力が計算されます。運動中、圧力自動検出は行われません。検出が正しいことを確認するために、デバイスを正しく装着してください。</string>
+    <string name="pressure_auto_relax">リラックス</string>
+    <string name="pressure_auto_normal">通常</string>
+    <string name="pressure_auto_medium">中程度</string>
+    <string name="pressure_auto_high">高すぎて、合理的に圧力を管理することを提案します</string>
+    <string name="heart_measure_way">心拍測定方式</string>
+    <string name="smart">インテリジェント</string>
+    <string name="tip_heart_smart_measure">運動状態に応じて測定周波数を動的に調整し、24時間スマートに心拍数を監視することで、省電力に役立ちます</string>
+    <string name="tip_heart_real_measure">24時間リアルタイムであなたの心拍数を監視して、心拍数データは更に詳しくて、更新は更にタイムリーで、消費電力に対する影響は大きい</string>
+    <string name="real">リアルタイム</string>
+    <string name="heart_rate_limit">心拍数上限</string>
+    <string name="heart_rate_limit_warn">心拍数上限警報</string>
+    <string name="tip_heart_rate_limit_warn">心拍数が%1$d回/分より高い場合に注意</string>
+
+    <string name="more">その他</string>
+    <!--Nfc-->
+    <string name="nfc_card_bag">パスケース</string>
+    <string name="door_key">ドアの鍵</string>
+    <string name="add_door_key">ドアの鍵を追加</string>
+    <string name="detail">詳細</string>
+    <string name="door_key_simulation">ゲートカードシミュレーション</string>
+    <string name="edit">編集</string>
+    <string name="door_key_name">ドアの鍵名</string>
+    <string name="modify_key_name">キー名の変更</string>
+    <string name="delete_card_fail">カードの削除に失敗しました</string>
+    <string name="save_failed">保存に失敗しました</string>
+    <string name="card_is_existed">このカードは既に存在します。繰り返し追加しないでください</string>
+    <string name="no_storage_device">ストレージデバイスなし</string>
+    <string name="nfc_card_over_limit">NFCカードが上限に達しました</string>
+    <string name="tips">ヒント</string>
+    <string name="analog_nfc_key_card">アナログエンティティゲートカード</string>
+    <string name="analog_key_card_to_device">既存のゲートカードを着用機器にシミュレーションする</string>
+    <string name="add_time">時間の追加</string>
+    <string name="edit_card">カードの編集</string>
+    <string name="set_default_card">デフォルトカードに設定</string>
+    <string name="delte_current_card">このカードを削除</string>
+    <string name="home">家</string>
+    <string name="company">会社</string>
+    <string name="prepare_read_card">カードの読み取り準備</string>
+    <string name="card_close_phone">カードを携帯電話に貼り付けて測定してください</string>
+    <string name="card_support_range">ゲートカードのサポート範囲の表示</string>
+    <string name="start_check">検出を開始</string>
+    <string name="set_commonly_use_card_to_default">常用ゲートカードをデフォルトカードとして設定し、スクリーンを消して直接カードを払うことができる</string>
+    <string name="keep_device_connect_phone">着用機器と携帯電話のBluetooth接続を維持してください。着用機器のシミュレーションプロセスを操作しないでください。約1分かかります</string>
+    <string name="add_failed">追加に失敗しました</string>
+    <string name="failed_reason">失敗の原因</string>
+    <string name="system_exception">システム異常</string>
+    <string name="detailed_analysis">詳細な解析</string>
+    <string name="get_data_error">データ取得または実行命令異常</string>
+    <string name="handling_suggestions">推奨事項の処理</string>
+    <string name="try_again">再試行してください。</string>
+    <string name="got_it">わかりました</string>
+    <string name="detecting">検出中...</string>
+    <string name="detecting_no_move_card">検査中はカードを移動しないでください</string>
+    <string name="detect_success">検出に成功しました</string>
+    <string name="read_card_failed">カードの読み取りに失敗しました</string>
+    <string name="card_move_fast">カードの移動が早すぎますので、もう一度お試しください</string>
+    <string name="read_card_failed_encryption">このカードは暗号化カードで、シミュレーションはサポートされていません。 n方法を変えてみてください</string>
+    <string name="analog_card_number">アナログカード番号</string>
+    <string name="step_sensor">ステップセンサ</string>
+    <string name="keep_data_record">データ・ログ・ストレージ</string>
+    <string name="heart_rate_sensor">心拍センサ</string>
+    <string name="blood_oxygen_sensor">血液酸素センサ</string>
+    <string name="altitude_pressure_sensor">海抜気圧センサ</string>
+    <string name="fall_detection">転倒検出</string>
+    <string name="heart_rate_space_mode">心拍数区間区分方式</string>
+    <string name="percent_of_max_heart_rate">最大心拍数パーセント</string>
+    <string name="percentage_of_reserve_heart_rate">準備心拍数パーセント</string>
+
+    <!--Health Service-->
+    <string name="service_none_device">デバイスを接続して、スポーツの楽しさを体験してください</string>
+    <string name="service_health_data">健康データ</string>
+
+    <string name="close">閉じる</string>
+    <string name="all_day">終日オープン</string>
+    <string name="time_open">タイミングオン</string>
+    <string name="start_time">オープン時間</string>
+    <string name="end_time">終了時間</string>
+    <string name="status_text">オープン状態</string>
+    <string name="fall_response_way">転倒応答方式</string>
+    <string name="response_mode_bright">明るいスクリーン</string>
+    <string name="response_mode_shake">ぎょっとさせる</string>
+    <string name="response_mode_call">でんわよびだし</string>
+    <string name="emergency_contact">緊急連絡先</string>
+    <string name="tip_emergency_contact">転倒時に緊急連絡先を自動的に呼び出す</string>
+    <string name="no_setting">未設定</string>
+    <string name="title_open_sedentary_reminder">長居注意をオンにする</string>
+    <string name="tip_sedentary_reminder">1時間以上長居すると、設備が振動して注意する</string>
+    <string name="free_lunch_break">昼休みは邪魔しない</string>
+    <string name="tip_free_lunch_break">12:00～14:00注意しないでください</string>
+    <string name="modification">変更</string>
+    <string name="mobile">携帯番号</string>
+    <string name="save_contact">連絡先の保存</string>
+    <string name="hint_emergency_contact">緊急連絡先の携帯番号を記入してください</string>
+    <string name="title_emergency_contact">緊急連絡先設定</string>
+    <string name="next_day">翌日</string>
+    <string name="start_sports_failed">運動開始に失敗しました</string>
+    <string name="start" translatable="false">スタート</string>
+
+    <!--    实时运动强度状-->
+    <string name="save_sports_status_0">非運動</string>
+    <string name="save_sports_status_1">ウォーミングアップ</string>
+    <string name="save_sports_status_2">グリース燃焼</string>
+    <string name="save_sports_status_3">ゆうきたいりょく</string>
+    <string name="save_sports_status_4">無酸素持久力</string>
+    <string name="save_sports_status_5">きょくげん</string>
+
+    <!--    储备心率模式-->
+    <string name="real_sports_status_0">非運動</string>
+    <string name="real_sports_status_1">さんそきそ</string>
+    <string name="real_sports_status_2">ゆうきしんこう</string>
+    <string name="real_sports_status_3">にゅうさんしきい値</string>
+    <string name="real_sports_status_4">むさんそ</string>
+    <string name="real_sports_status_5">無酸素ステップ</string>
+
+    <string name="step_number_and_unit">ステップ数（ステップ）</string>
+    <string name="heart_rate_and_unit">心拍数（回/分）</string>
+    <string name="average_heart_rate_and_unit">平均心拍数（副/分）</string>
+    <!--Health Sleep-->
+    <string name="sleep_analysis_avg_type1">平均夜間の通常睡眠時間%1$s時間%2$s分</string>
+    <string name="sleep_analysis_avg_type2">平均深寝率%1$s%%</string>
+    <string name="sleep_analysis_avg_type3">平均浅い眠りの割合%1$s%%</string>
+    <string name="sleep_analysis_avg_type4">平均クイックアイスケール%1$s%%</string>
+    <string name="sleep_analysis_avg_type5">平均深い眠り連続性%1$s分</string>
+    <string name="sleep_analysis_avg_type6">平均覚醒回数%1$s回</string>
+    <string name="sleep_analysis_type1">夜間の通常睡眠時間%1$s時間%2$s分</string>
+    <string name="sleep_analysis_type2">深い眠りの割合%1$s%%</string>
+    <string name="sleep_analysis_type3">浅い眠りの割合%1$s%%</string>
+    <string name="sleep_analysis_type4">クイックアイスケール%1$s%%</string>
+    <string name="sleep_analysis_type5">深い眠りの連続性%1$s分</string>
+    <string name="sleep_analysis_type6">覚醒回数%1$s回</string>
+    <string name="time_duration_type1">%1$s時間%2$s分</string>
+    <string name="time_duration_type2">%1$s分</string>
+    <string name="sleep_score">睡眠スコア</string>
+    <string name="sober_full">はっきりした</string>
+    <string name="rapid_eye_movement_full">すばやく目を動かす</string>
+    <string name="light_sleep_full">レム睡眠</string>
+    <string name="deep_sleep_full">深い眠り</string>
+    <string name="sleep_score_avg">平均睡眠スコア</string>
+    <string name="sober_avg">平均覚醒</string>
+    <string name="rapid_eye_movement_avg">平均クイックアイ</string>
+    <string name="light_sleep_avg">へいきんせんいど</string>
+    <string name="deep_sleep_avg">へいきんふかさ</string>
+    <string name="sleep_ratio">占有率</string>
+    <string name="references">参照値：</string>
+    <string name="sleep_nap">ぱらぱらと仮眠する</string>
+    <string name="sleep_avg_nap">平均零細仮眠</string>
+    <string name="sleep_total">トータルスリープ</string>
+    <string name="status_low">やや低い</string>
+    <string name="status_high">かたより</string>
+    <string name="status_normal">通常</string>
+    <string name="status_over_weight">オーバウェイト</string>
+    <string name="status_over_obese">肥満</string>
+    <string name="tip_waiting">後で...</string>
+    <string name="empty_sports_record">運動記録なし</string>
+    <string name="reach_target_days">運動目標%d日達成</string>
+    <string name="weekly_step">1週間のステップ数</string>
+    <string name="weekly_distance">1週間の距離.</string>
+    <string name="weekly_kcal">しょうひねつりょう</string>
+    <string name="day">日</string>
+    <string name="long_press_to_stop">長押し終了</string>
+    <string name="no_data">データなし</string>
+    <string name="sports_stop">終了</string>
+    <string name="sports_resume">続行</string>
+    <string name="max_heart_rate">最大心拍数</string>
+    <string name="average_heart_rate">平均心拍数</string>
+    <string name="today_step">今日のステップ数</string>
+    <string name="low_spo2">低酸素血症</string>
+    <string name="spo2_range">最低値-最高値</string>
+    <string name="min_value">最小値</string>
+    <string name="max_value">最高値</string>
+    <string name="last_time">最新</string>
+    <string name="outdoor">アウトドア</string>
+    <string name="indoor">おくない</string>
+    <string name="http_tip_400">要求が無効です</string>
+    <string name="http_tip_401">権限なし</string>
+    <string name="http_tip_403">アクセス禁止</string>
+    <string name="http_tip_404">ファイルを見つけることができません</string>
+    <string name="http_tip_405">リソースが禁止されています</string>
+    <string name="http_tip_500">サーバ例外</string>
+    <string name="http_tip_501">エラーゲートウェイ</string>
+    <string name="http_tip_504">ゲートウェイタイムアウト</string>
+    <string name="http_tip_unknow">不明なエラー</string>
+    <string name="percent">%</string>
+
+    <string name="permission_system_set">「設定」&gt;「アプリケーション管理」&gt;「ヘルパー」&gt;「権限」へ</string>
+    <string name="permission_describe_camera">この機能にはカメラを使用する必要があります。この機能を正常に使用するために、%1$sにカメラ権限をオンにしてください</string>
+    <string name="permission_describe_contacts">この機能には、アドレス帳を使用する必要があります。この機能を正常に使用するために、%1$sでアドレス権限を有効にしてください</string>
+    <string name="permission_describe_location">この機能には、あなたの位置情報を使用する必要があります。この機能を正常に使用するために、%1$sに位置情報権限をオンにしてください</string>
+    <string name="permission_describe_external_storage">この機能には、携帯電話のストレージを使用する必要があります。この機能を正常に使用するために、%1$sでファイルの読み書き権限を有効にしてください</string>
+    <string name="allow">許可する</string>
+    <string name="open_gps_service_tip">Bluetoothスキャンとペアリング接続には位置情報を取得する必要があり、位置サービスのオープンを許可するかどうか</string>
+    <string name="go_setting">設定解除</string>
+    <string name="no_movement">運動を見合わせる</string>
+    <string name="open_gps_permission">場所権限のオープン</string>
+    <string name="open_gps_services">携帯電話の位置サービスを開始</string>
+    <string name="permission_describe_gps_permission_sport">モーション軌跡、地図関連機能を使用して、使用に影響を与えないように「デバイス位置情報」を許可してください。</string>
+    <string name="permission_describe_gps_service_sport">運動軌跡、地図関連機能を使用するには、携帯電話の「測位」サービスを開始し、使用に影響を与えないようにしなければならない。</string>
+    <string name="cancel_account_tip">使い続けたくない？</string>
+    <string name="cancel_account">アカウントの登録解除</string>
+    <string name="delete_account_influence">ログアウト後のアカウントは復元できません。続行しますか？</string>
+    <string name="synchronizing_data">データの同期中...</string>
+    <string name="running_too_short">移動距離が短すぎると、記録バックアップは保存されません</string>
+    <string name="slider_to_unlock">スライドロック解除</string>
+    <string name="please_click_finish_btn">終了ボタンを押して運動を終了してください</string>
+    <string name="tip_finished_exercise">このアクティビティを終了するかどうか</string>
+    <string name="keep_moving">運動を続ける</string>
+    <string name="terminate_sport">しゅうりょううんどう</string>
+    <string name="running_set">ランニング設定</string>
+    <string name="copyright">著作権©2021-2024 珠海市傑理科技株式会社著作権所有</string>
+    <string name="email_register">メールボックス登録</string>
+    <string name="phone_register">携帯電話の登録</string>
+    <string name="search_password_by_email">メールボックスを使用したパスワードの復元</string>
+    <string name="search_password_by_mobile">携帯番号を使ってパスワードを取り戻す</string>
+    <string name="device_not_support">デバイスがサポートされていません</string>
+    <string name="execution_succeeded">実行に成功しました</string>
+    <string name="cancel">キャンセル</string>
+    <string name="double_tap_to_exit">もう一度クリックしてアプリを終了します</string>
+    <string name="account_deleted_successfully">アカウントの削除に成功しました</string>
+    <string name="network_error_tip">ネットワークに問題があるようです。ネットワークを確認してください</string>
+    <string name="missing_server_information">サーバ情報がありません</string>
+    <string name="inconsistent_motion_state">運動状態が一致しない</string>
+    <string name="failed_to_get_weather">天候の取得に失敗しました</string>
+    <string name="no_weather_data">天候データなし</string>
+    <string name="ai_no_speak">あなたは話し始めていないようです</string>
+    <string name="ai_no_skill">私はまだこのスキルを習得していません</string>
+    <string name="ai_operation_failed">操作に失敗しました</string>
+    <string name="ai_operation_completed">操作を完了しました</string>
+    <string name="ai_network_wrong">ネットワークに少し問題があります：（</string>
+    <string name="ai_error_code">エラーコード：</string>
+    <string name="ai_is_delete">削除しますか？</string>
+    <string name="ai_is_delete_all">このセッションのすべてのコンテンツは削除され、取り消すことはできません。削除しますか？</string>
+    <string name="ai_cloud_serve">AIクラウドサービス</string>
+    <string name="multi_select">複数選択</string>
+    <string name="none_session_record">現在、会話の記録はありません</string>
+    <string name="sms_login">認証コードログイン</string>
+    <string name="use_account_password_login">アカウントパスワードを使用したログイン</string>
+    <string name="detach">除去じょきょ</string>
+    <string name="validate">検証</string>
+    <string name="set_password">パスワードの設定</string>
+    <string name="hint_input_bind_phone_number">バインドされた携帯電話番号を入力してください</string>
+    <string name="ai_no_response">申し訳ありませんが、私はあなたの問題を理解していないかもしれません。あなたが知りたいことを詳しく説明してください。できるだけお手伝いします。</string>
+    <string name="wait_ai_response_tip">AI応答はまだ受信されておらず、この操作は当分サポートされていない</string>
+    <string name="style_selection">スタイル選択</string>
+    <string name="ai_dial_style_1">水墨画スタイル</string>
+    <string name="ai_dial_style_2">写実的な風景スタイル</string>
+    <string name="ai_dial_style_3">3 Dアニメ風</string>
+    <string name="ai_dial_style_4">サイボパンクスタイル</string>
+    <string name="ai_dial_style_5">折り紙風</string>
+    <string name="ai_dial_style_6">水彩インクスタイル</string>
+    <string name="ai_dial">AI文字盤</string>
+    <string name="custom_dial">カスタム文字板</string>
+    <string name="re_crop">再トリミング</string>
+    <string name="transfer_ing">転送中...</string>
+    <string name="copy">コピー</string>
+
+    <!--About-->
+    <string name="icp_info">ICP出願情報</string>
+
+    <!--Feedback-->
+    <string name="feedback">フィードバック</string>
+    <string name="feedback_type">フィードバックタイプ</string>
+    <string name="problem_feedback">フィードバックの質問</string>
+    <string name="hint_enter_feedback">詳細な質問を入力してください。できるだけ早く解決いたします。</string>
+    <string name="hint_enter_phone">ご連絡が取りやすい携帯電話番号をご入力ください</string>
+    <string name="commit">提出</string>
+    <string name="phone_format_tips">正しい電話番号を入力してください</string>
+    <string name="phone_empty_tips">電話番号を入力してください</string>
+    <string name="feedback_empty_tips">フィードバックの内容を入力してください</string>
+    <string name="network_exception_tips">ネットワークがダウンしているようです。しばらくしてからもう一度お試しください。</string>
+    <string name="feedback_success">ご意見ありがとうございます</string>
+
+    <!--ImageVerifyDialog-->
+    <string name="image_captcha">画像CAPTCHA</string>
+    <string name="can_not_see_it">見えにくい？別のものに変える</string>
+    <string name="input_captcha_tips">正しいCAPTCHAを入力してください</string>
+    <string name="load_code_failed_tips">画像確認コードの読み込み中に問題が発生しました。後でもう一度お試しください。</string>
+    <string name="fail_recognize_format">フォーマットを認識できません。</string>
+
+    <!--TestConfigurationFragment-->
+    <string name="test_configuration">テスト設定</string>
+    <string name="save_configuration">保存</string>
+    <string name="enable_log_function">ログ機能を有効にしますか？</string>
+    <string name="use_device_auth">デバイス認証を有効にしますか？</string>
+    <string name="support_local_ota">ローカルOTAを有効にしますか？</string>
+    <string name="local_ota_desc">ローカルOTAテスト説明:\n1. アップグレードファイル名は固定で【update.zip】または【update.ufw】です\n2. ファイルの保存場所: \'スマホのルート/Android/data/%1$s/files/upgrade/\'フォルダ内</string>
+    <string name="test_custom_cmd">カスタムコマンドのテスト</string>
+    <string name="click_again_to_test_configuration">もう一度押してテスト設定画面に入ります</string>
+    <string name="save_configuration_success">設定を保存しました。まもなくアプリを終了します</string>
+
+    <!--LogFileFragment-->
+    <string name="log_file">ログを出力</string>
+    <string name="clear_log_file">クリア</string>
+    <string name="remove_file">削除</string>
+    <string name="file_not_found">ファイルが存在しません</string>
+    <string name="open_file_failed_by_other_app">ファイルを開くアプリがありません</string>
+    <string name="open_file_exception">ファイルを開く際に異常が発生しました</string>
+    <string name="download_file_permission_tips">ファイルのダウンロード機能には、ユーザーによる端末ストレージの読み書き許可が必要です</string>
+    <string name="download_file_permission_denied_tips">ダウンロード機能を使用するにはストレージの読み書き許可が必要です。端末の権限管理ページで許可してください</string>
+    <string name="download_file_successful">ファイルのダウンロードが成功しました</string>
+    <string name="download_file_exception">ファイルのダウンロードで異常が発生しました</string>
+    <string name="share_log_file">ログを共有</string>
+    <string name="share_file_exception">ファイルの共有で異常が発生しました</string>
+
+    <!--CustomCmdTestFragment-->
+    <string name="input_custom_data">カスタムデータを入力</string>
+    <string name="log_content">ログ内容</string>
+    <string name="hint_input_hex_data">16進数データを入力してください</string>
+    <string name="send_custom_cmd">カスタムコマンドを送信</string>
+
+    <!--Operation-->
+    <string name="operation_failed">%1$s に失敗しました。</string>
+    <string name="error_code">エラーコード</string>
+    <string name="op_delete_file">ファイルを削除</string>
+    <string name="op_delete_folder">すべてのファイルを削除</string>
+
+</resources>

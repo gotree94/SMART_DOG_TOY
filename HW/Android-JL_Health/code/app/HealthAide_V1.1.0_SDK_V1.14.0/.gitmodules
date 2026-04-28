@@ -1,0 +1,3 @@
+[submodule "jl_bluetooth_connect"]
+	path = jl_bluetooth_connect
+	url = http://192.168.8.109/gitlab/android/jl_bluetooth_connect.git

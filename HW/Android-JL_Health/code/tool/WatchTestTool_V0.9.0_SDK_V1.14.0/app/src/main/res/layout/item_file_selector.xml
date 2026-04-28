@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mcxtzhang.swipemenulib.SwipeMenuLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/swipe_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_select_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:src="@drawable/ic_check_flag_gary"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/tv_file_msg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="6dp"
+            android:textColor="#434343"
+            android:textSize="@dimen/text_14sp"
+            app:layout_constraintEnd_toStartOf="@+id/iv_select_state"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/iv_select_state"
+            tools:text="file" />
+
+        <TextView
+            android:id="@+id/tv_file_path"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/gray_AEAEAE"
+            android:textSize="@dimen/text_12sp"
+            app:layout_constraintEnd_toEndOf="@+id/tv_file_msg"
+            app:layout_constraintStart_toStartOf="@+id/tv_file_msg"
+            app:layout_constraintTop_toBottomOf="@+id/tv_file_msg"
+            tools:text="/Download/JieLi_Watch/" />
+
+
+        <View
+            android:id="@+id/view_file_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/gray_E8E8E8"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_file_path" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/delete_file"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_14sp"
+        android:backgroundTint="@color/red_D83535"/>
+
+</com.mcxtzhang.swipemenulib.SwipeMenuLayout>

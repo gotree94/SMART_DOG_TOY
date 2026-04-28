@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp">
+
+    <ImageView
+        android:id="@+id/iv_ai_dial_style_bg"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintDimensionRatio="3:4"
+        app:layout_constraintStart_toStartOf="@id/guideline1"
+        app:layout_constraintEnd_toEndOf="@id/guideline2"
+        app:layout_constraintTop_toTopOf="parent"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/img_aiwatch_01" />
+
+    <ImageView
+        android:id="@+id/iv_ai_dial_style_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/iv_ai_dial_style_bg"
+        app:layout_constraintTop_toTopOf="@+id/iv_ai_dial_style_bg"
+        app:srcCompat="@drawable/icon_aiwatch_choose" />
+
+    <View
+        android:id="@+id/view_ai_dial_style_select"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/bg_img_purple_shape"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_ai_dial_style_bg"
+        app:layout_constraintEnd_toEndOf="@+id/iv_ai_dial_style_bg"
+        app:layout_constraintStart_toStartOf="@+id/iv_ai_dial_style_bg"
+        app:layout_constraintTop_toTopOf="@+id/iv_ai_dial_style_bg" />
+
+    <TextView
+        android:id="@+id/tv_ai_dial_style_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="12dp"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_ai_dial_style_bg"
+        app:layout_constraintEnd_toEndOf="@+id/iv_ai_dial_style_bg"
+        app:layout_constraintStart_toStartOf="@+id/iv_ai_dial_style_bg"
+        tools:text="水墨画风格水墨画风格水墨画风格水墨画风格水墨画风格" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.04" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.96" />
+</androidx.constraintlayout.widget.ConstraintLayout>

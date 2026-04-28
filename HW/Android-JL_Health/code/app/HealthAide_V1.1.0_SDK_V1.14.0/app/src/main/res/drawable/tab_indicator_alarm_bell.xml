@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:bottom="8dp"
+        android:gravity="center_horizontal">
+        <shape>
+            <size
+                android:width="20dp"
+                android:height="3dp" />
+            <corners android:radius="3dp" />
+            <solid android:color="@color/auxiliary_widget" />
+        </shape>
+    </item>
+</layer-list>
+

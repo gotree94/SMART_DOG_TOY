@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="cl_health_sleep_diagram" type="id" />
+    <item name="tv_health_sleep_diagram_1" type="id" />
+    <item name="tv_health_sleep_diagram_2" type="id" />
+    <item name="tv_health_sleep_diagram_3" type="id" />
+    <item name="tv_health_sleep_diagram_4" type="id" />
+    <item name="tv_health_sleep_diagram_5" type="id" />
+</resources>

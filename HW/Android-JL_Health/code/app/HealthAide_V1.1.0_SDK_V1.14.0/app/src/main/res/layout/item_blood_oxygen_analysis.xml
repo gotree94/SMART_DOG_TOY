@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_analysis_shape_unsel">
+
+    <TextView
+        android:id="@+id/tv_newest_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/last_time"
+        tools:text="@string/min_value"
+        android:textColor="@color/text_secondary_disable_color"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_min_max"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_newest_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="15dp"
+        android:text="95%"
+        android:textColor="@color/black_242424"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/tv_newest_time"
+        app:layout_constraintStart_toStartOf="@+id/tv_newest_time"
+        app:layout_constraintTop_toBottomOf="@+id/tv_newest_time" />
+
+    <TextView
+        android:id="@+id/tv_min_max"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="41dp"
+        app:layout_goneMarginStart="41dp"
+        android:text="@string/spo2_range"
+        tools:text="@string/min_value"
+        android:textColor="@color/text_secondary_disable_color"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/tv_newest_time"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_min_max_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="15dp"
+        android:text="95%-95%"
+        android:textColor="@color/black_242424"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/tv_min_max"
+        app:layout_constraintStart_toStartOf="@+id/tv_min_max"
+        app:layout_constraintTop_toBottomOf="@+id/tv_min_max" />
+</androidx.constraintlayout.widget.ConstraintLayout>

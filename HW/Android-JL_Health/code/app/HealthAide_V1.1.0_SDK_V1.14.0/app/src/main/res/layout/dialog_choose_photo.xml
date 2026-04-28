@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_gray_11_11_shape">
+
+    <TextView
+        android:id="@+id/tv_dialog_choose_photo_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:text="@string/cancel"
+        android:textSize="@dimen/text_18sp"
+        android:textColor="@color/black_333333"
+        android:background="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_dialog_choose_photo_from_album"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:text="@string/get_photo_from_album"
+        android:textSize="@dimen/text_18sp"
+        android:textColor="@color/black_333333"
+        android:background="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/tv_dialog_choose_photo_cancel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <View
+        android:id="@+id/view_dialog_choose_photo_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/white_EEEEEE"
+        app:layout_constraintBottom_toTopOf="@+id/tv_dialog_choose_photo_from_album"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_dialog_choose_photo_take_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:text="@string/take_photo"
+        android:textSize="@dimen/text_18sp"
+        android:textColor="@color/black_333333"
+        android:background="@drawable/bg_white_11_11_shape"
+        app:layout_constraintBottom_toTopOf="@+id/view_dialog_choose_photo_line"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

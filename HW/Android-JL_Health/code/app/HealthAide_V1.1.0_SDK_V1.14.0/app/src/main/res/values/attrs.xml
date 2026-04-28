@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="contentStartColor" format="color|reference" />
+    <attr name="contentEndColor" format="color|reference" />
+    <declare-styleable name="RotatingView">
+        <attr name="contentStartColor" />
+        <attr name="contentEndColor" />
+        <attr name="contentTextColor" format="color|reference" />
+        <attr name="indicatorImage" format="reference" />
+        <attr name="contentLineWidth" format="dimension" />
+        <attr name="backgroundLineWidth" format="dimension" />
+        <attr name="paddingWidth" format="dimension" />
+        <attr name="rTextSize" format="dimension" />
+        <attr name="unitTextSize" format="dimension" />
+        <attr name="unitTypeDescribe" format="string|reference" />
+        <attr name="unitType" format="string|reference" />
+        <attr name="unitTextColor" format="color|reference" />
+        <attr name="arcBackgroundColor" format="color|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="CalendarPointerView">
+        <attr name="pointerColor" format="color|reference" />
+        <attr name="pointerCoordinateVisible" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="LineChartView">
+        <attr name="lcv_axes_color" format="color" /> <!--坐标轴颜色-->
+        <attr name="lcv_axes_width" format="dimension" /><!--坐标轴宽度-->
+        <attr name="lcv_text_color" format="color" /> <!--x轴字体颜色-->
+        <attr name="lcv_text_size" format="dimension" /> <!--字体大小-->
+        <attr name="lcv_line_color" format="color" /> <!--折线颜色-->
+        <attr name="lcv_background" format="color" /> <!--背景色-->
+    </declare-styleable>
+    <attr name="textSize" format="dimension" />
+    <declare-styleable name="fmRulerView">
+        <attr name="existColor" format="color|reference" />
+        <attr name="bigScaleColor" format="color|reference" />
+        <attr name="smallScaleColor" format="color|reference" />
+        <attr name="textColor" format="color|reference" />
+        <attr name="intervalDistance" format="dimension" />
+        <attr name="intervalValue" format="integer" />
+        <attr name="bigScaleIntervalValue" format="integer" />
+        <attr name="maxValue" format="integer" />
+        <attr name="minValue" format="integer" />
+        <attr name="textSize" />
+        <attr name="bigScaleLineWidth" format="dimension" />
+        <attr name="smallScaleLineWidth" format="dimension" />
+        <attr name="retainLength" format="integer" />
+        <attr name="selectedSrcImages" format="reference" />
+        <attr name="rulerViewWidth" format="dimension" />
+        <attr name="bigScaleHeight" format="dimension" />
+        <attr name="smallScaleHeight" format="dimension" />
+        <attr name="textAndScaleMargin" format="dimension" />
+        <attr name="allScaleHeight" format="dimension" />
+        <attr name="bigScaleMarginTop" format="dimension" />
+        <attr name="smallScaleMarginTop" format="dimension" />
+        <attr name="horizontalLine" format="boolean" />
+        <attr name="pointerHeight" format="dimension" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+
+    <include
+        android:id="@+id/layout_topbar"
+        layout="@layout/view_topbar" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:background="@color/bg_color"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/layout_topbar" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_personal_info"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:paddingStart="14dp"
+        android:paddingEnd="14dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/layout_topbar"
+        tools:itemCount="5"
+        tools:listitem="@layout/item_mine_common" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:background="@color/bg_color"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rv_personal_info" />
+
+
+    <TextView
+        android:id="@+id/btn_exit_login"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_marginTop="7dp"
+        android:gravity="center"
+        android:text="@string/logout"
+        android:textColor="@color/text_important_color"
+        android:textSize="@dimen/text_15sp"
+        app:layout_constraintTop_toBottomOf="@id/rv_personal_info" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:background="@color/bg_color"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_exit_login" />
+
+    <TextView
+        android:id="@+id/btn_delete_account"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_marginTop="7dp"
+        android:visibility="gone"
+        android:gravity="center"
+        android:text="删除当前账号(仅仅测试使用)"
+        android:textColor="@color/text_important_color"
+        android:textSize="@dimen/text_15sp"
+        app:layout_constraintTop_toBottomOf="@id/btn_exit_login" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/bg_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_delete_account" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

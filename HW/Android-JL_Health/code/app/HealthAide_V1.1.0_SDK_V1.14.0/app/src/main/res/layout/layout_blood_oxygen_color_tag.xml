@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:background="@drawable/bg_blood_oxygen_fragment"
+    android:orientation="horizontal">
+
+
+    <TextView
+        android:id="@+id/tv_sleep_color_tag_depth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:drawableStart="@drawable/ic_blood_oxygen_color_tag_69"
+        android:drawablePadding="3dp"
+        android:gravity="center"
+        android:text="＜70%"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toStartOf="@id/tv_sleep_color_tag_shallow"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_sleep_color_tag_shallow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:drawableStart="@drawable/ic_blood_oxygen_color_tag_70_to_89"
+        android:drawablePadding="3dp"
+        android:gravity="center"
+        android:text="70 - 89%"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toStartOf="@id/tv_sleep_color_eye_move"
+        app:layout_constraintStart_toEndOf="@id/tv_sleep_color_tag_depth"
+        app:layout_constraintTop_toTopOf="@id/tv_sleep_color_tag_depth" />
+
+    <TextView
+        android:id="@+id/tv_sleep_color_eye_move"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="36dp"
+        android:layout_weight="1"
+        android:drawableStart="@drawable/ic_blood_oxygen_color_tag_90_to_100"
+        android:drawablePadding="3dp"
+        android:gravity="center"
+        android:text="90 - 100%"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toStartOf="@id/tv_sleep_color_awake"
+        app:layout_constraintStart_toEndOf="@id/tv_sleep_color_tag_shallow"
+        app:layout_constraintTop_toTopOf="@id/tv_sleep_color_tag_depth" />
+
+
+    <TextView
+        android:id="@+id/tv_sleep_color_awake"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableStart="@drawable/ic_blood_oxygen_triangle_yellow"
+        android:gravity="center"
+        android:drawablePadding="4dp"
+        android:text="@string/low_spo2"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/tv_sleep_color_eye_move"
+        app:layout_constraintTop_toTopOf="@id/tv_sleep_color_tag_depth" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

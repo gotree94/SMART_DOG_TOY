@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import
+            alias="Fragment"
+            type="com.jieli.healthaide.ui.device.nfc.fragment.NFCSimulationFragment" />
+
+        <variable
+            name="fragment"
+            type="Fragment" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.device.nfc.fragment.NFCSimulationFragment">
+
+        <include
+            android:id="@+id/view_topbar"
+            layout="@layout/view_topbar" />
+
+        <TextView
+            android:id="@+id/tv_nfc_read_operation_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="63dp"
+            android:text="@string/prepare_read_card"
+            android:textColor="@color/text_important_color"
+            android:textSize="@dimen/text_20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view_topbar" />
+
+        <TextView
+            android:id="@+id/tv__nfc_read_operation_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:text="@string/card_close_phone"
+            android:textColor="@color/text_secondary_disable_color"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_nfc_read_operation_name" />
+
+        <ImageView
+            android:id="@+id/iv_nfc_operation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:src="@drawable/ic_nfc_read_prepare"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv__nfc_read_operation_tip" />
+
+        <TextView
+            android:id="@+id/tv_nfc_support_range"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/card_support_range"
+            android:textColor="@color/auxiliary_widget"
+            android:textSize="@dimen/sp_14"
+            app:layout_constraintBottom_toTopOf="@id/bt_nfc_start_testing"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_nfc_operation"
+            app:layout_constraintVertical_chainStyle="packed" />
+
+        <TextView
+            android:id="@+id/bt_nfc_start_testing"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/btn_purple_shape"
+            android:gravity="center"
+            android:onClick="@{(view)->fragment.onButtonTestingClick(view)}"
+            android:text="@string/start_check"
+            android:textColor="@color/content_color"
+            android:textSize="@dimen/text_15sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_nfc_support_range" />
+
+        <androidx.constraintlayout.widget.Group
+            android:id="@+id/group_nfc_read"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:constraint_referenced_ids="tv_nfc_read_operation_name,tv__nfc_read_operation_tip,iv_nfc_operation,tv_nfc_support_range,bt_nfc_start_testing"
+            tools:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_nfc_simulation_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="81dp"
+            android:text="@string/set_commonly_use_card_to_default"
+            android:textColor="@color/text_secondary_disable_color"
+            android:textSize="@dimen/text_14sp"
+            app:layout_constraintBottom_toTopOf="@id/vp_simulation"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view_topbar" />
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/vp_simulation"
+            android:layout_width="196dp"
+            android:layout_height="206dp"
+            android:layout_marginTop="59dp"
+            app:layout_constraintBottom_toTopOf="@id/radio_group"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_nfc_simulation_hint" />
+
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="99dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@id/tv_simulation_tip"
+            app:layout_constraintEnd_toEndOf="@+id/vp_simulation"
+            app:layout_constraintStart_toStartOf="@+id/vp_simulation"
+            app:layout_constraintTop_toBottomOf="@+id/vp_simulation">
+
+            <RadioButton
+                android:id="@+id/rb_1"
+                android:layout_width="6dp"
+                android:layout_height="6dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/bg_sw_selector"
+                android:button="@null"
+                tools:checked="true" />
+
+            <RadioButton
+                android:id="@+id/rb_2"
+                android:layout_width="6dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_sw_selector"
+                android:button="@null" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/tv_simulation_tip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="27dp"
+            android:gravity="center_horizontal"
+            android:text="@string/keep_device_connect_phone"
+            android:textColor="@color/text_important_color"
+            app:layout_constraintBottom_toTopOf="@id/progress_bar_weight"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/radio_group" />
+
+        <ProgressBar
+            android:id="@+id/progress_bar_weight"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="0dp"
+            android:layout_height="4dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="80dp"
+            android:max="100"
+            android:maxHeight="3dp"
+            android:minHeight="3dp"
+            android:progress="40"
+            android:progressDrawable="@drawable/bg_seek_bar_drawable"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_simulation_tip" />
+
+        <androidx.constraintlayout.widget.Group
+            android:id="@+id/group_simulation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:constraint_referenced_ids="tv_nfc_simulation_hint,vp_simulation,radio_group,tv_simulation_tip,progress_bar_weight"
+            tools:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_simulation_error"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view_topbar"
+            app:srcCompat="@drawable/ic_fail_yellow" />
+
+        <TextView
+            android:id="@+id/tv_simulation_error_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/add_failed"
+            android:textColor="@color/text_important_color"
+            android:textSize="@dimen/text_18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_simulation_error" />
+
+        <TextView
+            android:id="@+id/tv_simulation_error_reason_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/failed_reason"
+            android:textColor="@color/text_important_color"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_simulation_error_title" />
+
+        <TextView
+            android:id="@+id/tv_simulation_error_reason"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/system_exception"
+            android:textColor="@color/text_secondary_disable_color"
+            app:layout_constraintStart_toStartOf="@+id/tv_simulation_error_reason_tip"
+            app:layout_constraintTop_toBottomOf="@+id/tv_simulation_error_reason_tip" />
+
+        <TextView
+            android:id="@+id/tv_simulation_error_detail_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/detailed_analysis"
+            android:textColor="@color/text_important_color"
+            app:layout_constraintStart_toStartOf="@+id/tv_simulation_error_reason"
+            app:layout_constraintTop_toBottomOf="@+id/tv_simulation_error_reason" />
+
+        <TextView
+            android:id="@+id/tv_simulation_error_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/get_data_error"
+            android:textColor="@color/text_secondary_disable_color"
+            app:layout_constraintStart_toStartOf="@+id/tv_simulation_error_detail_tip"
+            app:layout_constraintTop_toBottomOf="@+id/tv_simulation_error_detail_tip" />
+
+        <TextView
+            android:id="@+id/tv_simulation_error_handler_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/handling_suggestions"
+            android:textColor="@color/text_important_color"
+            app:layout_constraintStart_toStartOf="@+id/tv_simulation_error_detail"
+            app:layout_constraintTop_toBottomOf="@+id/tv_simulation_error_detail" />
+
+        <TextView
+            android:id="@+id/tv_simulation_error_handler"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/try_again"
+            android:textColor="@color/text_secondary_disable_color"
+            app:layout_constraintStart_toStartOf="@+id/tv_simulation_error_handler_tip"
+            app:layout_constraintTop_toBottomOf="@+id/tv_simulation_error_handler_tip" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/bt_simulation_error"
+            style="@style/Theme.MaterialComponents"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:onClick="@{()->fragment.onButtonAddFailClick()}"
+            android:paddingStart="140dp"
+            android:paddingTop="14dp"
+            android:paddingEnd="140dp"
+            android:paddingBottom="14dp"
+            android:text="@string/got_it"
+            android:textColor="@color/red_D25454"
+            app:backgroundTint="@color/gray_f5f5f5"
+            app:cornerRadius="24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <androidx.constraintlayout.widget.Group
+            android:id="@+id/group_add_error"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:constraint_referenced_ids="iv_simulation_error,tv_simulation_error_title,tv_simulation_error_handler_tip,tv_simulation_error_detail,tv_simulation_error_reason,tv_simulation_error_detail_tip,tv_simulation_error_reason_tip,bt_simulation_error,tv_simulation_error_handler"
+            tools:visibility="visible" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

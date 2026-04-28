@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="16dp">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_dialog_authentication"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:gravity="center"
+            android:text="@string/authentication"
+            android:textColor="@color/text_important_color"
+            android:textSize="@dimen/text_18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_authentication_tip"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="36dp"
+            android:gravity="center"
+            android:text="@string/authentication_tip"
+            android:textColor="@color/text_secondary_color"
+            android:textSize="@dimen/text_14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_dialog_authentication" />
+
+        <TextView
+            android:id="@+id/tv_authentication_tip_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/text_secondary_color"
+            android:textSize="@dimen/text_14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_authentication_tip"
+            tools:text="+86 13924674690" />
+
+        <EditText
+            android:id="@+id/et_sms_verification_code"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/white"
+            android:hint="@string/sms_verification_code"
+            android:inputType="number"
+            android:textColorHint="@color/text_secondary_disable_color"
+            android:textCursorDrawable="@drawable/solid_shape_bottom_line"
+            android:textSize="@dimen/text_15sp"
+            app:layout_constraintEnd_toStartOf="@+id/tv_send_sms_code"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_authentication_tip_value" />
+
+        <View
+            android:id="@+id/line_door_key_name"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="4dp"
+            android:background="@color/line_color"
+            app:layout_constraintEnd_toEndOf="@id/tv_send_sms_code"
+            app:layout_constraintStart_toStartOf="@id/et_sms_verification_code"
+            app:layout_constraintTop_toBottomOf="@id/et_sms_verification_code" />
+
+        <TextView
+            android:id="@+id/tv_send_sms_code"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:layout_marginEnd="26dp"
+            android:text="@string/send_sms_code"
+            android:textColor="@color/main_color"
+            android:textSize="@dimen/text_15sp"
+            app:layout_constraintBaseline_toBaselineOf="@id/et_sms_verification_code"
+            app:layout_constraintEnd_toEndOf="parent"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/line_color"
+            app:layout_constraintTop_toBottomOf="@id/et_sms_verification_code" />
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="21dp"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textColor="@color/auxiliary_widget"
+            android:textSize="@dimen/text_18sp"
+            app:layout_constraintEnd_toStartOf="@id/view"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/et_sms_verification_code" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="1dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="21dp"
+            android:background="@color/line_color"
+            app:layout_constraintEnd_toStartOf="@id/tv_confirm"
+            app:layout_constraintStart_toEndOf="@id/tv_cancel"
+            app:layout_constraintTop_toBottomOf="@id/et_sms_verification_code" />
+
+        <TextView
+            android:id="@+id/tv_confirm"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="21dp"
+            android:gravity="center"
+            android:text="@string/sure"
+            android:textColor="@color/auxiliary_widget"
+            android:textSize="@dimen/text_18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/view"
+            app:layout_constraintTop_toBottomOf="@id/et_sms_verification_code" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>

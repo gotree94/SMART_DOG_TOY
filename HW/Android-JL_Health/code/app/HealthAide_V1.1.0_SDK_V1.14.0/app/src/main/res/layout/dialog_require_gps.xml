@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_dialog_white_shape"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tv_dialog_gps_no_movement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_movement"
+        android:textColor="@color/gray_9E9E9E"
+        android:textSize="@dimen/text_14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_dialog_gps_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/open_gps_permission"
+        android:textColor="@color/text_important_color"
+        android:textSize="@dimen/text_18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_dialog_gps_no_movement" />
+
+    <ImageView
+        android:id="@+id/iv_dialog_gps_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/ic_open_location"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_dialog_gps_title" />
+
+    <TextView
+        android:id="@+id/tv_dialog_gps_content"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:padding="10dp"
+        android:text="@string/permission_describe_gps_permission_sport"
+        android:textColor="@color/text_important_color"
+        android:textSize="@dimen/text_16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_dialog_gps_content" />
+
+
+    <TextView
+        android:id="@+id/btn_gps_chose_sport"
+        android:layout_width="145dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="37dp"
+        android:background="@drawable/btn_gray_shape_919191"
+        android:gravity="center"
+        android:text="@string/keep_moving"
+        app:textAllCaps="false"
+        android:textColor="@color/black_333333"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_dialog_gps_content" />
+
+    <TextView
+        android:id="@+id/btn_gps_chose_require"
+        android:layout_width="145dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="37dp"
+        android:background="@drawable/btn_purple_shape"
+        android:gravity="center"
+        android:text="@string/go_setting"
+        app:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_dialog_gps_content" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

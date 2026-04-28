@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/content_color"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/view_topbar"
+        layout="@layout/view_topbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@color/line_color" />
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp">
+
+        <TextView
+            style="@style/swTitleStyle"
+            android:text="@string/step_sensor" />
+
+        <com.kyleduo.switchbutton.SwitchButton
+            android:id="@+id/sw_step_sensor"
+            style="@style/swStyle"
+            android:layout_width="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/line_color" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_step_sensor_record"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp">
+
+
+        <TextView
+            style="@style/swTitleStyle"
+            android:text="@string/keep_data_record" />
+
+        <com.kyleduo.switchbutton.SwitchButton
+            android:id="@+id/sw_step_sensor_record"
+            style="@style/swStyle"
+            android:layout_width="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@color/line_color" />
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp">
+
+
+        <TextView
+            style="@style/swTitleStyle"
+            android:text="@string/heart_rate_sensor" />
+
+        <com.kyleduo.switchbutton.SwitchButton
+            android:id="@+id/sw_heart_rate_sensor"
+            style="@style/swStyle"
+            android:layout_width="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/line_color" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_heart_rate_sensor_record"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp">
+
+
+        <TextView
+            style="@style/swTitleStyle"
+            android:text="@string/keep_data_record" />
+
+        <com.kyleduo.switchbutton.SwitchButton
+            android:id="@+id/sw_heart_rate_sensor_record"
+            style="@style/swStyle"
+            android:layout_width="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@color/line_color" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp">
+
+
+        <TextView
+            style="@style/swTitleStyle"
+            android:text="@string/blood_oxygen_sensor" />
+
+        <com.kyleduo.switchbutton.SwitchButton
+            android:id="@+id/sw_blood_oxygen_sensor"
+            style="@style/swStyle"
+            android:layout_width="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/line_color" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_blood_oxygen_sensor_record"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp">
+
+
+        <TextView
+            style="@style/swTitleStyle"
+            android:text="@string/keep_data_record" />
+
+        <com.kyleduo.switchbutton.SwitchButton
+            android:id="@+id/sw_blood_oxygen_sensor_record"
+            style="@style/swStyle"
+            android:layout_width="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@color/line_color" />
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp">
+
+        <TextView
+            style="@style/swTitleStyle"
+            android:text="@string/altitude_pressure_sensor" />
+
+        <com.kyleduo.switchbutton.SwitchButton
+            android:id="@+id/sw_altitude_pressure_sensor"
+            style="@style/swStyle"
+            android:layout_width="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/line_color" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_altitude_pressure_sensor_record"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp">
+
+
+        <TextView
+            style="@style/swTitleStyle"
+            android:text="@string/keep_data_record" />
+
+        <com.kyleduo.switchbutton.SwitchButton
+            android:id="@+id/sw_altitude_pressure_sensor_record"
+            style="@style/swStyle"
+            android:layout_width="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_color" />
+
+</LinearLayout>

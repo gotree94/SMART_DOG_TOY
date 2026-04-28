@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/content_color"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_topbar" />
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/bg_color"
+        android:gravity="center_vertical"
+        android:paddingStart="16dp"
+        android:text="@string/status_text"
+
+
+        android:textColor="@color/text_secondary_disable_color"
+        android:textSize="@dimen/sp_14" />
+
+
+    <TextView
+        android:id="@+id/tv_sw_status_close"
+        style="@style/textRegular"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:drawableEnd="@drawable/ic_choose_blue"
+        android:drawableBottom="@drawable/line_gray_1dp"
+        android:gravity="center_vertical"
+        android:text="@string/close"
+        android:textColor="@color/text_important_color"
+        android:textSize="@dimen/text_15sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/line_color" />
+
+    <TextView
+
+        android:id="@+id/tv_sw_status_open_all_day"
+        style="@style/textRegular"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:drawableBottom="@drawable/line_gray_1dp"
+        android:gravity="center_vertical"
+        android:text="@string/all_day"
+        android:textColor="@color/text_important_color"
+        android:textSize="@dimen/text_15sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/line_color" />
+
+    <TextView
+        android:id="@+id/tv_sw_status_sw_time_open"
+        style="@style/textRegular"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center_vertical"
+        android:text="@string/time_open"
+        android:textColor="@color/text_important_color"
+        android:textSize="@dimen/text_15sp" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@color/bg_color" />
+
+    <RelativeLayout
+        android:id="@+id/rl_start_time"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp">
+
+        <TextView
+            style="@style/textRegular"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+
+            android:text="@string/start_time"
+            android:textColor="@color/text_important_color"
+            android:textSize="15sp" />
+
+
+        <TextView
+            android:id="@+id/tv_sw_start_time"
+
+            style="@style/textRegular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:drawableEnd="@drawable/ic_right_arrow"
+            android:gravity="center_vertical"
+            android:text="08:00"
+            android:textColor="@color/text_secondary_disable_color"
+            android:textSize="@dimen/text_13sp" />
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/line_color" />
+
+
+    <RelativeLayout
+        android:id="@+id/rl_end_time"
+
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp">
+
+        <TextView
+            style="@style/textRegular"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:text="@string/end_time"
+            android:textColor="@color/text_important_color"
+            android:textSize="15sp" />
+
+
+        <TextView
+            android:id="@+id/tv_sw_end_time"
+
+            style="@style/textRegular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:drawableEnd="@drawable/ic_right_arrow"
+            android:gravity="center_vertical"
+            android:text="08:00"
+            android:textColor="@color/text_secondary_disable_color"
+            android:textSize="@dimen/text_13sp" />
+
+    </RelativeLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_color" />
+
+</LinearLayout>

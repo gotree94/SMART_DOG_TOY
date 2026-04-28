@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_clear_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:src="@drawable/ic_clear_text"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@id/et_phone_number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/et_phone_number"
+        tools:visibility="visible" />
+
+
+    <EditText
+        android:id="@+id/et_phone_number"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:hint="@string/hint_input_email"
+        android:inputType="textEmailAddress"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:textColor="@color/text_important_color"
+        android:textSize="@dimen/text_16sp"
+        app:layout_constraintEnd_toStartOf="@id/iv_clear_phone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="Autofill"
+        tools:text="" />
+
+
+    <View
+        android:id="@+id/line_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/line_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/et_phone_number"
+        />
+
+
+    <EditText
+        android:id="@+id/et_verification_code"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:background="@color/white"
+        android:hint="@string/input_identifying_code"
+        android:inputType="number"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:textColor="@color/text_important_color"
+        android:textSize="@dimen/text_16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/iv_clear_verification_code"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/line_phone_number"
+        tools:text="" />
+
+
+    <ImageView
+        android:id="@+id/iv_clear_verification_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:src="@drawable/ic_clear_text"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@id/et_verification_code"
+        app:layout_constraintEnd_toStartOf="@+id/tv_send_sms"
+        app:layout_constraintTop_toTopOf="@id/et_verification_code"
+        tools:visibility="visible" />
+
+    <View
+        android:id="@+id/diver_verification_code"
+        android:layout_width="1dp"
+        android:layout_height="12dp"
+        android:background="@color/line_color"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@id/et_verification_code"
+        app:layout_constraintEnd_toStartOf="@+id/tv_send_sms"
+        app:layout_constraintTop_toTopOf="@id/et_verification_code"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tv_send_sms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:text="@string/send_identifying_code"
+        android:textColor="@color/main_color"
+        android:textSize="@dimen/text_14sp"
+        app:layout_constraintBottom_toBottomOf="@id/et_verification_code"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/et_verification_code" />
+
+    <View
+        android:id="@+id/line_verification_code"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/line_color"
+        app:layout_constraintBottom_toBottomOf="@id/et_verification_code"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

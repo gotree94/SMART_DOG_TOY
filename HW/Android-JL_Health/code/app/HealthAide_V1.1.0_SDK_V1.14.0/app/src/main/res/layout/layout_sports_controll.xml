@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+
+
+
+
+    <View
+        android:id="@+id/view_center"
+        android:layout_width="1dp"
+        android:background="@color/text_transparent"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </View>
+
+
+    <ImageView
+        android:id="@+id/iv_lock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="88dp"
+        android:src="@drawable/run_icon_lnock_nol"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/view_center"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+
+        android:id="@+id/iv_continue"
+        style="@style/textMedium"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/btn_running_continue"
+
+        android:gravity="center"
+        android:text="@string/sports_resume"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:visibility="visible"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
+
+
+    <com.jieli.healthaide.ui.sports.widget.PressProgressView
+        android:id="@+id/iv_end"
+        style="@style/textMedium"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="0dp"
+        android:gravity="center"
+        android:src="@drawable/run_icon_end_nol"
+        android:tag="#E47771"
+        android:text="@string/sports_stop"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+
+        tools:visibility="visible" />
+
+
+    <ImageView
+        android:id="@+id/iv_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:src="@drawable/run_icon_map_nol"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/view_center"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_stop_tip"
+        style="@style/textMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/run_img_textbox"
+        android:gravity="center_horizontal"
+        android:paddingTop="8dp"
+        android:text="@string/long_press_to_stop"
+        android:textColor="@color/text_secondary_disable_color"
+        android:textSize="13sp"
+        android:translationX="51dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@id/iv_end"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:visibility="visible" />
+
+
+
+
+    <ImageView
+        android:id="@+id/iv_stop"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:src="@drawable/run_icon_stop_nol"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:id="@+id/cl_slider_lock"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/content_color"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/iv_stop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/iv_stop">
+
+        <View
+            android:id="@+id/view_lock"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/btn_purple_shape"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/run_icon_slide_nol"
+            android:drawablePadding="30dp"
+            android:text="@string/slider_to_unlock"
+            android:textColor="#e6ffffff"
+            android:textSize="16sp"
+
+            app:layout_constraintBottom_toBottomOf="@id/view_lock"
+            app:layout_constraintEnd_toEndOf="@id/view_lock"
+            app:layout_constraintStart_toStartOf="@id/view_lock"
+            app:layout_constraintTop_toTopOf="@id/view_lock">
+
+        </androidx.appcompat.widget.AppCompatTextView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</merge>

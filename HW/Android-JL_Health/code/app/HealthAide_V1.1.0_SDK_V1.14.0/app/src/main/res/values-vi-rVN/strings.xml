@@ -1,0 +1,972 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">WearLink</string>
+
+    <!--HomeActivity-->
+    <string name="tab_health">Sức khỏe</string>
+    <string name="tab_sports">Thể thao</string>
+    <string name="tab_device">Thiết bị</string>
+    <string name="tab_settings">Thiết lập</string>
+    <string name="tab_mine">Của tôi</string>
+
+    <string name="search_phone">Thiết bị tìm kiếm trong điện thoại di động......</string>
+    <string name="close_play">Tắt âm thanh</string>
+
+    <!--Load More View-->
+    <string name="status_loading">Đang tải&#8230;</string>
+    <string name="status_load_complete">Nhấp để tải thêm</string>
+    <string name="status_load_end">Không còn dữ liệu</string>
+    <string name="status_load_failed">Không tải được, nhấp vào tôi để thử lại</string>
+
+    <!--action-->
+    <string name="scan_qr_code">Quét mã QR</string>
+    <string name="add_device">Thêm thiết bị</string>
+    <string name="sports_settings">Thiết lập chuyển động</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Xin chào, giao diện trống</string>
+    <string name="calendar_type_day">Ngày</string>
+    <string name="calendar_type_week">Tuần</string>
+    <string name="calendar_type_year">Năm</string>
+    <string name="blood_oxygen_saturation">Độ bão hòa oxy trong máu</string>
+    <string name="movement_record">Hồ sơ thể thao</string>
+    <string name="empty_record">Không có hồ sơ</string>
+    <string name="heart_rate">Nhịp tim</string>
+    <string name="sleep">ngủ</string>
+    <string name="today_empty_data">Hôm nay không có dữ liệu</string>
+    <string name="weight">Cân nặng</string>
+    <string name="pressure">Áp lực</string>
+    <string name="kilogram">Kg</string>
+    <string name="calendar_type_month">Tháng</string>
+    <string name="distance_km">Khoảng cách (km)</string>
+    <string name="distance_mile">Khoảng cách (dặm)</string>
+    <string name="climbing_stairs_m">Leo lầu (mét)</string>
+    <string name="climbing_stairs_foot">Cầu thang (feet)</string>
+    <string name="calories_kcal">Nhiệt độ (kcal)</string>
+    <string name="step">Bước</string>
+    <string name="step_number">Số bước</string>
+    <string name="medium_high_strength">Cường độ trung bình cao</string>
+    <string name="min">phút</string>
+    <string name="average_step">Số bước trung bình</string>
+    <string name="all_step">Tổng số bước</string>
+    <string name="all_mile">Tổng số dặm</string>
+    <string name="all_consumption">Tổng tiêu thụ</string>
+    <string name="kilocalorie">Name</string>
+    <string name="kilometre">Km</string>
+    <string name="weight_setting">Thiết lập cân nặng</string>
+    <string name="weight_target">Mục tiêu cân nặng</string>
+    <string name="date">Ngày</string>
+    <string name="time">Thời gian</string>
+    <string name="weekly_average">Trung bình hàng tuần</string>
+    <string name="daily_average">Trung bình hàng ngày</string>
+    <string name="month_average">Trung bình tháng</string>
+    <string name="year_average">Trung bình hàng năm</string>
+    <string name="range_of_variation">Thay đổi</string>
+    <string name="weight_start_data">Bắt đầu:%.1f</string>
+    <string name="weight_target_data">Mục tiêu:%.1f</string>&gt;
+    <string name="kg">kg</string>
+    <string name="sober">Tỉnh táo</string>
+    <string name="rapid_eye_movement">Chuyển động mắt nhanh</string>
+    <string name="light_sleep">Ngủ nông</string>
+    <string name="deep_sleep">ngủ sâu</string>
+    <!--Health- Pressure-->
+    <string name="uptilted">Chiều cao</string>
+    <string name="medium">Trung bình</string>
+    <string name="normal">Bình thường</string>
+    <!--Login-->
+    <string name="login">Đăng nhập</string>
+    <string name="hint_input_phone_number_or_email">Vui lòng nhập số điện thoại/hộp thư</string>
+    <string name="hint_input_phone_number">Vui lòng nhập số điện thoại di động</string>
+    <string name="hint_input_password">Vui lòng nhập mật khẩu</string>
+    <string name="login_by_sms">Đăng nhập bằng CAPTCHA</string>
+    <string name="forgot_password">Quên mật khẩu?</string>
+    <string name="register_tips">Không có tài khoản? Đăng ký ngay</string>
+    <string name="phone_or_email_tips_empty">Số điện thoại/hộp thư không được để trống</string>
+    <string name="phone_or_email_tips_format_err">Định dạng số điện thoại/hộp thư không chính xác</string>
+    <string name="phone_tips_empty">Số điện thoại không được để trống</string>
+    <string name="phone_tips_format_err">Định dạng số điện thoại không chính xác</string>
+    <string name="email_address_tips_empty">Địa chỉ email không được để trống</string>
+    <string name="email_address_tips_format_err">Địa chỉ hộp thư không đúng định dạng</string>
+    <string name="password_tips_empty">Mật khẩu không được để trống</string>
+    <string name="password_tips_format_err">Mật khẩu phải dài 6-12 chữ số</string>
+    <string name="register_succeed">Đăng ký thành công</string>
+    <string name="login_by_account">Đăng nhập bằng mật khẩu tài khoản</string>
+    <!--帐号与安全-->
+    <string name="search">Tìm kiếm</string>
+    <string name="account_security">Tài khoản&amp;Bảo mật</string>
+    <string name="modify_phone_number">Thay đổi số điện thoại</string>
+    <string name="modify_email_address">Thay đổi địa chỉ hộp thư</string>
+    <string name="change_password">Thay đổi mật khẩu</string>
+    <string name="change">Thay thế</string>
+    <string name="bind_new_phone_number">Liên kết số điện thoại mới</string>
+    <string name="bind_new_email_address">Liên kết địa chỉ hộp thư mới</string>
+    <string name="modify_binded_phone_number">Thay thế số điện thoại bị ràng buộc?</string>
+    <string name="current_binded_phone_number">Số điện thoại liên kết hiện tại là</string>
+    <string name="modify_binded_email_address">Thay đổi địa chỉ hộp thư bị ràng buộc?</string>
+    <string name="current_binded_email_address">Địa chỉ hộp thư bị ràng buộc hiện tại là</string>
+    <string name="authentication">Xác thực</string>
+    <string name="authentication_tip">Để xác nhận là thao tác của bạn, xin vui lòng tiến hành kiểm tra thân phận.</string>
+    <string name="sms_verification_code">Mã xác nhận SMS</string>
+    <string name="bind_new_phone_number_success">Số điện thoại mới đã kết nối thành công!</string>
+    <string name="bind_new_email_address_success">Địa chỉ email mới đã được liên kết thành công!</string>
+    <string name="modified_success">Sửa đổi thành công</string>
+    <string name="old_password">Mật khẩu cũ</string>
+    <string name="input_old_password">Nhập mật khẩu cũ</string>
+    <string name="new_password">Mật khẩu mới</string>
+    <string name="password_input_tip">Vui lòng đặt mật khẩu mới cho sự kết hợp 6-12 chữ cái và số</string>
+    <string name="inout_new_password">Nhập mật khẩu mới</string>
+    <string name="inout_new_password_again">Nhập lại mật khẩu mới</string>
+    <string name="password_is_inconsistent">Mật khẩu không phù hợp, vui lòng nhập lại</string>
+    <string name="phone_number_is_empty">Số điện thoại không được để trống</string>
+    <string name="sms_verification_code_error">Lỗi mã xác minh SMS</string>
+    <string name="current_phone_registered">Điện thoại hiện tại đã đăng ký</string>
+    <string name="current_phone_no_register">Tài khoản hiện tại chưa đăng ký</string>
+    <string name="account_password_error">Tài khoản mật khẩu sai</string>
+    <string name="new_password_no_be_empty">Mật khẩu mới không được để trống</string>
+    <string name="old_password_error">Lỗi mật khẩu cũ</string>
+    <!--Register-->
+    <string name="register">Đăng ký</string>
+    <string name="input_verification_code">Nhập CAPTCHA</string>
+    <string name="send_sms_code">Gửi CAPTCHA</string>
+    <string name="resend_sms_code">Lấy lại (%1$s)</string>
+    <string name="input_identifying_code">Nhập CAPTCHA</string>
+    <string name="send_identifying_code">Gửi CAPTCHA</string>
+    <string name="resend_identifying_code">Lấy lại (%1$s)</string>
+    <string name="input_password_tips">Vui lòng đặt mật khẩu kết hợp 6-12 chữ cái và số</string>
+    <string name="sms_code_tips_empty">Captcha không được để trống</string>
+    <string name="sms_code_tips_format_err">CAPTCHA không đúng định dạng</string>
+    <string name="identifying_code_tips_empty">Captcha không được để trống</string>
+    <string name="identifying_code_tips_format_err">CAPTCHA không đúng định dạng</string>
+    <string name="hint_input_email">Vui lòng nhập địa chỉ hộp thư</string>
+
+    <!--User Message-->
+    <string name="input_user_msg">Hoàn thiện thông tin cá nhân</string>
+    <string name="nickname">Biệt danh</string>
+    <string name="sex">Giới tính</string>
+    <string name="date_of_birth">Năm sinh</string>
+    <string name="stature">Chiều cao</string>
+    <string name="sport_target">Mục tiêu thể thao</string>
+    <string name="next_step">Tiếp theo</string>
+    <string name="skip_progress">Bỏ qua</string>
+
+    <string name="please_input">Vui lòng nhập</string>
+    <string name="please_choose">Vui lòng chọn</string>
+    <string name="heart_rate_range">Phạm vi nhịp tim</string>
+    <string name="times_per_minute">Thời gian/phút</string>
+    <string name="resting_heart_rate">Nhịp tim nghỉ ngơi</string>
+    <string name="resting_heart_rate_avg">Nhịp tim nghỉ ngơi trung bình</string>
+    <string name="static_heart_rate_too_high">Nhịp tim tĩnh quá cao</string>
+    <string name="low_resting_heart_rate">Nhịp tim tĩnh quá thấp</string>
+
+    <!--Sex Dialog-->
+    <string name="man">Nam</string>
+    <string name="woman">Phụ nữ</string>
+    <string name="hour">Giờ</string>
+    <string name="minute">phút</string>
+    <string name="score">Phân chia</string>
+
+
+    <!--Permission-->
+    <string name="open_gpg_tip">Ứng dụng yêu cầu chức năng GPS, vui lòng bật dịch vụ định vị để tiếp tục</string>
+    <string name="permissions_tips_01">Để sử dụng phần mềm bình thường, vui lòng</string>
+    <string name="permission_contacts">Cho phép đọc và ghi liên hệ</string>
+    <string name="permission_mic">Cho phép micro</string>
+    <string name="permission_read_phone_state">Cho phép đọc thông tin điện thoại</string>
+    <string name="permission_location">Cho phép truy cập thông tin định vị</string>
+    <string name="permission_storage">Cho phép tập tin đọc và ghi</string>
+    <string name="permission_bluetooth">Bluetooth được phép</string>
+    <string name="permission_phone_settings">Cho phép thay đổi cài đặt điện thoại bằng cách sử dụng</string>
+    <string name="permissions_tips_02">Vui lòng truy cập Cài đặt hệ thống Cấp ứng dụng</string>
+    <string name="permission">Quyền hạn</string>
+    <string name="permission_sport">Thiết lập quyền chuyển động</string>
+    <string name="permission_sport_tips">Android có thể tắt%1$s đang ghi chuyển động hoặc khiến một số dữ liệu ghi chuyển động bị thiếu do cài đặt tiết kiệm năng lượng và hạn chế quá trình nền. Nếu bạn gặp phải vấn đề liên quan, bạn có thể tham khảo các thiết lập theo phương pháp sau.</string>
+    <string name="permission_sport_suspension_title">Cài đặt hiển thị trên các ứng dụng khác (cửa sổ lơ lửng)</string>
+    <string name="permission_sport_suspension_describe">Để đảm bảo rằng bạn không bị hệ thống điện thoại của bạn làm hỏng quá trình trong quá trình tập thể dục, dẫn đến mất dữ liệu chuyển động, hãy cấp quyền cho cửa sổ treo%1$s</string>
+    <string name="permission_sport_suspension_operate">Mở cửa sổ lơ lửng.</string>
+    <string name="permission_sport_battery_optimized_title">Tối ưu hóa pin</string>
+    <string name="permission_sport_battery_optimized_describe">Trong chế độ tiết kiệm năng lượng, hoạt động của%1$s vẫn có thể nhận được giới hạn. Khi bắt đầu vận động nên cố gắng làm cho lượng điện ở trạng thái tương đối đầy đủ và tắt chế độ tiết kiệm điện. Các thiết lập liên quan thường được đặt trong thanh trạng thái hoặc các thiết lập liên quan đến pin.</string>
+    <string name="permission_sport_battery_optimized_operate_1">Đã bật tối ưu hóa pin, nhấp vào Đóng</string>
+    <string name="permission_sport_battery_optimized_operate_2">Pin Optimization đã tắt</string>
+    <string name="permission_sport_background_title">Thiết lập bảo vệ nền</string>
+    <string name="permission_sport_background_describe">Thêm%1$s vào danh sách bảo vệ nền có thể giúp%1$s chạy liên tục trong nền. Phương pháp thiết lập:</string>
+    <string name="permission_sport_background_operate">Bật cài đặt hệ thống bảo vệ nền</string>
+    <string name="permission_sport_powersave_title">Chế độ tiết kiệm điện</string>
+    <string name="permission_sport_powersave_describe">Do cài đặt tiết kiệm năng lượng của hệ thống, ứng dụng sẽ bị đóng băng. Để đảm bảo rằng các hoạt động nền như ghi dữ liệu chuyển động không bị ảnh hưởng, hãy thêm%1$s vào danh sách trắng tối ưu hóa pin. Phương pháp thiết lập:</string>
+    <string name="permission_sport_powersave_oprate">Bật cài đặt hệ thống chống ngủ</string>
+    <string name="lock_screen_display">Hiển thị màn hình khóa</string>
+    <string name="locak_screen_display_hint">Cách cài đặt: Apply Information -&gt;Rights Management -&gt;Lockscreen Display</string>
+    <string name="instructions_for_use">Hướng dẫn sử dụng</string>
+    <string name="permissions_camera">Quyền của máy ảnh</string>
+    <string name="permissions_bluetooth">Quyền Bluetooth</string>
+    <string name="permissions_location">Quyền vị trí</string>
+    <string name="permissions_storage">Quyền lưu trữ</string>
+    <string name="permissions_read_contact">Quyền đọc thông tin liên lạc</string>
+    <string name="permissions_camera_explain">Được sử dụng để quét, đặt hình đại diện, đặt nền mặt đồng hồ tùy chỉnh và các chức năng khác.</string>
+    <string name="permissions_bluetooth_explain">Được sử dụng để tìm kiếm và kết nối các thiết bị Bluetooth, giao tiếp với các thiết bị Bluetooth và các chức năng khác.</string>
+    <string name="permissions_location_explain">Được sử dụng cho chức năng Bluetooth, thông tin thời tiết, định vị bản đồ, quỹ đạo chuyển động và các chức năng khác.</string>
+    <string name="permissions_storage_explain">Được sử dụng để đọc file nhạc, đặt hình đại diện, đọc thư viện và các chức năng khác.</string>
+    <string name="permissions_read_contact_explain">Được sử dụng để đồng bộ hóa thông tin liên lạc với thiết bị.</string>
+    <string name="rejust_permissions_tips">Nếu bạn từ chối kích hoạt nó, bạn sẽ không thể sử dụng các chức năng trên.</string>
+
+
+    <!-- reset password-->
+    <string name="password">Mật khẩu</string>
+    <string name="finish">Hoàn thành</string>
+    <string name="sms_check">Kiểm tra</string>
+    <string name="hint_text_password_again_input">Vui lòng xác nhận lại mật khẩu</string>
+
+    <!--Add Device-->
+    <string name="connect">Kết nối</string>
+    <string name="status_disconnect">Chưa kết nối</string>
+    <string name="status_connected">Đã kết nối</string>
+    <string name="status_connecting">Kết nối</string>
+    <string name="add">Thêm</string>
+    <string name="no_device_tips">Bạn chưa thêm thiết bị nào</string>
+    <string name="user_denies_permissions">Vui lòng cấp quyền liên quan đến \"%1$s\" trong hệ thống</string>
+    <string name="start_scan_failed">Khởi động thiết bị quét không thành công, vui lòng thử lại sau</string>
+    <string name="bluetooth_is_close">Bluetooth đã tắt, vui lòng bật Bluetooth và thử lại</string>
+
+    <!--Watch Control-->
+    <string name="restore_watch_system_success">Khôi phục hệ thống thành công</string>
+    <string name="restore_watch_system_failure">Khôi phục hệ thống không thành công, nguyên nhân:%1$s</string>
+    <string name="battery_format">Điện %1$d%%</string>
+    <string name="local_watch">Quay số cục bộ</string>
+    <string name="watch_market_all">Tất cả</string>
+    <string name="using_watch">Đang sử dụng</string>
+    <string name="use_watch">Sử dụng</string>
+    <string name="update_watch">Cập nhật</string>
+    <string name="download_watch">Tải về</string>
+    <string name="buy_watch">Mua hàng</string>
+
+    <string name="health_record">Sức khỏe</string>
+    <string name="music_manager">Quản lý âm nhạc</string>
+    <string name="device_music">Thiết bị Âm nhạc</string>
+    <string name="alarm">Đồng hồ báo thức</string>
+    <string name="contacts">Liên hệ thường xuyên</string>
+    <string name="card_bag">Gói thẻ</string>
+    <string name="firmware_upgrade">Cập nhật phiên bản thiết bị</string>
+    <string name="science_sleep">Kiểm tra giấc ngủ</string>
+    <string name="turned_on">Đã bật</string>
+    <string name="turned_off">Đóng cửa</string>
+    <string name="sedentary_reminder">Nhắc nhở ngồi lâu</string>
+    <string name="sedentary_reminder_tip">Ngồi lâu hơn một giờ nhắc nhở</string>
+    <string name="continuous_measurement_heart_rate">Đo nhịp tim liên tục</string>
+    <string name="heart_rate_range_early_warning">Nhắc nhở nhịp tim tập thể dục</string>
+    <string name="pressure_auto_testing">Phát hiện áp suất tự động</string>
+
+    <string name="retrieve_password">Lấy lại mật khẩu</string>
+    <string name="reset_password">Đặt lại mật khẩu</string>
+    <string name="call_phone_error_tips">Đang trong trạng thái điện thoại, vui lòng làm việc sau</string>
+
+
+    <!-- Mine -->
+    <string name="mine_my_data">Dữ liệu của tôi</string>
+    <string name="mine_sport_weekly">Thể thao hàng tuần</string>
+    <string name="mine_setting">Thiết lập</string>
+    <string name="mine_help">Trợ giúp</string>
+    <string name="mine_about">Giới thiệu</string>
+
+    <string name="user_info">Thông tin cá nhân</string>
+    <string name="user_info_avatar">Đầu</string>
+    <string name="health_state">Tình trạng sức khỏe</string>
+    <string name="activity_statistics">Thống kê hoạt động</string>
+    <string name="target">Mục tiêu</string>
+    <string name="format_birthday_year_month">%1$dnăm%2$dtháng</string>
+    <string name="format_height">%1$d cm</string>
+    <string name="format_step_number_target">%1$d bước</string>
+    <string name="hint_input_nickname">Vui lòng nhập nickname</string>
+    <string name="save">Lưu</string>
+    <string name="tip_nickname_null">Biệt danh không được để trống</string>
+    <string name="sure">Xác định</string>
+    <string name="distance">Tổng số dặm</string>
+    <string name="climb">Trèo cao</string>
+    <string name="heat">Nhiệt độ</string>
+    <string name="distance_m">Gạo</string>
+    <string name="kcal">Name</string>
+    <string name="relax">Thư giãn</string>
+    <string name="alert">Thông báo tin nhắn</string>
+    <string name="sensor_setting">Thiết lập cảm biến</string>
+    <string name="open">Đã bật</string>
+    <string name="weather_push">Thời tiết Push</string>
+    <string name="clean_cache">Làm sạch bộ nhớ cache</string>
+    <string name="tip_clean_cache">Bạn muốn xóa dữ liệu bộ nhớ cache của người dùng</string>
+    <string name="bright_screen">Nâng cổ tay lên.</string>
+    <string name="tip_bright_screen">Nâng cổ tay và xoay màn hình về phía mình để thắp sáng màn hình</string>
+    <string name="bright_screen_hint">Nâng cổ tay không sáng trong chế độ không làm phiền</string>
+    <string name="bluetooth_disconnect_tip">Nhắc nhở ngắt kết nối Bluetooth</string>
+    <string name="target_consume">Tiêu thụ khoảng%1$d kcal</string>
+    <string name="target_step">Số bước đích</string>
+    <string name="target_weight">Trọng lượng mục tiêu</string>
+    <string name="multilingual">Đa ngôn ngữ</string>
+    <string name="simplified_chinese">Trung Quốc giản thể</string>
+    <string name="follow_system">Theo dõi hệ thống</string>
+    <string name="english">Tiếng Việt</string>
+    <string name="japanese">Tiếng Nhật</string>
+    <string name="korean">Hàn Quốc</string>
+    <string name="french">Tiếng Pháp</string>
+    <string name="german">Tiếng Đức</string>
+    <string name="italian">Tiếng Ý</string>
+    <string name="portuguese">Tiếng Bồ Đào Nha</string>
+    <string name="spanish">Tiếng Việt</string>
+    <string name="swedish">Thụy Điển</string>
+    <string name="polish">Tiếng Ba Lan</string>
+    <string name="russian">Tiếng Nga</string>
+    <string name="turkish">Thổ Nhĩ Kỳ</string>
+    <string name="hebrew">Tiếng Hebre</string>
+    <string name="thai">Thái La</string>
+    <string name="arabic">Tiếng Ả Rập</string>
+    <string name="vietnamese">Tiếng Việt</string>
+    <string name="indonesian">Tiếng Indonesia</string>
+    <string name="malay">Tiếng Mã Lai</string>
+    <string name="persian">Tiếng Ba Tư</string>
+    <string name="set_language">Thiết lập ngôn ngữ</string>
+    <string name="unit_settings">Thiết lập đơn vị</string>
+    <string name="unit_metric">Hệ mét</string>&gt;
+    <string name="unit_imperial">Tiếng Anh</string>
+    <string name="format_weight">%1$d kg</string>
+    <string name="no_nickname">Không đặt biệt danh</string>
+    <string name="user_agreement">Thỏa thuận người dùng</string>
+    <string name="privacy_policy">Chính sách bảo mật</string>
+    <string name="current_app_version">Phiên bản hiện tại:%1$s</string>
+    <string name="agree_and_use">Đồng ý</string>
+    <string name="not_agree_and_exit">Từ chối</string>
+    <string name="privacy_policy_name">"Chính sách bảo mật"</string>
+    <string name="user_service_name">"Thỏa thuận dịch vụ người dùng"</string>
+    <string name="declaration">%1$s Tuyên bố</string>
+    <string name="user_declaration">"%1$s" là phần mềm được sử dụng để ghi lại và phân tích dữ liệu sức khỏe thể thao của người dùng, cung cấp cho người dùng hướng dẫn sức khỏe thể thao chuyên nghiệp và dịch vụ quản lý thiết bị đeo thông minh. Để đạt được mục đích trên,
+         Khi chúng tôi cung cấp dịch vụ cho bạn, chúng tôi có thể cần thu thập thông tin liên quan của bạn và sử dụng các quyền sau: sử dụng máy ảnh, sử dụng thông tin vị trí, sử dụng quyền Bluetooth,
+         Đọc lịch của bạn, đọc danh bạ của bạn, truy cập web. Chúng tôi cần đồng bộ hóa nhịp tim, giấc ngủ, lượng oxy trong máu, hồ sơ tập thể dục và các dữ liệu tập thể dục khác của bạn lên đám mây.
+         Chúng tôi rất coi trọng việc bảo vệ quyền riêng tư và bảo vệ thông tin cá nhân của bạn. Trước khi bạn sử dụng APP "%2$s", vui lòng đọc kỹ #### và tất cả các điều khoản của ****, đồng thời bắt đầu sử dụng chúng tôi sau khi bạn đồng ý và chấp nhận tất cả các điều khoản dịch vụ.
+      </string>
+    <string name="agree_policy_tips">Tôi đã đọc và đồng ý với #### và ****</string>
+    <string name="check_policy_status_tips">Vui lòng đọc và đồng ý với Điều khoản dịch vụ và Chính sách quyền riêng tư</string>
+
+    <string name="add_music">Thêm nhạc</string>
+    <string name="download_music">Đồng bộ nhạc với đồng hồ%1$d/%2$d</string>
+    <string name="transfer_info">Đang chuyển (%1$d/%2$d)</string>
+
+    <string name="message_notify">Thông báo</string>
+    <string name="sync_wechat">Trang chủ</string>
+    <string name="sync_qq">QQ</string>
+    <string name="sync_sms">Tin nhắn</string>
+    <string name="sync_other">Khác</string>
+
+    <!--Watch Market-->
+    <string name="watch_market">Trung tâm thương mại quay số</string>
+    <string name="manager">Quản lý</string>
+    <string name="delete_watch_tip">Mặt đồng hồ không được nhỏ hơn 2</string>
+    <string name="last_page">Tôi có giới hạn rồi.</string>
+    <string name="delete_watch_err">Gỡ bỏ mặt số [%1$s] không thành công, nguyên nhân là%2$s</string>
+    <string name="create_watch_err">Tải xuống quay số [%1$s] không thành công, nguyên nhân là%2$s</string>
+    <string name="update_watch_err">Cập nhật quay số [%1$s] không thành công vì%2$s</string>
+    <string name="transfer_file_warning">Giữ Bluetooth và mạng bật trong quá trình truyền tệp Không tắt thiết bị và điện thoại màn hình khóa</string>
+    <string name="device_is_disconnected">Thiết bị không kết nối</string>
+    <string name="server_none_device_support_version">Phiên bản không hỗ trợ thiết bị</string>
+
+    <!--Dial Detail-->
+    <string name="watch_dial">Quay số</string>
+    <string name="my_dials">Mặt số của tôi</string>
+    <string name="free_dial">Quay số miễn phí</string>
+    <string name="pay_dial">Quay số trả tiền</string>
+    <string name="dial_desc">[Giới thiệu về Dial]</string>
+    <string name="download_dial">Đang tải xuống</string>
+    <string name="update_dial">Đang cập nhật</string>
+    <string name="purchase_record">Hồ sơ mua hàng</string>
+    <string name="handle_dial_tips">Đang chuyển tập tin, đừng thoát khỏi giao diện hiện tại</string>
+
+    <!--Payment-->
+    <string name="product_name">Tên sản phẩm</string>
+    <string name="product_price">Số lượng hàng hóa</string>
+    <string name="pay_way">Phương thức thanh toán</string>
+    <string name="pay_way_tips">Vui lòng chọn phương thức thanh toán</string>
+    <string name="ali_pay">Thanh toán bằng Alipay</string>
+    <string name="weixin_pay">Thanh toán qua WeChat</string>
+    <string name="whether_payment_finish">Thanh toán đã hoàn tất chưa?</string>
+    <string name="unfinished">Chưa hoàn thành</string>
+    <string name="finished">Đã hoàn thành</string>
+
+    <string name="payment_success">Thanh toán thành công</string>
+    <string name="payment_failed">Thanh toán chưa hoàn thành, vui lòng thanh toán lại</string>
+    <string name="payment_processing">Đang xử lý thanh toán, vui lòng chờ</string>
+    <string name="payment_error">Thanh toán thất bại</string>
+    <string name="payment_duplex">Lặp lại yêu cầu, vui lòng chờ một thời gian trước khi thử</string>
+    <string name="payment_user_cancel">Người dùng hủy thanh toán</string>
+    <string name="payment_network">Thanh toán thất bại và có vấn đề với mạng</string>
+    <string name="payment_unknown">Lỗi không rõ</string>
+    <string name="use_dial">Sử dụng</string>
+
+    <string name="no_purchase_record">Không có hồ sơ mua hàng</string>
+
+    <!--Upgrade-->
+    <string name="upgrade">Nâng cấp</string>
+    <string name="current_dev_version">Phiên bản hiện tại</string>
+    <string name="latest_version">Phiên bản mới nhất</string>
+    <string name="check_update">Kiểm tra cập nhật</string>
+    <string name="dev_ota">Cập nhật firmware</string>
+    <string name="upgrade_warning">Trong quá trình nâng cấp, vui lòng giữ Bluetooth và mạng bật Không tắt thiết bị và điện thoại màn hình khóa</string>
+    <string name="ota_result_success">Hoàn thành nâng cấp</string>
+    <string name="ota_result_failed">Nâng cấp thất bại</string>
+    <string name="ota_result_cancel">Việc nâng cấp bị hủy bỏ</string>
+    <string name="new_ota_version">Phiên bản mới%1$s</string>
+    <string name="ota_state_ready">Chuẩn bị nâng cấp</string>
+    <string name="ota_state_check_file">Kiểm tra nâng cấp</string>
+    <string name="ota_state_updating">Đang nâng cấp</string>
+    <string name="ota_state_finish">Nâng cấp kết thúc</string>
+    <string name="update_resource_tips">Đang truyền tài nguyên quay số (%1$d/%2$d)</string>
+    <string name="resource_unfinished_tips">Việc nâng cấp tài nguyên không hoàn thành sẽ khiến thiết bị không khả dụng, bạn có tiếp tục nâng cấp tài nguyên không?</string>
+    <string name="firmware_mandatory_upgrade">Nâng cấp thiết bị chưa hoàn thành và cần tiếp tục nâng cấp để sử dụng bình thường</string>
+    <string name="network_module_ota_upgrade_tips">Quá trình nâng cấp mô-đun 4G chưa hoàn tất. Bạn có muốn tiếp tục nâng cấp không?</string>
+    <string name="upgrade_warning_tips">Cảnh báo nâng cấp</string>
+    <string name="exit_and_disconnect">Buộc thoát</string>
+    <string name="continue_upgrade">Tiếp tục nâng cấp</string>
+    <!--ota err-->
+    <string name="ota_err_no_space">Không đủ không gian nâng cấp, vui lòng xóa tập tin quay số trước khi tiếp tục</string>
+    <string name="ota_err_device_not_connect">Thiết bị nâng cấp không được kết nối, hãy đảm bảo thiết bị được kết nối đúng cách</string>
+    <string name="ota_err_low_power">Mức pin của thiết bị phải trên %1$s để nâng cấp</string>
+    <string name="ota_err_file_info">Nâng cấp lỗi thông tin tập tin</string>
+    <string name="ota_err_file_same_version">Phiên bản tệp nâng cấp giống với phiên bản thiết bị</string>
+    <string name="ota_err_tws_not_connect">Thiết bị không được ghép nối và kết nối</string>
+    <string name="ota_err_not_in_charging_bin">Tai nghe không ở trong ngăn sạc</string>
+    <string name="ota_err_data_crc_check">Nâng cấp lỗi xác minh dữ liệu</string>
+    <string name="ota_err_failed">Nâng cấp không thành công</string>
+    <string name="ota_err_key_mismatch">Khóa không khớp</string>
+    <string name="ota_err_uboot_mismatch">UBoot không khớp</string>
+    <string name="ota_err_data_len">Đã xảy ra lỗi độ dài trong quá trình nâng cấp</string>
+    <string name="ota_err_flash_io">Lỗi đọc và ghi flash xảy ra</string>
+    <string name="ota_err_cmd_timeout">Thời gian chờ lệnh</string>
+    <string name="ota_err_data_offset">Lỗi đọc dữ liệu offset</string>
+    <string name="ota_err_reconnect_device_timeout">Đã hết thời gian kết nối lại với thiết bị</string>
+    <string name="ota_err_waiting_for_cmd_timeout">Đang chờ lệnh hết thời gian chờ</string>
+    <string name="ota_err_send_data_timeout">Gửi lệnh đã hết thời gian chờ</string>
+    <string name="ota_err_update_data">Không thể đọc dữ liệu nâng cấp</string>
+    <string name="ota_err_not_found_file">Không tìm thấy tập tin nâng cấp</string>
+    <string name="ota_err_bad_status">Thiết bị trả về trạng thái không thành công</string>
+    <string name="ota_err_bad_result">Thiết bị trả về kết quả không thành công</string>
+    <string name="ota_err_unknown">Lỗi nâng cấp không xác định</string>
+
+    <!--闹钟-->
+    <string name="named">Tên</string>
+    <string name="alarm_open_success">Bật báo thức thành công</string>
+    <string name="alarm_open_failure">Bật báo thức thất bại</string>
+    <string name="alarm_close_success">Tắt báo thức thành công</string>
+    <string name="alarm_close_failure">Tắt báo thức thất bại</string>
+    <string name="operate_alarm_failure">Đồng hồ báo thức hoạt động thất bại</string>
+    <string name="alarm_list_read_failed">Lỗi đọc danh sách báo thức</string>
+    <string name="delete">Xoá</string>
+    <string name="alarm_set_num_is_full">Số lượng báo thức đã đầy</string>
+    <string name="alarm_delete_failure">Lỗi xóa báo thức</string>
+    <string name="alarm_delete_success">Xóa báo thức thành công</string>
+
+    <string name="alarm_stop_success">Đồng hồ báo thức dừng thành công</string>
+    <string name="alarm_stop_failed">Đồng hồ báo thức dừng thất bại</string>
+    <string name="alarm_delete">Xóa báo thức</string>
+    <string name="sync_time">Đồng bộ hóa thời gian thiết bị</string>
+    <string name="sync_time_success">Thời gian đồng bộ thành công</string>
+    <string name="sync_time_failed">Lỗi thời gian đồng bộ</string>
+
+
+    <string name="save_alarm_failed_no_modify">Đồng hồ báo thức không thay đổi</string>
+    <string name="save_alarm_failed">Đồng hồ báo thức lưu thất bại</string>
+    <string name="save_alarm_success">Đồng hồ báo thức được lưu thành công</string>
+    <string name="choose_repeat_mode_tip">Vui lòng chọn chế độ</string>
+    <string name="alarm_name_can_not_be_empty">Đồng hồ báo thức không được để trống</string>
+    <string name="alarm_name_length_too_long">Đồng hồ báo thức có tên quá dài</string>
+    <string name="alarm_name_format_error">Tên báo thức Định dạng nhập sai</string>
+    <string name="default_alarm_name">Đồng hồ báo thức</string>
+    <string name="default_alarm_custom">Tùy chỉnh</string>
+    <string name="alarm_edit_title">Đồng hồ báo thức Edit</string>
+    <string name="alarm_create_title">Đồng hồ báo thức mới</string>
+    <string name="alarm_repeat_on_workday">Thứ Hai đến Thứ Sáu</string>
+    <string name="alarm_repeat_every_day">Hàng ngày</string>
+    <string name="alarm_repeat_single">Độc thân</string>
+    <string name="alarm_repeat_week">Tuần</string>
+    <string name="alarm_repeat_mon">Thứ hai</string>
+    <string name="alarm_repeat_tue">Thứ ba</string>
+    <string name="alarm_repeat_wed">Thứ Tư</string>
+    <string name="alarm_repeat_thu">Thứ năm</string>
+    <string name="alarm_repeat_fri">Thứ sáu</string>
+    <string name="alarm_repeat_sat">Thứ bảy</string>
+    <string name="alarm_repeat_sun">Chủ Nhật</string>
+    <string name="alarm_repeat_simple_mon">Một</string>
+    <string name="alarm_repeat_simple_tue">Hai</string>
+    <string name="alarm_repeat_simple_wed">Ba</string>
+    <string name="alarm_repeat_simple_thu">Bốn.</string>
+    <string name="alarm_repeat_simple_fri">Năm.</string>
+    <string name="alarm_repeat_simple_sat">Sáu</string>
+    <string name="alarm_repeat_simple_sun">Ngày</string>
+
+    <!--AlarmSettings-->
+    <string name="alarm_settings">Quản lý đồng hồ báo thức</string>
+    <string name="bell">Nhạc chuông</string>
+    <string name="repeat">Lặp lại</string>
+    <string name="light">Đèn</string>
+    <string name="alarm_state">Trạng thái</string>
+    <string name="delete_alarm_tip">Bạn có muốn xóa báo thức này không?</string>
+    <string name="stop_alarm">Dừng lại.</string>
+    <string name="alarm_running">Đồng hồ báo thức đang reo.</string>
+    <string name="unnamed">Không tên</string>
+    <string name="hint_input_alarm">Vui lòng nhập tên báo thức</string>
+
+    <string name="alarm_bell_1">Tiếng chuông 0</string>
+    <string name="alarm_bell_2">Chuông 2</string>
+    <string name="alarm_bell_3">Chuông 3</string>
+    <string name="alarm_bell_4">Chuông 4</string>
+    <string name="alarm_bell_5">Chuông 5</string>
+    <string name="alarm_default_bell">Mặc định</string>
+    <string name="alarm_count_tip">Đặt báo thức và đồng bộ với đồng hồ, đồng hồ sẽ rung để nhắc nhở bạn. Bạn có thể đặt tối đa 5 báo thức.</string>
+    <string name="alarm_bell_list_read_failed">Lỗi lấy danh sách nhạc chuông mặc định</string>
+
+    <string name="alarm_bell_time">Đồng hồ báo thức dài</string>
+    <string name="min_format">%1$d phút</string>
+    <string name="alarm_bell_interval">Lời bài hát: Re-Ring Interval</string>
+    <string name="bell_repeat_count_title">Lặp lại số lượng chuông</string>
+    <string name="bell_interal_time_title">Lặp lại khoảng thời gian (phút)</string>
+    <string name="interval_format">%1$d phút,%2$d lần</string>
+    <string name="count_format">Thứ hai</string>
+
+
+    <!-- file -->
+    <string name="msg_read_file_err_reading">Thiết bị đang bận, vui lòng thử lại sau!</string>
+    <string name="msg_read_file_err_offline">Thiết bị không hoạt động!</string>
+    <string name="msg_read_file_err_beyond_max_depth">Vượt quá mức có thể đọc được!</string>
+    <string name="empty_folder">Thư mục rỗng</string>
+    <string name="get_music_info_failed">Nhận thông tin âm nhạc thất bại</string>
+
+    <!-- 联系人-->
+    <string name="tip_not_contact">Không có liên hệ thường xuyên</string>
+    <string name="tip_add_contact">Thiết lập các liên hệ thông thường cho đồng hồ của bạn để dễ dàng bắt đầu cuộc gọi nhanh chóng và các liên hệ được thiết lập sẽ tự động đồng bộ với thiết bị.</string>
+    <string name="tip_max_contacts_can_add">Bạn có thể thêm tối đa%1$d bit liên lạc thường xuyên vào đồng hồ của bạn. Các liên hệ thông thường mà bạn thiết lập sẽ tự động đồng bộ với thiết bị của bạn.</string>
+    <string name="sort">Sắp xếp</string>
+    <string name="hint_search_contact">Tìm kiếm liên hệ</string>
+    <string name="unchose">Chưa chọn</string>
+    <string name="format_contact_chose_count">Đã chọn%1$d</string>
+    <string name="tip_max_contact_err">Chọn tối đa%1$d liên hệ</string>
+    <string name="tip_update_contact_failed">Cập nhật liên hệ thất bại</string>
+    <string name="tip_sync_contact_failed">Đồng bộ hóa liên hệ thất bại</string>
+    <string name="tip_cancel_get_contact">Hủy nhận liên hệ</string>
+    <string name="tip_cancel_update_contact">Hủy cập nhật liên hệ</string>
+
+    <!-- 音乐管理 -->
+    <string name="tip_transfer_finish">Truyền xong</string>
+    <string name="tip_transfer_canceled">Truyền bị hủy</string>
+    <string name="tip_transfer_error">Lỗi truyền dẫn gây gián đoạn truyền dẫn</string>
+    <string name="tip_mobile_not_has_contacts">Danh bạ điện thoại hiện tại trống</string>
+    <string name="ask_delete_contact">Xoá liên lạc đã chọn</string>
+    <string name="tip_logout">Có cần thoát khỏi tài khoản đăng nhập</string>
+    <string name="tip_downloading_music">(Vui lòng giữ điện thoại của bạn kết nối Bluetooth với đồng hồ trong quá trình truyền tệp nhạc)</string>
+    <string name="tip_download_finished">%1$d Chuyển nhạc thành công</string>
+    <string name="tip_please_chose_contact">Vui lòng chọn liên hệ</string>
+    <string name="tip_check_net">Mạng không được kết nối, hãy kiểm tra cài đặt mạng.</string>
+    <string name="sport_other">Khác</string>
+    <string name="sport_outdoor_running">Chạy ngoài trời</string>
+    <string name="sport_indoor_running">Chạy trong nhà</string>
+    <string name="exercise_time">Thời gian tập thể dục</string>
+    <string name="total_time">Tổng thời gian</string>
+    <string name="pace">Tốc độ</string>
+    <string name="average_pace">Tốc độ trung bình</string>
+    <string name="consumption_of_kilocalories">Tiêu thụ (Kcal)</string>
+    <string name="whether_delete">Bạn có muốn xoá:%1$s</string>
+
+    <!--二维码扫描-->
+    <string name="scan_qr_code_title">Quét mã QR</string>
+    <string name="select_from_gallery">Chọn từ Gallery</string>
+    <string name="pair_device">Thiết bị ghép nối thủ công</string>
+    <string name="scan_qr_tips">Mã QR vào hộp</string>
+    <string name="scan_env_dark_tips">Bạn đang ở trong một môi trường tối và bạn nên bật đèn pin</string>
+    <string name="scan_env_light_tips">Bạn đang ở trong môi trường bình thường và nên tắt đèn pin</string>
+    <string name="not_found_qr">Không tìm thấy mã QR</string>
+
+    <string name="device_searching">Tìm kiếm các thiết bị có sẵn...</string>
+    <string name="no_found_device_tips">Không tìm thấy thiết bị? Được thêm bởi ####</string>
+    <string name="no_found_device_tips_2">Không tìm thấy thiết bị nào, hãy đảm bảo thiết bị được sạc và ở gần điện thoại.</string>
+    <string name="retry">Thử lại</string>
+    <string name="no_binding">Tạm thời không trói buộc</string>
+    <string name="not_found_target">Không tìm thấy thiết bị mục tiêu? ####</string>
+    <string name="rescan_device">Tìm kiếm lại</string>
+
+    <string name="connect_device">Thiết bị kết nối</string>
+    <string name="dev_connecting">Đang ghép đôi......</string>
+    <string name="dev_connecting_desc">Vui lòng xác nhận kết nối trên thiết bị...</string>
+    <string name="dev_connect_success">Ghép nối thành công</string>
+    <string name="dev_connect_success_desc">Thiết bị đã được ghép nối, hãy trải nghiệm ngay</string>
+    <string name="dev_connect_fail">Lỗi ghép nối thiết bị</string>
+    <string name="dev_connect_fail_desc">Vui lòng quét lại để kết nối hoặc thêm thiết bị theo cách thủ công</string>
+    <string name="cur_dev_msg">Thiết bị ghép nối hiện tại:%1$s</string>
+    <string name="gps">GPS</string>
+    <string name="km">Km</string>
+    <string name="step_freq_info_title">Tần số bước (bước/phút)</string>
+    <string name="average_step_freq">Tần số chân trung bình</string>
+    <string name="max_step_freq">Tần số bước tối đa</string>
+    <string name="per_pace_of_km">Tốc độ mỗi km</string>
+    <string name="average_pace_of_per_km">Tốc độ trung bình (/km)</string>
+    <string name="max_pace_of_per_km">Tốc độ nhanh nhất (/km)</string>
+    <string name="app_running">Đang chạy</string>
+
+    <string name="watch_edit">Chỉnh sửa</string>
+    <string name="current_watch">Quay số hiện tại</string>
+    <string name="choose_photo">Thêm ảnh</string>
+    <string name="watch_restore">Khôi phục mặc định</string>
+    <string name="take_photo">Chụp ảnh</string>
+    <string name="get_photo_from_album">Chọn từ album điện thoại</string>
+    <string name="select">Chọn</string>
+    <string name="set_custom_bg_success">Thiết lập nền tùy chỉnh thành công</string>
+
+    <!--Message-->
+    <string name="enable_notification_listener_service_tips">Sử dụng tính năng đồng bộ thông tin cần người dùng đồng ý nhận được thông tin thanh thông báo, bây giờ mở ra chưa?</string>
+    <string name="bt_disconnect_tips">Vui lòng kết nối thiết bị trước</string>
+    <string name="not_found_history">Không tìm thấy thiết bị cần kết nối</string>
+
+    <!--fatfs error-->
+    <string name="not_enough_space">Đồng hồ không đủ dung lượng để thêm tập tin</string>
+    <string name="empty_date">- Tháng - Ngày</string>
+
+
+    <!-- unit -->
+    <string name="unit">Đơn vị</string>
+    <string name="unit_cm">Centimet</string>
+    <string name="unit_m">Gạo</string>
+    <string name="unit_km">Km</string>
+
+    <string name="unit_in">Kích thước</string>
+    <string name="unit_ft">Chân</string>
+    <string name="unit_mile">dặm</string>
+
+    <string name="unit_kg">Kg</string>
+    <string name="unit_lb">Bảng</string>
+    <string name="unit_running">Bước</string>
+    <string name="no_sdcard_device">Không chèn thiết bị</string>
+    <string name="select_all">Chọn tất cả</string>
+    <string name="cancel_select_all">Không chọn.</string>
+    <string name="logout">Đăng nhập</string>
+    <string name="local_music">Âm nhạc địa phương</string>
+    <string name="music">Âm nhạc</string>
+
+    <!--HistoryRecordFragment-->
+    <string name="reconnect_history">Kết nối lại</string>
+    <string name="remove_history">Xoá thiết bị</string>
+    <string name="history_connect_ok">Kết nối thiết bị thành công</string>
+    <string name="history_connect_failed">Lỗi kết nối thiết bị</string>
+    <string name="remove_history_success">Xóa lịch sử thành công</string>
+    <string name="remove_history_failed">Lỗi xóa lịch sử</string>
+    <string name="history_is_gone">Lịch sử đã bị xóa</string>
+
+
+    <!--  健康设置 -->
+    <string name="tip_pressure_auto_tip">Khi "Phát hiện tự động áp lực" được bật, thiết bị sẽ đánh giá tình trạng hoạt động của bạn một cách thông minh. Nếu được đánh giá là tĩnh, sự thay đổi nhịp tim của bạn sẽ được phát hiện và áp suất được tính toán. Trong quá trình tập thể dục, không có phát hiện tự động áp lực nào được thực hiện. Để đảm bảo phát hiện chính xác, hãy đeo thiết bị đúng cách.</string>
+    <string name="pressure_auto_relax">Thư giãn</string>
+    <string name="pressure_auto_normal">Bình thường</string>
+    <string name="pressure_auto_medium">Trung bình</string>
+    <string name="pressure_auto_high">Đề nghị kiểm soát áp suất hợp lý</string>
+    <string name="heart_measure_way">Cách đo nhịp tim</string>
+    <string name="smart">Thông minh</string>
+    <string name="tip_heart_smart_measure">Điều chỉnh tần số đo theo trạng thái chuyển động, theo dõi nhịp tim của bạn một cách thông minh 24 giờ, giúp tiết kiệm điện</string>
+    <string name="tip_heart_real_measure">Theo dõi nhịp tim của bạn trong thời gian thực 24 giờ, dữ liệu nhịp tim chi tiết hơn, làm mới kịp thời hơn, ảnh hưởng lớn đến mức tiêu thụ điện năng</string>
+    <string name="real">Thời gian thực</string>
+    <string name="heart_rate_limit">Giới hạn nhịp tim</string>
+    <string name="heart_rate_limit_warn">Cảnh báo giới hạn nhịp tim</string>
+    <string name="tip_heart_rate_limit_warn">Nhắc nhở khi nhịp tim trên%1$d lần/phút</string>
+
+    <string name="more">Thêm</string>
+    <!--Nfc-->
+    <string name="nfc_card_bag">Gói thẻ</string>
+    <string name="door_key">Chìa khóa cửa</string>
+    <string name="add_door_key">Thêm chìa khóa cửa</string>
+    <string name="detail">Chi tiết</string>
+    <string name="door_key_simulation">Mô phỏng thẻ cửa</string>
+    <string name="edit">Chỉnh sửa</string>
+    <string name="door_key_name">Name</string>
+    <string name="modify_key_name">Thay đổi tên phím</string>
+    <string name="delete_card_fail">Lỗi xóa thẻ</string>
+    <string name="save_failed">Lỗi lưu</string>
+    <string name="card_is_existed">Thẻ này đã tồn tại, đừng thêm lại</string>
+    <string name="no_storage_device">Không có thiết bị lưu trữ</string>
+    <string name="nfc_card_over_limit">Thẻ NFC đã đạt giới hạn</string>
+    <string name="tips">Mẹo</string>
+    <string name="analog_nfc_key_card">Mô phỏng thẻ truy cập rắn</string>
+    <string name="analog_key_card_to_device">Mô phỏng thẻ truy cập đã có trên thiết bị đeo</string>
+    <string name="add_time">Thêm thời gian</string>
+    <string name="edit_card">Sửa thẻ</string>
+    <string name="set_default_card">Đặt làm thẻ mặc định</string>
+    <string name="delte_current_card">Xóa thẻ này</string>
+    <string name="home">Trang chủ</string>
+    <string name="company">Công ty</string>
+    <string name="prepare_read_card">Chuẩn bị đọc thẻ</string>
+    <string name="card_close_phone">Vui lòng dán thẻ vào điện thoại để phát hiện</string>
+    <string name="card_support_range">Xem phạm vi hỗ trợ thẻ cửa</string>
+    <string name="start_check">Bắt đầu phát hiện</string>
+    <string name="set_commonly_use_card_to_default">Đặt thẻ kiểm soát truy cập thông thường làm thẻ mặc định, tắt màn hình có thể quét thẻ trực tiếp</string>
+    <string name="keep_device_connect_phone">Vui lòng giữ thiết bị đeo kết nối Bluetooth với điện thoại của bạn và không vận hành quá trình mô phỏng thiết bị đeo mất khoảng một phút</string>
+    <string name="add_failed">Lỗi thêm</string>
+    <string name="failed_reason">Nguyên nhân thất bại</string>
+    <string name="system_exception">Hệ thống ngoại lệ</string>
+    <string name="detailed_analysis">Phân tích chi tiết</string>
+    <string name="get_data_error">Lấy dữ liệu hoặc thực hiện các lệnh ngoại lệ</string>
+    <string name="handling_suggestions">Tư vấn xử lý</string>
+    <string name="try_again">Làm ơn thử lại.</string>
+    <string name="got_it">Hiểu rồi.</string>
+    <string name="detecting">Đang phát hiện......</string>
+    <string name="detecting_no_move_card">Vui lòng không di chuyển thẻ khi phát hiện</string>
+    <string name="detect_success">Phát hiện thành công</string>
+    <string name="read_card_failed">Lỗi đọc thẻ</string>
+    <string name="card_move_fast">Chuyển thẻ quá nhanh, vui lòng thử lại</string>
+    <string name="read_card_failed_encryption">Thẻ này là thẻ mã hóa, tạm thời không hỗ trợ mô phỏng. Thử cách khác xem</string>
+    <string name="analog_card_number">Số thẻ analog</string>
+    <string name="step_sensor">Cảm biến đo bước</string>
+    <string name="keep_data_record">Lưu trữ hồ sơ dữ liệu</string>
+    <string name="heart_rate_sensor">Cảm biến nhịp tim</string>
+    <string name="blood_oxygen_sensor">Cảm biến oxy máu</string>
+    <string name="altitude_pressure_sensor">Cảm biến áp suất không khí độ cao</string>
+    <string name="fall_detection">Phát hiện ngã</string>
+    <string name="heart_rate_space_mode">Cách phân chia nhịp tim</string>
+    <string name="percent_of_max_heart_rate">Tỷ lệ nhịp tim tối đa</string>
+    <string name="percentage_of_reserve_heart_rate">Tỷ lệ phần trăm nhịp tim dự trữ</string>
+
+    <!--Health Service-->
+    <string name="service_none_device">Vui lòng kết nối thiết bị để trải nghiệm niềm vui thể thao</string>
+    <string name="service_health_data">Dữ liệu sức khỏe</string>
+
+    <string name="close">Đóng cửa</string>
+    <string name="all_day">Mở cả ngày</string>
+    <string name="time_open">Thời gian mở</string>
+    <string name="start_time">Thời gian mở</string>
+    <string name="end_time">Thời gian kết thúc</string>
+    <string name="status_text">Trạng thái mở</string>
+    <string name="fall_response_way">Cách phản ứng ngã</string>
+    <string name="response_mode_bright">Màn hình sáng</string>
+    <string name="response_mode_shake">Rung động</string>
+    <string name="response_mode_call">Điện thoại</string>
+    <string name="emergency_contact">Liên hệ khẩn cấp</string>
+    <string name="tip_emergency_contact">Tự động gọi số liên lạc khẩn cấp khi ngã</string>
+    <string name="no_setting">Chưa đặt</string>
+    <string name="title_open_sedentary_reminder">Mở nhắc nhở ngồi lâu</string>
+    <string name="tip_sedentary_reminder">Ngồi lâu hơn một giờ, thiết bị sẽ rung nhắc nhở</string>
+    <string name="free_lunch_break">Nghỉ trưa miễn làm phiền</string>
+    <string name="tip_free_lunch_break">12:00 - 14:00 Đừng nhắc tôi</string>
+    <string name="modification">Sửa đổi</string>
+    <string name="mobile">Số điện thoại</string>
+    <string name="save_contact">Lưu liên hệ</string>
+    <string name="hint_emergency_contact">Vui lòng điền số điện thoại khẩn cấp</string>
+    <string name="title_emergency_contact">Thiết lập liên lạc khẩn cấp</string>
+    <string name="next_day">Ngày hôm sau</string>
+    <string name="start_sports_failed">Bắt đầu thể thao thất bại</string>
+    <string name="start" translatable="false">Bắt đầu</string>
+
+    <!--    实时运动强度状-->
+    <string name="save_sports_status_0">Không thể thao</string>
+    <string name="save_sports_status_1">Nóng lên</string>
+    <string name="save_sports_status_2">đốt cháy chất béo</string>
+    <string name="save_sports_status_3">Sức chịu đựng hiếu khí</string>
+    <string name="save_sports_status_4">Độ bền không oxy</string>
+    <string name="save_sports_status_5">Giới hạn</string>
+
+    <!--    储备心率模式-->
+    <string name="real_sports_status_0">Không thể thao</string>
+    <string name="real_sports_status_1">Cơ sở hiếu khí</string>
+    <string name="real_sports_status_2">Tiến trình hiếu khí</string>
+    <string name="real_sports_status_3">Ngưỡng lactate</string>
+    <string name="real_sports_status_4">Cơ sở oxy miễn phí</string>
+    <string name="real_sports_status_5">Không oxy tiến bộ</string>
+
+    <string name="step_number_and_unit">Số bước (Steps)</string>
+    <string name="heart_rate_and_unit">Nhịp tim (lần/phút)</string>
+    <string name="average_heart_rate_and_unit">Nhịp tim trung bình (lần/phút)</string>
+    <!--Health Sleep-->
+    <string name="sleep_analysis_avg_type1">Thời gian ngủ trung bình ban đêm%1$s giờ%2$s phút</string>
+    <string name="sleep_analysis_avg_type2">Tỷ lệ ngủ sâu trung bình%1$s%%</string>
+    <string name="sleep_analysis_avg_type3">Tỷ lệ ngủ nông trung bình%1$s%%</string>
+    <string name="sleep_analysis_avg_type4">Tỷ lệ chuyển động mắt nhanh trung bình%1$s%%</string>
+    <string name="sleep_analysis_avg_type5">Trung bình ngủ sâu liên tục%1$s điểm</string>
+    <string name="sleep_analysis_avg_type6">Số lần tỉnh táo trung bình%1$s lần</string>
+    <string name="sleep_analysis_type1">Thời gian ngủ bình thường %1$s giờ %2$s phút</string>
+    <string name="sleep_analysis_type2">Tỷ lệ ngủ sâu%1$s%%</string>
+    <string name="sleep_analysis_type3">Tỷ lệ ngủ nông%1$s%%</string>
+    <string name="sleep_analysis_type4">Tỷ lệ chuyển động mắt nhanh%1$s%%</string>
+    <string name="sleep_analysis_type5">Ngủ sâu liên tục%1$s USD</string>
+    <string name="sleep_analysis_type6">Số lần tỉnh táo%1$s lần</string>
+    <string name="time_duration_type1">%1$s giờ%2$s phút</string>
+    <string name="time_duration_type2">%1$s điểm</string>
+    <string name="sleep_score">Điểm ngủ</string>
+    <string name="sober_full">Tỉnh táo</string>
+    <string name="rapid_eye_movement_full">Chuyển động mắt nhanh</string>
+    <string name="light_sleep_full">Giấc ngủ nông</string>
+    <string name="deep_sleep_full">ngủ sâu</string>
+    <string name="sleep_score_avg">Điểm số giấc ngủ trung bình</string>
+    <string name="sober_avg">Tỉnh táo trung bình</string>
+    <string name="rapid_eye_movement_avg">REM trung bình</string>
+    <string name="light_sleep_avg">Độ nông trung bình</string>
+    <string name="deep_sleep_avg">Độ sâu trung bình</string>
+    <string name="sleep_ratio">Tỷ lệ</string>
+    <string name="references">Giá trị tham chiếu:</string>
+    <string name="sleep_nap">Ngủ trưa lẻ tẻ</string>
+    <string name="sleep_avg_nap">Ngủ trưa lẻ tẻ trung bình</string>
+    <string name="sleep_total">Tổng số giấc ngủ</string>
+    <string name="status_low">Thấp</string>
+    <string name="status_high">Chiều cao</string>
+    <string name="status_normal">Bình thường</string>
+    <string name="status_over_weight">Thừa cân</string>
+    <string name="status_over_obese">Béo phì</string>
+    <string name="tip_waiting">Xin hãy để sau...</string>
+    <string name="empty_sports_record">Không ghi âm chuyển động</string>
+    <string name="reach_target_days">Vận động đạt%d ngày</string>
+    <string name="weekly_step">Số bước trong tuần</string>
+    <string name="weekly_distance">1 tuần mileage</string>
+    <string name="weekly_kcal">Tiêu thụ nhiệt</string>
+    <string name="day">Ngày</string>
+    <string name="long_press_to_stop">Nhấn dài để kết thúc</string>
+    <string name="no_data">Không có dữ liệu</string>
+    <string name="sports_stop">Kết thúc</string>
+    <string name="sports_resume">Tiếp tục đi.</string>
+    <string name="max_heart_rate">Nhịp tim tối đa</string>
+    <string name="average_heart_rate">Nhịp tim trung bình</string>
+    <string name="today_step">Hôm nay bước</string>
+    <string name="low_spo2">Có oxy trong máu thấp hơn.</string>
+    <string name="spo2_range">Giá trị thấp nhất - giá trị cao nhất</string>
+    <string name="min_value">Thấp nhất</string>
+    <string name="max_value">Giá trị cao nhất</string>
+    <string name="last_time">Mới nhất</string>
+    <string name="outdoor">ngoài trời</string>
+    <string name="indoor">Nội thất</string>
+    <string name="http_tip_400">Yêu cầu không hợp lệ</string>
+    <string name="http_tip_401">Không được phép</string>
+    <string name="http_tip_403">Truy cập bị cấm</string>
+    <string name="http_tip_404">Không thể tìm thấy tập tin</string>
+    <string name="http_tip_405">Tài nguyên bị cấm</string>
+    <string name="http_tip_500">Server ngoại lệ</string>
+    <string name="http_tip_501">Cổng lỗi</string>
+    <string name="http_tip_504">Thời gian chờ cổng</string>
+    <string name="http_tip_unknow">Lỗi không rõ</string>
+    <string name="percent">%</string>
+
+    <string name="permission_system_set">Đi tới Cài đặt&gt;Quản lý ứng dụng&gt;Trợ lý sức khỏe&gt;Quyền</string>
+    <string name="permission_describe_camera">Chức năng này yêu cầu sử dụng máy ảnh của bạn. Vui lòng%1$s bật quyền máy ảnh để sử dụng chức năng này bình thường</string>
+    <string name="permission_describe_contacts">Tính năng này yêu cầu sử dụng sổ địa chỉ của bạn. Vui lòng%1$s bật quyền sổ địa chỉ để sử dụng chức năng này bình thường</string>
+    <string name="permission_describe_location">Chức năng này yêu cầu sử dụng thông tin vị trí của bạn. Vui lòng%1$s bật quyền thông tin vị trí để sử dụng chức năng này bình thường</string>
+    <string name="permission_describe_external_storage">Tính năng này yêu cầu sử dụng bộ nhớ điện thoại di động của bạn. Vui lòng%1$s bật quyền đọc và ghi tập tin để sử dụng chức năng này bình thường</string>
+    <string name="allow">Cho phép</string>
+    <string name="open_gps_service_tip">Quét Bluetooth và kết nối ghép nối yêu cầu thông tin vị trí, cho dù dịch vụ vị trí được bật</string>
+    <string name="go_setting">Bỏ cài đặt</string>
+    <string name="no_movement">Tạm thời không vận động</string>
+    <string name="open_gps_permission">Mở quyền vị trí</string>
+    <string name="open_gps_services">Mở dịch vụ vị trí di động</string>
+    <string name="permission_describe_gps_permission_sport">Sử dụng quỹ đạo chuyển động, chức năng liên quan đến bản đồ, vui lòng cho phép "thông tin vị trí thiết bị" để tránh ảnh hưởng đến việc sử dụng.</string>
+    <string name="permission_describe_gps_service_sport">Sử dụng quỹ đạo chuyển động, chức năng liên quan đến bản đồ, cần mở dịch vụ "định vị" điện thoại di động, tránh ảnh hưởng đến việc sử dụng.</string>
+    <string name="cancel_account_tip">Không muốn tiếp tục sử dụng?</string>
+    <string name="cancel_account">Đăng xuất tài khoản</string>
+    <string name="delete_account_influence">Tài khoản không thể khôi phục sau khi đăng xuất, bạn có tiếp tục không?</string>
+    <string name="synchronizing_data">Đang đồng bộ hóa dữ liệu...</string>
+    <string name="running_too_short">Khoảng cách chuyển động quá ngắn sẽ không lưu bản sao lưu hồ sơ</string>
+    <string name="slider_to_unlock">Trượt để mở khóa</string>
+    <string name="please_click_finish_btn">Vui lòng nhấn nút kết thúc để kết thúc chuyển động</string>
+    <string name="tip_finished_exercise">Kết thúc sự kiện này</string>
+    <string name="keep_moving">Tiếp tục di chuyển</string>
+    <string name="terminate_sport">Kết thúc chiến dịch</string>
+    <string name="running_set">Cài đặt chạy</string>
+    <string name="copyright">Bản quyền ©2021-2024 Bản quyền © 2020 Zhuhai Jieli Công nghệ Joint Stock Co., Ltd. tất cả các quyền.</string>
+    <string name="email_register">Đăng ký hộp thư</string>
+    <string name="phone_register">Đăng ký di động</string>
+    <string name="search_password_by_email">Sử dụng hộp thư để lấy lại mật khẩu</string>
+    <string name="search_password_by_mobile">Sử dụng số điện thoại để lấy lại mật khẩu</string>
+    <string name="device_not_support">Thiết bị không hỗ trợ</string>
+    <string name="execution_succeeded">Thực hiện thành công</string>
+    <string name="cancel">Hủy bỏ</string>
+    <string name="double_tap_to_exit">Nhấn một lần nữa để thoát khỏi ứng dụng</string>
+    <string name="account_deleted_successfully">Xóa tài khoản thành công</string>
+    <string name="network_error_tip">Có vẻ như có vấn đề với mạng. Kiểm tra mạng đi.</string>
+    <string name="missing_server_information">Thiếu thông tin máy chủ</string>
+    <string name="inconsistent_motion_state">Trạng thái chuyển động không phù hợp</string>
+    <string name="failed_to_get_weather">Nhận thời tiết thất bại</string>
+    <string name="no_weather_data">Không có dữ liệu thời tiết</string>
+    <string name="ai_no_speak">Hình như cô chưa bắt đầu nói chuyện.</string>
+    <string name="ai_no_skill">Tôi đã không học được kỹ năng này trong một thời gian.</string>
+    <string name="ai_operation_failed">Hoạt động thất bại</string>
+    <string name="ai_operation_completed">Các hoạt động đã được thực hiện cho bạn</string>
+    <string name="ai_network_wrong">WEB có vấn đề:(</string>
+    <string name="ai_error_code">Mã lỗi:</string>
+    <string name="ai_is_delete">Xác định xóa?</string>
+    <string name="ai_is_delete_all">Tất cả nội dung của cuộc hội thoại đó sẽ bị xóa và không thể hủy bỏ, bạn có xóa nó không?</string>
+    <string name="ai_cloud_serve">Dịch vụ đám mây AI</string>
+    <string name="multi_select">Nhiều lựa chọn</string>
+    <string name="none_session_record">Không có cuộc trò chuyện nào được ghi lại vào lúc này</string>
+    <string name="sms_login">Đăng nhập CAPTCHA</string>
+    <string name="use_account_password_login">Đăng nhập bằng mật khẩu tài khoản</string>
+    <string name="detach">Xóa</string>
+    <string name="validate">Kiểm tra</string>
+    <string name="set_password">Đặt mật khẩu</string>
+    <string name="hint_input_bind_phone_number">Vui lòng nhập số điện thoại liên kết</string>
+    <string name="ai_no_response">Xin lỗi, tôi có thể không hiểu câu hỏi của bạn. Vui lòng mô tả chi tiết những gì bạn muốn biết và tôi sẽ cố gắng giúp bạn.</string>
+    <string name="wait_ai_response_tip">Chưa nhận được phản hồi từ AI, tạm thời không hỗ trợ hoạt động này</string>
+    <string name="style_selection">Lựa chọn phong cách</string>
+    <string name="ai_dial_style_1">Phong cách vẽ mực</string>
+    <string name="ai_dial_style_2">Phong cách phong cảnh hiện thực</string>
+    <string name="ai_dial_style_3">3d phim hoạt hình phong cách</string>
+    <string name="ai_dial_style_4">Phong cách Cyberpunk</string>
+    <string name="ai_dial_style_5">Origami phong cách</string>
+    <string name="ai_dial_style_6">Kiểu mực màu nước</string>
+    <string name="ai_dial">Mặt đồng hồ AI</string>
+    <string name="custom_dial">Quay số tùy chỉnh</string>
+    <string name="re_crop">Cắt lại</string>
+    <string name="transfer_ing">Đang truyền......</string>
+    <string name="copy">sao chép</string>
+
+    <!--About-->
+    <string name="icp_info">Thông tin nộp hồ sơ ICP</string>
+
+    <!--Feedback-->
+    <string name="feedback">Nhận xét</string>
+    <string name="feedback_type">Loại phản hồi</string>
+    <string name="problem_feedback">Câu hỏi phản hồi</string>
+    <string name="hint_enter_feedback">Vui lòng nhập câu hỏi chi tiết của bạn và chúng tôi sẽ giải quyết cho bạn trong thời gian sớm nhất</string>
+    <string name="hint_enter_phone">Vui lòng nhập số điện thoại di động của bạn để dễ dàng liên hệ</string>
+    <string name="commit">Nộp</string>
+    <string name="phone_format_tips">Vui lòng nhập đúng số điện thoại</string>
+    <string name="phone_empty_tips">Vui lòng nhập số điện thoại</string>
+    <string name="feedback_empty_tips">Vui lòng nhập nội dung phản hồi</string>
+    <string name="network_exception_tips">Mạng dường như bị hỏng, vui lòng thử lại sau.，请稍后再试</string>
+    <string name="feedback_success">Cảm ơn phản hồi của bạn</string>
+
+    <!--ImageVerifyDialog-->
+    <string name="image_captcha">CAPTCHA hình ảnh</string>
+    <string name="can_not_see_it">Không nhìn rõ? Thử cái khác.</string>
+    <string name="input_captcha_tips">Hãy nhập đúng mã captcha.</string>
+    <string name="load_code_failed_tips">Có vấn đề xảy ra khi tải mã xác thực hình ảnh, vui lòng thử lại sau.</string>
+    <string name="fail_recognize_format">Định dạng không được nhận dạng.</string>
+
+    <!--TestConfigurationFragment-->
+    <string name="test_configuration">Cấu hình thử nghiệm</string>
+    <string name="save_configuration">Lưu</string>
+    <string name="enable_log_function">Kích hoạt chức năng ghi nhật ký?</string>
+    <string name="use_device_auth">Có bật xác thực thiết bị không?？</string>
+    <string name="support_local_ota">Có bật OTA cục bộ không? </string>
+    <string name="local_ota_desc">Hướng dẫn kiểm tra OTA cục bộ:\n1. Tên tập tin nâng cấp được cố định là 【update.zip】 hoặc 【update.ufw】.\n2. Vị trí lưu trữ tập tin: Trong thư mục \'gốc điện thoại/Android/data/%1$s/files/upgrade/\'.</string>
+    <string name="test_custom_cmd">Kiểm tra lệnh tùy chỉnh</string>
+    <string name="click_again_to_test_configuration">Nhấn lại một lần nữa để vào giao diện cấu hình thử nghiệm.</string>
+    <string name="save_configuration_success">Lưu cấu hình thành công, ứng dụng sẽ thoát ngay bây giờ.</string>
+
+    <!--LogFileFragment-->
+    <string name="log_file">In nhật ký</string>
+    <string name="clear_log_file">Xóa</string>
+    <string name="remove_file">Xóa</string>
+    <string name="file_not_found">Tập tin không tồn tại</string>
+    <string name="open_file_failed_by_other_app">Không có chương trình nào khả dụng để mở tập tin.</string>
+    <string name="open_file_exception">Ngoại lệ khi mở tập tin</string>
+    <string name="download_file_permission_tips">Chức năng tải xuống yêu cầu người dùng cho phép đọc/ghi bộ nhớ điện thoại.</string>
+    <string name="download_file_permission_denied_tips">Chức năng tải xuống cần quyền đọc/ghi. Vui lòng cho phép trong phần quản lý quyền hệ thống.。</string>
+    <string name="download_file_successful">Tải xuống tập tin thành công</string>
+    <string name="download_file_exception">Ngoại lệ khi tải xuống tập tin</string>
+    <string name="share_log_file">Chia sẻ nhật ký in</string>
+    <string name="share_file_exception">Ngoại lệ khi chia sẻ tập tin</string>
+
+    <!--CustomCmdTestFragment-->
+    <string name="input_custom_data">Nhập dữ liệu tùy chỉnh</string>
+    <string name="log_content">Nội dung nhật ký</string>
+    <string name="hint_input_hex_data">Vui lòng nhập dữ liệu hex</string>
+    <string name="send_custom_cmd">Gửi lệnh tùy chỉnh</string>
+
+    <!--Operation-->
+    <string name="operation_failed">%1$s thất bại</string>
+    <string name="error_code">Mã lỗi</string>
+    <string name="op_delete_file">Xóa tệp</string>
+    <string name="op_delete_folder">Xóa tất cả tệp</string>
+
+
+</resources>

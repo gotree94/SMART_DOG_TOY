@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/func_scan_qr"
+        android:title="@string/scan_qr_code"/>
+
+    <item android:id="@+id/func_add_device"
+        android:title="@string/add_device"/>
+
+</menu>

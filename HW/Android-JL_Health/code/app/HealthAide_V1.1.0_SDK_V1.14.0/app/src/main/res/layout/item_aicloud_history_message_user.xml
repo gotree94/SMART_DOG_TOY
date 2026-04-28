@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   >
+
+    <TextView
+        android:id="@+id/tv_aicloud_msg_user_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:textColor="#ff919191"
+        android:textSize="@dimen/text_14sp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="6-13 11:40"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/img_aicloud_select_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/ic_choose2_nol"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_aicloud_msg_user_time"
+        app:layout_goneMarginTop="0dp"
+        tools:visibility="visible" />
+
+    <LinearLayout
+        android:id="@+id/ll_aicloud_msg_content"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="end"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/img_aicloud_select_user"
+        app:layout_constraintTop_toTopOf="@id/img_aicloud_select_user"
+        tools:visibility="visible">
+
+        <FrameLayout
+            android:id="@+id/fl_aicloud_msg_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_aicloud_message_user_purple_shape_nol"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="11dp">
+
+            <TextView
+                android:id="@+id/tv_aicloud_msg_user_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffffff"
+                android:textSize="16sp"
+                android:visibility="gone"
+                tools:text="明天天气"
+                tools:visibility="visible" />
+
+            <LinearLayout
+                android:id="@+id/tv_aicloud_msg_user_transferring"
+                android:layout_width="104dp"
+                android:layout_height="22dp"
+                android:gravity="center"
+                android:visibility="gone"
+                tools:visibility="gone">
+
+                <View
+                    android:layout_width="3dp"
+                    android:layout_height="3dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/bg_btn_white_shape" />
+
+                <View
+                    android:layout_width="3dp"
+                    android:layout_height="3dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/bg_btn_white_shape" />
+
+                <View
+                    android:layout_width="3dp"
+                    android:layout_height="3dp"
+                    android:background="@drawable/bg_btn_white_shape" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_aicloud_recording"
+                android:layout_width="104dp"
+                android:layout_height="22dp"
+                android:scaleType="centerInside"
+                android:visibility="gone"
+                android:src="@drawable/ic_ai_sound" />
+        </FrameLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
