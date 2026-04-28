@@ -8,6 +8,8 @@
 
 ## 전체 블럭도
 
+<img src="Schematic-Portable-Bluetooth-Amplifier-with-AC6965A-LTK5128D-and-TP4056.png">
+
 ---
 
 ## Main B/D 및 USB-C 타입 충전 커넥터 보드
