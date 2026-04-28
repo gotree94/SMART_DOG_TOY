@@ -1,7 +1,7 @@
-<<<<<<< HEAD
 # SMART_DOG_TOY
-SMART_DOG_TOY
-=======
+
+---
+
 # SMART_DOG_TOY H/W
 
 ## 전체 블럭도
