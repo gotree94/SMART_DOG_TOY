@@ -23,6 +23,8 @@
 ## AF25E003456-65E4? : https://github.com/Jieli-Tech
 <img src="SMART_DOG_TOY_002.jpg" width="35%"> <img src="SMART_DOG_TOY_011.jpg" width="35%"><br>
 
+<img src = "001.png" width = "50%">
+
 ## 1. 칩셋 정체 및 개요
 
 * **실체:** 중국 **JieLi(杰理, 지에리) AC692X 시리즈**(주로 AC6925A) 기반의 커스텀 마킹 SoC.
