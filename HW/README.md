@@ -1,6 +1,6 @@
 # SMART_DOG_TOY H/W
 
-<img src="SMART_DOG_TOY_012.jpg" width="70%"> <img src="SMART_DOG_TOY_013.jpg" width="50%"><br>
+<img src="SMART_DOG_TOY_012.jpg" width="30%"> <img src="SMART_DOG_TOY_013.jpg" width="70%"><br>
 
 <img src="SMART_DOG_TOY_001.jpg" width="50%"><br>
 <img src="SMART_DOG_TOY_002.jpg" width="50%"><br>
