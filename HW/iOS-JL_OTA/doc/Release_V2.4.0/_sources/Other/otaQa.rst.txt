@@ -1,7 +1,0 @@
-常见问题答疑
-=====================
-
-.. toctree::
-    :maxdepth: 3
-
-    jl_ota_sdk_qa
